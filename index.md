@@ -1,5 +1,4 @@
-title: Open Meetings Toolkit for the Carolinas
-layout: post
+# Open Meetings Toolkit for the Carolinas
 
 Welcome to the Open Meetings Toolkit! This toolkit is an educational resource to replicate [OpenMeetingsPolicy.com](https://openmeetingspolicy.com/) in any North Carolina community.
 
