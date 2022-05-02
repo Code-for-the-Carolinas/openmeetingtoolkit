@@ -1,37 +1,20 @@
 ## Open Meetings Toolkit for the Carolinas
 
-You can use the [editor on GitHub](https://github.com/Code-for-the-Carolinas/openmeetingstoolkit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the Open Meetings Toolkit! This toolkit is an educational resource to replicate [OpenMeetingsPolicy.com](https://openmeetingspolicy.com/) in any North Carolina community.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Open Meetings Policy Template
 
-### Markdown
+The Open Meetings Policy [website template](https://github.com/Code-for-the-Carolinas/openmeetingstoolkit/tree/main/template) that replicates [OpenMeetingsPolicy.com](https://openmeetingspolicy.com/).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Meetings Map
 
-# Header 1
-## Header 2
-### Header 3
+The Meeting Map [template](https://github.com/Code-for-the-Carolinas/openmeetingstoolkit/tree/main/publicmeetings). See the [instrutions](https://github.com/Code-for-the-Carolinas/openmeetingstoolkit/blob/main/publicmeetings/Instructions%20for%20adding%20your%20own%20meeting%20to%20the%20map.pdf) for how to add your own public meeting to the map.
 
-- Bulleted
-- List
+### Usability Checklist
 
-1. Numbered
-2. List
+Coming soon. An online and in-person usability assessment checklist for participation before, during, and after open public meetings
 
-**Bold** and _Italic_ and `Code` text
+### Environmental Scan 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Code-for-the-Carolinas/openmeetingstoolkit/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Coming soon.
