@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <title>Open Meetings Template</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <h1>Open Meetings Policy</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--ADD LINKS-->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Map Template</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Add Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Readiness Checklist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recommendations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-container">
+        <h2>Welcome to the Open Meetings Toolkit!</h2>
+        <p>With this toolkit, you can make maps that help citizens find local government meetings.</p>
+        <br>
+        <!--ADD DETAILS ABOUT TOOLKIT-->
+        <section class="content"></section>
+      </div>
+      <div class="map-container">
+        <h2>Map Template</h2>
+        <br>
+        <iframe
+        src="publicmeetings.html"
+        width="90%"
+        height="500px"
+        title="Map Container"
+        ></iframe>
+      </div>
+      <div class="add-container">
+        <h2>Add Places</h2>
+        <!--ADD INSTRUCTIONS TO SITE, FOR NOW JUST LINK-->
+        <p>Please see the instructions for how to add your own meeting: <a href="./meeting_map_instructions.pdf" target="blank">Instructions for adding your own public meeting</a></p> 
+      </div>
+      <div class="readiness-container">
+        <h2>Readiness Checklist</h2>
+        <p></p>
+      </div>
+      <div class="recommendations-container">
+        <h2>Recommendations</h2>
+      </div>
+    </main>
+  </body>
+</html>
