@@ -1,0 +1,65 @@
+html, body {
+    height:100%;
+    width:100%;
+}
+
+.hero-container{
+    height:90vh;
+    width:100%;
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color:#ddd;
+    text-align:center;
+}
+
+.map-container{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color: #aaa;
+}
+
+.add-container{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color: #ddd;
+}
+
+  .readiness-container{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color:#aaa;
+}
+
+.recommendations-container{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color: #ddd;
+}
+
+.nav-link, .nav-link:visited{
+    line-height:12px;  
+    width:100%;
+    text-align:center;  
+    color:#ddd;
+}
+.nav-link:hover{  
+    color:#aaa;
+}
+header{
+    width:100%;
+    text-align:center;
+    color:#ddd;
+}
+nav{
+    color:#ddd;
+    background-color: #333;
+    width:100%;
+}
+h1{
+    font-size: 25px;
+    padding:5px;
+    line-height:30px;
+}
+p{
+    font-size:18px;
+}
