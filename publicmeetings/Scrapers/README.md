@@ -1,0 +1,1 @@
+This is a collection of files for scraping specific counties' pages or other sources for their listings of open meetings.  The data is meant to populate [this](https://docs.google.com/spreadsheets/d/1MOgzArardJB3TeZAEys9UewUqZUG7jgI08GbSdMNOcc/edit?usp=sharing) spreadsheet.
