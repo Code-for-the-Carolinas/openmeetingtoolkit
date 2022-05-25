@@ -1,65 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&display=swap');
+
 html, body {
-    height:100%;
-    width:100%;
+    font-family: 'Roboto Flex';
 }
 
-.hero-container{
-    height:90vh;
-    width:100%;
+#welcome-section {
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
-    background-color:#ddd;
-    text-align:center;
+    background-color: #ddd;
 }
 
-.map-container{
+#map-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color: #aaa;
 }
 
-.add-container{
+#add-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color: #ddd;
 }
 
-  .readiness-container{
+#checklist-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color:#aaa;
 }
 
-.recommendations-container{
+#recommendations-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color: #ddd;
 }
 
-.nav-link, .nav-link:visited{
-    line-height:12px;  
-    width:100%;
-    text-align:center;  
-    color:#ddd;
-}
-.nav-link:hover{  
-    color:#aaa;
-}
 header{
-    width:100%;
-    text-align:center;
+    height:150px;
     color:#ddd;
 }
-nav{
-    color:#ddd;
-    background-color: #333;
-    width:100%;
+nav {
+    float: right;
+    padding: 75px 25px;
 }
-h1{
-    font-size: 25px;
-    padding:5px;
-    line-height:30px;
+nav ul li{
+    display: inline-block;
 }
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+    padding-left: 80px;
+}
+
+#navbar {
+    position:absolute;
+    top:0px;
+    width: 85%;
+}
+header h1 {
+    font-family: 'Roboto Flex';
+    font-size: 30px;
+    color: #444;
+    padding: 35px 0 35px 5px;
+}
+#title {
+    top:0px;
+    width: 500px;
+    float: left;
+    font-weight: bold;
+
+  }
+
 p{
     font-size:18px;
 }
