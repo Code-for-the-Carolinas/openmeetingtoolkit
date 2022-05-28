@@ -1,37 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&family=Source+Sans+Pro:wght@400;700&display=swap');
 
 html, body {
-    font-family: 'Roboto Flex';
+    font-family: 'Poppins';
 }
 
-#welcome-section {
+#header-section {
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
-    background-color: #ddd;
+    background-color: #fff;
 }
 
-#map-section{
+#introduction-section{
+    font-family: 'Source Sans Pro';
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
-    background-color: #aaa;
+    background-color: #ffb446;
 }
 
-#add-section{
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color: #ddd;
+#introduction-section h2{
+    padding: 1em 1em 1em 0;
+    color:#222;
+    font-size: 31px;
 }
 
-#checklist-section{
+#introduction-section h2 span{
+    font-weight: bold;
+}
+
+#scan-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
-    background-color:#aaa;
+    background-color: #fff;
+}
+
+#evaluation-section{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color:#F0DCD2;
 }
 
 #recommendations-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
-    background-color: #ddd;
+    background-color: #fff;
+}
+
+#contact-section{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color: #F0DCD2;
 }
 
 header{
@@ -49,8 +66,8 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    color: #555;
-    padding-left: 80px;
+    color: #333;
+    padding-left: 70px;
 }
 
 #navbar {
@@ -59,19 +76,18 @@ nav ul li a {
     width: 85%;
 }
 header h1 {
-    font-family: 'Roboto Flex';
+    font-family: 'Source Sans Pro';
+    line-height: 1em;
     font-size: 30px;
-    color: #444;
-    padding: 35px 0 35px 5px;
+    color: #333;
+    padding: 20px 0px 35px 0px;
 }
 #title {
-    top:0px;
-    width: 500px;
+    width: 300px;
     float: left;
     font-weight: bold;
 
   }
-
-p{
-    font-size:18px;
-}
+  #title h1 span{
+      font-weight: bolder;
+  }
