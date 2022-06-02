@@ -32,6 +32,10 @@ html, body {
     padding: 2em 2em 10em 10em;
     background-color: #fff;
 }
+#scan-section h3{
+    padding-top:25px;
+    font-size: 22px;
+}
 
 #evaluation-section{
     margin: 0 auto;
