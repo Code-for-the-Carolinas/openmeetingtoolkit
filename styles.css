@@ -130,14 +130,12 @@ header h1 {
       font-weight: bolder;
   }
 
-  details {
-   
+details {
     padding: 0.5em 1em 0;
 
 }
 
 summary {
-    padding-bottom:-0.5em;
     font-size: 18px;
 }
 
@@ -146,13 +144,21 @@ summary h3{
     margin-top:-1.15em;
 }
 
+summary span{
+    font-size: 19px;
+    padding-right:1px;
+    font-weight: bold;
+    color:black;
+}
+
 details[open] {
-    padding: 1em;
+    padding: 0.5em;
 }
 
 details[open] summary {
-    margin-bottom: 0.5em;
+    padding: 0.5em;
 }
+
 
 
 /*Mobile Styles*/
@@ -178,6 +184,6 @@ details[open] summary {
 } /* for smaller tablets */
 
 @media screen and (max-width: 500px) { 
-   
+    
 
  } /* for cellphones */
