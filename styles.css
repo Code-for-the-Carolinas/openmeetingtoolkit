@@ -32,15 +32,49 @@ html, body {
     padding: 2em 2em 10em 10em;
     background-color: #fff;
 }
+#scan-section h2{
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
 #scan-section h3{
-    padding-top:25px;
     font-size: 22px;
+    padding-bottom: 1em;
+    padding-left: 1.75em;
+
+}
+
+#scan-section p{
+    padding-left: 2.5em;
+    font-size: 17px;
 }
 
 #evaluation-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color:#F0DCD2;
+}
+
+#evaluation-section h2{
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+#evaluation-section h3{
+    font-size: 22px;
+    padding-bottom: 1em;
+    padding-left: 1.75em;
+}
+
+
+#evaluation-section p{
+    font-size: 17px;
+    padding-left: 2.5em;
+
+}
+#evaluation-section ul, ol{
+    margin-left: 3em;
+    list-style: inside;
 }
 
 #recommendations-section{
@@ -95,3 +129,55 @@ header h1 {
   #title h1 span{
       font-weight: bolder;
   }
+
+  details {
+   
+    padding: 0.5em 1em 0;
+
+}
+
+summary {
+    padding-bottom:-0.5em;
+    font-size: 18px;
+}
+
+summary h3{
+    padding-left: 2em;
+    margin-top:-1.15em;
+}
+
+details[open] {
+    padding: 1em;
+}
+
+details[open] summary {
+    margin-bottom: 0.5em;
+}
+
+
+/*Mobile Styles*/
+
+@media (max-width: 1200px) { 
+
+
+} /* for desktops */
+
+@media (max-width: 991px) { 
+
+
+} /* for laptops */
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+
+ } /* for large tablets */
+
+@media (max-width: 768px) { 
+
+
+} /* for smaller tablets */
+
+@media screen and (max-width: 500px) { 
+   
+
+ } /* for cellphones */
