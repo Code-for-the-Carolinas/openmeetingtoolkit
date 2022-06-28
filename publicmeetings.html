@@ -185,7 +185,7 @@
         style: 'mapbox://styles/mapbox/light-v10',
         center: [-79.8, 35.3],
         zoom: 5,
-        scrollZoom: true
+        scrollZoom: false
       });
 
       const meetings = {
@@ -267,7 +267,7 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [ -82.6231, 35.601185]
+              'coordinates': [-82.6231, 35.601185]
             },
             'properties': {
             	'government': 'Buncombe County',
@@ -591,6 +591,10 @@
           )
           .addTo(map);
       }
+      
+      //adding zoom and rotation controls to map
+      map.addControl(new mapboxgl.NavigationControl());
+
 </script>
 </body>
 </html>
