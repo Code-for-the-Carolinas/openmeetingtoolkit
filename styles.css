@@ -4,16 +4,28 @@ html, body {
     font-family: 'Poppins';
 }
 
+a{
+    color:#5650BE
+}
+
 #header-section {
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color: #fff;
 }
 
+#footer-section {
+    margin: 0 auto;
+    text-align: center;
+    padding-top:1.2em;
+    padding-bottom: 0.25em;
+    background-color: #fff;
+}
+
 #introduction-section{
     font-family: 'Source Sans Pro';
     margin: 0 auto;
-    padding: 2em 2em 10em 10em;
+    padding: 2em 2em 0em 10em;
     background-color: #ffb446;
 }
 
@@ -89,9 +101,14 @@ html, body {
     background-color: #F0DCD2;
 }
 
+footer, footer a{
+    color:#444;
+    text-decoration: none;
+}
+
 header{
     height:150px;
-    color:#ddd;
+    color:#444;
 }
 nav {
     float: right;
