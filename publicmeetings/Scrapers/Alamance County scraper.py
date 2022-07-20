@@ -30,7 +30,7 @@ top_page_html = requests.get(COMMITTEE_PAGE, headers={"User-Agent": "Steve"})
 ## Let BeautifulSoup parse the HTML, and isolate the element with the links to the
 ## committees' separate pages.
 top_page_soup = BeautifulSoup(top_page_html.text, "lxml")
-columns = table_element.find_all("div", attrs={"class": "wp-block-column"})
+columns = top_page_soup.find_all("div", attrs={"class": "wp-block-column"})
 committee_links = [x for c in columns for x in c.find_all("a")]
 
 ## Isolate the elements we're looking for -- URL, committee name, and meeting
