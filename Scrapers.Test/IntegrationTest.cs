@@ -24,8 +24,8 @@ public class IntegrationTest
         meetings[0].Should().BeEquivalentTo(
             new Meeting("A.B.C. Board",
             "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
-            "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.")
-            );
+            "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.",
+            "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions"));
 
         meetings.Count().Should().Be(34);
     }
@@ -39,18 +39,21 @@ public class IntegrationTest
         meetings[0].Should().BeEquivalentTo(
             new Meeting("Adult Care Home Community Advisory Committee",
             "JR Kernodle Senior Center",
-            "2:00 p.m. the third Tuesday of each quarter"));
+            "2:00 p.m. the third Tuesday of each quarter",
+            "Tracy Warner, Ombudsman, (336) 904-0300")); //or should we stick to the url pattern?
 
         meetings[2].Should().BeEquivalentTo(
             new Meeting("Board of Health",
+            "Alamance County, NC",
             "",
-            ""));
+            "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/board-of-health/")); //GOTCHA the url on this page has a typo
 
         //TODO this one doesn't follow the standard format see https://www.alamance-nc.com/em/lepc/
         //meetings[10].Should().BeEquivalentTo(
         //    new Meeting("Local Emergency Planning Committee",
         //    "Family Justice Center 1950 Martin St, Burlington, N.C",
-        //    "August 26th, 2022"));
+        //    "August 26th, 2022",
+        //    "https://www.alamance-nc.com/em/lepc/"));
 
         meetings.Count().Should().Be(36);
     }

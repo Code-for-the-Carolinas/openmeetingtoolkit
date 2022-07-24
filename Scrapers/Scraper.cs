@@ -38,9 +38,15 @@ public class Scraper
 
         var meetings =  meetingChunks.Select(r =>
         new Meeting(
-            Name: r.ExtractSingleNode(target.NameXpath),
-            Location: r.ExtractSingleNode(target.LocationXpath),
+            Name: r.ExtractSingleNode(target.NameXpath)
+                ?? "",
+            Location: r.ExtractSingleNode(target.LocationXpath)
+                ?? target.Name + " County, NC",
             Time: r.ExtractSingleNode(target.TimeXPath)
+                ?? "",
+            MoreInfo: r.ExtractSingleNode(target.MoreInfoXPath)
+                ?? r.SelectSingleNode("/").GetAttributeValue("page-url", null) //hack to catch new url
+                ?? target.Url
             ));
 
         //there has got to be a better way?!
@@ -60,14 +66,19 @@ public class Scraper
         var newDom = new HtmlDocument();
         newDom.LoadHtml(newHtml);
 
+        newDom.DocumentNode.SetAttributeValue("page-url", href.Value); //hack to pass back new url
+
         return newDom.DocumentNode;
     }
 }
 
 public static class ScrapeHelper
 {
-    public static string ExtractSingleNode(this HtmlNode node, string xPath)
+    public static string? ExtractSingleNode(this HtmlNode node, string xPath)
     {
+        if (xPath == string.Empty)
+            return null;
+
         var nodeText = node.SelectSingleNode(xPath)?.InnerText;
 
         var hasStartsWith = new Regex(@"starts-with\(\.,\s*'([^']+)'"); //tried to do from xpath via replace or start-after but could not figure it out
@@ -75,7 +86,6 @@ public static class ScrapeHelper
         if (nodeText != null && found.Success)
             nodeText = nodeText.Replace(found.Groups[1].Value, string.Empty);
 
-        return HtmlEntity.DeEntitize(nodeText)?.Trim()
-            ?? "";
+        return HtmlEntity.DeEntitize(nodeText)?.Trim();
     }
 }
