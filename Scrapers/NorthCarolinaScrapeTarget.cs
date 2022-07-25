@@ -24,7 +24,7 @@ public static partial class NorthCarolinaScrapeTarget
             ".//div[@data-sf-field = 'Meetings']",
             ""); //no info, just use the default (page url)
 
-    public static ScrapeTarget NewHannover =>
+    public static ScrapeTarget NewHannover => //https://swagit.com/rock-solid-technologies-acquires-swagit/
         new ScrapeTarget("New Hannover", "http://commissioners.nhcgov.com/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&xml=true",
             "//vevent",
             ".//summary/text",
@@ -32,4 +32,11 @@ public static partial class NorthCarolinaScrapeTarget
             ".//dtstart/date-time", //listed per each date
             ".//url/uri");
 
+    public static ScrapeTarget Avery => //https://www.revize.com/government-cms.html
+        new ScrapeTarget("Avery", "https://cms3.revize.com/revize/plugins/calendar/editpages/export_events.jsp?webspaceId=averycounty&CAL_ID=1&timezoneid=America/New_York",
+            "",
+            "",
+            "",
+            "",
+            "");
 }

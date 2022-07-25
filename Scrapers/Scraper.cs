@@ -4,6 +4,7 @@ using HtmlAgilityPack;
 using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Text.RegularExpressions;
+using System.Globalization;
 
 public class Scraper
 {
@@ -22,6 +23,20 @@ public class Scraper
         var commentValue = new ProductInfoHeaderValue("(+https://github.com/Code-for-the-Carolinas/openmeetingtoolkit)");
         Client.DefaultRequestHeaders.UserAgent.Add(productValue);
         Client.DefaultRequestHeaders.UserAgent.Add(commentValue);
+    }
+
+    public async Task<IEnumerable<Meeting>> ScrapeICal(ScrapeTarget target) //TODO merge with Scrape, have to figure out how to pass through IAsyncEnumerable calls
+    {
+        var ical = (await Client.GetStringAsync(target.Url))
+            .Replace("COUNT=-1;", ""); //fix spec violation
+
+        var calenadar = Ical.Net.Calendar.Load(ical);
+
+        return calenadar.Events.Select(e=>new Meeting(
+            e.Summary,
+            e.Location ?? "",
+            e.DtStart.ToString() ?? "",
+            ""));
     }
 
     public async IAsyncEnumerable<Meeting> Scrape(ScrapeTarget target)

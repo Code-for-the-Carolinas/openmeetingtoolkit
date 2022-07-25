@@ -1,6 +1,8 @@
 using Xunit;
 using Xunit.Abstractions;
 using FluentAssertions;
+using static System.Net.WebRequestMethods;
+using System.Xml.Linq;
 
 namespace Scrapers.Test;
 
@@ -59,18 +61,37 @@ public class IntegrationTest
     }
 
     [Fact]
+    public async Task AveryTest()
+    {
+        var meetings = (await Client.ScrapeICal(NorthCarolinaScrapeTarget.Avery))
+            .ToList();
+
+        Log(meetings);
+
+        meetings[334].Should().BeEquivalentTo(new Meeting("Board Workshop Wed. July 20, 2022 @ 1:00 p.m. Commissioners Board Room, 175 Linville Street, Newland, NC.&nbsp; See front page for details of the meeting",
+            "",//TODO parse event name?
+            "7/20/2022 1:00:00 PM America/New_York",
+            "")); //TODO use website listing instead of this ical?
+
+        meetings.Count().Should().Be(335);
+    }
+
+    [Fact]
     public async Task NewHannoverTest()
     {
         var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.NewHannover).ToListAsync();
         Log(meetings);
 
+        meetings[35].Should().BeEquivalentTo(new Meeting("Board of Commissioners Regular Meeting",
+            "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
+            "2020-10-05T16:00:00", //could be parsed as datetime
+            "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-118/"));
+
         meetings.Count().Should().Be(123);
-    }
-
-    protected void Log(List<Meeting> meetings) => LogArray(meetings);
-
-    protected void LogCsv(List<Meeting> meetings)
-    {
+            }
+            protected void Log(List<Meeting> meetings) => LogArray(meetings);
+            protected void LogCsv(List<Meeting> meetings)
+            {
         TestConsole.WriteLine(meetings.ToCsv());
     }
 
