@@ -1,19 +1,16 @@
 using Xunit;
 using Xunit.Abstractions;
 using FluentAssertions;
-using static System.Net.WebRequestMethods;
-using System.Xml.Linq;
 
 namespace Scrapers.Test;
 
-public class IntegrationTest
+public class IntegrationTest : TestLogger
 {
     private Scraper Client;
-    private ITestOutputHelper TestConsole;
 
     public IntegrationTest(ITestOutputHelper testOutput)
+        : base(testOutput)
     {
-        TestConsole = testOutput;
         Client = new Scraper();
     }
 
@@ -88,22 +85,10 @@ public class IntegrationTest
             "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-118/"));
 
         meetings.Count().Should().Be(123);
-            }
-            protected void Log(List<Meeting> meetings) => LogArray(meetings);
-            protected void LogCsv(List<Meeting> meetings)
-            {
-        TestConsole.WriteLine(meetings.ToCsv());
     }
 
-    protected void LogArray(List<Meeting> meetings)
+    protected void LogCsv(List<Meeting> meetings)
     {
-        var i = 0;
-        foreach (var meeting in meetings)
-        {
-            TestConsole.WriteLine(
-                meeting.ToString()
-                .Replace("\n", "\\n")
-                .Insert(7, $"[{i++}]"));
-        }
+        TestConsole.WriteLine(meetings.ToCsv());
     }
 }
