@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&family=Source+Sans+Pro:wght@400;700&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 html, body {
     font-family: 'Poppins';
 }
@@ -95,10 +100,16 @@ a{
     background-color: #fff;
 }
 
-#contact-section{
+#faq-section{
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color: #F0DCD2;
+}
+
+#contact-section{
+    margin: 0 auto;
+    padding: 2em 2em 10em 10em;
+    background-color: #fff;
 }
 
 footer, footer a{
@@ -108,8 +119,8 @@ footer, footer a{
 
 header{
     height:150px;
-    color:#444;
 }
+
 nav {
     float: right;
     padding: 75px 25px;
@@ -128,21 +139,23 @@ nav ul li a {
 #navbar {
     position:absolute;
     top:0px;
-    width: 85%;
+    width: 86%;
 }
 header h1 {
     font-family: 'Source Sans Pro';
     line-height: 1em;
     font-size: 30px;
     color: #333;
-    padding: 20px 0px 35px 0px;
+    padding: 20px 10px 20px 10px;
+    margin-left: -80px;
 }
+
 #title {
-    width: 300px;
+    width:17%;
     float: left;
     font-weight: bold;
-
   }
+
   #title h1 span{
       font-weight: bolder;
   }
