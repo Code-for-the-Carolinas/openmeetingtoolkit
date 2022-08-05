@@ -6,7 +6,7 @@ namespace Scrapers;
 
 public static class NorthCarolinaGenerators
 {
-    public static IEnumerable<Meeting> Ashe(DateOnly start, DateOnly end)
+    public static IEnumerable<ScrapedMeeting> Ashe(DateOnly start, DateOnly end)
     {
         //The Ashe County Board of Commissioners holds regular meetings on the first and third Monday of each month at 9:00 a.m.
         //If a regular meeting is a holiday on which county offices are closed, the meeting will be held on the next business day.
@@ -36,7 +36,7 @@ public static class NorthCarolinaGenerators
 
         
         return dates.Select(d=>
-        new Meeting("Commissioner Meeting",
+        new ScrapedMeeting("Commissioner Meeting",
         "150 Government Circle Suite 2500 Jefferson, NC 28640", //Commissioners Meeting Room (small courtroom) on the third floor
         d.Period.StartTime.ToString()!,
         "https://www.ashecountygov.com/commissioners/commissioner-meetings"));

@@ -1,9 +1,19 @@
 ﻿namespace Scrapers;
 
-public record ScrapeTarget(string Name, string Url, string RowXPath, string NameXpath, string LocationXpath, string TimeXPath, string MoreInfoXPath)
+public record ScrapeTarget(string Name, string Url,
+    string RowXPath,
+    string NameXpath,
+    string LocationXpath,
+    string TimeXPath,
+    string MoreInfoXPath)
 {
 
 }
+
+public record ScrapedMeeting(string Name,
+    string Location,
+    string Time,
+    string MoreInfo);
 
 public static partial class NorthCarolinaScrapeTarget
 {

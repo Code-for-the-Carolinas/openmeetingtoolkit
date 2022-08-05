@@ -1,10 +1,26 @@
 ﻿namespace Scrapers;
 
-public record Meeting(string Name, string Location, string Time, string MoreInfo)
+public record Wrapper(Meeting Properties, Location Geometry)
 {
-    //TODO any more fields? maybe more info url/blurb?
-    //TODO parse strings to get at better representations ie Time could be some sort of list of DateTimes or the temporal expression that generates them, Location could be an address or even long&lat
+    public string Type { get; } = "Feature";
+}
 
+public record Location(double Longitude, double Latitude)
+{
+    public double[] Coordinates { get; } = new[] { Longitude, Latitude };
+    public string Type { get; } = "Point";
+}
+
+public record Meeting(
+    string Name,
+    string Location,
+    string Address,
+    string Schedule,
+    DateTime Start,
+    DateTime End,
+    string Remote,
+    string MoreInfo)
+{
     /*
            {
             'type': 'Feature',

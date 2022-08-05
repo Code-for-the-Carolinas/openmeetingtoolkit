@@ -25,21 +25,21 @@ public class Scraper
         Client.DefaultRequestHeaders.UserAgent.Add(commentValue);
     }
 
-    public async Task<IEnumerable<Meeting>> ScrapeICal(ScrapeTarget target) //TODO merge with Scrape, have to figure out how to pass through IAsyncEnumerable calls
+    public async Task<IEnumerable<ScrapedMeeting>> ScrapeICal(ScrapeTarget target) //TODO merge with Scrape, have to figure out how to pass through IAsyncEnumerable calls
     {
         var ical = (await Client.GetStringAsync(target.Url))
             .Replace("COUNT=-1;", ""); //fix spec violation
 
         var calenadar = Ical.Net.Calendar.Load(ical);
 
-        return calenadar.Events.Select(e=>new Meeting(
+        return calenadar.Events.Select(e=>new ScrapedMeeting(
             e.Summary,
             e.Location ?? "",
             e.DtStart.ToString() ?? "",
             ""));
     }
 
-    public async IAsyncEnumerable<Meeting> Scrape(ScrapeTarget target)
+    public async IAsyncEnumerable<ScrapedMeeting> Scrape(ScrapeTarget target)
     {
         var html = await Client.GetStringAsync(target.Url);
 
@@ -52,7 +52,7 @@ public class Scraper
 
 
         var meetings =  meetingChunks.Select(r =>
-        new Meeting(
+        new ScrapedMeeting(
             Name: r.ExtractSingleNode(target.NameXpath)
                 ?? "",
             Location: r.ExtractSingleNode(target.LocationXpath)
