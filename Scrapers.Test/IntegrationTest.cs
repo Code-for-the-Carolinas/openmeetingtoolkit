@@ -54,7 +54,7 @@ public class IntegrationTest : TestLogger
         //    "August 26th, 2022",
         //    "https://www.alamance-nc.com/em/lepc/"));
 
-        meetings.Count().Should().Be(36);
+        meetings.Count().Should().Be(38);
     }
 
     [Fact]
