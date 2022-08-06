@@ -92,10 +92,11 @@ public class IntegrationTest : TestLogger
     public async Task CountyCoordinateLookup()
     {
         var host = Services.Initalize();
-        var poo = host.Services.GetRequiredService<Writer>();
-        var example = new ScrapedMeeting("Board of Commissioners", "New Hannover County, NC", "every two weeks on monday", "more info and remote");
-        var result = await poo.DeCrapify(example);
-        result.Geometry.Coordinates.Should().BeEquivalentTo(new[] { -77.86, 34.18 });
+        var resolver = host.Services.GetRequiredService<MeetingFactory>();
+        //var example = new ScrapedMeeting("Board of Commissioners", "New Hannover County, NC", "every two weeks on monday", "more info and remote");
+        //var meeting = await resolver.GetMappableMeeting(example);
+        var result = await resolver.ResolveLocation("New Hannover County, NC");
+        result.Coordinates.Should().BeEquivalentTo(new[] { -77.86, 34.18 });
     }
 
     protected void LogCsv(List<Meeting> meetings)

@@ -1,6 +1,6 @@
 ﻿namespace Scrapers;
 
-public record Wrapper(Meeting Properties, Location Geometry)
+public record MappableMeeting(Meeting Properties, Location Geometry)
 {
     public string Type { get; } = "Feature";
 }

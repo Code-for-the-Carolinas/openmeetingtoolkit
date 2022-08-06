@@ -18,13 +18,10 @@ public static class Services
             .ConfigureServices((_, services) => services
             .AddLocalization()
             .AddHttpClient()
-            .AddMapBoxServices(o=>o.UseKey(config))
-            .AddScoped<Writer>()
+            .AddMapBoxServices(o => o.UseKey(config))
+            .AddScoped<MeetingFactory>()
+            .AddScoped(s => new Scraper(s.GetRequiredService<HttpClient>()))
             ).Build();
-        //.AddScoped<>()
-        //.AddSingleton<>()
-        //.AddTransient<>())
-
 
         return host;
     }
