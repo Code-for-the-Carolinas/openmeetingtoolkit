@@ -40,7 +40,7 @@
         border-right: 1px solid rgba(0, 0, 0, 0.2);
       }
 
-      .map {
+      .map {        
         position: absolute;
         left: 33.3333%;
         width: 66.6666%;
@@ -124,9 +124,9 @@
       .marker {
         border: none;
         cursor: pointer;
-        height: 48px;
-        width: 48px;
-        background-image: url(https://icon-library.com/icon/sunny-icon-1.html.html);
+        height: 45px;
+        width: 45px;
+        background-image: url('yellow-marker-icon.svg');
       }
 
       /* Marker tweaks */
@@ -144,7 +144,7 @@
         width: 500px;
       }
       .mapboxgl-popup-content h3 {
-        background: #444;
+        background: #006152;
         color: #fff;
         margin: 0;
         padding: 10px;
@@ -267,7 +267,7 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [ -82.6231, 35.601185]
+              'coordinates': [-82.6231, 35.601185]
             },
             'properties': {
             	'government': 'Buncombe County',
@@ -591,6 +591,10 @@
           )
           .addTo(map);
       }
+
+      //adding zoom and rotation controls to map
+      map.addControl(new mapboxgl.NavigationControl());
+
 </script>
 </body>
 </html>
