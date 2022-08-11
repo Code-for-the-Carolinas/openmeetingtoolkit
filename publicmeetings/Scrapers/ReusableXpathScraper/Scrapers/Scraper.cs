@@ -53,7 +53,7 @@ public class Scraper
         new ScrapedMeeting(
             Name: r.ExtractSingleNode(target.NameXpath)
                 ?? "",
-            Location: r.ExtractSingleNode(target.LocationXpath) + " " + target.Name,
+            Location: AnchorLocation(r.ExtractSingleNode(target.LocationXpath), target.County, target.StateCode),
             Time: r.ExtractSingleNode(target.TimeXPath)
                 ?? "",
             MoreInfo: r.ExtractSingleNode(target.MoreInfoXPath)
@@ -68,6 +68,25 @@ public class Scraper
         }
 
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="location"></param>
+    /// <param name="anchorLocation">assumed to be in ADDRESS order (more specific to least specific)</param>
+    /// <returns></returns>
+    internal string AnchorLocation(string? location, params string[] anchors)
+    {
+        if (string.IsNullOrWhiteSpace(location))
+            return string.Join(" ", anchors);
+
+        var toAdd = anchors.Reverse()
+            .TakeWhile(anchor => !location.Contains(anchor))
+            .Reverse();
+
+        return string.Join(" ", new[] {location}.Concat(toAdd));
+    }
+
     public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node)
     {
         var href = node.Attributes["href"];
