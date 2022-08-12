@@ -20,8 +20,7 @@ foreach (var target in targets)
 {
     try
     {
-        var results = scraper.Scrape(target)
-        .Take(1); //TODO limit what we're doing just as a proof of concept and to go easy on the geocoder service
+        var results = scraper.Scrape(target);
         await foreach (var result in results)
         {
             var mappedResult = await meetingFactory.GetMappableMeeting(result);
@@ -31,7 +30,7 @@ foreach (var target in targets)
     }
     catch (Exception e)
     {
-        Console.WriteLine($"IGNORED {target.County} because {e.Message}");
+        Console.WriteLine($"IGNORED {target.County} because {e.Message}"); //{ScrapeTarget { County = Avery, StateCode = NC, Url = https://cms3.revize.com/revize/plugins/calendar/editpages/export_events.jsp?webspaceId=averycounty&CAL_ID=1&timezoneid=America/New_York, RowXPath = , NameXpath = , LocationXpath = , TimeXPath = , MoreInfoXPath =  }}
     }
 }
 
