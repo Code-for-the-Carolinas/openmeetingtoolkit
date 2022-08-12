@@ -14,8 +14,6 @@ public class MeetingFactory
         Mapbox = mapbox;
     }
 
-    //todo batch geocoding
-
     public async Task<MappableMeeting> GetMappableMeeting(ScrapedMeeting meeting)
     {
         var coords = await ResolveLocation(meeting.Location);
@@ -23,7 +21,7 @@ public class MeetingFactory
         return new MappableMeeting(betterMeeting, coords);
     }
 
-    public async Task<Location> ResolveLocation(string locationQuery)
+    public virtual async Task<Location> ResolveLocation(string locationQuery)
     {
         var cleaner = new Regex(@"[^A-Za-z0-9]"); //library isn't url encoding properly
         var cleanQuery = cleaner.Replace(locationQuery, " ");

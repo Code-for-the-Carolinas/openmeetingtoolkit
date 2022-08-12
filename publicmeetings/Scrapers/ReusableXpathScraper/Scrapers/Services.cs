@@ -20,6 +20,7 @@ public static class Services
             .AddHttpClient()
             .AddMapBoxServices(o => o.UseKey(config))
             .AddScoped<MeetingFactory>()
+            .AddScoped<CachingMeetingFactory>()
             .AddScoped(s => new Scraper(s.GetRequiredService<HttpClient>()))
             ).Build();
 
