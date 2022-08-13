@@ -96,7 +96,8 @@ public class IntegrationTest : TestLogger
         //var example = new ScrapedMeeting("Board of Commissioners", "New Hannover County, NC", "every two weeks on monday", "more info and remote");
         //var meeting = await resolver.GetMappableMeeting(example);
         var result = await resolver.ResolveLocation("New Hannover County, NC");
-        result.Coordinates.Should().BeEquivalentTo(new[] { -77.86, 34.18 });
+        result.Geometry.Coordinate.Latitude.Should().BeApproximately(-77.86, .01);
+        result.Geometry.Coordinate.Longitude.Should().BeApproximately(34.18, .01);
     }
 
     protected void LogCsv(List<Meeting> meetings)
