@@ -1,6 +1,7 @@
 ﻿namespace Scrapers;
+using System.Reflection;
 
-public record ScrapeTarget(string Name, string Url,
+public record ScrapeTarget(string County, string StateCode, string Url,
     string RowXPath,
     string NameXpath,
     string LocationXpath,
@@ -15,10 +16,15 @@ public record ScrapedMeeting(string Name,
     string Time,
     string MoreInfo);
 
-public static partial class NorthCarolinaScrapeTarget
+public static class NorthCarolinaScrapeTarget
 {
+    public static IEnumerable<ScrapeTarget> All { get; } = typeof(NorthCarolinaScrapeTarget).GetProperties(BindingFlags.Public | BindingFlags.Static)
+                .Where(p => p.PropertyType == typeof(ScrapeTarget))
+                .Select(p => (ScrapeTarget)p.GetValue(null)!);
+
     public static ScrapeTarget Alamance =>
-        new ScrapeTarget("Alamance", "https://www.alamance-nc.com/boardscommittees/",
+        new ScrapeTarget("Alamance", "NC",
+            "https://www.alamance-nc.com/boardscommittees/",
             RowXPath: "//*[@id=\"pe-maincontent\"]/article/div/div/div/ul/li/a",
             NameXpath: ".//*[@id=\"pe-maincontent\"]/article/header/h1",
             LocationXpath: ".//*[@id=\"pe-maincontent\"]/article/div/p[starts-with(.,'Meeting Location:')]", //GOTCHA starts-with handled by ExtractSingleNode
@@ -27,7 +33,8 @@ public static partial class NorthCarolinaScrapeTarget
             );
 
     public static ScrapeTarget Cumberland =>
-        new ScrapeTarget("Cumberland","https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        new ScrapeTarget("Cumberland", "NC",
+            "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
             ".//li[@data-sf-provider = 'OpenAccessProvider']",
             ".//button",
             ".//div[@data-sf-field = 'Location']", //listed as a tempral expression
@@ -35,7 +42,8 @@ public static partial class NorthCarolinaScrapeTarget
             ""); //no info, just use the default (page url)
 
     public static ScrapeTarget NewHannover => //https://swagit.com/rock-solid-technologies-acquires-swagit/
-        new ScrapeTarget("New Hannover", "http://commissioners.nhcgov.com/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&xml=true",
+        new ScrapeTarget("New Hannover", "NC",
+            "http://commissioners.nhcgov.com/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&xml=true",
             "//vevent",
             ".//summary/text",
             ".//location/text", //or .//geo/latitude .//geo/longitude
@@ -43,7 +51,8 @@ public static partial class NorthCarolinaScrapeTarget
             ".//url/uri");
 
     public static ScrapeTarget Avery => //https://www.revize.com/government-cms.html
-        new ScrapeTarget("Avery", "https://cms3.revize.com/revize/plugins/calendar/editpages/export_events.jsp?webspaceId=averycounty&CAL_ID=1&timezoneid=America/New_York",
+        new ScrapeTarget("Avery", "NC",
+            "https://cms3.revize.com/revize/plugins/calendar/editpages/export_events.jsp?webspaceId=averycounty&CAL_ID=1&timezoneid=America/New_York",
             "",
             "",
             "",

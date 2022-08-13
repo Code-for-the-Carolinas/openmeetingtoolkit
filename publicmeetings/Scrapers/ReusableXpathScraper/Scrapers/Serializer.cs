@@ -14,5 +14,11 @@ public static class Serializer
         return writer.ToString();
     }
 
-    public static string ToJson(this IEnumerable<MappableMeeting> meetings) => JsonSerializer.Serialize(meetings);
+
+    public static IEnumerable<MappableMeeting> FromJson(this string meetingJson)
+        => JsonSerializer.Deserialize<MappableMeetingCollection>(meetingJson)?.Features
+        ?? Array.Empty<MappableMeeting>();
+
+    public static string ToJson(this IEnumerable<MappableMeeting> meetings)
+        => JsonSerializer.Serialize(new MappableMeetingCollection(meetings), new JsonSerializerOptions { WriteIndented = true });
 }

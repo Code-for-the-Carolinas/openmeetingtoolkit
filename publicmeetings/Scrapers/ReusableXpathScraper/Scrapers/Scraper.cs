@@ -4,11 +4,10 @@ using HtmlAgilityPack;
 using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Text.RegularExpressions;
-using System.Globalization;
 
 public class Scraper
 {
-    public HttpClient Client; //GOTCHA do not dispose, google it
+    protected HttpClient Client;
 
     public Scraper()
         : this(new HttpClient())
@@ -32,9 +31,9 @@ public class Scraper
 
         var calenadar = Ical.Net.Calendar.Load(ical);
 
-        return calenadar.Events.Select(e=>new ScrapedMeeting(
+        return calenadar.Events.Select(e => new ScrapedMeeting(
             e.Summary,
-            e.Location ?? "",
+            e.Location ?? e.Name,
             e.DtStart.ToString() ?? "",
             ""));
     }
@@ -50,13 +49,11 @@ public class Scraper
             .ToAsyncEnumerable()
             .SelectAwait(async r => await ClickThroughIfLink(r));
 
-
-        var meetings =  meetingChunks.Select(r =>
+        var meetings = meetingChunks.Select(r =>
         new ScrapedMeeting(
             Name: r.ExtractSingleNode(target.NameXpath)
                 ?? "",
-            Location: r.ExtractSingleNode(target.LocationXpath)
-                ?? target.Name + " County, NC",
+            Location: AnchorLocation(r.ExtractSingleNode(target.LocationXpath), target.County, target.StateCode),
             Time: r.ExtractSingleNode(target.TimeXPath)
                 ?? "",
             MoreInfo: r.ExtractSingleNode(target.MoreInfoXPath)
@@ -71,6 +68,25 @@ public class Scraper
         }
 
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="location"></param>
+    /// <param name="anchorLocation">assumed to be in ADDRESS order (more specific to least specific)</param>
+    /// <returns></returns>
+    internal string AnchorLocation(string? location, params string[] anchors)
+    {
+        if (string.IsNullOrWhiteSpace(location))
+            return string.Join(" ", anchors);
+
+        var toAdd = anchors.Reverse()
+            .TakeWhile(anchor => !location.Contains(anchor))
+            .Reverse();
+
+        return string.Join(" ", new[] {location}.Concat(toAdd));
+    }
+
     public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node)
     {
         var href = node.Attributes["href"];

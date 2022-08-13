@@ -38,13 +38,13 @@ public class IntegrationTest : TestLogger
 
         meetings[0].Should().BeEquivalentTo(
             new ScrapedMeeting("Adult Care Home Community Advisory Committee",
-            "JR Kernodle Senior Center",
+            "JR Kernodle Senior Center Alamance NC",
             "2:00 p.m. the third Tuesday of each quarter",
             "Tracy Warner, Ombudsman, (336) 904-0300")); //or should we stick to the url pattern?
 
         meetings[2].Should().BeEquivalentTo(
             new ScrapedMeeting("Board of Health",
-            "Alamance County, NC",
+            "Alamance NC",
             "",
             "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/board-of-health/")); //GOTCHA the url on this page has a typo
 
@@ -67,7 +67,7 @@ public class IntegrationTest : TestLogger
         Log(meetings);
 
         meetings[334].Should().BeEquivalentTo(new ScrapedMeeting("Board Workshop Wed. July 20, 2022 @ 1:00 p.m. Commissioners Board Room, 175 Linville Street, Newland, NC.&nbsp; See front page for details of the meeting",
-            "",//TODO parse event name?
+            "VEVENT",//TODO
             "7/20/2022 1:00:00 PM America/New_York",
             "")); //TODO use website listing instead of this ical?
 
@@ -82,10 +82,10 @@ public class IntegrationTest : TestLogger
 
         meetings[35].Should().BeEquivalentTo(new ScrapedMeeting("Board of Commissioners Regular Meeting",
             "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-            "2020-10-05T16:00:00", //could be parsed as datetime
-            "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-118/"));
+            "2020-11-16T16:00:00", //could be parsed as datetime
+            "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-120/"));
 
-        meetings.Count().Should().Be(123);
+        meetings.Count().Should().Be(121);
     }
 
     [Fact]
