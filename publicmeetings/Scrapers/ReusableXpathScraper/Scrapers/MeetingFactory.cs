@@ -20,13 +20,15 @@ public class MeetingFactory
         var bestLocation = await ResolveLocation(meeting.Location);
         var coords = new Location(bestLocation.Geometry.Coordinate.Longitude, bestLocation.Geometry.Coordinate.Latitude);
 
+        var nextSpecificTime = new TempralExpression(meeting.Time).NextOccurance(DateTime.Now);
+
         var betterMeeting = new Meeting(
             Name: meeting.Name,
             Location: meeting.Location,
             Address: bestLocation.PlaceInformation.First().PlaceName,
             Schedule: meeting.Time,
-            Start: DateTime.Now, //todo
-            End: DateTime.Now, //todo
+            Start: nextSpecificTime,
+            End: nextSpecificTime,
             Remote: "",
             MoreInfo: meeting.MoreInfo);
 

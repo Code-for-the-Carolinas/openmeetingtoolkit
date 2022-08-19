@@ -1,6 +1,7 @@
 ﻿namespace Scrapers;
 using Geo.MapBox.Abstractions;
 using Geo.MapBox.Models.Responses;
+using System.Linq;
 
 public class CachingMeetingFactory : MeetingFactory
 {
@@ -13,9 +14,11 @@ public class CachingMeetingFactory : MeetingFactory
     protected Dictionary<string, Feature> Cache { get; set; } = new();
     public void AddCache(IEnumerable<MappableMeeting> cache)
     {
-        Cache = cache.ToDictionary(
-            m => m.Properties.Location,
-            m => m.AsFeature());
+        Cache = cache
+            .GroupBy(m=> m.Properties.Location)
+            .ToDictionary(
+            m => m.Key,
+            m => m.First().AsFeature());
     }
 
     public override async Task<Feature> ResolveLocation(string locationQuery)
