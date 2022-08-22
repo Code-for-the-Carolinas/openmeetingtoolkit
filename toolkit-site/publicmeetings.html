@@ -404,20 +404,24 @@
               'start': '9:00 AM and 7:00 PM, respectively',
               'end': '',
               'remote':'Video recordings of our Commissioners Meetings both online and on the local Time-Warner Public Access Channels.  The television broadcast of the meetings will occur on the 2nd and 4th Wednesdays of each month at 10 PM.  Online videos will be made available after processing the videos through Youtube, our service providers for multimedia.  The meetings are now streamed live.',
-              'id':'n+1'
+              'id':'12'
             }
           },
         ]
       };
 
-      /**
-       * Assign a unique id to each meeting. You'll use this `id`
-       * later to associate each point on the map with a listing
-       * in the sidebar.
-       */
-      meetings.features.forEach((meeting, i) => {
-        meeting.properties.id = i;
-      });
+    fetch("meetings.json")
+        .then(response => {
+            const moreMeetings = response.json()
+            map.addSource('morePlaces', {
+                'type': 'geojson',
+                'data': moreMeetings
+            });
+            buildLocationList(moreMeetings);
+            addMarkers(moreMeetings);
+        }).catch(function (err) {
+            console.log('Failed to load more meetings', err);
+        });
 
       /**
        * Wait until the map loads to make changes to the map.
@@ -438,13 +442,13 @@
          * - The markers onto the map
          */
         buildLocationList(meetings);
-        addMarkers();
+        addMarkers(meetings);
       });
 
       /**
        * Add a marker to the map for every meeting listing.
        **/
-      function addMarkers() {
+      function addMarkers(meetings) {
         /* For each feature in the GeoJSON object above: */
         for (const marker of meetings.features) {
           /* Create a div element for the marker. */
