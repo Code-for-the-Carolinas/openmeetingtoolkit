@@ -20,17 +20,19 @@ public class MeetingFactory
         var bestLocation = await ResolveLocation(meeting.Location);
         var coords = new Location(bestLocation.Geometry.Coordinate.Longitude, bestLocation.Geometry.Coordinate.Latitude);
 
-        var nextSpecificTime = new TempralExpression(meeting.Time).NextOccurance(DateTime.Now);
+        var nextSpecificTime = TimeOnly.FromDateTime(new TempralExpression(meeting.Time).NextOccurance(DateTime.Now));
 
         var betterMeeting = new Meeting(
-            Name: meeting.Name,
+            PublicBody: meeting.Name,
             Location: meeting.Location,
             Address: bestLocation.PlaceInformation.First().PlaceName,
             Schedule: meeting.Time,
             Start: nextSpecificTime,
             End: nextSpecificTime,
             Remote: "",
-            MoreInfo: meeting.MoreInfo);
+            MoreInfo: meeting.MoreInfo)
+        {
+        };
 
         return new MappableMeeting(betterMeeting, coords);
     }
