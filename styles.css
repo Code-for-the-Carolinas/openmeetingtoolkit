@@ -133,7 +133,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #333;
-    padding-left: 70px;
+    padding-left: 65px;
 }
 
 #navbar {
@@ -147,11 +147,12 @@ header h1 {
     font-size: 30px;
     color: #333;
     padding: 20px 10px 20px 10px;
-    margin-left: -80px;
+    margin-top: -15px;
+    margin-left: -105px;
 }
 
 #title {
-    width:17%;
+    width:15%;
     float: left;
     font-weight: bold;
   }
