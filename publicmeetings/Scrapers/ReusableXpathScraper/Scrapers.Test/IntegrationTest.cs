@@ -22,7 +22,7 @@ public class IntegrationTest : TestLogger
         Log(meetings);
 
         meetings[0].Should().BeEquivalentTo(
-            new ScrapedMeeting("A.B.C. Board",
+            new ScrapedMeeting("Cumberland", "A.B.C. Board",
             "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
             "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.",
             "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions"));
@@ -37,13 +37,13 @@ public class IntegrationTest : TestLogger
         Log(meetings);
 
         meetings[0].Should().BeEquivalentTo(
-            new ScrapedMeeting("Adult Care Home Community Advisory Committee",
-            "JR Kernodle Senior Center Alamance NC",
+            new ScrapedMeeting("Alamance", "Adult Care Home Community Advisory Committee",
+            "JR Kernodle Senior Center",
             "2:00 p.m. the third Tuesday of each quarter",
             "Tracy Warner, Ombudsman, (336) 904-0300")); //or should we stick to the url pattern?
 
         meetings[2].Should().BeEquivalentTo(
-            new ScrapedMeeting("Board of Health",
+            new ScrapedMeeting("Alamance", "Board of Health",
             "Alamance NC",
             "",
             "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/board-of-health/")); //GOTCHA the url on this page has a typo
@@ -66,12 +66,12 @@ public class IntegrationTest : TestLogger
 
         Log(meetings);
 
-        meetings[334].Should().BeEquivalentTo(new ScrapedMeeting("Board Workshop Wed. July 20, 2022 @ 1:00 p.m. Commissioners Board Room, 175 Linville Street, Newland, NC.&nbsp; See front page for details of the meeting",
+        meetings[334].Should().BeEquivalentTo(new ScrapedMeeting("Avery", "Board Workshop Wed. July 20, 2022 @ 1:00 p.m. Commissioners Board Room, 175 Linville Street, Newland, NC.&nbsp; See front page for details of the meeting",
             "VEVENT",//TODO
             "7/20/2022 1:00:00 PM America/New_York",
             "")); //TODO use website listing instead of this ical?
 
-        meetings.Count().Should().Be(335);
+        meetings.Count().Should().Be(337);
     }
 
     [Fact]
@@ -80,7 +80,7 @@ public class IntegrationTest : TestLogger
         var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.NewHannover).ToListAsync();
         Log(meetings);
 
-        meetings[35].Should().BeEquivalentTo(new ScrapedMeeting("Board of Commissioners Regular Meeting",
+        meetings[35].Should().BeEquivalentTo(new ScrapedMeeting("New Hannover", "Board of Commissioners Regular Meeting",
             "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
             "2020-11-16T16:00:00", //could be parsed as datetime
             "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-120/"));
@@ -96,7 +96,8 @@ public class IntegrationTest : TestLogger
         //var example = new ScrapedMeeting("Board of Commissioners", "New Hannover County, NC", "every two weeks on monday", "more info and remote");
         //var meeting = await resolver.GetMappableMeeting(example);
         var result = await resolver.ResolveLocation("New Hannover County, NC");
-        result.Coordinates.Should().BeEquivalentTo(new[] { -77.86, 34.18 });
+        result.Geometry.Coordinate.Longitude.Should().BeApproximately(-77.86, .01);
+        result.Geometry.Coordinate.Latitude.Should().BeApproximately(34.18, .01);
     }
 
     protected void LogCsv(List<Meeting> meetings)
