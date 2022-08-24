@@ -409,19 +409,6 @@
                 ]
             };
 
-            fetch("meetings.json")
-                .then(response => {
-                    const moreMeetings = response.json()
-                    map.addSource('morePlaces', {
-                        'type': 'geojson',
-                        'data': moreMeetings
-                    });
-                    buildLocationList(moreMeetings);
-                    addMarkers(moreMeetings);
-                }).catch(function (err) {
-                    console.log('Failed to load more meetings', err);
-                });
-
             /**
              * Wait until the map loads to make changes to the map.
              */
@@ -442,6 +429,19 @@
                  */
                 buildLocationList(meetings);
                 addMarkers(meetings);
+
+                fetch("meetings.json")
+                .then(response => response.json())
+                .then(moreMeetings => {
+                    map.addSource('morePlaces', {
+                        'type': 'geojson',
+                        'data': moreMeetings
+                    });
+                    buildLocationList(moreMeetings);
+                    addMarkers(moreMeetings);
+                }).catch(function (err) {
+                    console.log('Failed to load more meetings', err);
+                });
             });
 
             /**
