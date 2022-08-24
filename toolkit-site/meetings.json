@@ -11,7 +11,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "d4c780e4-2b33-42c7-b974-ae6f7a4541e4"
+        "id": "50cd1d69-fac3-4065-8a31-9be0d27fdafa"
       },
       "geometry": {
         "longitude": -78.870995,
@@ -29,20 +29,20 @@
         "government": "Cumberland",
         "publicbody": "Adult Care Home Community Advisory Committee",
         "location": "Various adult care homes in Cumberland County",
-        "address": "Homer, Indiana, United States",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "Third Thursday of the last month of each quarter at 1:00 p.m. There is an initial training period of 15 hours to include study of a committee handbook and orientation visits to long-term care facilities. Additional training of 10 hours per year is required. Visits in the assigned facilities are of the utmost importance in the participation on this committee. A commitment of at least one day per quarter to visit facilities and 4 hours per quarter for business and training meetings.",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "70616477-5d74-468d-82bf-ea2566477d9d"
+        "id": "15f93150-527e-4b53-8d68-38bd54986669"
       },
       "geometry": {
-        "longitude": -85.577801,
-        "latitude": 39.577478,
+        "longitude": -78.83,
+        "latitude": 35.05,
         "coordinates": [
-          -85.577801,
-          39.577478
+          -78.83,
+          35.05
         ],
         "type": "Point"
       },
@@ -59,7 +59,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "eabeb7a1-b717-4a96-971b-a092ffb2e32c"
+        "id": "c5032f75-258e-48f6-829d-c00da538b481"
       },
       "geometry": {
         "longitude": -78.889975,
@@ -83,7 +83,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "13157b9c-e33a-4a27-bd2a-c580692f3e80"
+        "id": "04cd10e2-edb0-4824-8a85-7aa439b34faf"
       },
       "geometry": {
         "longitude": -78.87914,
@@ -107,7 +107,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "ff0ea9e6-7c9e-4f4f-8260-f56063e5dd1e"
+        "id": "495852c8-37fe-4f4e-8d1f-4ba791bb3a64"
       },
       "geometry": {
         "longitude": -78.88205,
@@ -131,7 +131,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "267c7e86-0e1b-4210-9849-cdecb82f5f35"
+        "id": "7686dae4-e604-4cc5-bd8b-525093cef4c9"
       },
       "geometry": {
         "longitude": -78.814741,
@@ -155,7 +155,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "cb7e6400-fa68-48c4-9a3f-670525d79d9b"
+        "id": "7d338510-afd2-4235-ac57-f3bc5d22b692"
       },
       "geometry": {
         "longitude": -78.83,
@@ -173,20 +173,20 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Cemetery Commission",
         "location": "As called",
-        "address": "A Shop Called Quest-Claremont, 101 N Indian Hill Blvd, Claremont, California 91711, United States",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "Meets on an as-needed basis",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "73041e2b-7955-4c6e-b540-6918f344c5a3"
+        "id": "d1e8a5fc-f0e9-4be2-a950-69776e46e896"
       },
       "geometry": {
-        "longitude": -117.719491,
-        "latitude": 34.095183,
+        "longitude": -78.83,
+        "latitude": 35.05,
         "coordinates": [
-          -117.719491,
-          34.095183
+          -78.83,
+          35.05
         ],
         "type": "Point"
       },
@@ -203,7 +203,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "3e28a5b2-b1d5-4524-b3cb-c9148bd70b31"
+        "id": "ccb9db29-b26d-44da-a4c3-b29eab058952"
       },
       "geometry": {
         "longitude": -78.88209,
@@ -227,7 +227,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "dd806aa8-40d5-4cd3-b733-3b4430ba3073"
+        "id": "a68ced5b-86bd-42ec-985a-a5d93d1989ae"
       },
       "geometry": {
         "longitude": -78.87624,
@@ -245,20 +245,20 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Home and Community Care Block Grant Committee",
         "location": "Various service provider locations within Cumberland County",
-        "address": "Ally Marketing, 655 Mendon Road, Cumberland, Rhode Island 02864, United States",
+        "address": "CenturyLink, 717 Mcgilvary St, Fayetteville, North Carolina 28301, United States",
         "schedule": "Meets as needed.",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "308f83d2-9b6f-41bb-9a7f-f97e7ee553a2"
+        "id": "02231dc7-9b82-4ff9-a6d4-1b77e669cd54"
       },
       "geometry": {
-        "longitude": -71.412634,
-        "latitude": 41.924544,
+        "longitude": -78.890066,
+        "latitude": 35.052648,
         "coordinates": [
-          -71.412634,
-          41.924544
+          -78.890066,
+          35.052648
         ],
         "type": "Point"
       },
@@ -275,7 +275,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "b19f6acb-26bd-49d6-83d4-e14df79db6a1"
+        "id": "2a5159e4-ce36-4a7a-a8d2-4bc7da2f05f9"
       },
       "geometry": {
         "longitude": -78.87624,
@@ -299,7 +299,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "a1cbab5b-9b7d-43cf-bb1d-05f8cfcd2dea"
+        "id": "ab026f0f-f68a-4ccf-a8e9-59b00a32d8fe"
       },
       "geometry": {
         "longitude": -78.89155,
@@ -317,20 +317,20 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Local Emergency Planning Committee",
         "location": "Rotating Locations",
-        "address": "Locations Montana Real Estate, 425 Grand Dr Ste B, Bigfork, Montana 59911, United States",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "On the last Thursday of the first month of each quarter at 10:00 a.m. Members are also required to attend and work with the subcommittee they are assigned to. The meetings generally last approximately one hour. The time required for the subcommittee would vary depending on the nature of the subcommittee (i.e., Membership, Resources, Exercise, Planning, etc.)",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "cad35866-a8c2-4ad5-9eb7-0c2a56275c82"
+        "id": "ddce45e5-ed7a-494b-8f53-4347f9553764"
       },
       "geometry": {
-        "longitude": -114.075042,
-        "latitude": 48.063052,
+        "longitude": -78.83,
+        "latitude": 35.05,
         "coordinates": [
-          -114.075042,
-          48.063052
+          -78.83,
+          35.05
         ],
         "type": "Point"
       },
@@ -341,20 +341,20 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Workforce Development Board",
         "location": "FTCC General Classroom Building\nRoom 114\n2817 Ft. Bragg Rd",
-        "address": "Soldier Support Center, 4-2843 Normandy Dr # 284-28433, Fort Bragg, North Carolina 28307, United States",
+        "address": "D-3229 Barracks, D-3229 Ardennes Rd, Fort Bragg, North Carolina 28307, United States",
         "schedule": "Third Tuesday\u00A0of every other month at 11:00\u00A0a.m. (starting in January)",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "83a73082-4f11-4d4f-b3cf-75e324801cd9"
+        "id": "5a2b7c05-69f8-4ba7-85bf-442531dd3f6d"
       },
       "geometry": {
-        "longitude": -79.001217,
-        "latitude": 35.139046,
+        "longitude": -79.004488,
+        "latitude": 35.126227,
         "coordinates": [
-          -79.001217,
-          35.139046
+          -79.004488,
+          35.126227
         ],
         "type": "Point"
       },
@@ -371,7 +371,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "cd50b664-2dcb-482b-b9b1-a726da556179"
+        "id": "3b5ece4f-de10-45ac-84cf-cf99c0cde0f5"
       },
       "geometry": {
         "longitude": -78.87624,
@@ -395,7 +395,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "c6132509-a529-499f-830e-459ec4bd596c"
+        "id": "94baafbb-f419-4016-bcf7-75a4b36ace5b"
       },
       "geometry": {
         "longitude": -78.87914,
@@ -419,7 +419,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "95b72a3d-a9b4-4a98-a51e-fa614c47bacc"
+        "id": "91968bfa-2b59-4867-8ba3-6aa06cdea496"
       },
       "geometry": {
         "longitude": -78.874542,
@@ -443,7 +443,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "b2f1099a-cc90-4cfa-ad49-62d639aead3a"
+        "id": "7173591b-c6f7-4a94-86ad-e5a0c7b47db6"
       },
       "geometry": {
         "longitude": -78.878292,
@@ -467,7 +467,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "6ef6a02b-fca8-4014-ac88-c963955b410c"
+        "id": "9cbc7024-d992-434e-a03f-5409da38c234"
       },
       "geometry": {
         "longitude": -78.878292,
@@ -491,7 +491,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "c8f3e427-66ba-41aa-8730-d2542d8b7d14"
+        "id": "3ff3bf5c-a155-4ed5-a0ef-ab9abb9e57e5"
       },
       "geometry": {
         "longitude": -78.87519,
@@ -515,7 +515,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "64b8c675-4013-4170-8bba-0b142004595c"
+        "id": "1e748f24-ccef-47a3-b69d-90088472002e"
       },
       "geometry": {
         "longitude": -78.88183,
@@ -539,7 +539,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "51ca7798-8e5d-4c58-a7c5-91a6f42ddaab"
+        "id": "fef7419e-3622-4cb8-a541-1246a6e69d97"
       },
       "geometry": {
         "longitude": -78.878292,
@@ -563,7 +563,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "4500ffd1-0b69-4469-83b9-81c2069b401c"
+        "id": "ef069712-d958-4294-bd56-dbeac173bbd1"
       },
       "geometry": {
         "longitude": -78.88205,
@@ -581,20 +581,20 @@
         "government": "Cumberland",
         "publicbody": "Joint Planning Board",
         "location": "Historic Cumberland County Courthouse\nHearing Room #3 \n130 Gillespie Street \nFayetteville, North Carolina",
-        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "Third Tuesday of each month at 6:00 p.m.\u00A0Meetings vary in length. Members also serve on sub-committees (Administrative, Comprehensive Planning, Codes and Nominating). These sub-committees meet on an as-needed basis. In addition, time is spent outside of the meetings to review various documents and plans on which the Board is required to vote.",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "a7f33692-7b06-4aa2-a5cf-c57da354625c"
+        "id": "66cca6bd-e32b-458a-9a40-e4bffaf45dec"
       },
       "geometry": {
-        "longitude": -78.87914,
-        "latitude": 35.051535,
+        "longitude": -78.83,
+        "latitude": 35.05,
         "coordinates": [
-          -78.87914,
-          35.051535
+          -78.83,
+          35.05
         ],
         "type": "Point"
       },
@@ -605,20 +605,20 @@
         "government": "Cumberland",
         "publicbody": "Jury Commission",
         "location": "Judge E. Maurice Braswell Courthouse \n3rd Floor \n117 Dick Street, Fayetteville",
-        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
+        "address": "Fayetteville, North Carolina, United States",
         "schedule": "The Jury Commission meets at least twice a year. The Commission is responsible to meet as often as required to complete the jury list for the next year by the 30th day of November of each year. The amount of time required for each meeting and the number of meetings required is determined by the Commission and dictated by the procedures that the Commission chooses to prepare the Master List.",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "270a0362-8833-4e58-b074-1b1b9ddc2f40"
+        "id": "56b90332-f292-4542-ad54-056152e6937c"
       },
       "geometry": {
-        "longitude": -78.87624,
-        "latitude": 35.0509,
+        "longitude": -78.878292,
+        "latitude": 35.052576,
         "coordinates": [
-          -78.87624,
-          35.0509
+          -78.878292,
+          35.052576
         ],
         "type": "Point"
       },
@@ -629,20 +629,20 @@
         "government": "Cumberland",
         "publicbody": "Library Board of Trustees",
         "location": "Various libraries throughout the County",
-        "address": "New York Public Library - Baychester Library, 2049 Asch Loop, New York, New York 10475, United States",
+        "address": "Hope Mills Public Library, 3411 Golfview Rd, Hope Mills, North Carolina 28348, United States",
         "schedule": "Third Thursday of each month at 9:05 a.m. (except for December). The approximate amount of time a Library Trustee would devote to the Board each month is two hours for meeting attendance with variable preparation and follow-up time. Periodic committee meeting attendance may be required. Trustee committees are: By-Laws (on call) and Nominating (on call).",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "87e01f95-870d-40b6-a992-d6edbb73f67a"
+        "id": "f6932724-2bf6-46fc-a1d9-9fa3a6d586e3"
       },
       "geometry": {
-        "longitude": -73.829248,
-        "latitude": 40.87064,
+        "longitude": -78.95902,
+        "latitude": 34.974601,
         "coordinates": [
-          -73.829248,
-          40.87064
+          -78.95902,
+          34.974601
         ],
         "type": "Point"
       },
@@ -653,20 +653,20 @@
         "government": "Cumberland",
         "publicbody": "Mid-Carolina Aging Advisory Council",
         "location": "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
-        "address": "Cumberland, Indiana, United States",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "First\u00A0Thursday of the\u00A0last month of each quarter at 2:00 p.m. Length of meetings varies.",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "359af0f6-c35c-4d14-b2ad-821ed15dd427"
+        "id": "8e15dee8-cd65-407a-bb1b-c8ecdd4f01d4"
       },
       "geometry": {
-        "longitude": -85.957204,
-        "latitude": 39.776153,
+        "longitude": -78.83,
+        "latitude": 35.05,
         "coordinates": [
-          -85.957204,
-          39.776153
+          -78.83,
+          35.05
         ],
         "type": "Point"
       },
@@ -683,7 +683,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "51b6c439-f255-469a-ad94-6ebd8c04e06d"
+        "id": "b29a3a9f-cfa7-4c2d-879f-6a2f36a48681"
       },
       "geometry": {
         "longitude": -78.605956,
@@ -701,20 +701,20 @@
         "government": "Cumberland",
         "publicbody": "Nursing Home Advisory Board",
         "location": "Various nursing homes in Cumberland County",
-        "address": "Cumberland, Indiana, United States",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "Third Thursday of the last month of each quarter at 10:00 a.m. There is an initial training period of 15 hours to include study of a committee handbook and orientation visits to long-term care facilities. Additional training of 10 hours per year is required. Visits in the assigned facilities are of the utmost importance in the participation on this committee. A commitment of at least one day per quarter to visit facilities and 4 hours per quarter for business and training meetings.",
         "start": null,
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "66390be7-f32b-4a6b-9424-5bf93b3115e0"
+        "id": "a18e46ca-ecd3-40cf-823b-b5d3e5e5c4f5"
       },
       "geometry": {
-        "longitude": -85.957204,
-        "latitude": 39.776153,
+        "longitude": -78.83,
+        "latitude": 35.05,
         "coordinates": [
-          -85.957204,
-          39.776153
+          -78.83,
+          35.05
         ],
         "type": "Point"
       },
@@ -731,7 +731,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "1baa468d-f67a-49cd-ba48-f735d9a1f2c3"
+        "id": "9a3b11cc-1d06-413a-86c4-65ccfb57dc41"
       },
       "geometry": {
         "longitude": -78.89206,
@@ -755,7 +755,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "bee4627a-f563-400c-9d3c-092196c1d1e2"
+        "id": "bde55de6-8cb1-4047-94de-2f23e9082817"
       },
       "geometry": {
         "longitude": -79.778167,
@@ -779,7 +779,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "f4cf7a2b-d741-419b-bc3b-0828a4955e04"
+        "id": "ae74b708-2b73-481f-98c3-63fb05263d3c"
       },
       "geometry": {
         "longitude": -78.613504,
@@ -803,7 +803,7 @@
         "end": null,
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": "0f1fbeda-c827-4d7f-b263-7ff10cc5dee4"
+        "id": "3e5d8198-69e5-46ac-8168-b9ff2199c25a"
       },
       "geometry": {
         "longitude": -78.87914,
