@@ -17,15 +17,15 @@ public record Location(double Longitude, double Latitude)
 }
 
 public record Meeting(
-    string PublicBody,
+    string Government,
+    string Publicbody,
     string Location,
     string Address,
     string Schedule,
-    TimeOnly Start,
-    TimeOnly End,
+    TimeOnly? Start,
+    TimeOnly? End,
     string Remote,
     string MoreInfo) //moreinfo is gone too
 {
     public Guid Id { get; } = Guid.NewGuid();
-    public string? Government { get; init; }
 }

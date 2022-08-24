@@ -36,7 +36,7 @@ public static class NorthCarolinaGenerators
 
         
         return dates.Select(d=>
-        new ScrapedMeeting("Commissioner Meeting",
+        new ScrapedMeeting("Ashe", "Commissioner Meeting",
         "150 Government Circle Suite 2500 Jefferson, NC 28640", //Commissioners Meeting Room (small courtroom) on the third floor
         d.Period.StartTime.ToString()!,
         "https://www.ashecountygov.com/commissioners/commissioner-meetings"));

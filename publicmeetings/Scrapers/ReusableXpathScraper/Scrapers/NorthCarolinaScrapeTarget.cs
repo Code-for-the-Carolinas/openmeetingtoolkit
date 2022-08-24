@@ -11,7 +11,7 @@ public record ScrapeTarget(string County, string StateCode, string Url,
 
 }
 
-public record ScrapedMeeting(string Name,
+public record ScrapedMeeting(string County, string Name,
     string Location,
     string Time,
     string MoreInfo);

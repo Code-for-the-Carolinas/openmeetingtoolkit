@@ -32,6 +32,7 @@ public class Scraper
         var calenadar = Ical.Net.Calendar.Load(ical);
 
         return calenadar.Events.Select(e => new ScrapedMeeting(
+            target.County,
             e.Summary,
             e.Location ?? e.Name,
             e.DtStart.ToString() ?? "",
@@ -51,9 +52,10 @@ public class Scraper
 
         var meetings = meetingChunks.Select(r =>
         new ScrapedMeeting(
+            County: target.County,
             Name: r.ExtractSingleNode(target.NameXpath)
                 ?? "",
-            Location: AnchorLocation(r.ExtractSingleNode(target.LocationXpath), target.County, target.StateCode),
+            Location: r.ExtractSingleNode(target.LocationXpath) ?? target.County + " " + target.StateCode,
             Time: r.ExtractSingleNode(target.TimeXPath)
                 ?? "",
             MoreInfo: r.ExtractSingleNode(target.MoreInfoXPath)
@@ -67,24 +69,6 @@ public class Scraper
             yield return meeting;
         }
 
-    }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="location"></param>
-    /// <param name="anchorLocation">assumed to be in ADDRESS order (more specific to least specific)</param>
-    /// <returns></returns>
-    internal string AnchorLocation(string? location, params string[] anchors)
-    {
-        if (string.IsNullOrWhiteSpace(location))
-            return string.Join(" ", anchors);
-
-        var toAdd = anchors.Reverse()
-            .TakeWhile(anchor => !location.Contains(anchor))
-            .Reverse();
-
-        return string.Join(" ", new[] {location}.Concat(toAdd));
     }
 
     public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node)

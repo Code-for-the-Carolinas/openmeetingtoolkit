@@ -17,13 +17,17 @@ public class MeetingFactory
 
     public async Task<MappableMeeting> GetMappableMeeting(ScrapedMeeting meeting)
     {
+        var anchoredLocation = AnchorLocation(meeting.Location, meeting.County, "NC");
+
         var bestLocation = await ResolveLocation(meeting.Location);
         var coords = new Location(bestLocation.Geometry.Coordinate.Longitude, bestLocation.Geometry.Coordinate.Latitude);
 
-        var nextSpecificTime = TimeOnly.FromDateTime(new TempralExpression(meeting.Time).NextOccurance(DateTime.Now));
+        //var nextSpecificTime = TimeOnly.FromDateTime(new TempralExpression(meeting.Time).NextOccurance(DateTime.Now));
+        TimeOnly? nextSpecificTime = null;
 
         var betterMeeting = new Meeting(
-            PublicBody: meeting.Name,
+            Government: meeting.County,
+            Publicbody: meeting.Name,
             Location: meeting.Location,
             Address: bestLocation.PlaceInformation.First().PlaceName,
             Schedule: meeting.Time,
@@ -35,6 +39,24 @@ public class MeetingFactory
         };
 
         return new MappableMeeting(betterMeeting, coords);
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="location"></param>
+    /// <param name="anchorLocation">assumed to be in ADDRESS order (more specific to least specific)</param>
+    /// <returns></returns>
+    internal string AnchorLocation(string? location, params string[] anchors)
+    {
+        if (string.IsNullOrWhiteSpace(location))
+            return string.Join(" ", anchors);
+
+        var toAdd = anchors.Reverse()
+            .TakeWhile(anchor => !location.Contains(anchor))
+            .Reverse();
+
+        return string.Join(" ", new[] { location }.Concat(toAdd));
     }
 
     public virtual async Task<Feature> ResolveLocation(string locationQuery)
