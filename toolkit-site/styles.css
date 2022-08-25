@@ -91,7 +91,8 @@ a{
 }
 #evaluation-section ul, ol{
     margin-left: 3em;
-    list-style: inside;
+    /* Rocio removed so the ordered lists can populate */
+    /* list-style: inside; */
 }
 
 #recommendations-section{
