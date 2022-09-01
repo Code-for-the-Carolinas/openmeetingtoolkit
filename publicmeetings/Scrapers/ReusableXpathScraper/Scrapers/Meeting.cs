@@ -22,8 +22,8 @@ public record Meeting(
     string Location,
     string Address,
     string Schedule,
-    TimeOnly? Start,
-    TimeOnly? End,
+    string Start,
+    string End,
     string Remote,
     string MoreInfo) //moreinfo is gone too
 {
