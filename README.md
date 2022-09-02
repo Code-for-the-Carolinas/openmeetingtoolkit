@@ -27,7 +27,7 @@ If you would like to contribute please follow the below instructions:
 
 # Getting the latest updates
 Once you are ready to make more changes, you will need to do a pull request to get the lastest updates from the repo:
-1. On your local machine, in the terminal do `git checkout main' --if you aren't already in the main branch. 
+1. On your local machine, in the terminal do `git checkout main` --if you aren't already in the main branch. 
 2. `git pull`
-3. follow the above steps in Contributing to gh-pages, starting at #2 if you want to make any more changes. 
+3. Follow the above steps in Contributing to gh-pages, starting at #2 if you want to make any more changes. 
 
