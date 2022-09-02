@@ -28,7 +28,7 @@ If you would like to contribute please follow the below instructions:
   - Make sure to select the correct repo and branch for the base & head repository--
   
   base respository: Code-for-the-Carolinas/openmeetingtoolkit & base: gh-pages 
-  **you will have to select from dropdown to select your repo and gh-pages to compare:
+  **you will have to select from dropdown menu to select your repo and gh-pages to compare:**
   
   (click on compare across forks link again to select what you are comparing if it goes away)
   
