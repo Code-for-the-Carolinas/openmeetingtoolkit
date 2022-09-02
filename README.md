@@ -21,9 +21,10 @@ If you would like to contribute please follow the below instructions:
   - `git add -A`
   - `git commit -m "description of changes"`
   - `git push`
-5. Create a pull request from your gh-pages to code-for-the-Carolina's gh-pages
+5. IN Github, create a pull request from your gh-pages to code-for-the-Carolina's gh-pages
 6. Approve & merge the changes and make sure the website is up to date with the changes. Please note it can take up to 15 minutes for the updates to pull through. 
 7. Manually synch your forked repo to code-for-the-Carolina's by clicking the synch button in Github
+8. Don't forget to update the main branch with the changes you made in gh-pages in Github. Most of us have been manually updating it (copying the material from the file(s) we changed in gh-pages and pasting it in the correspoding file(s) in main--message in slack if you need more info about this)
 
 # Getting the latest updates
 Once you are ready to make more changes, you will need to do a pull request to get the lastest updates from the repo:
