@@ -21,10 +21,27 @@ If you would like to contribute please follow the below instructions:
   - `git add -A`
   - `git commit -m "description of changes"`
   - `git push`
-5. In Github, create a pull request from your gh-pages to code-for-the-Carolina's gh-pages
-6. Approve & merge the changes and make sure the website is up to date with the changes. Please note it can take up to 15 minutes for the updates to pull through. 
-7. Manually synch your forked repo to code-for-the-Carolina's by clicking the synch button in Github
-8. Don't forget to update the main branch with the changes you made in gh-pages in Github. Most of us have been manually updating it (copying the material from the file(s) we changed in gh-pages and pasting it in the correspoding file(s) in main--message in slack if you need more info about this)
+5. In [Github](https://github.com/Code-for-the-Carolinas/openmeetingtoolkit) create a pull request from your gh-pages to code-for-the-Carolina's gh-pages, 
+  - click on Pull requests
+  - click on New Pull request button -in green on the right
+  - click on compare across forks link -at the top in blue
+  - Make sure to select the correct repo and branch for the base & head repository--
+  
+  base respository: Code-for-the-Carolinas/openmeetingtoolkit & base: gh-pages 
+  **you will have to select from dropdown to select your repo and gh-pages to compare:
+  
+  (click on compare across forks link again to select what you are comparing if it goes away)
+  
+  should be like this:  
+  ![screenshot of pull request](https://user-images.githubusercontent.com/97912154/188233686-b6512fab-a3ac-4406-92fe-68bee1bdcac5.jpg)
+  - You will then see your pushed changes, select create pull request
+  - Enter any optional comments and select create pull request - in green 
+  - Select Merge pull request 
+  - Select Confirm merge
+7. Check the website to make sure it has your changes--please note it can take up to 15 minutes for the updates to pull through. 
+8. Close out the github issue you worked on, if applicable 
+9. Manually synch your forked repo to code-for-the-Carolina's by clicking the synch button in Github
+10. Don't forget to update the main branch with the changes you made in gh-pages in Github. Most of us have been manually updating it (copying the material from the file(s) we changed in gh-pages and pasting it in the correspoding file(s) in main--message in slack if you need more info about this)
 
 # Getting the latest updates
 Once you are ready to make more changes, you will need to do a pull request to get the lastest updates from the repo:
