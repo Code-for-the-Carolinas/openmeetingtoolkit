@@ -14,7 +14,7 @@ If you would like to contribute please follow the below instructions:
   - `git remote -v` to double check that your origin and upstream are correct. Origin will have a fetch and push with your URL and upstream will have a fetch and push of the repo URL you cloned from.
   - `git push --set-upstream origin gh-pages`
   - `git branch` - double check that you have main and gh-pages under your branch lists
-2. Checkout gh-pages before making any changes
+2. Checkout gh-pages **BEFORE** making any changes
   - `git checkout gh-pages`
 3. Make your changes 
 4. Save and push your changes to Github:
@@ -30,7 +30,7 @@ If you would like to contribute please follow the below instructions:
 Once you are ready to make more changes, you will need to do a pull request to get the lastest updates from the repo:
 1. On your local machine, in the terminal do `git checkout main` --if you aren't already in the main branch. 
 2. `git pull`
-3. BEFORE making any changes: `git checkout gh-pages`
+3. **BEFORE** making any changes: `git checkout gh-pages`
 3. `git pull upstream gh-pages`
 4. `git status` to double check you are up to date. 
 3. Follow the above steps in Contributing to gh-pages, starting at #3 if you want to make any more changes. 
