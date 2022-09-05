@@ -22,10 +22,11 @@ public record Meeting(
     string Location,
     string Address,
     string Schedule,
-    TimeOnly? Start,
-    TimeOnly? End,
+    string Start,
+    string End,
     string Remote,
     string MoreInfo) //moreinfo is gone too
 {
-    public Guid Id { get; } = Guid.NewGuid();
+    private static int AutoIncrement = 100;
+    public int Id { get; } = AutoIncrement++;
 }
