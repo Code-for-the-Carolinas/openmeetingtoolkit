@@ -27,5 +27,6 @@ public record Meeting(
     string Remote,
     string MoreInfo) //moreinfo is gone too
 {
-    public Guid Id { get; } = Guid.NewGuid();
+    private static int AutoIncrement = 100;
+    public int Id { get; } = AutoIncrement++;
 }
