@@ -71,9 +71,6 @@
         Start by getting to know some background about public meetings in your community. The Toolkit's local scan includes two activities to help you prepare: 
         a map of public meetings and an environmental scan, called a STEEPLE analysis.
       </p>
-      
-      
-      <h3>Instructions for this Toolkit</h3>
 
       <!--Map Instructions-->
       <details>
@@ -81,7 +78,8 @@
           <h3>Add Meetings to the Map</h3>
         </summary>
         <p>
-The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North Carolina. 
+The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North Carolina.
+	</p>
 
 	<ul><li>Adding meetings to the map is a jump-right-in activity that lets any new volunteer contribute to the Open Meeting Toolkit project.</li>
 	<li>The map can be a compelling visual for outreach to engage new participants.	</li>
@@ -90,45 +88,32 @@ The Public Meetings in North Carolina map is a tool to visualize and learn about
 	<li>We could find a partner who commits to host and maintain the map (not very likely).</li>
 	<li>Local teams could find partners who commit to hosting and maintaining maps for their county (more likely).	</li>
 	<li>Code for the Carolinas has not committed to completing or maintaining the map.</li></ul>
-
+<p>
 To add meetings to the map, provide a comma-separated value (.csv) file containing the fields from the Data Dictionary to the Code for the Carolinas team. 
 Include as many fields as possible for the meetings in your community, keeping in mind that some information may not be available online. You can collect this 
 data in any spreadsheet program. Once you have collected the data, export it in .csv format and save it as meetings.csv. Provide it to Code for the Carolinas. 
 </p>
 	    <h4>Data Dictionary</h4>
-<table>
+<table> {
+  border-spacing: 10px;
+}
   <tr>
     <th>Field</th>
     <th>Definition</th>
     <th>Format</th>
     <th>Example</th>
   </tr>
-  <tr>
-<td>	Public body	</td>
-<td>	Part of the local government that holds the meeting, such as a board or commission		</td>
-<td>	Text	</td>
-<td>	Asheville Planning Board	</td>
-  </tr>
-  <tr>
-<td>	On map	</td>
-<td>	1 means the meeting is listed on the map, blank means it is not listed		</td>
-<td>	Binary	</td>
-<td>	1	</td>
-  </tr>
-<tr>
-<td>	Location	</td>
-<td>	Public place or building for which the meeting is held		</td>
-<td>	Text	</td>
-<td>	City Hall	</td>
-</tr>
-<tr>	<td>	Address	</td><td>	Postal address of the meeting location		</td><td>	Text	</td><td>	123 Address Street, City, ST 54321	</td>	</tr>
-<tr>	<td>	Latitude	</td><td>	Distance north or south of the equator		</td><td>	Numeric	</td><td>		</td>	</tr>
-<tr>	<td>	Longitude	</td><td>	Distance east or west of the zero meridian		</td><td>	Numeric	</td><td>		</td>	</tr>
-<tr>	<td>	Schedule	</td><td>	Days on which the meeting is regularly held		</td><td>	Text	</td><td>	2nd Tuesday of the month	</td>	</tr>
-<tr>	<td>	Start time	</td><td>	Time at which the meeting starts		</td><td>	Time	</td><td>	0.541666667	</td>	</tr>
-<tr>	<td>	End time	</td><td>	Time at which the meeting ends		</td><td>	Time	</td><td>	0.625	</td>	</tr>
+<tr><td>	Public body	</td><td>	Local government board or commission holding the meeting	</td><td>	Text	</td><td>	Asheville Planning Board	</td>  </tr>
+<tr><td>	On map		</td><td>	1 means the meeting is listed on the map, blank = not listed	</td><td>	Binary	</td> <td>	1	</td>  </tr>
+<tr>	<td>	Location	</td> <td>	Public place or building for which the meeting is held		</td><td>	Text	</td><td>	City Hall	</td></tr>
+<tr>	<td>	Address		</td><td>	Postal address of the meeting location				</td><td>	Text	</td><td>	123 Address Street, City, ST 54321	</td>	</tr>
+<tr>	<td>	Latitude	</td><td>	Distance north or south of the equator				</td><td>	Numeric	</td><td>	35.05118986		</td>	</tr>
+<tr>	<td>	Longitude	</td><td>	Distance east or west of the zero meridian			</td><td>	Numeric	</td><td>	-78.87702582	</td>	</tr>
+<tr>	<td>	Schedule	</td><td>	Days on which the meeting is regularly held			</td><td>	Text	</td><td>	2nd Tuesday of the month	</td>	</tr>
+<tr>	<td>	Start time	</td><td>	Time at which the meeting starts				</td><td>	Time	</td><td>	0.541666667	</td>	</tr>
+<tr>	<td>	End time	</td><td>	Time at which the meeting ends					</td><td>	Time	</td><td>	0.625	</td>	</tr>
 <tr>	<td>	Remote options	</td><td>	Description of options to attend the meeting online		</td><td>	Text	</td><td>	Zoom	</td>	</tr>
-<tr>	<td>	Source	</td><td>	Webpage of the government and public body holding the meeting		</td><td>	Hyperlink	</td><td>	https://www.buncombecounty.org/transparency/boards-commissions/default.aspx	</td>	</tr>
+<tr>	<td>	Source		</td><td>	Webpage of the government and public body holding the meeting	</td><td>	URL	</td><td>	https://www.buncombecounty.org/transparency/boards-commissions/default.aspx	</td>	</tr>
 </table>	
 
       </details>
@@ -139,6 +124,9 @@ data in any spreadsheet program. Once you have collected the data, export it in 
           <h3>Complete a STEEPLE Analysis</h3>
         </summary>
         <p>
+		The STEEPLE Analysis helps you get to know about your community in ways that will help you identify barriers to participating in public meetings. 
+	      
+	      <p>
           The STEEPLE Analysis comes from a tool called the PEST analysis.
           It was developed by Harvard Business Professor Francis J. Aguilar,
           in his 1964 book Scanning the Business Environment. The main idea behind this process is
@@ -150,41 +138,42 @@ data in any spreadsheet program. Once you have collected the data, export it in 
           (example: political next to legal).
         </p>
 
-        <!-- Instuctions -->
+        <!-- Instructions -->
         <details>
           <summary><span>STEEPLE Analysis Instructions:</span></summary>
           <p>Plan to bring your team together for about one hour to complete the STEEPLE Analysis. You will do this
             analysis to help your own local team prepare to evaluate local government meetings.
+		  
+	 <p><strong>Temporary Instructions</strong></p>
+	 <br>
+	 <p><strong>These instructions are for teams starting to use the Toolkit at the DemocracyLab Hackathon on September 10, 2022. 
+	We expect revised instructions to be posted by September 30th. Using these temporary instructions, all members of the Open Meeting Toolkit Baserow group
+	will be able to access your Toolkit data, including STEEPLE Analysis, any contact information you include for team members, and meeting evaluations. 
+	Code for the Carolinas members will only use this information to help you with troubleshooting and to improve the Toolkit, such as revising data types. 
+	We will not analyze your responses or commit to retaining them after December 31, 2022. Keep this in mind when deciding what to include in the Toolkit. 
+	You may want to export your responses and save them locally.</strong>
+		  
           </p>
 
           <p><strong>Prepare Baserow</strong></p>
           <ol>
             <li>Local Team Leaders should make sure that you and/ or at least one member of your team has a <a
-                href="https://baserow.io/" target="_blank">Baserow</a> account. Baserow is free, open source software
-              and the Toolkit is a Baserow template.
+                href="https://baserow.io/" target="_blank">Baserow</a> account and is a member of the Open Meeting Toolkit group. A member of Code for the Carolinas can use your email address to add you to the group and invite you to Baserow. 
+		    Baserow is free, open source software.
             </li>
-            <li><a href="https://baserow.io/user-docs/setting-up-a-group" target="_blank">Set up a Group</a> in Baserow
-              for your team's Open Meeting Toolkit work. Add any team members who want to work in Baserow to your group.
-            </li>
-            <li><a href="https://baserow.io/user-docs/create-a-database" target="_blank">Duplicate</a> the Open Meeting
-              Toolkit database using the three-dot menu.
-              <p><img src="./toolkit-site/assests/how-to-duplicate-the-database-using-the-three-dot-menu.jpg"
+	    <li>Locate the Open Meeting Toolkit database in the sidebar on left side of the screen and <a href="https://baserow.io/user-docs/create-a-database" target="_blank">duplicate</a> it using the three-dot menu.
+              <p><figure><img src="./toolkit-site/assests/how-to-duplicate-the-database-using-the-three-dot-menu.jpg"
                   alt="to duplicate the database click on the three dot menu"></p>
-            </li>
+             <figcaption>Baserow sidebar with Open Meeting Toolkit showing three-dot menu</figcaption>
+		</figure></li>
           </ol>
           <br>
           <p><strong>Fill in STEEPLE Analysis Questions</strong></p>
-          <p>Decide how your team wants to work on the STEEPLE Analysis. Here are three things to consider:</p>
+          <p>Decide how your team wants to work on the STEEPLE Analysis. Here are two things to consider:</p>
           <ol>
             <li>
               Does your team know each other? Lead a round of synchronous or asynchronous introductions to get
               acquainted before you start work on the STEEPLE analysis.
-            </li>
-            <li>
-              Will you work through the whole form together or divide up the questions? Instructions for both approaches
-              are below. The whole team approach may be better if team members want more support with the activity.
-              Dividing the questions, then coming back together to complete the Ethical questions, will probably go
-              faster.
             </li>
             <li>
               How will you collaborate? You may choose to collaborate in a breakout room, in chat, 
@@ -194,37 +183,43 @@ data in any spreadsheet program. Once you have collected the data, export it in 
           <p>The STEEPLE analysis has seven parts. Plan to spend no more than about 10 minutes on each part. You can
             always go back and adjust your responses in Baserow. You will have a text box on the last page of the survey
             (Ethical) where you can include any additional information or clarify your answers.</p>
-<!--To complete the whole form as a team: -->
+<!--To complete the whole form as a team (This is the only option we will recommend at the Hackathon. Commenting out the other option.): -->
           <ol>
-            <p><u><strong>To complete the whole form as a team:</strong></u></p>
             <li>Choose one person to take notes on your team's work.</li>
             <li>From the STEEPLE Analysis table in your database, click on the STEEPLE Social form.
-              <p><img src="./toolkit-site/assests/click-on-STEEPLE-social-form.jpg"
+              <p><figure><img src="./toolkit-site/assests/click-on-STEEPLE-social-form.jpg"
                 alt="click on STEEPLE social form"></p>
-            </li>
+            <figcaption>Baserow STEEPLE Analysis menu showing STEEPLE Social form</figcaption>
+		</figure></li> 
             <li>Use the Share form function to create a link to the STEEPLE Social form. Send that link to the person who will record and submit your team's responses. You may choose to do that yourself as team lead, or have someone else do it. That person does not need a Baserow account.
-              <p><img src="./toolkit-site/assests/share-form-with-team.jpg"
+              <p><figure><img src="./toolkit-site/assests/share-form-with-team.jpg"
                 alt="click on share form to create a link to send to who will record and submit teams responses"></p>
-            </li>
+               <figcaption>Baserow Share form function showing link to share STEEPLE Social form</figcaption>
+		</figure>
+	      </li>
             <li>Complete and submit the pages of the STEEPLE Analysis form in order. While you can't go backward on the form, you can change your responses directly in the STEEPLE Analysis table in Baserow. You can also use the link to generate a new, blank form and complete only the pages you want to change.</li>
           </ol>
+	  
+	  	 <p><strong>Temporary Instructions</strong></p>
+	 <br>
+	 <p><strong>At this time Baserow creates a new row for each part of the STEEPLE form. If you prefer, you can copy and paste organize all data into same row.</strong>
 
 <!--To complete parts of the form as individuals or small teams:-->
-          <br>
+          <!--br>
           <ol>
-            <p><u><strong>To complete parts of the form as individuals or small teams:</strong></u></p>
-            <li>From the STEEPLE Analysis table in your database, click on a STEEPLE form. Use the Share form function to access a link to each form. Send each link to an individual or small team.
-              <p><img src="./toolkit-site/assests/share-form-as-an-individual-or-small-team.jpg"
+            <!--p><u><strong>To complete parts of the form as individuals or small teams:</strong></u></p>
+            <!--li>From the STEEPLE Analysis table in your database, click on a STEEPLE form. Use the Share form function to access a link to each form. Send each link to an individual or small team.
+              <!--p><img src="./toolkit-site/assests/share-form-as-an-individual-or-small-team.jpg"
                 alt="click on share form to create a link to send an individual or small team"></p>
             </li>
-            <li>You might not have seven different people on your team. Here are some suggested ways to group related ways to group forms for smaller teams:
+            <!--li>You might not have seven different people on your team. Here are some suggested ways to group related ways to group forms for smaller teams:
             <ul>
-              <li>Social and Economic (can send the social form only and complete Social and Economic pages)</li>
-              <li>Technical and Environmental</li>
-              <li>Political and Legal</li>
+              <!--li>Social and Economic (can send the social form only and complete Social and Economic pages)</li>
+              <!--li>Technical and Environmental</li>
+              <!--li>Political and Legal</li>
             </ul>
           </li>
-            <li>Even if you work separately on some parts of the analysis, plan to work together to complete the Ethical section.</li>
+            <!--li>Even if you work separately on some parts of the analysis, plan to work together to complete the Ethical section.</li>
           </ol>
         </details>
         
