@@ -78,9 +78,7 @@ public class MeetingFactory
 
     public virtual async Task<Feature> ResolveLocation(string locationQuery)
     {
-        var cleaner = new Regex(@"[^A-Za-z0-9]+"); //library isn't url encoding properly
-        var cleanQuery = cleaner.Replace(locationQuery, " ");
-        var query = new GeocodingParameters { Query = cleanQuery, };
+        var query = new GeocodingParameters { Query = locationQuery, };
         query.Countries.Add(RegionInfo.CurrentRegion);
         var response = await Mapbox.GeocodingAsync(query);
         var best = response.Features.OrderBy(f => f.Relevance).First();
