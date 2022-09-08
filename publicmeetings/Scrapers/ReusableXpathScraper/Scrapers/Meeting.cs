@@ -35,5 +35,5 @@ public record Meeting(
     string MoreInfo) //moreinfo is gone too
 {
     private static int AutoIncrement = 100;
-    public int Id { get; } = AutoIncrement++;
+    public int Id => AutoIncrement++; //GOTCHA this is a dirty hack
 }
