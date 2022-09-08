@@ -90,6 +90,15 @@ public class IntegrationTest : TestLogger
     }
 
     [Fact]
+    public async Task OrangeTest()
+    {
+        var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.Orange).ToListAsync();
+        Log(meetings);
+
+        meetings.Count().Should().BeGreaterThan(10); //like 120
+    }
+
+    [Fact]
     public async Task CountyCoordinateLookup()
     {
         var host = Services.Initalize();

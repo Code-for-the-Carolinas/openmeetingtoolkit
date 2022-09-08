@@ -58,7 +58,7 @@ public class Scraper
 
         var meetingChunks = dom.DocumentNode.SelectNodes(target.RowXPath)
             .ToAsyncEnumerable()
-            .SelectAwait(async r => await ClickThroughIfLink(r));
+            .SelectAwait(async r => await ClickThroughIfLink(r, target.Url));
 
         var meetings = meetingChunks.Select(r =>
         new ScrapedMeeting(
@@ -81,17 +81,21 @@ public class Scraper
 
     }
 
-    public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node)
+    public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node, string ParentUrl)
     {
         var href = node.Attributes["href"];
         if (href == null)
             return node;
 
-        var newHtml = await Client.GetStringAsync(href.Value);
+        var hrefUrl = new Uri(href.Value, UriKind.RelativeOrAbsolute);
+        if (!hrefUrl.IsAbsoluteUri)
+            hrefUrl = new Uri(new Uri(ParentUrl), hrefUrl);
+
+        var newHtml = await Client.GetStringAsync(hrefUrl);
         var newDom = new HtmlDocument();
         newDom.LoadHtml(newHtml);
 
-        newDom.DocumentNode.SetAttributeValue("page-url", href.Value); //hack to pass back new url
+        newDom.DocumentNode.SetAttributeValue("page-url", hrefUrl.ToString()); //hack to pass back new url
 
         return newDom.DocumentNode;
     }
