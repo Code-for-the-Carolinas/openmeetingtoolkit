@@ -46,7 +46,7 @@ public static class MappableMeetingHelper
                 {
                     var mappedResult = await meetingFactory.GetMappableMeeting(result);
 
-                    if(mappedResult.IsCurrent(calendar.Now))
+                    if (mappedResult.IsCurrent(calendar.Now))
                         meetings.Add(mappedResult);
                 }
             }

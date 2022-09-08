@@ -61,8 +61,7 @@ public class IntegrationTest : TestLogger
     [Fact]
     public async Task AveryTest()
     {
-        var meetings = (await Client.ScrapeICal(NorthCarolinaScrapeTarget.Avery))
-            .ToList();
+        var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.Avery).ToListAsync();
 
         Log(meetings);
 

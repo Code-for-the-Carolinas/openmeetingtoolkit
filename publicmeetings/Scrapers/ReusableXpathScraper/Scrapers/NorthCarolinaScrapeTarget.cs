@@ -11,6 +11,10 @@ public record ScrapeTarget(string County, string StateCode, string Url,
 
 }
 
+public record ICalScrapeTarget(string County, string StateCode, string Url) : ScrapeTarget(County, StateCode, Url, "", "", "", "", "")
+{
+}
+
 public record ScrapedMeeting(string County, string Name,
     string Location,
     string Time,
@@ -51,11 +55,6 @@ public static class NorthCarolinaScrapeTarget
             ".//url/uri");
 
     public static ScrapeTarget Avery => //https://www.revize.com/government-cms.html
-        new ScrapeTarget("Avery", "NC",
-            "https://cms3.revize.com/revize/plugins/calendar/editpages/export_events.jsp?webspaceId=averycounty&CAL_ID=1&timezoneid=America/New_York",
-            "",
-            "",
-            "",
-            "",
-            "");
+        new ICalScrapeTarget("Avery", "NC",
+            "https://cms3.revize.com/revize/plugins/calendar/editpages/export_events.jsp?webspaceId=averycounty&CAL_ID=1&timezoneid=America/New_York");
 }
