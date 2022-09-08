@@ -24,22 +24,32 @@ public class Scraper
         Client.DefaultRequestHeaders.UserAgent.Add(commentValue);
     }
 
-    public async Task<IEnumerable<ScrapedMeeting>> ScrapeICal(ScrapeTarget target) //TODO merge with Scrape, have to figure out how to pass through IAsyncEnumerable calls
+    public IAsyncEnumerable<ScrapedMeeting> Scrape(ScrapeTarget target)
+    {
+        if (target is ICalScrapeTarget)
+            return ScrapeICal((ICalScrapeTarget)target);
+        return ScrapeWeb(target);
+    }
+
+    protected async IAsyncEnumerable<ScrapedMeeting> ScrapeICal(ICalScrapeTarget target)
     {
         var ical = (await Client.GetStringAsync(target.Url))
             .Replace("COUNT=-1;", ""); //fix spec violation
 
         var calenadar = Ical.Net.Calendar.Load(ical);
 
-        return calenadar.Events.Select(e => new ScrapedMeeting(
+        foreach (var e in calenadar.Events)
+        {
+            yield return new ScrapedMeeting(
             target.County,
             e.Summary,
             e.Location ?? e.Name,
             e.DtStart.ToString() ?? "",
-            ""));
+            "");
+        }
     }
 
-    public async IAsyncEnumerable<ScrapedMeeting> Scrape(ScrapeTarget target)
+    protected async IAsyncEnumerable<ScrapedMeeting> ScrapeWeb(ScrapeTarget target)
     {
         var html = await Client.GetStringAsync(target.Url);
 
@@ -48,7 +58,7 @@ public class Scraper
 
         var meetingChunks = dom.DocumentNode.SelectNodes(target.RowXPath)
             .ToAsyncEnumerable()
-            .SelectAwait(async r => await ClickThroughIfLink(r));
+            .SelectAwait(async r => await ClickThroughIfLink(r, target.Url));
 
         var meetings = meetingChunks.Select(r =>
         new ScrapedMeeting(
@@ -71,17 +81,21 @@ public class Scraper
 
     }
 
-    public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node)
+    public async Task<HtmlNode> ClickThroughIfLink(HtmlNode node, string ParentUrl)
     {
         var href = node.Attributes["href"];
         if (href == null)
             return node;
 
-        var newHtml = await Client.GetStringAsync(href.Value);
+        var hrefUrl = new Uri(href.Value, UriKind.RelativeOrAbsolute);
+        if (!hrefUrl.IsAbsoluteUri)
+            hrefUrl = new Uri(new Uri(ParentUrl), hrefUrl);
+
+        var newHtml = await Client.GetStringAsync(hrefUrl);
         var newDom = new HtmlDocument();
         newDom.LoadHtml(newHtml);
 
-        newDom.DocumentNode.SetAttributeValue("page-url", href.Value); //hack to pass back new url
+        newDom.DocumentNode.SetAttributeValue("page-url", hrefUrl.ToString()); //hack to pass back new url
 
         return newDom.DocumentNode;
     }

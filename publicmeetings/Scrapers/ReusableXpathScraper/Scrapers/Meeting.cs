@@ -8,6 +8,13 @@ public record MappableMeetingCollection(IEnumerable<MappableMeeting> Features)
 public record MappableMeeting(Meeting Properties, Location Geometry)
 {
     public string Type { get; init; } = "Feature";
+
+    public bool IsCurrent(DateTime currentDate)
+    {
+        var schedule = new TempralExpression(Properties.Schedule);
+
+        return schedule.NextOccurance(currentDate).HasValue;
+    }
 }
 
 public record Location(double Longitude, double Latitude)
@@ -28,5 +35,5 @@ public record Meeting(
     string MoreInfo) //moreinfo is gone too
 {
     private static int AutoIncrement = 100;
-    public int Id { get; } = AutoIncrement++;
+    public int Id => AutoIncrement++; //GOTCHA this is a dirty hack
 }

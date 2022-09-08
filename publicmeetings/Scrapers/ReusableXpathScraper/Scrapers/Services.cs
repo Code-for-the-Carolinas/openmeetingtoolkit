@@ -19,6 +19,7 @@ public static class Services
             .AddLocalization()
             .AddHttpClient()
             .AddMapBoxServices(o => o.UseKey(config))
+            .AddScoped<CalendarService>()
             .AddScoped<MeetingFactory>()
             .AddScoped<CachingMeetingFactory>()
             .AddScoped(s => new Scraper(s.GetRequiredService<HttpClient>()))

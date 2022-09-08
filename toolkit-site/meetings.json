@@ -11,7 +11,7 @@
         "end": "",
         "remote": "Meetings are live-streamed on the City\u2019s YouTube Channel https://www.youtube.com/user/CityofAsheville and our Virtual Engagement Hub https://publicinput.com/hub/88 . Meeting are also streamed to Spectrum Cable Channel 193.",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 414
+        "id": 100
       },
       "geometry": {
         "longitude": -82.554016,
@@ -35,7 +35,7 @@
         "end": "2:30 PM",
         "remote": "",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 415
+        "id": 101
       },
       "geometry": {
         "longitude": -82.53,
@@ -59,7 +59,7 @@
         "end": "",
         "remote": "Zoom",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 416
+        "id": 102
       },
       "geometry": {
         "longitude": -82.559814,
@@ -83,7 +83,7 @@
         "end": "7:00 PM",
         "remote": "855-925-2801 Meeting code: 9236 \r\nEmail UX8750@PublicInput.com",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 417
+        "id": 103
       },
       "geometry": {
         "longitude": -82.559814,
@@ -107,7 +107,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 418
+        "id": 104
       },
       "geometry": {
         "longitude": -82.621802,
@@ -131,7 +131,7 @@
         "end": "",
         "remote": "Watch live through the Engagement Hub: Public Engagement Hub or watch live on the City YouTube Channel.\n\nListen live by calling 855-925-2801 Enter Code 9409.\n\nPre-recorded voicemail comments by calling 855-925-2801 Enter Code 9409.  Voicemail comments will be accepted until Wednesday, April 13 at 5:00 PM\n\nWritten public comments by email \u2013 AAHCAVL@PublicInput.com.",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 419
+        "id": 105
       },
       "geometry": {
         "longitude": -82.554016,
@@ -155,7 +155,7 @@
         "end": "12:00 PM",
         "remote": "Zoom",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 420
+        "id": 106
       },
       "geometry": {
         "longitude": -82.569736,
@@ -179,7 +179,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 421
+        "id": 107
       },
       "geometry": {
         "longitude": -82.554016,
@@ -203,7 +203,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 422
+        "id": 108
       },
       "geometry": {
         "longitude": -82.554016,
@@ -227,7 +227,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 423
+        "id": 109
       },
       "geometry": {
         "longitude": -82.492382,
@@ -251,7 +251,7 @@
         "end": "",
         "remote": "Phone: Voicemail comments may be pre-recorded by calling 855-925-2801 and entering code 9273 when prompted (available until 5:00 PM the day before the meeting).\nEmail: Written comments may be submitted to AVLPZC@PublicInput.com (available until 5:00 PM the day before the meeting).",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 424
+        "id": 110
       },
       "geometry": {
         "longitude": -82.554016,
@@ -275,7 +275,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
-        "id": 425
+        "id": 111
       },
       "geometry": {
         "longitude": -82.548778,
@@ -299,7 +299,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 426
+        "id": 112
       },
       "geometry": {
         "longitude": -79.3896838690365,
@@ -323,7 +323,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 427
+        "id": 113
       },
       "geometry": {
         "longitude": -79.3896838690365,
@@ -347,7 +347,7 @@
         "end": "",
         "remote": "Video recordings of our Commissioners Meetings both online and on the local Time-Warner Public Access Channels.  The television broadcast of the meetings will occur on the 2nd and 4th Wednesdays of each month at 10 PM.  Online videos will be made available after processing the videos through Youtube, our service providers for multimedia.  The meetings are now streamed live.",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/",
-        "id": 428
+        "id": 114
       },
       "geometry": {
         "longitude": -79.814381,
@@ -371,7 +371,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/adult-care-home-community-advisory-committee/",
-        "id": 429
+        "id": 115
       },
       "geometry": {
         "longitude": -79.451938,
@@ -395,7 +395,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/agricultural-advisory-board/",
-        "id": 430
+        "id": 116
       },
       "geometry": {
         "longitude": -79.487215,
@@ -419,7 +419,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-beautiful-commission/",
-        "id": 431
+        "id": 117
       },
       "geometry": {
         "longitude": -79.4,
@@ -443,7 +443,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-community-college-board-of-trustees/",
-        "id": 432
+        "id": 118
       },
       "geometry": {
         "longitude": -79.35742400000001,
@@ -467,7 +467,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/alamance-county-board-of-adjustment/",
-        "id": 433
+        "id": 119
       },
       "geometry": {
         "longitude": -79.4,
@@ -491,7 +491,7 @@
         "end": "",
         "remote": "https://www.youtube.com/channel/UC1QADkhkyUpac9rMs42imjA",
         "moreInfo": "https://www.alamance-nc.com/planningdept/boards/planning-board/",
-        "id": 434
+        "id": 120
       },
       "geometry": {
         "longitude": -79.4,
@@ -515,7 +515,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/senior-services-committee/",
-        "id": 435
+        "id": 121
       },
       "geometry": {
         "longitude": -79.451938,
@@ -539,7 +539,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-county-transportation-authority/",
-        "id": 436
+        "id": 122
       },
       "geometry": {
         "longitude": -79.814381,
@@ -563,7 +563,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/altamahaw-ossipee-fire-district-commission/",
-        "id": 437
+        "id": 123
       },
       "geometry": {
         "longitude": -79.507246,
@@ -587,7 +587,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/animal-review-board/",
-        "id": 438
+        "id": 124
       },
       "geometry": {
         "longitude": -79.4,
@@ -611,7 +611,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/board-of-equalization-and-review/",
-        "id": 439
+        "id": 125
       },
       "geometry": {
         "longitude": -79.790701,
@@ -635,7 +635,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/healthdept/board-of-health/",
-        "id": 440
+        "id": 126
       },
       "geometry": {
         "longitude": -79.4,
@@ -659,7 +659,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/burlington-board-of-adjustment/",
-        "id": 441
+        "id": 127
       },
       "geometry": {
         "longitude": -79.437799,
@@ -683,7 +683,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/burlington-planning-and-zoning-commission/",
-        "id": 442
+        "id": 128
       },
       "geometry": {
         "longitude": -79.436653,
@@ -707,7 +707,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/burlington-alamance-airport-authority/",
-        "id": 443
+        "id": 129
       },
       "geometry": {
         "longitude": -79.476222,
@@ -731,7 +731,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/e-m-holt-fire-district-commission/",
-        "id": 444
+        "id": 130
       },
       "geometry": {
         "longitude": -79.4,
@@ -755,7 +755,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/ems-peer-review-committee/",
-        "id": 445
+        "id": 131
       },
       "geometry": {
         "longitude": -79.355225,
@@ -779,7 +779,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/eli-whitney-fire-district-commission/",
-        "id": 446
+        "id": 132
       },
       "geometry": {
         "longitude": -79.307239,
@@ -803,7 +803,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/elon-fire-district-commission/",
-        "id": 447
+        "id": 133
       },
       "geometry": {
         "longitude": -79.50669,
@@ -827,7 +827,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/elon-planning-and-zoning-commission/",
-        "id": 448
+        "id": 134
       },
       "geometry": {
         "longitude": -79.50669,
@@ -851,7 +851,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/faucette-fire-district-commission/",
-        "id": 449
+        "id": 135
       },
       "geometry": {
         "longitude": -79.520187,
@@ -875,7 +875,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/gibsonville-board-of-adjustment/",
-        "id": 450
+        "id": 136
       },
       "geometry": {
         "longitude": -79.543097,
@@ -899,7 +899,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/gibsonville-planning-board/",
-        "id": 451
+        "id": 137
       },
       "geometry": {
         "longitude": -79.543097,
@@ -923,7 +923,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/graham-board-of-adjustment/",
-        "id": 452
+        "id": 138
       },
       "geometry": {
         "longitude": -79.4,
@@ -947,7 +947,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/graham-planning-board/",
-        "id": 453
+        "id": 139
       },
       "geometry": {
         "longitude": -79.400576,
@@ -971,7 +971,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/haw-river-fire-district-commission/",
-        "id": 454
+        "id": 140
       },
       "geometry": {
         "longitude": -79.364186,
@@ -995,7 +995,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/haw-river-planning-and-zoning-commission/",
-        "id": 455
+        "id": 141
       },
       "geometry": {
         "longitude": -79.364186,
@@ -1019,7 +1019,7 @@
         "end": "",
         "remote": "https://www.youtube.com/channel/UCdav77c1nQtsM1tnx5rr0yQ",
         "moreInfo": "https://www.alamance-nc.com/planningdept/boards/historic-properties-commission/",
-        "id": 456
+        "id": 142
       },
       "geometry": {
         "longitude": -79.4,
@@ -1043,7 +1043,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/jury-commission/",
-        "id": 457
+        "id": 143
       },
       "geometry": {
         "longitude": -79.4,
@@ -1067,7 +1067,7 @@
         "end": "9:30 AM",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/justice-advisory-council/",
-        "id": 458
+        "id": 144
       },
       "geometry": {
         "longitude": -79.4,
@@ -1091,7 +1091,7 @@
         "end": "2:00 PM",
         "remote": "Please contact Karen Collins, JCPC Administrative Assistant, kcjcpc@outlook.comfor virtual meeting links.",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/juvenile-crime-prevention-council/",
-        "id": 459
+        "id": 145
       },
       "geometry": {
         "longitude": -79.400576,
@@ -1115,7 +1115,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/library-committee/",
-        "id": 460
+        "id": 146
       },
       "geometry": {
         "longitude": -78.888448,
@@ -1139,7 +1139,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/local-emergency-planning-committee-lepc-for-hazardous-chemicals/",
-        "id": 461
+        "id": 147
       },
       "geometry": {
         "longitude": -79.4,
@@ -1163,7 +1163,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/mebane-board-of-adjustment/",
-        "id": 462
+        "id": 148
       },
       "geometry": {
         "longitude": -79.266962,
@@ -1187,7 +1187,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/mebane-fire-department/",
-        "id": 463
+        "id": 149
       },
       "geometry": {
         "longitude": -79.291313,
@@ -1211,7 +1211,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/mebane-planning-board/",
-        "id": 464
+        "id": 150
       },
       "geometry": {
         "longitude": -79.266962,
@@ -1235,7 +1235,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/north-central-fire-district-commission/",
-        "id": 465
+        "id": 151
       },
       "geometry": {
         "longitude": -79.4,
@@ -1259,7 +1259,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/north-eastern-fire-district-commission/",
-        "id": 466
+        "id": 152
       },
       "geometry": {
         "longitude": -79.4,
@@ -1283,7 +1283,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/nursing-home-community-advisory-committee/",
-        "id": 467
+        "id": 153
       },
       "geometry": {
         "longitude": -79.451938,
@@ -1307,7 +1307,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/public-transit-advisory-commission-ptac/",
-        "id": 468
+        "id": 154
       },
       "geometry": {
         "longitude": -79.4,
@@ -1331,7 +1331,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/recreation/home/recreation-and-parks-commission/",
-        "id": 469
+        "id": 155
       },
       "geometry": {
         "longitude": -79.4,
@@ -1355,7 +1355,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/snow-camp-fire-department/",
-        "id": 470
+        "id": 156
       },
       "geometry": {
         "longitude": -79.43002,
@@ -1379,7 +1379,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/dss/social-services-board/",
-        "id": 471
+        "id": 157
       },
       "geometry": {
         "longitude": -79.4,
@@ -1403,7 +1403,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/swepsonville-fire-district-commission/",
-        "id": 472
+        "id": 158
       },
       "geometry": {
         "longitude": -79.520187,
@@ -1427,7 +1427,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/tourism-development-authority/",
-        "id": 473
+        "id": 159
       },
       "geometry": {
         "longitude": -78.902268,
@@ -1451,7 +1451,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/veterans-service-committee/",
-        "id": 474
+        "id": 160
       },
       "geometry": {
         "longitude": -79.4,
@@ -1475,7 +1475,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/village-of-alamance-planning-board/",
-        "id": 475
+        "id": 161
       },
       "geometry": {
         "longitude": -79.485855,
@@ -1499,7 +1499,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/workforce-development-board/",
-        "id": 476
+        "id": 162
       },
       "geometry": {
         "longitude": -79.485855,
@@ -1523,7 +1523,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 477
+        "id": 163
       },
       "geometry": {
         "longitude": -79.3896838690365,
@@ -1547,7 +1547,7 @@
         "end": "Varies, usually 09:00 AM or 06:45 PM",
         "remote": "Site states \u0022The meetings are broadcast live on CCNCTV Spectrum Cable Channel 5. The meetings are rebroadcast the Wednesday following the meeting at 7:00 p.m. and Friday following the meeting at 10:30 a.m.\u0022  Recordings are available on Youtube here: https://www.youtube.com/user/CumberlandCountyNC/videos",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/meetings",
-        "id": 478
+        "id": 164
       },
       "geometry": {
         "longitude": -78.83,
@@ -1571,7 +1571,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 479
+        "id": 165
       },
       "geometry": {
         "longitude": -78.798912,
@@ -1595,7 +1595,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 480
+        "id": 166
       },
       "geometry": {
         "longitude": -78.83,
@@ -1619,7 +1619,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 481
+        "id": 167
       },
       "geometry": {
         "longitude": -78.974686,
@@ -1643,7 +1643,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 482
+        "id": 168
       },
       "geometry": {
         "longitude": -78.885238,
@@ -1667,7 +1667,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 483
+        "id": 169
       },
       "geometry": {
         "longitude": -78.889539,
@@ -1691,7 +1691,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 484
+        "id": 170
       },
       "geometry": {
         "longitude": -78.814741,
@@ -1715,7 +1715,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 485
+        "id": 171
       },
       "geometry": {
         "longitude": -78.83,
@@ -1739,7 +1739,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 486
+        "id": 172
       },
       "geometry": {
         "longitude": -78.83,
@@ -1763,7 +1763,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 487
+        "id": 173
       },
       "geometry": {
         "longitude": -77.925838,
@@ -1787,7 +1787,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 488
+        "id": 174
       },
       "geometry": {
         "longitude": -78.83,
@@ -1811,7 +1811,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 489
+        "id": 175
       },
       "geometry": {
         "longitude": -78.83,
@@ -1835,7 +1835,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 490
+        "id": 176
       },
       "geometry": {
         "longitude": -78.83,
@@ -1859,7 +1859,7 @@
         "end": "03:15 PM at the latest",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 491
+        "id": 177
       },
       "geometry": {
         "longitude": -78.83,
@@ -1883,7 +1883,7 @@
         "end": "11:00 AM",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 492
+        "id": 178
       },
       "geometry": {
         "longitude": -78.83,
@@ -1907,7 +1907,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 493
+        "id": 179
       },
       "geometry": {
         "longitude": -78.890066,
@@ -1931,7 +1931,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 494
+        "id": 180
       },
       "geometry": {
         "longitude": -78.83,
@@ -1955,7 +1955,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 495
+        "id": 181
       },
       "geometry": {
         "longitude": -78.885238,
@@ -1979,7 +1979,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 496
+        "id": 182
       },
       "geometry": {
         "longitude": -78.874542,
@@ -2003,7 +2003,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 497
+        "id": 183
       },
       "geometry": {
         "longitude": -78.83,
@@ -2027,7 +2027,7 @@
         "end": "4:30 PM",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 498
+        "id": 184
       },
       "geometry": {
         "longitude": -78.9267805,
@@ -2051,7 +2051,7 @@
         "end": "7:00 PM",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 499
+        "id": 185
       },
       "geometry": {
         "longitude": -78.878292,
@@ -2075,7 +2075,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 500
+        "id": 186
       },
       "geometry": {
         "longitude": -78.83,
@@ -2099,7 +2099,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 501
+        "id": 187
       },
       "geometry": {
         "longitude": -78.883411,
@@ -2123,7 +2123,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 502
+        "id": 188
       },
       "geometry": {
         "longitude": -78.83,
@@ -2147,7 +2147,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 503
+        "id": 189
       },
       "geometry": {
         "longitude": -78.885238,
@@ -2171,7 +2171,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 504
+        "id": 190
       },
       "geometry": {
         "longitude": -78.83,
@@ -2195,7 +2195,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 505
+        "id": 191
       },
       "geometry": {
         "longitude": -78.987023,
@@ -2219,7 +2219,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 506
+        "id": 192
       },
       "geometry": {
         "longitude": -70.258169,
@@ -2243,7 +2243,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 507
+        "id": 193
       },
       "geometry": {
         "longitude": -78.83,
@@ -2267,7 +2267,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 508
+        "id": 194
       },
       "geometry": {
         "longitude": -78.83,
@@ -2291,7 +2291,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 509
+        "id": 195
       },
       "geometry": {
         "longitude": -78.83,
@@ -2315,7 +2315,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 510
+        "id": 196
       },
       "geometry": {
         "longitude": -77.925838,
@@ -2339,7 +2339,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 511
+        "id": 197
       },
       "geometry": {
         "longitude": -78.83,
@@ -2363,7 +2363,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 512
+        "id": 198
       },
       "geometry": {
         "longitude": -78.885238,
@@ -2387,7 +2387,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 513
+        "id": 199
       },
       "geometry": {
         "longitude": -79.3896838690365,
@@ -2411,7 +2411,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://votedavidsoncountync.com/home-page",
-        "id": 514
+        "id": 200
       },
       "geometry": {
         "longitude": -80.21,
@@ -2435,7 +2435,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.co.davidson.nc.us/467/Board-of-Health",
-        "id": 515
+        "id": 201
       },
       "geometry": {
         "longitude": -80.059071,
@@ -2459,7 +2459,7 @@
         "end": "6:00 PM",
         "remote": "",
         "moreInfo": "https://www.co.davidson.nc.us/690/Social-Services-Board-Information",
-        "id": 516
+        "id": 202
       },
       "geometry": {
         "longitude": -80.21,
@@ -2483,7 +2483,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 517
+        "id": 203
       },
       "geometry": {
         "longitude": -80.21,
@@ -2507,7 +2507,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 518
+        "id": 204
       },
       "geometry": {
         "longitude": -79.3896838690365,
@@ -2531,7 +2531,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=2",
-        "id": 519
+        "id": 205
       },
       "geometry": {
         "longitude": -80.26,
@@ -2555,7 +2555,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=75",
-        "id": 520
+        "id": 206
       },
       "geometry": {
         "longitude": -80.280823,
@@ -2579,7 +2579,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=5",
-        "id": 521
+        "id": 207
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2603,7 +2603,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=43",
-        "id": 522
+        "id": 208
       },
       "geometry": {
         "longitude": -80.232435,
@@ -2627,7 +2627,7 @@
         "end": "12:00 PM",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=13",
-        "id": 523
+        "id": 209
       },
       "geometry": {
         "longitude": -80.26,
@@ -2651,7 +2651,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=15",
-        "id": 524
+        "id": 210
       },
       "geometry": {
         "longitude": -80.26,
@@ -2675,7 +2675,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=87",
-        "id": 525
+        "id": 211
       },
       "geometry": {
         "longitude": -80.0999,
@@ -2699,7 +2699,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=44",
-        "id": 526
+        "id": 212
       },
       "geometry": {
         "longitude": -80.2593,
@@ -2723,7 +2723,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=23",
-        "id": 527
+        "id": 213
       },
       "geometry": {
         "longitude": -80.26,
@@ -2747,7 +2747,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=26",
-        "id": 528
+        "id": 214
       },
       "geometry": {
         "longitude": -80.26,
@@ -2771,7 +2771,7 @@
         "end": "9:30 AM",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=86",
-        "id": 529
+        "id": 215
       },
       "geometry": {
         "longitude": -80.26,
@@ -2795,7 +2795,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=29",
-        "id": 530
+        "id": 216
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2819,7 +2819,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=30",
-        "id": 531
+        "id": 217
       },
       "geometry": {
         "longitude": -80.073653,
@@ -2843,7 +2843,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=84",
-        "id": 532
+        "id": 218
       },
       "geometry": {
         "longitude": -80.26,
@@ -2867,7 +2867,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=89",
-        "id": 533
+        "id": 219
       },
       "geometry": {
         "longitude": -80.26,
@@ -2891,7 +2891,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=39",
-        "id": 534
+        "id": 220
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2915,7 +2915,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=40",
-        "id": 535
+        "id": 221
       },
       "geometry": {
         "longitude": -80.073653,
@@ -2939,7 +2939,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=41",
-        "id": 536
+        "id": 222
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2963,7 +2963,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tracy Warner, Ombudsman, (336) 904-0300",
-        "id": 537
+        "id": 223
       },
       "geometry": {
         "longitude": -79.451938,
@@ -2987,7 +2987,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Crystal Norman\u00A0 (336) 904-0300",
-        "id": 538
+        "id": 224
       },
       "geometry": {
         "longitude": -79.451938,
@@ -3011,7 +3011,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/board-of-health/",
-        "id": 539
+        "id": 225
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3035,7 +3035,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tracy Warner, Ombudsman, (336) 904-0300",
-        "id": 540
+        "id": 226
       },
       "geometry": {
         "longitude": -79.451938,
@@ -3059,7 +3059,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/social-services-board/",
-        "id": 541
+        "id": 227
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3083,7 +3083,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tammy Wall 336-629-5141",
-        "id": 542
+        "id": 228
       },
       "geometry": {
         "longitude": -79.81,
@@ -3107,7 +3107,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Sheriff Terry Johnson\u00A0 336-570-6300",
-        "id": 543
+        "id": 229
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3131,7 +3131,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Meredith Edwards, Clerk of Court 336-570-5200",
-        "id": 544
+        "id": 230
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3155,7 +3155,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/justice-advisory-council/",
-        "id": 545
+        "id": 231
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3179,7 +3179,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/juvenile-crime-prevention-council/",
-        "id": 546
+        "id": 232
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3203,7 +3203,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/local-emergency-planning-committee-lepc-for-hazardous-chemicals/",
-        "id": 547
+        "id": 233
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3227,7 +3227,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tonya Caddle 336-570-4052",
-        "id": 548
+        "id": 234
       },
       "geometry": {
         "longitude": -79.502324,
@@ -3251,7 +3251,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/alamance-county-planning-board/",
-        "id": 549
+        "id": 235
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3275,7 +3275,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Jeremy Akins, Tax Administrator\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-228-1312",
-        "id": 550
+        "id": 236
       },
       "geometry": {
         "longitude": -78.678044,
@@ -3299,7 +3299,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Conrad Olmedo 336-513-5416",
-        "id": 551
+        "id": 237
       },
       "geometry": {
         "longitude": -79.437799,
@@ -3323,7 +3323,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Conrad Olmedo 336-513-5416",
-        "id": 552
+        "id": 238
       },
       "geometry": {
         "longitude": -79.436653,
@@ -3347,7 +3347,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "DiAnne Enoch, Clerk\u00A0 336-584-3601",
-        "id": 553
+        "id": 239
       },
       "geometry": {
         "longitude": -79.50669,
@@ -3371,7 +3371,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben Baxley, Town Manager\u00A0\u00A0 336-449-4144",
-        "id": 554
+        "id": 240
       },
       "geometry": {
         "longitude": -79.543097,
@@ -3395,7 +3395,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben Baxley, Town Manager\u00A0\u00A0 336-449-4144",
-        "id": 555
+        "id": 241
       },
       "geometry": {
         "longitude": -79.543097,
@@ -3419,7 +3419,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Justin Snyder 336-570-6700",
-        "id": 556
+        "id": 242
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3443,7 +3443,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Justin Snyder 336-570-6700",
-        "id": 557
+        "id": 243
       },
       "geometry": {
         "longitude": -79.400576,
@@ -3467,7 +3467,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Sean Tencer, Town Manager\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-578-0784",
-        "id": 558
+        "id": 244
       },
       "geometry": {
         "longitude": -79.364186,
@@ -3491,7 +3491,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Sean Tencer, Town Manager\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-578-0784",
-        "id": 559
+        "id": 245
       },
       "geometry": {
         "longitude": -79.364186,
@@ -3515,7 +3515,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/historic-properties-commission/",
-        "id": 560
+        "id": 246
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3539,7 +3539,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "919-563-9990",
-        "id": 561
+        "id": 247
       },
       "geometry": {
         "longitude": -79.266962,
@@ -3563,7 +3563,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "919-563-9990",
-        "id": 562
+        "id": 248
       },
       "geometry": {
         "longitude": -79.266962,
@@ -3587,7 +3587,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben York, Clerk\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-226-0033",
-        "id": 563
+        "id": 249
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3611,7 +3611,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben York, Clerk\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-226-0033",
-        "id": 564
+        "id": 250
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3635,7 +3635,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Brad Moore\u00A0\u00A0\u00A0\u00A0 336-290-0380",
-        "id": 565
+        "id": 251
       },
       "geometry": {
         "longitude": -79.487215,
@@ -3659,7 +3659,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 566
+        "id": 252
       },
       "geometry": {
         "longitude": -79.355225,
@@ -3683,7 +3683,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Dr. Algie C. Gatewood, President\u00A0\u00A0 336-506-4150",
-        "id": 567
+        "id": 253
       },
       "geometry": {
         "longitude": -79.35742400000001,
@@ -3707,7 +3707,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Peter Murphy 336-222-0565",
-        "id": 568
+        "id": 254
       },
       "geometry": {
         "longitude": -79.484225,
@@ -3731,7 +3731,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Dan Danieley, Executive Director\u00A0\u00A0\u00A0\u00A0\u00A0 336-227-0771",
-        "id": 569
+        "id": 255
       },
       "geometry": {
         "longitude": -79.476222,
@@ -3755,7 +3755,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Susana Goldman, Director of Alamance County Public Libraries 336-229-3588",
-        "id": 570
+        "id": 256
       },
       "geometry": {
         "longitude": -78.888448,
@@ -3779,7 +3779,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/public-transit-advisory-commission-ptac/",
-        "id": 571
+        "id": 257
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3803,7 +3803,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/recreation-and-parks-commission/",
-        "id": 572
+        "id": 258
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3827,7 +3827,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Grace VandeViser, Executive Director (336) 570-1444",
-        "id": 573
+        "id": 259
       },
       "geometry": {
         "longitude": -78.902268,
@@ -3851,7 +3851,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tammy Crawford, Veterans Service Officer\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-570-6763",
-        "id": 574
+        "id": 260
       },
       "geometry": {
         "longitude": -79.486391,
@@ -3869,20 +3869,20 @@
         "government": "Cumberland",
         "publicbody": "A.B.C. Board",
         "location": "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
-        "address": "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
+        "address": "Person Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 575
+        "id": 261
       },
       "geometry": {
-        "longitude": -78.870995,
-        "latitude": 35.049355,
+        "longitude": -78.86733,
+        "latitude": 35.04916,
         "coordinates": [
-          -78.870995,
-          35.049355
+          -78.86733,
+          35.04916
         ],
         "type": "Point"
       },
@@ -3899,7 +3899,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 576
+        "id": 262
       },
       "geometry": {
         "longitude": -78.83,
@@ -3917,13 +3917,13 @@
         "government": "Cumberland",
         "publicbody": "Animal Services Board",
         "location": "Animal\u00A0Services Department \n4704 Corporation Drive \nFayetteville, NC",
-        "address": "Animal\u00A0Services Department \n4704 Corporation Drive \nFayetteville, NC",
+        "address": "4704 Corporation Drive, Fayetteville, North Carolina 28306, United States",
         "schedule": "First Monday of every other month (Feb./Apr./June/Aug./Oct./Dec.) at 6:00 p.m. (No meetings held on first or last day of any month.) The average length of a meeting varies.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 577
+        "id": 263
       },
       "geometry": {
         "longitude": -78.889975,
@@ -3941,13 +3941,13 @@
         "government": "Cumberland",
         "publicbody": "Board of Adjustment",
         "location": "Historic Cumberland County Courthouse, Hearing Room #3 \n130 Gillespie Street \nFayetteville, NC",
-        "address": "Historic Cumberland County Courthouse, Hearing Room #3 \n130 Gillespie Street \nFayetteville, NC",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Third Thursday of each month at 6:00 p.m. The average length of a meeting varies. Each member spends approximately three hours per month in service to this board.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 578
+        "id": 264
       },
       "geometry": {
         "longitude": -78.87914,
@@ -3965,20 +3965,20 @@
         "government": "Cumberland",
         "publicbody": "Board of Health",
         "location": "Cumberland County Health Department \nBoard Room \n1235 Ramsey Street \nFayetteville, NC",
-        "address": "Cumberland County Health Department \nBoard Room \n1235 Ramsey Street \nFayetteville, NC",
+        "address": "Ramsey Street, Fayetteville, North Carolina 28311, United States",
         "schedule": "Third Tuesday of each month at 6:00 p.m. July and September meetings take place only if desired.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 579
+        "id": 265
       },
       "geometry": {
-        "longitude": -78.88205,
-        "latitude": 35.07386,
+        "longitude": -78.85364,
+        "latitude": 35.16869,
         "coordinates": [
-          -78.88205,
-          35.07386
+          -78.85364,
+          35.16869
         ],
         "type": "Point"
       },
@@ -3989,13 +3989,13 @@
         "government": "Cumberland",
         "publicbody": "Cape Fear Valley Health System Board of Trustees",
         "location": "Cape Fear Valley Health System \nBoard Room First Floor/Administrative Area \n1638 Owen Drive\nFayetteville, NC",
-        "address": "Cape Fear Valley Health System \nBoard Room First Floor/Administrative Area \n1638 Owen Drive\nFayetteville, NC",
+        "address": "Cape Fear, North Carolina, United States",
         "schedule": "Last Wednesday of each month at\u00A05:30 p.m. (No April or July Meeting; November \u0026 December meeting combined)",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 580
+        "id": 266
       },
       "geometry": {
         "longitude": -78.814741,
@@ -4013,13 +4013,13 @@
         "government": "Cumberland",
         "publicbody": "Civic Center Commission",
         "location": "Cumberland County Civic Center \nCrown Coliseum Board Room \n1960 Coliseum Drive \nFayetteville, NC",
-        "address": "Cumberland County Civic Center \nCrown Coliseum Board Room \n1960 Coliseum Drive \nFayetteville, NC",
+        "address": "Cumberland County, North Carolina, United States",
         "schedule": "Fourth Tuesday of each month at 5:30 p.m. The Board is also divided into three subcommittees that meet on a monthly basis: Finance Committee, Capital Improvements Committee, and Marketing and Sales Committee.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 581
+        "id": 267
       },
       "geometry": {
         "longitude": -78.83,
@@ -4043,7 +4043,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 582
+        "id": 268
       },
       "geometry": {
         "longitude": -76.98508,
@@ -4061,13 +4061,13 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Community Child Protection/Fatality Prevention Team",
         "location": "Department of Social Services Building\n4th Floor, Room 440 \n1225 Ramsey Street\nFayetteville, NC",
-        "address": "Department of Social Services Building\n4th Floor, Room 440 \n1225 Ramsey Street\nFayetteville, NC",
+        "address": "1225 Ramsey Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Third Thursday of each month at 3:00 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 583
+        "id": 269
       },
       "geometry": {
         "longitude": -78.88209,
@@ -4085,13 +4085,13 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Finance Corporation",
         "location": "Cumberland County Courthouse, Room 564 \n117 Dick Street \nFayetteville, NC",
-        "address": "Cumberland County Courthouse, Room 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Meetings are held on an as needed basis usually at 12:00 p.m. The length of the meetings varies.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 584
+        "id": 270
       },
       "geometry": {
         "longitude": -78.87624,
@@ -4115,7 +4115,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 585
+        "id": 271
       },
       "geometry": {
         "longitude": -78.890066,
@@ -4133,13 +4133,13 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Industrial Facilities and Pollution Control Financing Authority",
         "location": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
-        "address": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Meetings are held on an as needed basis usually at 12:00 PM. The length of the meetings varies.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 586
+        "id": 272
       },
       "geometry": {
         "longitude": -78.87624,
@@ -4157,20 +4157,20 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Juvenile Crime Prevention Council",
         "location": "Cumberland County CommuniCare, \nLower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
-        "address": "Cumberland County CommuniCare, \nLower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
+        "address": "Bradford Avenue, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Wednesday of each month at 1:15 p.m. Meetings are normally one to two hours in length.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 587
+        "id": 273
       },
       "geometry": {
-        "longitude": -78.89155,
-        "latitude": 35.055465,
+        "longitude": -78.89288,
+        "latitude": 35.05289,
         "coordinates": [
-          -78.89155,
-          35.055465
+          -78.89288,
+          35.05289
         ],
         "type": "Point"
       },
@@ -4187,7 +4187,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 588
+        "id": 274
       },
       "geometry": {
         "longitude": -76.98508,
@@ -4211,7 +4211,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 589
+        "id": 275
       },
       "geometry": {
         "longitude": -79.001217,
@@ -4229,13 +4229,13 @@
         "government": "Cumberland",
         "publicbody": "Equalization and Review Board",
         "location": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
-        "address": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "2nd Wednesday of every month (except July) at 3:00 p.m. The Regular Board of Equalization and Review holds its first meeting each year no earlier than the first Monday in April and no later than the first Monday in May. In a year in which a countywide reappraisal (revaluation) is not conducted, the Board must complete its duties on or before the third Monday after they begin their duties, unless in its opinion a longer period is required. However, in no event may they sit longer than July 1st. In a year in which a revaluation is conducted, the Board may sit until December 31st.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 590
+        "id": 276
       },
       "geometry": {
         "longitude": -78.87624,
@@ -4253,13 +4253,13 @@
         "government": "Cumberland",
         "publicbody": "Farm Advisory Board",
         "location": "Historic Cumberland County Courthouse, \nRoom 107C \n130 Gillespie Street \nFayetteville, NC",
-        "address": "Historic Cumberland County Courthouse, \nRoom 107C \n130 Gillespie Street \nFayetteville, NC",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Quarterly - second Tuesday of the first month at 7:00 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 591
+        "id": 277
       },
       "geometry": {
         "longitude": -78.87914,
@@ -4277,13 +4277,13 @@
         "government": "Cumberland",
         "publicbody": "Fayetteville Area Convention and Visitors Bureau Board of Directors",
         "location": "Fayetteville Area Convention and Visitors Bureau \nBoard Room\n245 Person Street\n\nFayetteville, NC",
-        "address": "Fayetteville Area Convention and Visitors Bureau \nBoard Room\n245 Person Street\n\nFayetteville, NC",
+        "address": "Fayetteville Area Convention and Visitors Bureau, 245 Person St, Fayetteville, North Carolina 28301, United States",
         "schedule": "Quarterly on 4th Wednesday (starting in January) at 12:00 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 592
+        "id": 278
       },
       "geometry": {
         "longitude": -78.874542,
@@ -4301,13 +4301,13 @@
         "government": "Cumberland",
         "publicbody": "Fayetteville Cumberland County Economic Development Corporation",
         "location": "201 Hay Street\nR. B. Williams Building Ste 401A\nFayetteville, NC",
-        "address": "201 Hay Street\nR. B. Williams Building Ste 401A\nFayetteville, NC",
+        "address": "Fayetteville, North Carolina, United States",
         "schedule": "Second Tuesday of each month at\u00A08:00 a.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 593
+        "id": 279
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4325,13 +4325,13 @@
         "government": "Cumberland",
         "publicbody": "Fayetteville Technical Community College Board of Trustees",
         "location": "Fayetteville Technical Community College, \nBoard Room Tony Rand Student Center \n2201 Hull Road \nFayetteville, NC",
-        "address": "Fayetteville Technical Community College, \nBoard Room Tony Rand Student Center \n2201 Hull Road \nFayetteville, NC",
+        "address": "Fayetteville, North Carolina, United States",
         "schedule": "The third Monday of each month at 12:30 p.m. No meetings in July and December. The maximum time per meeting would be four hours which includes committee meetings and lunch. Called meetings do occur occasionally and trustees are encouraged to attend some organizational meetings out of town or out of state. The Board is also divided into five sub committees that meet on the third Monday of each month prior to the 12:45 PM, Board Meeting, except July and December: (1) Finance Committee; (2) Human Resources Committee; (3) Building and Grounds Committee; and (4) Curriculum Committee; and (5) Planning Committee.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 594
+        "id": 280
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4349,13 +4349,13 @@
         "government": "Cumberland",
         "publicbody": "Fayetteville-Cumberland Parks and Recreation Advisory Commission",
         "location": "City of Fayetteville Parks \u0026 Recreation\n121 Lamon Street \nFayetteville, NC",
-        "address": "City of Fayetteville Parks \u0026 Recreation\n121 Lamon Street \nFayetteville, NC",
+        "address": "121 Lamon Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "1st Tuesday of every month at 5:30 p.m. Meetings last one to one and one-half hours with occasional committee meetings as needed.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 595
+        "id": 281
       },
       "geometry": {
         "longitude": -78.87519,
@@ -4373,13 +4373,13 @@
         "government": "Cumberland",
         "publicbody": "Human Relations Commission",
         "location": "Festival Park Plaza Training Room 1st Floor\n225 Ray Ave\nFayetteville, NC 28301",
-        "address": "Festival Park Plaza Training Room 1st Floor\n225 Ray Ave\nFayetteville, NC 28301",
+        "address": "225 Ray Avenue, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Thursday of every month at 5:30 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 596
+        "id": 282
       },
       "geometry": {
         "longitude": -78.88183,
@@ -4403,7 +4403,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 597
+        "id": 283
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4421,13 +4421,13 @@
         "government": "Cumberland",
         "publicbody": "Joint Fort Bragg \u0026 Cumberland County Food Policy Council",
         "location": "1235 Ramsey Street, Fayetteville, NC",
-        "address": "1235 Ramsey Street, Fayetteville, NC",
+        "address": "1235 Ramsey Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "First Wednesday of Each Month \n\n    Odd numbered days @ 5 p.m.\n    Even numbered days @ 12 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 598
+        "id": 284
       },
       "geometry": {
         "longitude": -78.88205,
@@ -4451,7 +4451,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 599
+        "id": 285
       },
       "geometry": {
         "longitude": -78.87914,
@@ -4475,7 +4475,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 600
+        "id": 286
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4499,7 +4499,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 601
+        "id": 287
       },
       "geometry": {
         "longitude": -79.5178,
@@ -4523,7 +4523,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 602
+        "id": 288
       },
       "geometry": {
         "longitude": -78.37,
@@ -4541,13 +4541,13 @@
         "government": "Cumberland",
         "publicbody": "North Carolina Southeast",
         "location": "70 West Broad Street, Elizabethtown, NC",
-        "address": "70 West Broad Street, Elizabethtown, NC",
+        "address": "70 West Broad Street, Elizabethtown, North Carolina 28337, United States",
         "schedule": "Quarterly",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 603
+        "id": 289
       },
       "geometry": {
         "longitude": -78.605956,
@@ -4571,7 +4571,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 604
+        "id": 290
       },
       "geometry": {
         "longitude": -78.83,
@@ -4589,13 +4589,13 @@
         "government": "Cumberland",
         "publicbody": "Senior Citizens Advisory Commission",
         "location": "FCPR Senior Center, Large Program Room\n739 Blue Street\nFayetteville, NC",
-        "address": "FCPR Senior Center, Large Program Room\n739 Blue Street\nFayetteville, NC",
+        "address": "Blue Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Tuesday of each month at 2:30 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 605
+        "id": 291
       },
       "geometry": {
         "longitude": -78.89206,
@@ -4613,20 +4613,20 @@
         "government": "Cumberland",
         "publicbody": "Social Services Board",
         "location": "Department of Social Services, \nBoard Room \n1225 Ramsey Street\nFayetteville, NC",
-        "address": "Department of Social Services, \nBoard Room \n1225 Ramsey Street\nFayetteville, NC",
+        "address": "Ramsey Street, Fayetteville, North Carolina 28311, United States",
         "schedule": "Last Wednesday of each month at 1:00 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 606
+        "id": 292
       },
       "geometry": {
-        "longitude": -79.778167,
-        "latitude": 36.091909,
+        "longitude": -78.85364,
+        "latitude": 35.16869,
         "coordinates": [
-          -79.778167,
-          36.091909
+          -78.85364,
+          35.16869
         ],
         "type": "Point"
       },
@@ -4637,13 +4637,13 @@
         "government": "Cumberland",
         "publicbody": "Southeastern Economic Development Commission",
         "location": "707 West Broad Street, \nElizabethtown, NC",
-        "address": "707 West Broad Street, \nElizabethtown, NC",
+        "address": "707 West Broad Street, Elizabethtown, North Carolina 28337, United States",
         "schedule": "Full Board meets one time annually - Usually in April",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 607
+        "id": 293
       },
       "geometry": {
         "longitude": -78.613504,
@@ -4661,13 +4661,13 @@
         "government": "Cumberland",
         "publicbody": "Transportation Advisory Board",
         "location": "Historic Cumberland County Courthouse \nHearing Room #3\n130 Gillespie Street \nFayetteville, NC",
-        "address": "Historic Cumberland County Courthouse \nHearing Room #3\n130 Gillespie Street \nFayetteville, NC",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "The\u00A0second Tuesday of the first month in the quarter, (January, April, July, and October) at 10:00 a.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 608
+        "id": 294
       },
       "geometry": {
         "longitude": -78.87914,
@@ -4675,2622 +4675,6 @@
         "coordinates": [
           -78.87914,
           35.051535
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED: Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2019-09-12T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-39/",
-        "id": 609
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Andre\u2019 Mallette Training Center at the New Hanover County Government Center @ 230 Government Center Dr #135, Wilmington, NC 28403, USA",
-        "address": "New Hanover County, North Carolina, United States",
-        "schedule": "2019-09-16T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-97/",
-        "id": 610
-      },
-      "geometry": {
-        "longitude": -77.86,
-        "latitude": 34.18,
-        "coordinates": [
-          -77.86,
-          34.18
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED: Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2019-10-17T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-41/",
-        "id": 611
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Andre\u2019 Mallette Training Center at the New Hanover County Government Center @ 230 Government Center Dr #135, Wilmington, NC 28403, USA",
-        "address": "New Hanover County, North Carolina, United States",
-        "schedule": "2019-10-21T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-99/",
-        "id": 612
-      },
-      "geometry": {
-        "longitude": -77.86,
-        "latitude": 34.18,
-        "coordinates": [
-          -77.86,
-          34.18
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2019-10-31T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-42/",
-        "id": 613
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2019-11-04T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-100/",
-        "id": 614
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED: Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2019-11-14T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-43/",
-        "id": 615
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2019-11-18T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-101/",
-        "id": 616
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED: Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2019-11-26T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-44/",
-        "id": 617
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2019-12-02T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-102/",
-        "id": 618
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED: Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2019-12-12T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-45/",
-        "id": 619
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2019-12-16T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-103/",
-        "id": 620
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-01-06T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-93/",
-        "id": 621
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-01-21T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-95/",
-        "id": 622
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-02-03T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-98/",
-        "id": 623
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-02-17T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-104/",
-        "id": 624
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-03-09T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-105/",
-        "id": 625
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Teleconference Meeting",
-        "address": "Metting Road, Wilmington, North Carolina 28403, United States",
-        "schedule": "2020-03-23T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-106/",
-        "id": 626
-      },
-      "geometry": {
-        "longitude": -77.90064,
-        "latitude": 34.23674,
-        "coordinates": [
-          -77.90064,
-          34.23674
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Teleconference Meeting",
-        "address": "Metting Road, Wilmington, North Carolina 28403, United States",
-        "schedule": "2020-04-06T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-107/",
-        "id": 627
-      },
-      "geometry": {
-        "longitude": -77.90064,
-        "latitude": 34.23674,
-        "coordinates": [
-          -77.90064,
-          34.23674
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Teleconference Meeting",
-        "address": "Metting Road, Wilmington, North Carolina 28403, United States",
-        "schedule": "2020-04-20T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-108/",
-        "id": 628
-      },
-      "geometry": {
-        "longitude": -77.90064,
-        "latitude": 34.23674,
-        "coordinates": [
-          -77.90064,
-          34.23674
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Teleconference Meeting",
-        "address": "Metting Road, Wilmington, North Carolina 28403, United States",
-        "schedule": "2020-05-04T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-109/",
-        "id": 629
-      },
-      "geometry": {
-        "longitude": -77.90064,
-        "latitude": 34.23674,
-        "coordinates": [
-          -77.90064,
-          34.23674
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Andre\u2019 Mallette Training Center at the New Hanover County Government Center @ 230 Government Center Dr #135, Wilmington, NC 28403, USA",
-        "address": "New Hanover County, North Carolina, United States",
-        "schedule": "2020-05-18T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-110/",
-        "id": 630
-      },
-      "geometry": {
-        "longitude": -77.86,
-        "latitude": 34.18,
-        "coordinates": [
-          -77.86,
-          34.18
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Wilmington Convention Center @ 10 Convention Center Drive, Wilmington, NC",
-        "address": "Wilmington, North Carolina, United States",
-        "schedule": "2020-06-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-111/",
-        "id": 631
-      },
-      "geometry": {
-        "longitude": -77.944711,
-        "latitude": 34.225728,
-        "coordinates": [
-          -77.944711,
-          34.225728
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-06-15T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-112/",
-        "id": 632
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "County Commissioners Public Hearing",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-06-22T17:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/county-commissioners-public-hearing/",
-        "id": 633
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-07-13T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-113/",
-        "id": 634
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Andre\u2019 Mallette Training Center at the New Hanover County Government Center @ 230 Government Center Dr #135, Wilmington, NC 28403, USA",
-        "address": "New Hanover County, North Carolina, United States",
-        "schedule": "2020-08-10T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-114/",
-        "id": 635
-      },
-      "geometry": {
-        "longitude": -77.86,
-        "latitude": 34.18,
-        "coordinates": [
-          -77.86,
-          34.18
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "Andre\u2019 Mallette Training Center at the New Hanover County Government Center @ 230 Government Center Dr #135, Wilmington, NC 28403, USA",
-        "address": "New Hanover County, North Carolina, United States",
-        "schedule": "2020-08-24T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-115/",
-        "id": 636
-      },
-      "geometry": {
-        "longitude": -77.86,
-        "latitude": 34.18,
-        "coordinates": [
-          -77.86,
-          34.18
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Government Center - Andre\u2019 Mallette Training Center @ 230 Government Center Drive, Suite 135, Wilmington, NC 28403",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2020-09-08T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-116/",
-        "id": 637
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-09-21T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-117/",
-        "id": 638
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "County Commissioners Public Hearing",
-        "location": "New Hanover County Historic Courthouse\u0060 @ 24 North Third Street, Room 301, Wilmington, NC",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-09-28T17:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/county-commissioners-public-hearing-2/",
-        "id": 639
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-10-05T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-118/",
-        "id": 640
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED: Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-10-19T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-119/",
-        "id": 641
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-11-16T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-120/",
-        "id": 642
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Andre\u2019 Mallette Training Center @ 230 Government Center Drive, Suite 135, Wilmington, NC 28403",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2020-12-03T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-35/",
-        "id": 643
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2020-12-07T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-121/",
-        "id": 644
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Andre\u2019 Mallette Training Center @ 230 Government Center Drive, Suite 135, Wilmington, NC 28403",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-01-13T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-36/",
-        "id": 645
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-01-19T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-122/",
-        "id": 646
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-01-28T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-40/",
-        "id": 647
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-02-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-123/",
-        "id": 648
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-02-11T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-46/",
-        "id": 649
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-02-15T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-124/",
-        "id": 650
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-02-25T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-47/",
-        "id": 651
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-03-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-125/",
-        "id": 652
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-03-11T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-48/",
-        "id": 653
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-03-15T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-126/",
-        "id": 654
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-04-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-49/",
-        "id": 655
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-04-05T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-127/",
-        "id": 656
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-04-15T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-50/",
-        "id": 657
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-04-19T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-128/",
-        "id": 658
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-04-29T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-51/",
-        "id": 659
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-05-03T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-129/",
-        "id": 660
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-05-13T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-52/",
-        "id": 661
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-05-17T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-130/",
-        "id": 662
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-06-03T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-53/",
-        "id": 663
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-06-07T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-131/",
-        "id": 664
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-06-17T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-54/",
-        "id": 665
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-06-22T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-132/",
-        "id": 666
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-07-07T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-55/",
-        "id": 667
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-07-13T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-133/",
-        "id": 668
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-07-29T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-56/",
-        "id": 669
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-08-02T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-134/",
-        "id": 670
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-08-19T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-57/",
-        "id": 671
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-08-23T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-135/",
-        "id": 672
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-09-02T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-58/",
-        "id": 673
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-09-07T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-136/",
-        "id": 674
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-09-16T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-59/",
-        "id": 675
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-09-20T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-137/",
-        "id": 676
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-09-30T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-60/",
-        "id": 677
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-10-04T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-138/",
-        "id": 678
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-10-14T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-61/",
-        "id": 679
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-10-18T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-139/",
-        "id": 680
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-10-28T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-62/",
-        "id": 681
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-11-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-140/",
-        "id": 682
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-11-10T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-63/",
-        "id": 683
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-11-15T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-141/",
-        "id": 684
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-12-02T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-64/",
-        "id": 685
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-12-06T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-142/",
-        "id": 686
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "CANCELED Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2021-12-16T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-65/",
-        "id": 687
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2021-12-20T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-143/",
-        "id": 688
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-01-06T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-66/",
-        "id": 689
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-01-10T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-144/",
-        "id": 690
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-01-24T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-145/",
-        "id": 691
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-02-03T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-68/",
-        "id": 692
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-02-07T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-146/",
-        "id": 693
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-02-17T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-69/",
-        "id": 694
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-02-21T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-147/",
-        "id": 695
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-03-17T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-70/",
-        "id": 696
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-03-21T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-148/",
-        "id": 697
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-03-31T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-71/",
-        "id": 698
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-04-04T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-149/",
-        "id": 699
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-04-14T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-72/",
-        "id": 700
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-04-18T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-150/",
-        "id": 701
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-04-28T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-73/",
-        "id": 702
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-05-02T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-151/",
-        "id": 703
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-05-12T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-74/",
-        "id": 704
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-05-16T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-152/",
-        "id": 705
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-06-02T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-75/",
-        "id": 706
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-06-06T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-153/",
-        "id": 707
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-06-16T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-76/",
-        "id": 708
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-06-20T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-155/",
-        "id": 709
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-07-07T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-77/",
-        "id": 710
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-07-11T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-154/",
-        "id": 711
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-07-28T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-78/",
-        "id": 712
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-08-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-156/",
-        "id": 713
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-08-18T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-79/",
-        "id": 714
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-08-22T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-157/",
-        "id": 715
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-09-01T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-80/",
-        "id": 716
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-09-06T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-158/",
-        "id": 717
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
         ],
         "type": "Point"
       },
@@ -7307,7 +4691,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-82/",
-        "id": 718
+        "id": 295
       },
       "geometry": {
         "longitude": -77.867841,
@@ -7331,7 +4715,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-159/",
-        "id": 719
+        "id": 296
       },
       "geometry": {
         "longitude": -77.945692,
@@ -7355,7 +4739,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-81/",
-        "id": 720
+        "id": 297
       },
       "geometry": {
         "longitude": -77.867841,
@@ -7379,7 +4763,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-160/",
-        "id": 721
+        "id": 298
       },
       "geometry": {
         "longitude": -77.945692,
@@ -7403,7 +4787,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-83/",
-        "id": 722
+        "id": 299
       },
       "geometry": {
         "longitude": -77.867841,
@@ -7427,7 +4811,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-161/",
-        "id": 723
+        "id": 300
       },
       "geometry": {
         "longitude": -77.945692,
@@ -7451,7 +4835,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-84/",
-        "id": 724
+        "id": 301
       },
       "geometry": {
         "longitude": -77.867841,
@@ -7475,7 +4859,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-162/",
-        "id": 725
+        "id": 302
       },
       "geometry": {
         "longitude": -77.945692,
@@ -7499,7 +4883,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-85/",
-        "id": 726
+        "id": 303
       },
       "geometry": {
         "longitude": -77.867841,
@@ -7523,7 +4907,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-163/",
-        "id": 727
+        "id": 304
       },
       "geometry": {
         "longitude": -77.945692,
@@ -7531,6 +4915,1086 @@
         "coordinates": [
           -77.945692,
           34.23618
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Veterans Day - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "11/11/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 305
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Thanksgiving Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "11/24/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 306
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Christmas Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "12/23/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 307
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Christmas Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "12/26/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 308
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Seymour Center",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "4:00 pm - 5:30 pm First Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=47",
+        "id": 309
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Advisory Board on Aging",
+        "location": "Passmore Center \u0026 Seymour Center (altnernating)",
+        "address": "North Carolina, United States",
+        "schedule": "1:00 pm Second Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=34",
+        "id": 310
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Affordable Housing Advisory Board",
+        "location": "",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Second Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=990744288",
+        "id": 311
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Agricultural Preservation Board",
+        "location": "Bonnie B. Davis Environment \u0026 Agricultural Center",
+        "address": "Davis, North Carolina, United States",
+        "schedule": "6:30 pm (winter) 7:30 pm (spring, summer, fall) Third Wednesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=25",
+        "id": 312
+      },
+      "geometry": {
+        "longitude": -76.460199,
+        "latitude": 34.797385,
+        "coordinates": [
+          -76.460199,
+          34.797385
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Alcoholic Beverage Control Board",
+        "location": "601 Valley Forge Road, Hillsborough",
+        "address": "601 Valley Forge Road, Hillsborough, North Carolina 27278, United States",
+        "schedule": "8:30 am Third Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=38",
+        "id": 313
+      },
+      "geometry": {
+        "longitude": -79.087285,
+        "latitude": 36.063205,
+        "coordinates": [
+          -79.087285,
+          36.063205
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Animal Services Advisory Board",
+        "location": "Community Room of the Animal Services Facility",
+        "address": "I-73 S/ US Hwy 220 Rest Stop, I-73 South, Seagrove, North Carolina 27341, United States",
+        "schedule": "6:30 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144669",
+        "id": 314
+      },
+      "geometry": {
+        "longitude": -79.784458,
+        "latitude": 35.513108,
+        "coordinates": [
+          -79.784458,
+          35.513108
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Animal Services Hearing Panel Pool",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "As Needed As Needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144711",
+        "id": 315
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Arts Commission",
+        "location": "Alternating",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Second Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=49",
+        "id": 316
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Board of Equalization and Review (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "As needed As needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=52",
+        "id": 317
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Board of Health",
+        "location": "C.H. \u0026 Hillsborough Health Depts. (alternating)",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "7:00 pm Fourth Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=7",
+        "id": 318
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Board of Social Services",
+        "location": "Hillsborough Commons Board Room",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "4:00 pm Third Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=11",
+        "id": 319
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Carrboro Board of Adjustment",
+        "location": "Carrboro Town Hall",
+        "address": "Carrboro Town Hall, 301 W Main St, Carrboro, North Carolina 27510, United States",
+        "schedule": "7:00 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=17",
+        "id": 320
+      },
+      "geometry": {
+        "longitude": -79.077495,
+        "latitude": 35.911409,
+        "coordinates": [
+          -79.077495,
+          35.911409
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Carrboro Northern Transition Area Advisory Committee",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "Meets as called Meets as called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=64",
+        "id": 321
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Carrboro Planning Board",
+        "location": "Carrboro Town Hall",
+        "address": "Carrboro Town Hall, 301 W Main St, Carrboro, North Carolina 27510, United States",
+        "schedule": "7:30 pm First and Third Thursday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=15",
+        "id": 322
+      },
+      "geometry": {
+        "longitude": -79.077495,
+        "latitude": 35.911409,
+        "coordinates": [
+          -79.077495,
+          35.911409
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Board of Adjustment",
+        "location": "Chapel Hill Town Hall",
+        "address": "Chapel Hill, North Carolina, United States",
+        "schedule": "7:30 pm First Wednesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=24",
+        "id": 323
+      },
+      "geometry": {
+        "longitude": -79.05578,
+        "latitude": 35.913154,
+        "coordinates": [
+          -79.05578,
+          35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Library Advisory Board",
+        "location": "Chapel Hill Public Library Meeting Room C",
+        "address": "Chapel Hill Public Library, 100 Library Dr, Chapel Hill, North Carolina 27514, United States",
+        "schedule": "5:30 pm Second Monday in Feb, May, Sep, \u0026 Nov",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144701",
+        "id": 324
+      },
+      "geometry": {
+        "longitude": -79.035588,
+        "latitude": 35.932167,
+        "coordinates": [
+          -79.035588,
+          35.932167
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Orange County Visitors Bureau Advisory Board",
+        "location": "Varies",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "8:00 am Third Wednesday of every month except Jul. \u0026 Dec.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=6",
+        "id": 325
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Parks, Greenways and Recreation Commission",
+        "location": "Chapel Hill Public Library",
+        "address": "Chapel Hill Public Library, 100 Library Dr, Chapel Hill, North Carolina 27514, United States",
+        "schedule": "7:00 pm Third Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144672",
+        "id": 326
+      },
+      "geometry": {
+        "longitude": -79.035588,
+        "latitude": 35.932167,
+        "coordinates": [
+          -79.035588,
+          35.932167
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Planning Commission",
+        "location": "Chapel Hill Town Council",
+        "address": "Chapel Hill, North Carolina, United States",
+        "schedule": "7:00 pm First and third Tuesday of every month except July",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=13",
+        "id": 327
+      },
+      "geometry": {
+        "longitude": -79.05578,
+        "latitude": 35.913154,
+        "coordinates": [
+          -79.05578,
+          35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Commission for the Environment",
+        "location": "Bonnie B. Davis Environment \u0026 Agricultural Center",
+        "address": "Davis, North Carolina, United States",
+        "schedule": "7:00 pm Second Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=54",
+        "id": 328
+      },
+      "geometry": {
+        "longitude": -76.460199,
+        "latitude": 34.797385,
+        "coordinates": [
+          -76.460199,
+          34.797385
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Durham Technical Community College Board of Trustees",
+        "location": "Lyon Board Room, Durham Tech Main Campus",
+        "address": "Durham, North Carolina, United States",
+        "schedule": "3:00 pm Varies",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144690",
+        "id": 329
+      },
+      "geometry": {
+        "longitude": -78.901805,
+        "latitude": 35.996653,
+        "coordinates": [
+          -78.901805,
+          35.996653
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Economic Development Advisory Board (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "Rotating",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "12:00 pm Second Tuesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144706",
+        "id": 330
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Hillsborough Board of Adjustment",
+        "location": "Hillsborough Town Hall Annex",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "7:00 pm Second  Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=50",
+        "id": 331
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Hillsborough Planning Board",
+        "location": "Hillsborough Town Hall Annex",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "7:00 pm Third Thursday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=42",
+        "id": 332
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Historic Preservation Commission (APPLICANTS SHALL RESIDE WITHIN THE TERRITORIAL JURISDICTION OF ORANGE COUNTY)",
+        "location": "Old Orange County Courthouse",
+        "address": "Orange County Courthouse, 106 E Margaret Ln, Hillsborough, North Carolina 27278, United States",
+        "schedule": "7:00 pm Fourth Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=53",
+        "id": 333
+      },
+      "geometry": {
+        "longitude": -79.099206,
+        "latitude": 36.0745765,
+        "coordinates": [
+          -79.099206,
+          36.0745765
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Human Relations Commission",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Fourth Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=16",
+        "id": 334
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Jury Commission",
+        "location": "Orange County Courthouse",
+        "address": "Orange County Courthouse, 106 E Margaret Ln, Hillsborough, North Carolina 27278, United States",
+        "schedule": "As needed As needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=10",
+        "id": 335
+      },
+      "geometry": {
+        "longitude": -79.099206,
+        "latitude": 36.0745765,
+        "coordinates": [
+          -79.099206,
+          36.0745765
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Mebane Board of Adjustment",
+        "location": "Mebane Town Hall",
+        "address": "Mebane, North Carolina, United States",
+        "schedule": "6:00 pm First Monday of every month (if necessary)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=26",
+        "id": 336
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Mebane Planning Board",
+        "location": "Mebane Town Hall",
+        "address": "Mebane, North Carolina, United States",
+        "schedule": "6:30 pm Second Monday of every month (if necessary)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=32",
+        "id": 337
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Nursing Home Community Advisory Committee",
+        "location": "Seymour Center, 2551 Homestead Rd., Chapel Hill",
+        "address": "Chapel Hill, North Carolina, United States",
+        "schedule": "5:30 pm First Tuesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=4",
+        "id": 338
+      },
+      "geometry": {
+        "longitude": -79.05578,
+        "latitude": 35.913154,
+        "coordinates": [
+          -79.05578,
+          35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Board of Adjustment (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "Whitted Building, Room 230",
+        "address": "Orange Street, Beaufort, North Carolina 28516, United States",
+        "schedule": "7:00 pm Second Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=46",
+        "id": 339
+      },
+      "geometry": {
+        "longitude": -76.66512,
+        "latitude": 34.72012,
+        "coordinates": [
+          -76.66512,
+          34.72012
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Housing Authority",
+        "location": "Southern Human Services Center",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144698",
+        "id": 340
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Parks and Recreation Council",
+        "location": "Bonnie B. Davis Environment \u0026 Agricultural Center",
+        "address": "Davis, North Carolina, United States",
+        "schedule": "6:30 pm First Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=44",
+        "id": 341
+      },
+      "geometry": {
+        "longitude": -76.460199,
+        "latitude": 34.797385,
+        "coordinates": [
+          -76.460199,
+          34.797385
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Planning Board (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "7:00 pm First Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=56",
+        "id": 342
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange Unified Transportation Board",
+        "location": "West Campus Office Building, Room 204",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:30 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144670",
+        "id": 343
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange Water \u0026 Sewer Authority Board of Directors",
+        "location": "OWASA Community Room",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Second Thursday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=21",
+        "id": 344
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "GoTriangle Special Tax Board (COMMISSIONERS ONLY)",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "TBD Once every January; more as needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144708",
+        "id": 345
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Joint Orange Chatham Community Action Agency (CURRENTLY NOT ACCEPTING APPLICATIONS)",
+        "location": "alternating locations-Orange/Chatham",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "12:00 or 4:00 pm second Thursday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=43",
+        "id": 346
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Climate Council",
+        "location": "TBA",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "TBA TBA",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144716",
+        "id": 347
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Solid Waste Advisory Group (SWAG)",
+        "location": "",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144710",
+        "id": 348
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Workforce Development Board - Regional Partnership",
+        "location": "Rotates between participating counties",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "day-time meeting quarterly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=29",
+        "id": 349
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
         ],
         "type": "Point"
       },

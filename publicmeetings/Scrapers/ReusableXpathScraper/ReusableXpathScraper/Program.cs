@@ -33,6 +33,7 @@ public static class MappableMeetingHelper
 
     public static async Task AddScrapedMeetings(this List<MappableMeeting> meetings, IEnumerable<ScrapeTarget> targets, IHost host)
     {
+        var calendar = host.Services.GetRequiredService<CalendarService>();
         var scraper = host.Services.GetRequiredService<Scraper>();
         var meetingFactory = host.Services.GetRequiredService<CachingMeetingFactory>();
 
@@ -45,7 +46,8 @@ public static class MappableMeetingHelper
                 {
                     var mappedResult = await meetingFactory.GetMappableMeeting(result);
 
-                    meetings.Add(mappedResult);
+                    if (mappedResult.IsCurrent(calendar.Now))
+                        meetings.Add(mappedResult);
                 }
             }
             catch (Exception e)
