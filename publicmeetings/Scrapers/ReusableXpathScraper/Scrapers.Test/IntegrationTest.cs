@@ -94,22 +94,23 @@ public class IntegrationTest : TestLogger
     {
         var host = Services.Initalize();
         var resolver = host.Services.GetRequiredService<MeetingFactory>();
-        //var example = new ScrapedMeeting("Board of Commissioners", "New Hannover County, NC", "every two weeks on monday", "more info and remote");
-        //var meeting = await resolver.GetMappableMeeting(example);
         var result = await resolver.ResolveLocation("New Hannover County, NC");
-        result.Geometry.Coordinate.Longitude.Should().BeApproximately(-77.86, .01);
-        result.Geometry.Coordinate.Latitude.Should().BeApproximately(34.18, .01);
+        result.Geometry.Coordinate.Longitude.Should().BeApproximately(-77.86, .1);
+        result.Geometry.Coordinate.Latitude.Should().BeApproximately(34.18, .1);
     }
 
-    public async Task WeirdCounty()
+    [Fact]
+    public async Task CountyCoordinateLookupWeirdAnchor()
     {
-        /*
-         * Government Cumberland County
-         * Public Body Mid-Carolina Aging Advisory Council
-         * Location Address Various locations in the three county region (Cumberland, Harnett and Sampson counties)
-         * Schedule 1st Thursday of the last month of each quarter
-         * Start Time 2:00 PM
-         */
+        var host = Services.Initalize();
+        var resolver = host.Services.GetRequiredService<MeetingFactory>();
+        var example = new ScrapedMeeting("Cumberland", "Mid-Carolina Aging Advisory Council",
+            "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
+            "1st Thursday of the last month of each quarter",
+            "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions");
+        var result = await resolver.GetMappableMeeting(example);
+        result.Geometry.Longitude.Should().BeApproximately(-78.37, .1);
+        result.Geometry.Latitude.Should().BeApproximately(34.99, .1);
     }
 
     protected void LogCsv(List<Meeting> meetings)

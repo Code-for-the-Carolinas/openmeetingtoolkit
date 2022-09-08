@@ -45,9 +45,9 @@ public class MeetingFactory
             Location: meeting.Location,
             Address: bestLocation.PlaceInformation.First().PlaceName,
             Schedule: meeting.Time,
-            Start: "",
-            End: "",
-            Remote: "",
+            Start: "", //TODO
+            End: "", //TODO
+            Remote: "", //TODO
             MoreInfo: meeting.MoreInfo)
         {
         };
@@ -63,7 +63,7 @@ public class MeetingFactory
     /// <returns></returns>
     protected string AnchorLocation(string? location, params string[] anchors)
     {
-        var badLocations = new[] { "as called" };
+        var badLocations = new[] { "as called", "various locations" };
 
         if (string.IsNullOrWhiteSpace(location)
             || badLocations.Contains(location.ToLower()))
