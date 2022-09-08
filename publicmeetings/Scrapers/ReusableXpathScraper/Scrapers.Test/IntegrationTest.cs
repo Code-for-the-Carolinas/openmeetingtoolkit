@@ -102,6 +102,17 @@ public class IntegrationTest : TestLogger
         result.Geometry.Coordinate.Latitude.Should().BeApproximately(34.18, .01);
     }
 
+    public async Task WeirdCounty()
+    {
+        /*
+         * Government Cumberland County
+         * Public Body Mid-Carolina Aging Advisory Council
+         * Location Address Various locations in the three county region (Cumberland, Harnett and Sampson counties)
+         * Schedule 1st Thursday of the last month of each quarter
+         * Start Time 2:00 PM
+         */
+    }
+
     protected void LogCsv(List<Meeting> meetings)
     {
         TestConsole.WriteLine(meetings.ToCsv());

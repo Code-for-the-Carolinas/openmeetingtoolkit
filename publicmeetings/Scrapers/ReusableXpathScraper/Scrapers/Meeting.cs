@@ -8,6 +8,13 @@ public record MappableMeetingCollection(IEnumerable<MappableMeeting> Features)
 public record MappableMeeting(Meeting Properties, Location Geometry)
 {
     public string Type { get; init; } = "Feature";
+
+    public bool IsCurrent(DateTime currentDate)
+    {
+        var schedule = new TempralExpression(Properties.Schedule);
+
+        return schedule.NextOccurance(currentDate).HasValue;
+    }
 }
 
 public record Location(double Longitude, double Latitude)
