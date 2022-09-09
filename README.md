@@ -51,4 +51,7 @@ In preparation for the Hackathon, Code for the Carolinas is developing an Open M
 - [Slack](https://codeforthecarolinas.slack.com/join/shared_invite/zt-ggwi3ynm-f82eIgTN2_CUFxh_6t5hwQ#/shared-invite/email)
 - [DemocracyLab](https://www.democracylab.org/projects/1021)
 
-Open Meeting Toolkit for the Carolinas by Code for the Carolinas is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
+# openmeetingstoolkit
+Educational materials to replicate openmeetingspolicy.com in any North Carolina community
+
+The toolkit site can be found here: https://code-for-the-carolinas.github.io/openmeetingtoolkit

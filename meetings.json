@@ -1,0 +1,6004 @@
+{
+  "features": [
+    {
+      "properties": {
+        "government": "City of Asheville",
+        "publicbody": "City Council",
+        "location": "Harrah\u2019s Cherokee Center",
+        "address": "87 Haywood St, Asheville, NC 28801",
+        "schedule": "2nd and 4th Tuesday of every month",
+        "start": "5:00 PM",
+        "end": "",
+        "remote": "Meetings are live-streamed on the City\u2019s YouTube Channel https://www.youtube.com/user/CityofAsheville and our Virtual Engagement Hub https://publicinput.com/hub/88 . Meeting are also streamed to Spectrum Cable Channel 193.",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 100
+      },
+      "geometry": {
+        "longitude": -82.554016,
+        "latitude": 35.60095,
+        "coordinates": [
+          -82.554016,
+          35.60095
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Buncombe County",
+        "publicbody": "Affordable Housing Committee",
+        "location": "Buncombe County Permits \u0026 Inspections",
+        "address": "30 Valley Street, Meeting Room, Asheville, NC 28801",
+        "schedule": "1st Tuesday of each month",
+        "start": "1:00 PM",
+        "end": "2:30 PM",
+        "remote": "",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 101
+      },
+      "geometry": {
+        "longitude": -82.53,
+        "latitude": 35.61,
+        "coordinates": [
+          -82.53,
+          35.61
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Asheville-Buncombe County",
+        "publicbody": "AB Tech/Buncombe County Joint Capital Advisory Committee",
+        "location": "County Administration Building",
+        "address": "200 College Street",
+        "schedule": "As needed",
+        "start": "",
+        "end": "",
+        "remote": "Zoom",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 102
+      },
+      "geometry": {
+        "longitude": -82.559814,
+        "latitude": 35.596121,
+        "coordinates": [
+          -82.559814,
+          35.596121
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Buncombe County",
+        "publicbody": "Ad Hoc Reappraisal Committee",
+        "location": "County Administration Building",
+        "address": "200 College Street, 1st Floor Conference Room Asheville, NC 28801",
+        "schedule": "1st and 3rd Wednesday of every month",
+        "start": "5:00 PM",
+        "end": "7:00 PM",
+        "remote": "855-925-2801 Meeting code: 9236 \r\nEmail UX8750@PublicInput.com",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 103
+      },
+      "geometry": {
+        "longitude": -82.559814,
+        "latitude": 35.596121,
+        "coordinates": [
+          -82.559814,
+          35.596121
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Buncombe County",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Land of Sky Regional Council Offices",
+        "address": "339 New Leicester Highway Asheville 28806",
+        "schedule": "3rd Friday of each month",
+        "start": "9:00 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 104
+      },
+      "geometry": {
+        "longitude": -82.621802,
+        "latitude": 35.60139,
+        "coordinates": [
+          -82.621802,
+          35.60139
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Asheville-Buncombe County",
+        "publicbody": "African American Heritage Commission",
+        "location": "City Hall",
+        "address": "70 Court Plaza, 1st Floor North Conference Room Asheville, NC 28801 ",
+        "schedule": "2nd Thursday of each month",
+        "start": "11:30 AM",
+        "end": "",
+        "remote": "Watch live through the Engagement Hub: Public Engagement Hub or watch live on the City YouTube Channel.\n\nListen live by calling 855-925-2801 Enter Code 9409.\n\nPre-recorded voicemail comments by calling 855-925-2801 Enter Code 9409.  Voicemail comments will be accepted until Wednesday, April 13 at 5:00 PM\n\nWritten public comments by email \u2013 AAHCAVL@PublicInput.com.",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 105
+      },
+      "geometry": {
+        "longitude": -82.554016,
+        "latitude": 35.60095,
+        "coordinates": [
+          -82.554016,
+          35.60095
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Buncombe County",
+        "publicbody": "Agricultural Advisory Board for Farmland Preservation",
+        "location": "Soil \u0026 Water conference",
+        "address": "49 Mt. Carmel Road, Asheville, NC 28806",
+        "schedule": "3rd Tuesday of each month",
+        "start": "11:00 AM",
+        "end": "12:00 PM",
+        "remote": "Zoom",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 106
+      },
+      "geometry": {
+        "longitude": -82.569736,
+        "latitude": 35.689584,
+        "coordinates": [
+          -82.569736,
+          35.689584
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "City of Asheville",
+        "publicbody": "Asheville Board of Adjustment",
+        "location": "City Hall",
+        "address": "70 Court Plaza, 1st Floor North Conference Room Asheville, NC 28801 ",
+        "schedule": "4th Monday of each month",
+        "start": "2:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 107
+      },
+      "geometry": {
+        "longitude": -82.554016,
+        "latitude": 35.60095,
+        "coordinates": [
+          -82.554016,
+          35.60095
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Asheville-Buncombe County",
+        "publicbody": "Asheville-Buncombe Regional Sports Commission",
+        "location": "Chamber of Commerce",
+        "address": "36 Montford Ave, Asheville, NC 28801",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 108
+      },
+      "geometry": {
+        "longitude": -82.554016,
+        "latitude": 35.60095,
+        "coordinates": [
+          -82.554016,
+          35.60095
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Asheville-Buncombe County",
+        "publicbody": "Asheville Buncombe Technical CC Board of Trustees",
+        "location": "A-B Tech -- Magnolia Building",
+        "address": "340 Victoria Road, Asheville, NC 28801",
+        "schedule": "1st Monday of every month (except January \u0026 July)",
+        "start": "12 Noon in February, 3:30 PM for all others",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 109
+      },
+      "geometry": {
+        "longitude": -82.492382,
+        "latitude": 35.587814,
+        "coordinates": [
+          -82.492382,
+          35.587814
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "City of Asheville",
+        "publicbody": "Asheville Planning and Zoning Commission",
+        "location": "City Hall",
+        "address": "70 Court Plaza, 1st Floor North Conference Room Asheville, NC 28801 ",
+        "schedule": "1st Wednesday of each month",
+        "start": "5:00 PM",
+        "end": "",
+        "remote": "Phone: Voicemail comments may be pre-recorded by calling 855-925-2801 and entering code 9273 when prompted (available until 5:00 PM the day before the meeting).\nEmail: Written comments may be submitted to AVLPZC@PublicInput.com (available until 5:00 PM the day before the meeting).",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 110
+      },
+      "geometry": {
+        "longitude": -82.554016,
+        "latitude": 35.60095,
+        "coordinates": [
+          -82.554016,
+          35.60095
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "City of Asheville",
+        "publicbody": "Asheville Regional Housing Consortium",
+        "location": "Public Works Bldg",
+        "address": "161 S Charlotte Street, Room 109 Asheville 28801 ",
+        "schedule": "4th Wednesday",
+        "start": "9:30 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.buncombecounty.org/transparency/boards-commissions/default.aspx",
+        "id": 111
+      },
+      "geometry": {
+        "longitude": -82.548778,
+        "latitude": 35.592968,
+        "coordinates": [
+          -82.548778,
+          35.592968
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "",
+        "publicbody": "",
+        "location": "",
+        "address": "",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 112
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "",
+        "publicbody": "",
+        "location": "",
+        "address": "",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 113
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "County Commissioners",
+        "location": "County Office Building",
+        "address": "124 W. Elm St., Commissioners Meeting Room located on the 2nd Floor, Graham, NC  27253",
+        "schedule": "1st Monday and 3rd Monday of the month",
+        "start": "9:00 AM and 7:00 PM, respectively",
+        "end": "",
+        "remote": "Video recordings of our Commissioners Meetings both online and on the local Time-Warner Public Access Channels.  The television broadcast of the meetings will occur on the 2nd and 4th Wednesdays of each month at 10 PM.  Online videos will be made available after processing the videos through Youtube, our service providers for multimedia.  The meetings are now streamed live.",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/",
+        "id": 114
+      },
+      "geometry": {
+        "longitude": -79.814381,
+        "latitude": 35.7112915,
+        "coordinates": [
+          -79.814381,
+          35.7112915
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "J. R. Kernodle Senior Center",
+        "address": "1535 S Mebane St\nBurlington NC 27215",
+        "schedule": "3rd Tuesday of each quarter",
+        "start": "2:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/adult-care-home-community-advisory-committee/",
+        "id": 115
+      },
+      "geometry": {
+        "longitude": -79.451938,
+        "latitude": 36.080331,
+        "coordinates": [
+          -79.451938,
+          36.080331
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Agricultural Advisory Board",
+        "location": "Agricultural Building Auditorium",
+        "address": "",
+        "schedule": "1st Wednesday of each quarter",
+        "start": "12:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/agricultural-advisory-board/",
+        "id": 116
+      },
+      "geometry": {
+        "longitude": -79.487215,
+        "latitude": 36.077676,
+        "coordinates": [
+          -79.487215,
+          36.077676
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Alamance Beautiful Commission",
+        "location": "Agricultural Extension Center",
+        "address": "",
+        "schedule": "Every 4th Tuesday except July \u0026 December",
+        "start": "12:15 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-beautiful-commission/",
+        "id": 117
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Alamance Community College Board of Trustees",
+        "location": "Alamance Community College, Wallace Gee Bldg.",
+        "address": "1247 Jimmie Kerr Rd\nGraham, NC 27253",
+        "schedule": "2nd Monday of every month except July and December",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-community-college-board-of-trustees/",
+        "id": 118
+      },
+      "geometry": {
+        "longitude": -79.35742400000001,
+        "latitude": 36.0652275,
+        "coordinates": [
+          -79.35742400000001,
+          36.0652275
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Alamance County Board of Adjustment",
+        "location": "Commissioners\u2019 Room",
+        "address": "",
+        "schedule": "1st Monday of the month, when required",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/alamance-county-board-of-adjustment/",
+        "id": 119
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Alamance County Planning Board",
+        "location": "",
+        "address": "124 W Elm Street\nGraham, NC 27253",
+        "schedule": "2nd Thursday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "https://www.youtube.com/channel/UC1QADkhkyUpac9rMs42imjA",
+        "moreInfo": "https://www.alamance-nc.com/planningdept/boards/planning-board/",
+        "id": 120
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Alamance County Senior Services Committee",
+        "location": "J. R. Kernodle Senior Center",
+        "address": "1535 S Mebane St\nBurlington NC 27215",
+        "schedule": "2nd Tuesday of each month",
+        "start": "8:30 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/senior-services-committee/",
+        "id": 121
+      },
+      "geometry": {
+        "longitude": -79.451938,
+        "latitude": 36.080331,
+        "coordinates": [
+          -79.451938,
+          36.080331
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Alamance County Transportation Authority",
+        "location": "ACTA Office",
+        "address": "",
+        "schedule": "3rd Wednesday of each month",
+        "start": "4:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-county-transportation-authority/",
+        "id": 122
+      },
+      "geometry": {
+        "longitude": -79.814381,
+        "latitude": 35.7112915,
+        "coordinates": [
+          -79.814381,
+          35.7112915
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Altamahaw Ossipee Fire District Commission",
+        "location": "Altamahaw Ossipee Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/altamahaw-ossipee-fire-district-commission/",
+        "id": 123
+      },
+      "geometry": {
+        "longitude": -79.507246,
+        "latitude": 36.184302,
+        "coordinates": [
+          -79.507246,
+          36.184302
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Animal Review Board",
+        "location": "",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/animal-review-board/",
+        "id": 124
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Board of Equalization and Review",
+        "location": "Commissioners\u2019 Meeting Room",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/board-of-equalization-and-review/",
+        "id": 125
+      },
+      "geometry": {
+        "longitude": -79.790701,
+        "latitude": 36.076168,
+        "coordinates": [
+          -79.790701,
+          36.076168
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Board of Health",
+        "location": "Professional Boardroom",
+        "address": "",
+        "schedule": "3rd Tuesday of each month",
+        "start": "6:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/healthdept/board-of-health/",
+        "id": 126
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Burlington Board of Adjustment",
+        "location": "Burlington City Council Chambers",
+        "address": "",
+        "schedule": "2nd Tuesday of each month",
+        "start": "8:30 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/burlington-board-of-adjustment/",
+        "id": 127
+      },
+      "geometry": {
+        "longitude": -79.437799,
+        "latitude": 36.095692,
+        "coordinates": [
+          -79.437799,
+          36.095692
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Burlington Planning and Zoning Commission",
+        "location": "Burlington Municipal Building, Room 202",
+        "address": "",
+        "schedule": "4th Monday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/burlington-planning-and-zoning-commission/",
+        "id": 128
+      },
+      "geometry": {
+        "longitude": -79.436653,
+        "latitude": 36.091335,
+        "coordinates": [
+          -79.436653,
+          36.091335
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Burlington-Alamance Airport Authority",
+        "location": "Airport Terminal Building",
+        "address": "",
+        "schedule": "3rd Wednesday of each month",
+        "start": "12:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/burlington-alamance-airport-authority/",
+        "id": 129
+      },
+      "geometry": {
+        "longitude": -79.476222,
+        "latitude": 36.048977,
+        "coordinates": [
+          -79.476222,
+          36.048977
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "E. M. Holt Fire District Commission",
+        "location": "E. M. Holt Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/e-m-holt-fire-district-commission/",
+        "id": 130
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "EMS Peer Review Committee",
+        "location": "EMS Center",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/ems-peer-review-committee/",
+        "id": 131
+      },
+      "geometry": {
+        "longitude": -79.355225,
+        "latitude": 36.11158,
+        "coordinates": [
+          -79.355225,
+          36.11158
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Eli Whitney Fire District Commission",
+        "location": "Eli Whitney Fire Department",
+        "address": "",
+        "schedule": "Monthly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/eli-whitney-fire-district-commission/",
+        "id": 132
+      },
+      "geometry": {
+        "longitude": -79.307239,
+        "latitude": 35.906807,
+        "coordinates": [
+          -79.307239,
+          35.906807
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Elon Fire District Commission",
+        "location": "Elon Fire Department",
+        "address": "",
+        "schedule": "Bi-monthly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/elon-fire-district-commission/",
+        "id": 133
+      },
+      "geometry": {
+        "longitude": -79.50669,
+        "latitude": 36.102913,
+        "coordinates": [
+          -79.50669,
+          36.102913
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Elon Planning and Zoning Commission",
+        "location": "Elon Town Hall",
+        "address": "",
+        "schedule": "Third Tuesday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/elon-planning-and-zoning-commission/",
+        "id": 134
+      },
+      "geometry": {
+        "longitude": -79.50669,
+        "latitude": 36.102913,
+        "coordinates": [
+          -79.50669,
+          36.102913
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Faucette Fire District Commission",
+        "location": "Faucette Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/faucette-fire-district-commission/",
+        "id": 135
+      },
+      "geometry": {
+        "longitude": -79.520187,
+        "latitude": 36.066268,
+        "coordinates": [
+          -79.520187,
+          36.066268
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Gibsonville Board of Adjustment",
+        "location": "Gibsonville Town Hall",
+        "address": "",
+        "schedule": "As called",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/gibsonville-board-of-adjustment/",
+        "id": 136
+      },
+      "geometry": {
+        "longitude": -79.543097,
+        "latitude": 36.106198,
+        "coordinates": [
+          -79.543097,
+          36.106198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Gibsonville Planning Board",
+        "location": "Gibsonville Town Hall",
+        "address": "",
+        "schedule": "3rd Thursday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/gibsonville-planning-board/",
+        "id": 137
+      },
+      "geometry": {
+        "longitude": -79.543097,
+        "latitude": 36.106198,
+        "coordinates": [
+          -79.543097,
+          36.106198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Graham Board of Adjustment",
+        "location": "",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/graham-board-of-adjustment/",
+        "id": 138
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Graham Planning Board",
+        "location": "Council Chambers of Graham Municipal Building",
+        "address": "",
+        "schedule": "Third Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/graham-planning-board/",
+        "id": 139
+      },
+      "geometry": {
+        "longitude": -79.400576,
+        "latitude": 36.069026,
+        "coordinates": [
+          -79.400576,
+          36.069026
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Haw River Fire District Commission",
+        "location": "Haw River Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/haw-river-fire-district-commission/",
+        "id": 140
+      },
+      "geometry": {
+        "longitude": -79.364186,
+        "latitude": 36.091526,
+        "coordinates": [
+          -79.364186,
+          36.091526
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Haw River Planning and Zoning Commission",
+        "location": "Haw River Municipal Building",
+        "address": "",
+        "schedule": "1st Tuesday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/haw-river-planning-and-zoning-commission/",
+        "id": 141
+      },
+      "geometry": {
+        "longitude": -79.364186,
+        "latitude": 36.091526,
+        "coordinates": [
+          -79.364186,
+          36.091526
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Historic Properties Commission",
+        "location": "",
+        "address": "",
+        "schedule": "2nd Tuesday of each month",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "https://www.youtube.com/channel/UCdav77c1nQtsM1tnx5rr0yQ",
+        "moreInfo": "https://www.alamance-nc.com/planningdept/boards/historic-properties-commission/",
+        "id": 142
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Jury Commission",
+        "location": "",
+        "address": "",
+        "schedule": "September and October as needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/jury-commission/",
+        "id": 143
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Justice Advisory Council",
+        "location": "Family Justice Center Training Room",
+        "address": "1951 Martin Street\nBurlington, NC 27217",
+        "schedule": "1st Tuesday of each month",
+        "start": "8:00 AM",
+        "end": "9:30 AM",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/justice-advisory-council/",
+        "id": 144
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Juvenile Crime Prevention Council",
+        "location": "Graham Civic Center",
+        "address": "500 McGee St\nGraham, NC 27253",
+        "schedule": "3rd Tuesday of each quarter",
+        "start": "12:30 PM",
+        "end": "2:00 PM",
+        "remote": "Please contact Karen Collins, JCPC Administrative Assistant, kcjcpc@outlook.comfor virtual meeting links.",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/juvenile-crime-prevention-council/",
+        "id": 145
+      },
+      "geometry": {
+        "longitude": -79.400576,
+        "latitude": 36.069026,
+        "coordinates": [
+          -79.400576,
+          36.069026
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Library Committee",
+        "location": "One of the four libraries",
+        "address": "",
+        "schedule": "Four times per year",
+        "start": "Alternates between 12:30 PM and 6:30pm",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/library-committee/",
+        "id": 146
+      },
+      "geometry": {
+        "longitude": -78.888448,
+        "latitude": 35.9023,
+        "coordinates": [
+          -78.888448,
+          35.9023
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Local Emergency Planning Committee (LEPC) for Hazardous Chemicals",
+        "location": "Family Justice Center",
+        "address": "1950 Martin St\nBurlington, NC",
+        "schedule": "Quarterly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/local-emergency-planning-committee-lepc-for-hazardous-chemicals/",
+        "id": 147
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Mebane Board of Adjustment",
+        "location": "Mebane Municipal Building, City Council Chambers",
+        "address": "",
+        "schedule": "1st Monday of each month",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/mebane-board-of-adjustment/",
+        "id": 148
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Mebane Fire Department",
+        "location": "Mebane Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/mebane-fire-department/",
+        "id": 149
+      },
+      "geometry": {
+        "longitude": -79.291313,
+        "latitude": 36.075886,
+        "coordinates": [
+          -79.291313,
+          36.075886
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Mebane Planning Board",
+        "location": "Mebane Municipal Building, City Council Chambers",
+        "address": "",
+        "schedule": "2nd Monday of each month",
+        "start": "6:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/mebane-planning-board/",
+        "id": 150
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "North Central Fire District Commission",
+        "location": "North Central Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/north-central-fire-district-commission/",
+        "id": 151
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "North Eastern Fire District Commission",
+        "location": "North Eastern Fire Department",
+        "address": "",
+        "schedule": "Monthly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/north-eastern-fire-district-commission/",
+        "id": 152
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Nursing Home Community Advisory Committee",
+        "location": "J.R. Kernodle Senior Center",
+        "address": "1535 S Mebane St\nBurlington NC 27215",
+        "schedule": "1st Thursday of each quarter",
+        "start": "9:30 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/nursing-home-community-advisory-committee/",
+        "id": 153
+      },
+      "geometry": {
+        "longitude": -79.451938,
+        "latitude": 36.080331,
+        "coordinates": [
+          -79.451938,
+          36.080331
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Public Transit Advisory Commission (PTAC)",
+        "location": "",
+        "address": "",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/public-transit-advisory-commission-ptac/",
+        "id": 154
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Recreation and Parks Commission",
+        "location": "Varies",
+        "address": "Varies",
+        "schedule": "3rd Tuesday of each quarter",
+        "start": "12:30 PM or 6:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/recreation/home/recreation-and-parks-commission/",
+        "id": 155
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Snow Camp Fire Department",
+        "location": "Snow Camp Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/snow-camp-fire-department/",
+        "id": 156
+      },
+      "geometry": {
+        "longitude": -79.43002,
+        "latitude": 35.893472,
+        "coordinates": [
+          -79.43002,
+          35.893472
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Social Services Board",
+        "location": "Human Services Professional Board Room",
+        "address": "",
+        "schedule": "4th Tuesday of each month",
+        "start": "12:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/dss/social-services-board/",
+        "id": 157
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Swepsonville Fire District Commission",
+        "location": "Swepsonville Fire Department",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/swepsonville-fire-district-commission/",
+        "id": 158
+      },
+      "geometry": {
+        "longitude": -79.520187,
+        "latitude": 36.066268,
+        "coordinates": [
+          -79.520187,
+          36.066268
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Tourism Development Authority",
+        "location": "Chamber of Commerce/Visitor Bureau",
+        "address": "",
+        "schedule": "4th Tuesday of every other month, beginning January",
+        "start": "8:30 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/tourism-development-authority/",
+        "id": 159
+      },
+      "geometry": {
+        "longitude": -78.902268,
+        "latitude": 35.99853,
+        "coordinates": [
+          -78.902268,
+          35.99853
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Veterans Service Committee",
+        "location": "Veterans Service Office",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/veterans-service-committee/",
+        "id": 160
+      },
+      "geometry": {
+        "longitude": -79.4,
+        "latitude": 36.04,
+        "coordinates": [
+          -79.4,
+          36.04
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Village of Alamance Planning Board",
+        "location": "Village of Alamance Town Hall",
+        "address": "",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/village-of-alamance-planning-board/",
+        "id": 161
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance County",
+        "publicbody": "Workforce Development Board",
+        "location": "Rotate at Alamance, Orange, or Randolph County",
+        "address": "",
+        "schedule": "3rd Thursday of the first month in each quarter",
+        "start": "11:00 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/workforce-development-board/",
+        "id": 162
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "",
+        "publicbody": "",
+        "location": "",
+        "address": "",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 163
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Board of Commisioners",
+        "location": "Cumberland County Courthouse",
+        "address": "117 Dick Street, Room 118\nFayetteville, NC",
+        "schedule": "",
+        "start": "Every other Monday",
+        "end": "Varies, usually 09:00 AM or 06:45 PM",
+        "remote": "Site states \u0022The meetings are broadcast live on CCNCTV Spectrum Cable Channel 5. The meetings are rebroadcast the Wednesday following the meeting at 7:00 p.m. and Friday following the meeting at 10:30 a.m.\u0022  Recordings are available on Youtube here: https://www.youtube.com/user/CumberlandCountyNC/videos",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/meetings",
+        "id": 164
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "A.B.C. Board",
+        "location": "ABC Board Office Conference Room",
+        "address": "424 Person Street\nFayetteville, NC",
+        "schedule": "2nd Monday of each month",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 165
+      },
+      "geometry": {
+        "longitude": -78.798912,
+        "latitude": 35.116553,
+        "coordinates": [
+          -78.798912,
+          35.116553
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Various adult care homes in Cumberland County",
+        "address": "Various adult care homes in Cumberland County",
+        "schedule": "3rd Thursday of the last month of each quarter",
+        "start": "1:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 166
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Animal Services Board",
+        "location": "Animal Services Department",
+        "address": "Animal Services Department \n4704 Corporation Drive \nFayetteville, NC",
+        "schedule": "First Monday of every other month (Feb/Apr/June/Aug/Oct/Dec). No meetings held on first or last day of any month.",
+        "start": "6:00 PM",
+        "end": "Varies",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 167
+      },
+      "geometry": {
+        "longitude": -78.974686,
+        "latitude": 35.05471,
+        "coordinates": [
+          -78.974686,
+          35.05471
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Board of Adjustment",
+        "location": "Historic Cumberland County Courthouse",
+        "address": "Hearing Room #3 \n130 Gillespie Street \nFayetteville, NC",
+        "schedule": "3rd Thursday of each month",
+        "start": "6:00 PM",
+        "end": "Varies",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 168
+      },
+      "geometry": {
+        "longitude": -78.885238,
+        "latitude": 35.057381,
+        "coordinates": [
+          -78.885238,
+          35.057381
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Board of Health",
+        "location": "Cumberland County Health Department",
+        "address": "Board Room \n1235 Ramsey Street \nFayetteville, NC",
+        "schedule": "3rd Tuesday of each month. July and September meetings take place only if desired.",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 169
+      },
+      "geometry": {
+        "longitude": -78.889539,
+        "latitude": 35.053678,
+        "coordinates": [
+          -78.889539,
+          35.053678
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cape Fear Valley Health System Board of Trustees",
+        "location": "Cape Fear Valley Health System",
+        "address": "Board Room First Floor/Administrative Area \n1638 Owen Drive\nFayetteville, NC",
+        "schedule": "Last Wednesday of each month except April and July; November \u0026 December meetings are combined",
+        "start": "5:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 170
+      },
+      "geometry": {
+        "longitude": -78.814741,
+        "latitude": 35.42516,
+        "coordinates": [
+          -78.814741,
+          35.42516
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Civic Center Commission",
+        "location": "Cumberland County Civic Center",
+        "address": "Crown Coliseum Board Room \n1960 Coliseum Drive \nFayetteville, NC",
+        "schedule": "4th Tuesday of each month",
+        "start": "5:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 171
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Cemetery Commission",
+        "location": "Varies",
+        "address": "Varies",
+        "schedule": "As needed.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 172
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Community Child Protection/Fatality Prevention Team",
+        "location": "Department of Social Services Building",
+        "address": "4th Floor, Room 440 \n1225 Ramsey Street\nFayetteville, NC",
+        "schedule": "3rd Thursday of each month",
+        "start": "3:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 173
+      },
+      "geometry": {
+        "longitude": -77.925838,
+        "latitude": 34.21787,
+        "coordinates": [
+          -77.925838,
+          34.21787
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Finance Corporation",
+        "location": "Cumberland County Courthouse",
+        "address": "Room 564 \n117 Dick Street \nFayetteville, NC",
+        "schedule": "As needed.",
+        "start": "12:00 PM, usually",
+        "end": "Varies",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 174
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Home and Community Care Block Grant Committee",
+        "location": "Varies",
+        "address": "Varies",
+        "schedule": "As needed.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 175
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Industrial Facilities and Pollution Control Financing Authority",
+        "location": "Cumberland County Courthouse",
+        "address": "Room 564 \n117 Dick Street \nFayetteville, NC",
+        "schedule": "As needed.",
+        "start": "12:00 PM, usually",
+        "end": "Varies",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 176
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Juvenile Crime Prevention Council",
+        "location": "Cumberland County CommuniCare",
+        "address": "Lower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
+        "schedule": "2nd Wednesday of each month",
+        "start": "1:15 PM",
+        "end": "03:15 PM at the latest",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 177
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Local Emergency Planning Committee",
+        "location": "Varies",
+        "address": "Varies",
+        "schedule": "Last Thursday of the first month of each quarter",
+        "start": "10:00 AM",
+        "end": "11:00 AM",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 178
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Cumberland County Workforce Development Board",
+        "location": "FTCC General Classroom Building",
+        "address": "Room 114\n2817 Ft. Bragg Rd",
+        "schedule": "3rd Tuesday of every other month, starting January",
+        "start": "11:00 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 179
+      },
+      "geometry": {
+        "longitude": -78.890066,
+        "latitude": 35.052648,
+        "coordinates": [
+          -78.890066,
+          35.052648
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Equalization and Review Board",
+        "location": "Cumberland County Courthouse",
+        "address": "Room 564 \n117 Dick Street \nFayetteville, NC",
+        "schedule": "2nd Wednesday of every month (except July)",
+        "start": "3:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 180
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Farm Advisory Board",
+        "location": "Historic Cumberland County Courthouse",
+        "address": "Room 107C \n130 Gillespie Street \nFayetteville, NC",
+        "schedule": "2nd Tuesday of the first month of each quarter",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 181
+      },
+      "geometry": {
+        "longitude": -78.885238,
+        "latitude": 35.057381,
+        "coordinates": [
+          -78.885238,
+          35.057381
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Fayetteville Area Convention and Visitors Bureau Board of Directors",
+        "location": "Fayetteville Area Convention and Visitors Bureau",
+        "address": "Board Room\n245 Person Street\nFayetteville, NC",
+        "schedule": "4th Wednesday of the first month of each quarter",
+        "start": "12:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 182
+      },
+      "geometry": {
+        "longitude": -78.874542,
+        "latitude": 35.051411,
+        "coordinates": [
+          -78.874542,
+          35.051411
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Fayetteville Cumberland County Economic Development Corporation",
+        "location": "",
+        "address": "201 Hay Street\nR. B. Williams Building Ste 401A\nFayetteville, NC",
+        "schedule": "2nd Tuesday of each month",
+        "start": "8:00 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 183
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Fayetteville Technical Community College Board of Trustees",
+        "location": "Fayetteville Technical Community College",
+        "address": "Board Room Tony Rand Student Center \n2201 Hull Road \nFayetteville, NC",
+        "schedule": "3rd Monday of each month except July and December, plus as called.",
+        "start": "12:30 PM",
+        "end": "4:30 PM",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 184
+      },
+      "geometry": {
+        "longitude": -78.9267805,
+        "latitude": 35.069124,
+        "coordinates": [
+          -78.9267805,
+          35.069124
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Fayetteville-Cumberland Parks and Recreation Advisory Commission",
+        "location": "City of Fayetteville Parks \u0026 Recreation",
+        "address": "121 Lamon Street \nFayetteville, NC",
+        "schedule": "1st Tuesday of each month",
+        "start": "5:30 PM",
+        "end": "7:00 PM",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 185
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Human Relations Commission",
+        "location": "Festival Park Plaza Training Room",
+        "address": "1st Floor\n225 Ray Ave\nFayetteville, NC 28301",
+        "schedule": "2nd Thursday of each month",
+        "start": "5:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 186
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Joint Appearance Commission",
+        "location": "Fayetteville City Hall",
+        "address": "E.E. Smith Conference Room",
+        "schedule": "2nd Monday of each month",
+        "start": "5:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 187
+      },
+      "geometry": {
+        "longitude": -78.883411,
+        "latitude": 35.053686,
+        "coordinates": [
+          -78.883411,
+          35.053686
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Joint Fort Bragg \u0026 Cumberland County Food Policy Council",
+        "location": "",
+        "address": "1235 Ramsey Street\nFayetteville, NC",
+        "schedule": "1st Wednesday of each month",
+        "start": "12:00 PM on even-numbered days\n05:00 PM on odd-numbered days",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 188
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Joint Planning Board",
+        "location": "Historic Cumberland County Courthouse",
+        "address": "Hearing Room #3 \n130 Gillespie Street \nFayetteville, North Carolina",
+        "schedule": "3rd Tuesday of each month",
+        "start": "6:00 PM",
+        "end": "Varies",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 189
+      },
+      "geometry": {
+        "longitude": -78.885238,
+        "latitude": 35.057381,
+        "coordinates": [
+          -78.885238,
+          35.057381
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Jury Commission",
+        "location": "Judge E. Maurice Braswell Courthouse",
+        "address": "117 Dick Street, 3rd floor\nFayetteville, NC",
+        "schedule": "As often as required to complete the jury list for the next year by the 30th day of November of each year.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 190
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Library Board of Trustees",
+        "location": "Various libraries throughout the County",
+        "address": "Various libraries throughout the County",
+        "schedule": "3rd Thursday of each month except December",
+        "start": "9:05 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 191
+      },
+      "geometry": {
+        "longitude": -78.987023,
+        "latitude": 35.148377,
+        "coordinates": [
+          -78.987023,
+          35.148377
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Mid-Carolina Aging Advisory Council",
+        "location": "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
+        "address": "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
+        "schedule": "1st Thursday of the last month of each quarter",
+        "start": "2:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 192
+      },
+      "geometry": {
+        "longitude": -70.258169,
+        "latitude": 43.796655,
+        "coordinates": [
+          -70.258169,
+          43.796655
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "North Carolina Southeast",
+        "location": "",
+        "address": "70 West Broad Street\nElizabethtown, NC",
+        "schedule": "Quarterly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 193
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Nursing Home Advisory Board",
+        "location": "Various nursing homes in Cumberland County",
+        "address": "Various nursing homes in Cumberland County",
+        "schedule": "3rd Thursday of the last month of each quarter",
+        "start": "10:00 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 194
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Senior Citizens Advisory Commission",
+        "location": "FCPR Senior Center",
+        "address": "Large Program Room\n739 Blue Street\nFayetteville, NC",
+        "schedule": "2nd Tuesday of each month",
+        "start": "2:30 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 195
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Social Services Board",
+        "location": "Department of Social Services",
+        "address": "Board Room \n1225 Ramsey Street\nFayetteville, NC",
+        "schedule": "Last Wednesday of each month",
+        "start": "1:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 196
+      },
+      "geometry": {
+        "longitude": -77.925838,
+        "latitude": 34.21787,
+        "coordinates": [
+          -77.925838,
+          34.21787
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Southeastern Economic Development Commission",
+        "location": "",
+        "address": "707 West Broad Street, \nElizabethtown, NC",
+        "schedule": "Once a year, usually April",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 197
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland County",
+        "publicbody": "Transportation Advisory Board",
+        "location": "Historic Cumberland County Courthouse",
+        "address": "Hearing Room #3\n130 Gillespie Street \nFayetteville, NC",
+        "schedule": "2nd Tuesday of the first month of each quarter",
+        "start": "10:00 AM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 198
+      },
+      "geometry": {
+        "longitude": -78.885238,
+        "latitude": 35.057381,
+        "coordinates": [
+          -78.885238,
+          35.057381
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "",
+        "publicbody": "",
+        "location": "",
+        "address": "",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 199
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Davidson County",
+        "publicbody": "Board of Elections",
+        "location": "Board of Commissioners Meeting Room",
+        "address": "Davidson County Government Center 4th Floor\n913 Greensboro Street\nLexington, NC 27292",
+        "schedule": "A few times a month",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://votedavidsoncountync.com/home-page",
+        "id": 200
+      },
+      "geometry": {
+        "longitude": -80.21,
+        "latitude": 35.79,
+        "coordinates": [
+          -80.21,
+          35.79
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Davidson County",
+        "publicbody": "Board of Health",
+        "location": "Health Department",
+        "address": "915 Greensboro Street\nLexington, NC  27292",
+        "schedule": "1st Tuesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.co.davidson.nc.us/467/Board-of-Health",
+        "id": 201
+      },
+      "geometry": {
+        "longitude": -80.059071,
+        "latitude": 35.919706,
+        "coordinates": [
+          -80.059071,
+          35.919706
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Davidson County",
+        "publicbody": "Social Services Board",
+        "location": "",
+        "address": "Davidson County Governmental Center - 1st Floor\n913 Greensboro Street\nLexington, NC  27292",
+        "schedule": "4th Tuesday each month except December",
+        "start": "4:15 PM",
+        "end": "6:00 PM",
+        "remote": "",
+        "moreInfo": "https://www.co.davidson.nc.us/690/Social-Services-Board-Information",
+        "id": 202
+      },
+      "geometry": {
+        "longitude": -80.21,
+        "latitude": 35.79,
+        "coordinates": [
+          -80.21,
+          35.79
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Davidson County",
+        "publicbody": "Soil \u0026 Water Convservation District Board",
+        "location": "",
+        "address": "",
+        "schedule": "2nd Thursday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 203
+      },
+      "geometry": {
+        "longitude": -80.21,
+        "latitude": 35.79,
+        "coordinates": [
+          -80.21,
+          35.79
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "",
+        "publicbody": "",
+        "location": "",
+        "address": "",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 204
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Piedmont Triad Regional Council",
+        "address": "1398 Carrollton Crossing Dr.\nKernersville, NC 27284",
+        "schedule": "1st Wednesday of Mar./June/Sep./Dec.",
+        "start": "1:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=2",
+        "id": 205
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Animal Services Advisory Board",
+        "location": "Forsyth County Animal Shelter",
+        "address": "5570 Sturmer Park Circle\nWinston-Salem, NC 27105",
+        "schedule": "3rd Thursday of each month",
+        "start": "6:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=75",
+        "id": 206
+      },
+      "geometry": {
+        "longitude": -80.280823,
+        "latitude": 36.171736,
+        "coordinates": [
+          -80.280823,
+          36.171736
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Appearance Commission, Winston-Salem/Forsyth County",
+        "location": "Bryce A. Stuart Municipal Building, City-County Planning Board Conference Room",
+        "address": "100 East First Street, Winston-Salem",
+        "schedule": "4th Wednesday of each month",
+        "start": "4:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=5",
+        "id": 207
+      },
+      "geometry": {
+        "longitude": -80.243258,
+        "latitude": 36.094755,
+        "coordinates": [
+          -80.243258,
+          36.094755
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Community Child Protection Team/Child Fatality Prevention Team",
+        "location": "Forsyth County Public Health Boardroom",
+        "address": "799 Highland Avenue\nWinston-Salem, NC",
+        "schedule": "4th Wednesday of each quarter",
+        "start": "8:15 AM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=43",
+        "id": 208
+      },
+      "geometry": {
+        "longitude": -80.232435,
+        "latitude": 36.103926,
+        "coordinates": [
+          -80.232435,
+          36.103926
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Environmental Assistance and Protection Board",
+        "location": "Equalization and Review Board Room",
+        "address": "Forsyth County Government Center, 1st Floor\n201 North Chestnut Street\nWinston-Salem, NC",
+        "schedule": "As called, typically once a quarter",
+        "start": "10:00 AM",
+        "end": "12:00 PM",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=13",
+        "id": 209
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Experiment in Self-Reliance",
+        "location": "",
+        "address": "1621 East Third Street",
+        "schedule": "1st Wednesday of September-June",
+        "start": "12:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=15",
+        "id": 210
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Forsyth County Health and Human Services Board",
+        "location": "Forsyth County Public Health Department",
+        "address": "799 North Highland Avenue",
+        "schedule": "1st Wednesday of each month",
+        "start": "5:30 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=87",
+        "id": 211
+      },
+      "geometry": {
+        "longitude": -80.0999,
+        "latitude": 36.109755,
+        "coordinates": [
+          -80.0999,
+          36.109755
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Forsyth County Historic Resources Commission",
+        "location": "5th Floor Public Meeting Room",
+        "address": "City Hall South\n100 East First Street, Winston-Salem",
+        "schedule": "1st Wednesday of each month",
+        "start": "4:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=44",
+        "id": 212
+      },
+      "geometry": {
+        "longitude": -80.2593,
+        "latitude": 36.064662,
+        "coordinates": [
+          -80.2593,
+          36.064662
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Library Board",
+        "location": "Central Library (may vary)",
+        "address": "",
+        "schedule": "2nd or 3rd Wednesday of Jan./Mar./May/Sep./Nov.",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=23",
+        "id": 213
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Nursing Home Community Advisory Committee, Forsyth County",
+        "location": "Polo Park Recreational Center",
+        "address": "1850 Polo Rd\nWinston-Salem, NC 27106",
+        "schedule": "3rd Monday of March, June, September, December",
+        "start": "6:30 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=26",
+        "id": 214
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Piedmont Triad Regional Workforce Development Board",
+        "location": "Piedmont Triad Regional Council",
+        "address": "1398 Carrollton Crossing Dr.\nKernersville, NC 27284",
+        "schedule": "3rd Wednesday of February, April, June, August, September, and October",
+        "start": "8:30 AM",
+        "end": "9:30 AM",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=86",
+        "id": 215
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Planning Board (City/County)",
+        "location": "Bryce A. Stuart Municipal Building, 5th floor public meeting room",
+        "address": "100 E. First Street, Winston-Salem",
+        "schedule": "2nd Thursday of each month",
+        "start": "4:30 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=29",
+        "id": 216
+      },
+      "geometry": {
+        "longitude": -80.243258,
+        "latitude": 36.094755,
+        "coordinates": [
+          -80.243258,
+          36.094755
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Planning Board, Kernersville",
+        "location": "Kernersville District Court Room",
+        "address": "",
+        "schedule": "2nd Monday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=30",
+        "id": 217
+      },
+      "geometry": {
+        "longitude": -80.073653,
+        "latitude": 36.119859,
+        "coordinates": [
+          -80.073653,
+          36.119859
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Public Art Commission (City/County)",
+        "location": "2nd Floor Conference Room of Bryce Stuart Building",
+        "address": "100 East First Street, Winston-Salem",
+        "schedule": "1st Tuesday of each month",
+        "start": "2:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=84",
+        "id": 218
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Smith Reynolds Airport Board",
+        "location": "Terminal Building at Smith Reynolds Airport",
+        "address": "3801 N. Liberty St, Winston-Salem, NC 27105",
+        "schedule": "3rd Tuesday of each month",
+        "start": "4:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=89",
+        "id": 219
+      },
+      "geometry": {
+        "longitude": -80.26,
+        "latitude": 36.13,
+        "coordinates": [
+          -80.26,
+          36.13
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Zoning Board of Adjustment, Forsyth County",
+        "location": "Bryce A. Stuart Municipal Building, 5th floor public meeting room",
+        "address": "100 E. First Street, Winston-Salem",
+        "schedule": "3rd Wednesday of each month",
+        "start": "2:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=39",
+        "id": 220
+      },
+      "geometry": {
+        "longitude": -80.243258,
+        "latitude": 36.094755,
+        "coordinates": [
+          -80.243258,
+          36.094755
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Zoning Board of Adjustment, Kernersville",
+        "location": "Kernersville District Court Room",
+        "address": "",
+        "schedule": "3rd Monday of each month",
+        "start": "7:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=40",
+        "id": 221
+      },
+      "geometry": {
+        "longitude": -80.073653,
+        "latitude": 36.119859,
+        "coordinates": [
+          -80.073653,
+          36.119859
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Forsyth County",
+        "publicbody": "Zoning Board of Adjustment, Winston-Salem",
+        "location": "Bryce A. Stuart Municipal Building, 5th floor public meeting room",
+        "address": "100 E. First Street, Winston-Salem",
+        "schedule": "1st Thursday of each month",
+        "start": "2:00 PM",
+        "end": "",
+        "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
+        "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=41",
+        "id": 222
+      },
+      "geometry": {
+        "longitude": -80.243258,
+        "latitude": 36.094755,
+        "coordinates": [
+          -80.243258,
+          36.094755
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "JR Kernodle Senior Center",
+        "address": "Kernodle Senior Center, 1535 S Mebane St, Burlington, North Carolina 27215, United States",
+        "schedule": "2:00 p.m. the third Tuesday of each quarter",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Tracy Warner, Ombudsman, (336) 904-0300",
+        "id": 223
+      },
+      "geometry": {
+        "longitude": -79.451938,
+        "latitude": 36.080331,
+        "coordinates": [
+          -79.451938,
+          36.080331
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Alamance County Senior Services Committee",
+        "location": "J. R. Kernodle Senior Center",
+        "address": "Kernodle Senior Center, 1535 S Mebane St, Burlington, North Carolina 27215, United States",
+        "schedule": "8:30 a.m. the second Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Crystal Norman\u00A0 (336) 904-0300",
+        "id": 224
+      },
+      "geometry": {
+        "longitude": -79.451938,
+        "latitude": 36.080331,
+        "coordinates": [
+          -79.451938,
+          36.080331
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Board of Health",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/board-of-health/",
+        "id": 225
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Nursing Home Community Advisory Committee",
+        "location": "J.R. Kernodle Senior Center",
+        "address": "Kernodle Senior Center, 1535 S Mebane St, Burlington, North Carolina 27215, United States",
+        "schedule": "9:30 a.m. the first Thursday of each quarter",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Tracy Warner, Ombudsman, (336) 904-0300",
+        "id": 226
+      },
+      "geometry": {
+        "longitude": -79.451938,
+        "latitude": 36.080331,
+        "coordinates": [
+          -79.451938,
+          36.080331
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Social Services Board",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/social-services-board/",
+        "id": 227
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Workforce Development Board",
+        "location": "Rotate at Alamance, Orange, or Randolph County",
+        "address": "Randolph County, North Carolina, United States",
+        "schedule": "11:00 a.m. the 3rd Thursday in the 1st month of each quarter",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Tammy Wall 336-629-5141",
+        "id": 228
+      },
+      "geometry": {
+        "longitude": -79.81,
+        "latitude": 35.71,
+        "coordinates": [
+          -79.81,
+          35.71
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Animal Review Board",
+        "location": "",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Sheriff Terry Johnson\u00A0 336-570-6300",
+        "id": 229
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Jury Commission",
+        "location": "",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "September and October as needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Meredith Edwards, Clerk of Court 336-570-5200",
+        "id": 230
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Justice Advisory Council",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/justice-advisory-council/",
+        "id": 231
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Juvenile Crime Prevention Council",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/juvenile-crime-prevention-council/",
+        "id": 232
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "LEPC",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/local-emergency-planning-committee-lepc-for-hazardous-chemicals/",
+        "id": 233
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Alamance County Board of Adjustment",
+        "location": "Commissioners\u2019 Room",
+        "address": "Country Inn \u0026 Suites by Radisson, 3211 Wilson Dr, Burlington, North Carolina 27215, United States",
+        "schedule": "7:00 p.m. the first Monday of the month when required",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Tonya Caddle 336-570-4052",
+        "id": 234
+      },
+      "geometry": {
+        "longitude": -79.502324,
+        "latitude": 36.068022,
+        "coordinates": [
+          -79.502324,
+          36.068022
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Alamance County Planning Board",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/alamance-county-planning-board/",
+        "id": 235
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Board of Equalization and Review",
+        "location": "Commissioners\u2019 Meeting Room",
+        "address": "Raleigh Marriott Crabtree Valley, 4500 Marriott Drive, Raleigh, North Carolina 27612, United States",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Jeremy Akins, Tax Administrator\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-228-1312",
+        "id": 236
+      },
+      "geometry": {
+        "longitude": -78.678044,
+        "latitude": 35.842902,
+        "coordinates": [
+          -78.678044,
+          35.842902
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Burlington Board of Adjustment",
+        "location": "Burlington City Council Chambers",
+        "address": "Burlington, North Carolina, United States",
+        "schedule": "8:30 a.m. the second Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Conrad Olmedo 336-513-5416",
+        "id": 237
+      },
+      "geometry": {
+        "longitude": -79.437799,
+        "latitude": 36.095692,
+        "coordinates": [
+          -79.437799,
+          36.095692
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Burlington Planning and Zoning Commission",
+        "location": "Burlington Municipal Building, Room 202",
+        "address": "Burlington Municipal Building, 425 S Lexington Ave, Burlington, North Carolina 27215, United States",
+        "schedule": "7:00 p.m. the fourth Monday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Conrad Olmedo 336-513-5416",
+        "id": 238
+      },
+      "geometry": {
+        "longitude": -79.436653,
+        "latitude": 36.091335,
+        "coordinates": [
+          -79.436653,
+          36.091335
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Elon Planning and Zoning Commission",
+        "location": "Elon Town Hall",
+        "address": "Elon, North Carolina, United States",
+        "schedule": "7:00 p.m. the third Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "DiAnne Enoch, Clerk\u00A0 336-584-3601",
+        "id": 239
+      },
+      "geometry": {
+        "longitude": -79.50669,
+        "latitude": 36.102913,
+        "coordinates": [
+          -79.50669,
+          36.102913
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Gibsonville Board of Adjustment",
+        "location": "Gibsonville Town Hall",
+        "address": "Gibsonville Town Hall, Gibsonville, North Carolina 27249, United States",
+        "schedule": "7:00 p.m. as called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Ben Baxley, Town Manager\u00A0\u00A0 336-449-4144",
+        "id": 240
+      },
+      "geometry": {
+        "longitude": -79.543097,
+        "latitude": 36.106198,
+        "coordinates": [
+          -79.543097,
+          36.106198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Gibsonville Planning Board",
+        "location": "Gibsonville Town Hall",
+        "address": "Gibsonville Town Hall, Gibsonville, North Carolina 27249, United States",
+        "schedule": "7:00 p.m. the third Thursday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Ben Baxley, Town Manager\u00A0\u00A0 336-449-4144",
+        "id": 241
+      },
+      "geometry": {
+        "longitude": -79.543097,
+        "latitude": 36.106198,
+        "coordinates": [
+          -79.543097,
+          36.106198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Graham Board of Adjustment",
+        "location": "",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Justin Snyder 336-570-6700",
+        "id": 242
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Graham Planning Board",
+        "location": "Council Chambers of Graham Municipal Building",
+        "address": "Graham, North Carolina, United States",
+        "schedule": "Third Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Justin Snyder 336-570-6700",
+        "id": 243
+      },
+      "geometry": {
+        "longitude": -79.400576,
+        "latitude": 36.069026,
+        "coordinates": [
+          -79.400576,
+          36.069026
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Haw River Board of Adjustment",
+        "location": "Haw River Municipal Building",
+        "address": "Haw River, North Carolina, United States",
+        "schedule": "7:00 p.m. the first Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Sean Tencer, Town Manager\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-578-0784",
+        "id": 244
+      },
+      "geometry": {
+        "longitude": -79.364186,
+        "latitude": 36.091526,
+        "coordinates": [
+          -79.364186,
+          36.091526
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Haw River Planning and Zoning Commission",
+        "location": "Haw River Municipal Building",
+        "address": "Haw River, North Carolina, United States",
+        "schedule": "7:00 p.m. the first Tuesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Sean Tencer, Town Manager\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-578-0784",
+        "id": 245
+      },
+      "geometry": {
+        "longitude": -79.364186,
+        "latitude": 36.091526,
+        "coordinates": [
+          -79.364186,
+          36.091526
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Historic Properties Commission",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/historic-properties-commission/",
+        "id": 246
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Mebane Board of Adjustment",
+        "location": "Mebane Municipal Building, City Council Chambers",
+        "address": "Mebane, North Carolina, United States",
+        "schedule": "6:00 p.m. the first Monday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "919-563-9990",
+        "id": 247
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Mebane Planning Board",
+        "location": "Mebane Municipal Building, City Council Chambers",
+        "address": "Mebane, North Carolina, United States",
+        "schedule": "6:30 p.m. the second Monday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "919-563-9990",
+        "id": 248
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Village of Alamance Board of Adjustment",
+        "location": "Village of Alamance Town Hall",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Ben York, Clerk\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-226-0033",
+        "id": 249
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Village of Alamance Planning Board",
+        "location": "Village of Alamance Town Hall",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Ben York, Clerk\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-226-0033",
+        "id": 250
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Agricultural Advisory Board / Farmland Preservation",
+        "location": "Agricultural Building Auditorium",
+        "address": "La Cocina, 309 Huffman Mill Rd, Burlington, North Carolina 27215, United States",
+        "schedule": "12:00 p.m. the first Wednesday of each quarter",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Brad Moore\u00A0\u00A0\u00A0\u00A0 336-290-0380",
+        "id": 251
+      },
+      "geometry": {
+        "longitude": -79.487215,
+        "latitude": 36.077676,
+        "coordinates": [
+          -79.487215,
+          36.077676
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Alamance Beautiful Commission",
+        "location": "Agricultural Extension Center",
+        "address": "Center Road, Haw River, North Carolina 27258, United States",
+        "schedule": "12:15 p.m. the fourth Tuesday except July and December",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 252
+      },
+      "geometry": {
+        "longitude": -79.355225,
+        "latitude": 36.11158,
+        "coordinates": [
+          -79.355225,
+          36.11158
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Alamance Community College Board of Trustees",
+        "location": "Alamance Community College, Wallace Gee Bldg.",
+        "address": "Alamance Community College, 1247 Jimmie Kerr Rd, Graham, North Carolina 27253, United States",
+        "schedule": "6:00 p.m. the second Monday of the month except July \u0026 Dec.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Dr. Algie C. Gatewood, President\u00A0\u00A0 336-506-4150",
+        "id": 253
+      },
+      "geometry": {
+        "longitude": -79.35742400000001,
+        "latitude": 36.0652275,
+        "coordinates": [
+          -79.35742400000001,
+          36.0652275
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Alamance County Transportation Authority",
+        "location": "ACTA Office",
+        "address": "Lil Donnie Walkers Car Wash, 3804 S Mebane St, Burlington, North Carolina 27215, United States",
+        "schedule": "4:00 p.m. the third Wednesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Peter Murphy 336-222-0565",
+        "id": 254
+      },
+      "geometry": {
+        "longitude": -79.484225,
+        "latitude": 36.077891,
+        "coordinates": [
+          -79.484225,
+          36.077891
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Burlington-Alamance Airport Authority",
+        "location": "Airport Terminal Building",
+        "address": "Burlington-Alamance Regional Airport, 3441 N Aviation Dr, Burlington, North Carolina 27215, United States",
+        "schedule": "12:00 p.m. the third Wednesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Dan Danieley, Executive Director\u00A0\u00A0\u00A0\u00A0\u00A0 336-227-0771",
+        "id": 255
+      },
+      "geometry": {
+        "longitude": -79.476222,
+        "latitude": 36.048977,
+        "coordinates": [
+          -79.476222,
+          36.048977
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Library Committee",
+        "location": "One of the four libraries",
+        "address": "Durham County Library - South Regional, 4505 S Alston Ave, Durham, North Carolina 27713, United States",
+        "schedule": "Alternates meeting times between 12:30 p.m. and 6:30pm four times a year",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Susana Goldman, Director of Alamance County Public Libraries 336-229-3588",
+        "id": 256
+      },
+      "geometry": {
+        "longitude": -78.888448,
+        "latitude": 35.9023,
+        "coordinates": [
+          -78.888448,
+          35.9023
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Public Transit Advisory Commission (PTAC)",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/public-transit-advisory-commission-ptac/",
+        "id": 257
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Recreation and Parks Commission",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/recreation-and-parks-commission/",
+        "id": 258
+      },
+      "geometry": {
+        "longitude": -79.485855,
+        "latitude": 36.035136,
+        "coordinates": [
+          -79.485855,
+          36.035136
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Tourism Development Authority",
+        "location": "Chamber of Commerce/Visitor Bureau",
+        "address": "Durham Chamber of Commerce, 300 W Morgan St, Durham, North Carolina 27701, United States",
+        "schedule": "10:30 a.m. on the fourth Tuesday of every month.\u00A0 Changes will be posted at https://www.visitalamance.com/about/tourism-development-authority/",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Grace VandeViser, Executive Director (336) 570-1444",
+        "id": 259
+      },
+      "geometry": {
+        "longitude": -78.902268,
+        "latitude": 35.99853,
+        "coordinates": [
+          -78.902268,
+          35.99853
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Alamance",
+        "publicbody": "Veterans Service Committee",
+        "location": "Veterans Service Office",
+        "address": "TS Designs, 2053 Willow Spring Ln, Burlington, North Carolina 27215, United States",
+        "schedule": "As called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "Tammy Crawford, Veterans Service Officer\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-570-6763",
+        "id": 260
+      },
+      "geometry": {
+        "longitude": -79.486391,
+        "latitude": 36.049856,
+        "coordinates": [
+          -79.486391,
+          36.049856
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "A.B.C. Board",
+        "location": "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
+        "address": "Person Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 261
+      },
+      "geometry": {
+        "longitude": -78.86733,
+        "latitude": 35.04916,
+        "coordinates": [
+          -78.86733,
+          35.04916
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Various adult care homes in Cumberland County",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Third Thursday of the last month of each quarter at 1:00 p.m. There is an initial training period of 15 hours to include study of a committee handbook and orientation visits to long-term care facilities. Additional training of 10 hours per year is required. Visits in the assigned facilities are of the utmost importance in the participation on this committee. A commitment of at least one day per quarter to visit facilities and 4 hours per quarter for business and training meetings.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 262
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Animal Services Board",
+        "location": "Animal\u00A0Services Department \n4704 Corporation Drive \nFayetteville, NC",
+        "address": "4704 Corporation Drive, Fayetteville, North Carolina 28306, United States",
+        "schedule": "First Monday of every other month (Feb./Apr./June/Aug./Oct./Dec.) at 6:00 p.m. (No meetings held on first or last day of any month.) The average length of a meeting varies.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 263
+      },
+      "geometry": {
+        "longitude": -78.889975,
+        "latitude": 34.955995,
+        "coordinates": [
+          -78.889975,
+          34.955995
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Board of Adjustment",
+        "location": "Historic Cumberland County Courthouse, Hearing Room #3 \n130 Gillespie Street \nFayetteville, NC",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Third Thursday of each month at 6:00 p.m. The average length of a meeting varies. Each member spends approximately three hours per month in service to this board.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 264
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Board of Health",
+        "location": "Cumberland County Health Department \nBoard Room \n1235 Ramsey Street \nFayetteville, NC",
+        "address": "Ramsey Street, Fayetteville, North Carolina 28311, United States",
+        "schedule": "Third Tuesday of each month at 6:00 p.m. July and September meetings take place only if desired.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 265
+      },
+      "geometry": {
+        "longitude": -78.85364,
+        "latitude": 35.16869,
+        "coordinates": [
+          -78.85364,
+          35.16869
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cape Fear Valley Health System Board of Trustees",
+        "location": "Cape Fear Valley Health System \nBoard Room First Floor/Administrative Area \n1638 Owen Drive\nFayetteville, NC",
+        "address": "Cape Fear, North Carolina, United States",
+        "schedule": "Last Wednesday of each month at\u00A05:30 p.m. (No April or July Meeting; November \u0026 December meeting combined)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 266
+      },
+      "geometry": {
+        "longitude": -78.814741,
+        "latitude": 35.42516,
+        "coordinates": [
+          -78.814741,
+          35.42516
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Civic Center Commission",
+        "location": "Cumberland County Civic Center \nCrown Coliseum Board Room \n1960 Coliseum Drive \nFayetteville, NC",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Fourth Tuesday of each month at 5:30 p.m. The Board is also divided into three subcommittees that meet on a monthly basis: Finance Committee, Capital Improvements Committee, and Marketing and Sales Committee.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 267
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Cemetery Commission",
+        "location": "As called",
+        "address": "Cumberland Street, Newport, North Carolina 28570, United States",
+        "schedule": "Meets on an as-needed basis",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 268
+      },
+      "geometry": {
+        "longitude": -76.98508,
+        "latitude": 34.71181,
+        "coordinates": [
+          -76.98508,
+          34.71181
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Community Child Protection/Fatality Prevention Team",
+        "location": "Department of Social Services Building\n4th Floor, Room 440 \n1225 Ramsey Street\nFayetteville, NC",
+        "address": "1225 Ramsey Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Third Thursday of each month at 3:00 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 269
+      },
+      "geometry": {
+        "longitude": -78.88209,
+        "latitude": 35.07162,
+        "coordinates": [
+          -78.88209,
+          35.07162
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Finance Corporation",
+        "location": "Cumberland County Courthouse, Room 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Meetings are held on an as needed basis usually at 12:00 p.m. The length of the meetings varies.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 270
+      },
+      "geometry": {
+        "longitude": -78.87624,
+        "latitude": 35.0509,
+        "coordinates": [
+          -78.87624,
+          35.0509
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Home and Community Care Block Grant Committee",
+        "location": "Various service provider locations within Cumberland County",
+        "address": "CenturyLink, 717 Mcgilvary St, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Meets as needed.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 271
+      },
+      "geometry": {
+        "longitude": -78.890066,
+        "latitude": 35.052648,
+        "coordinates": [
+          -78.890066,
+          35.052648
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Industrial Facilities and Pollution Control Financing Authority",
+        "location": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Meetings are held on an as needed basis usually at 12:00 PM. The length of the meetings varies.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 272
+      },
+      "geometry": {
+        "longitude": -78.87624,
+        "latitude": 35.0509,
+        "coordinates": [
+          -78.87624,
+          35.0509
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Juvenile Crime Prevention Council",
+        "location": "Cumberland County CommuniCare, \nLower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
+        "address": "Bradford Avenue, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Second Wednesday of each month at 1:15 p.m. Meetings are normally one to two hours in length.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 273
+      },
+      "geometry": {
+        "longitude": -78.89288,
+        "latitude": 35.05289,
+        "coordinates": [
+          -78.89288,
+          35.05289
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Local Emergency Planning Committee",
+        "location": "Rotating Locations",
+        "address": "Cumberland Street, Newport, North Carolina 28570, United States",
+        "schedule": "On the last Thursday of the first month of each quarter at 10:00 a.m. Members are also required to attend and work with the subcommittee they are assigned to. The meetings generally last approximately one hour. The time required for the subcommittee would vary depending on the nature of the subcommittee (i.e., Membership, Resources, Exercise, Planning, etc.)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 274
+      },
+      "geometry": {
+        "longitude": -76.98508,
+        "latitude": 34.71181,
+        "coordinates": [
+          -76.98508,
+          34.71181
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Workforce Development Board",
+        "location": "FTCC General Classroom Building\nRoom 114\n2817 Ft. Bragg Rd",
+        "address": "Soldier Support Center, 4-2843 Normandy Dr # 284-28433, Fort Bragg, North Carolina 28307, United States",
+        "schedule": "Third Tuesday\u00A0of every other month at 11:00\u00A0a.m. (starting in January)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 275
+      },
+      "geometry": {
+        "longitude": -79.001217,
+        "latitude": 35.139046,
+        "coordinates": [
+          -79.001217,
+          35.139046
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Equalization and Review Board",
+        "location": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "117 Dick Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "2nd Wednesday of every month (except July) at 3:00 p.m. The Regular Board of Equalization and Review holds its first meeting each year no earlier than the first Monday in April and no later than the first Monday in May. In a year in which a countywide reappraisal (revaluation) is not conducted, the Board must complete its duties on or before the third Monday after they begin their duties, unless in its opinion a longer period is required. However, in no event may they sit longer than July 1st. In a year in which a revaluation is conducted, the Board may sit until December 31st.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 276
+      },
+      "geometry": {
+        "longitude": -78.87624,
+        "latitude": 35.0509,
+        "coordinates": [
+          -78.87624,
+          35.0509
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Farm Advisory Board",
+        "location": "Historic Cumberland County Courthouse, \nRoom 107C \n130 Gillespie Street \nFayetteville, NC",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Quarterly - second Tuesday of the first month at 7:00 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 277
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville Area Convention and Visitors Bureau Board of Directors",
+        "location": "Fayetteville Area Convention and Visitors Bureau \nBoard Room\n245 Person Street\n\nFayetteville, NC",
+        "address": "Fayetteville Area Convention and Visitors Bureau, 245 Person St, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Quarterly on 4th Wednesday (starting in January) at 12:00 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 278
+      },
+      "geometry": {
+        "longitude": -78.874542,
+        "latitude": 35.051411,
+        "coordinates": [
+          -78.874542,
+          35.051411
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville Cumberland County Economic Development Corporation",
+        "location": "201 Hay Street\nR. B. Williams Building Ste 401A\nFayetteville, NC",
+        "address": "Fayetteville, North Carolina, United States",
+        "schedule": "Second Tuesday of each month at\u00A08:00 a.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 279
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville Technical Community College Board of Trustees",
+        "location": "Fayetteville Technical Community College, \nBoard Room Tony Rand Student Center \n2201 Hull Road \nFayetteville, NC",
+        "address": "Fayetteville, North Carolina, United States",
+        "schedule": "The third Monday of each month at 12:30 p.m. No meetings in July and December. The maximum time per meeting would be four hours which includes committee meetings and lunch. Called meetings do occur occasionally and trustees are encouraged to attend some organizational meetings out of town or out of state. The Board is also divided into five sub committees that meet on the third Monday of each month prior to the 12:45 PM, Board Meeting, except July and December: (1) Finance Committee; (2) Human Resources Committee; (3) Building and Grounds Committee; and (4) Curriculum Committee; and (5) Planning Committee.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 280
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville-Cumberland Parks and Recreation Advisory Commission",
+        "location": "City of Fayetteville Parks \u0026 Recreation\n121 Lamon Street \nFayetteville, NC",
+        "address": "121 Lamon Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "1st Tuesday of every month at 5:30 p.m. Meetings last one to one and one-half hours with occasional committee meetings as needed.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 281
+      },
+      "geometry": {
+        "longitude": -78.87519,
+        "latitude": 35.05929,
+        "coordinates": [
+          -78.87519,
+          35.05929
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Human Relations Commission",
+        "location": "Festival Park Plaza Training Room 1st Floor\n225 Ray Ave\nFayetteville, NC 28301",
+        "address": "225 Ray Avenue, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Second Thursday of every month at 5:30 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 282
+      },
+      "geometry": {
+        "longitude": -78.88183,
+        "latitude": 35.05583,
+        "coordinates": [
+          -78.88183,
+          35.05583
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Joint Appearance Commission",
+        "location": "Fayetteville City Hall\nE.E. Smith Conference Room",
+        "address": "Fayetteville, North Carolina, United States",
+        "schedule": "Second\u00A0Monday\u00A0of the month at 5:30 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 283
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Joint Fort Bragg \u0026 Cumberland County Food Policy Council",
+        "location": "1235 Ramsey Street, Fayetteville, NC",
+        "address": "1235 Ramsey Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "First Wednesday of Each Month \n\n    Odd numbered days @ 5 p.m.\n    Even numbered days @ 12 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 284
+      },
+      "geometry": {
+        "longitude": -78.88205,
+        "latitude": 35.07386,
+        "coordinates": [
+          -78.88205,
+          35.07386
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Joint Planning Board",
+        "location": "Historic Cumberland County Courthouse\nHearing Room #3 \n130 Gillespie Street \nFayetteville, North Carolina",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Third Tuesday of each month at 6:00 p.m.\u00A0Meetings vary in length. Members also serve on sub-committees (Administrative, Comprehensive Planning, Codes and Nominating). These sub-committees meet on an as-needed basis. In addition, time is spent outside of the meetings to review various documents and plans on which the Board is required to vote.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 285
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Jury Commission",
+        "location": "Judge E. Maurice Braswell Courthouse \n3rd Floor \n117 Dick Street, Fayetteville",
+        "address": "Fayetteville, North Carolina, United States",
+        "schedule": "The Jury Commission meets at least twice a year. The Commission is responsible to meet as often as required to complete the jury list for the next year by the 30th day of November of each year. The amount of time required for each meeting and the number of meetings required is determined by the Commission and dictated by the procedures that the Commission chooses to prepare the Master List.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 286
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Library Board of Trustees",
+        "location": "Various libraries throughout the County",
+        "address": "The Country, Burlington, North Carolina, United States",
+        "schedule": "Third Thursday of each month at 9:05 a.m. (except for December). The approximate amount of time a Library Trustee would devote to the Board each month is two hours for meeting attendance with variable preparation and follow-up time. Periodic committee meeting attendance may be required. Trustee committees are: By-Laws (on call) and Nominating (on call).",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 287
+      },
+      "geometry": {
+        "longitude": -79.5178,
+        "latitude": 36.046247,
+        "coordinates": [
+          -79.5178,
+          36.046247
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Mid-Carolina Aging Advisory Council",
+        "location": "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
+        "address": "Sampson County, North Carolina, United States",
+        "schedule": "First\u00A0Thursday of the\u00A0last month of each quarter at 2:00 p.m. Length of meetings varies.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 288
+      },
+      "geometry": {
+        "longitude": -78.37,
+        "latitude": 34.99,
+        "coordinates": [
+          -78.37,
+          34.99
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "North Carolina Southeast",
+        "location": "70 West Broad Street, Elizabethtown, NC",
+        "address": "70 West Broad Street, Elizabethtown, North Carolina 28337, United States",
+        "schedule": "Quarterly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 289
+      },
+      "geometry": {
+        "longitude": -78.605956,
+        "latitude": 34.628959,
+        "coordinates": [
+          -78.605956,
+          34.628959
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Nursing Home Advisory Board",
+        "location": "Various nursing homes in Cumberland County",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Third Thursday of the last month of each quarter at 10:00 a.m. There is an initial training period of 15 hours to include study of a committee handbook and orientation visits to long-term care facilities. Additional training of 10 hours per year is required. Visits in the assigned facilities are of the utmost importance in the participation on this committee. A commitment of at least one day per quarter to visit facilities and 4 hours per quarter for business and training meetings.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 290
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Senior Citizens Advisory Commission",
+        "location": "FCPR Senior Center, Large Program Room\n739 Blue Street\nFayetteville, NC",
+        "address": "Blue Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Second Tuesday of each month at 2:30 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 291
+      },
+      "geometry": {
+        "longitude": -78.89206,
+        "latitude": 35.06488,
+        "coordinates": [
+          -78.89206,
+          35.06488
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Social Services Board",
+        "location": "Department of Social Services, \nBoard Room \n1225 Ramsey Street\nFayetteville, NC",
+        "address": "Ramsey Street, Fayetteville, North Carolina 28311, United States",
+        "schedule": "Last Wednesday of each month at 1:00 p.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 292
+      },
+      "geometry": {
+        "longitude": -78.85364,
+        "latitude": 35.16869,
+        "coordinates": [
+          -78.85364,
+          35.16869
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Southeastern Economic Development Commission",
+        "location": "707 West Broad Street, \nElizabethtown, NC",
+        "address": "707 West Broad Street, Elizabethtown, North Carolina 28337, United States",
+        "schedule": "Full Board meets one time annually - Usually in April",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 293
+      },
+      "geometry": {
+        "longitude": -78.613504,
+        "latitude": 34.631128,
+        "coordinates": [
+          -78.613504,
+          34.631128
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Transportation Advisory Board",
+        "location": "Historic Cumberland County Courthouse \nHearing Room #3\n130 Gillespie Street \nFayetteville, NC",
+        "address": "130 Gillespie Street, Fayetteville, North Carolina 28301, United States",
+        "schedule": "The\u00A0second Tuesday of the first month in the quarter, (January, April, July, and October) at 10:00 a.m.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": 294
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Agenda Review",
+        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
+        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
+        "schedule": "2022-09-15T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-82/",
+        "id": 295
+      },
+      "geometry": {
+        "longitude": -77.867841,
+        "latitude": 34.24198,
+        "coordinates": [
+          -77.867841,
+          34.24198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Regular Meeting",
+        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
+        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
+        "schedule": "2022-09-19T09:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-159/",
+        "id": 296
+      },
+      "geometry": {
+        "longitude": -77.945692,
+        "latitude": 34.23618,
+        "coordinates": [
+          -77.945692,
+          34.23618
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Agenda Review",
+        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
+        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
+        "schedule": "2022-09-29T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-81/",
+        "id": 297
+      },
+      "geometry": {
+        "longitude": -77.867841,
+        "latitude": 34.24198,
+        "coordinates": [
+          -77.867841,
+          34.24198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Regular Meeting",
+        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
+        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
+        "schedule": "2022-10-03T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-160/",
+        "id": 298
+      },
+      "geometry": {
+        "longitude": -77.945692,
+        "latitude": 34.23618,
+        "coordinates": [
+          -77.945692,
+          34.23618
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Agenda Review",
+        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
+        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
+        "schedule": "2022-10-13T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-83/",
+        "id": 299
+      },
+      "geometry": {
+        "longitude": -77.867841,
+        "latitude": 34.24198,
+        "coordinates": [
+          -77.867841,
+          34.24198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Regular Meeting",
+        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
+        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
+        "schedule": "2022-10-17T09:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-161/",
+        "id": 300
+      },
+      "geometry": {
+        "longitude": -77.945692,
+        "latitude": 34.23618,
+        "coordinates": [
+          -77.945692,
+          34.23618
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Agenda Review",
+        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
+        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
+        "schedule": "2022-11-10T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-84/",
+        "id": 301
+      },
+      "geometry": {
+        "longitude": -77.867841,
+        "latitude": 34.24198,
+        "coordinates": [
+          -77.867841,
+          34.24198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Regular Meeting",
+        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
+        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
+        "schedule": "2022-11-14T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-162/",
+        "id": 302
+      },
+      "geometry": {
+        "longitude": -77.945692,
+        "latitude": 34.23618,
+        "coordinates": [
+          -77.945692,
+          34.23618
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Agenda Review",
+        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
+        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
+        "schedule": "2022-12-01T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-85/",
+        "id": 303
+      },
+      "geometry": {
+        "longitude": -77.867841,
+        "latitude": 34.24198,
+        "coordinates": [
+          -77.867841,
+          34.24198
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "New Hannover",
+        "publicbody": "Board of Commissioners Regular Meeting",
+        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
+        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
+        "schedule": "2022-12-05T16:00:00",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-163/",
+        "id": 304
+      },
+      "geometry": {
+        "longitude": -77.945692,
+        "latitude": 34.23618,
+        "coordinates": [
+          -77.945692,
+          34.23618
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Veterans Day - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "11/11/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 305
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Thanksgiving Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "11/24/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 306
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Christmas Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "12/23/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 307
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Christmas Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "12/26/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 308
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Seymour Center",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "4:00 pm - 5:30 pm First Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=47",
+        "id": 309
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Advisory Board on Aging",
+        "location": "Passmore Center \u0026 Seymour Center (altnernating)",
+        "address": "North Carolina, United States",
+        "schedule": "1:00 pm Second Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=34",
+        "id": 310
+      },
+      "geometry": {
+        "longitude": -79.3896838690365,
+        "latitude": 35.5568849207,
+        "coordinates": [
+          -79.3896838690365,
+          35.5568849207
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Affordable Housing Advisory Board",
+        "location": "",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Second Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=990744288",
+        "id": 311
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Agricultural Preservation Board",
+        "location": "Bonnie B. Davis Environment \u0026 Agricultural Center",
+        "address": "Davis, North Carolina, United States",
+        "schedule": "6:30 pm (winter) 7:30 pm (spring, summer, fall) Third Wednesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=25",
+        "id": 312
+      },
+      "geometry": {
+        "longitude": -76.460199,
+        "latitude": 34.797385,
+        "coordinates": [
+          -76.460199,
+          34.797385
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Alcoholic Beverage Control Board",
+        "location": "601 Valley Forge Road, Hillsborough",
+        "address": "601 Valley Forge Road, Hillsborough, North Carolina 27278, United States",
+        "schedule": "8:30 am Third Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=38",
+        "id": 313
+      },
+      "geometry": {
+        "longitude": -79.087285,
+        "latitude": 36.063205,
+        "coordinates": [
+          -79.087285,
+          36.063205
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Animal Services Advisory Board",
+        "location": "Community Room of the Animal Services Facility",
+        "address": "I-73 S/ US Hwy 220 Rest Stop, I-73 South, Seagrove, North Carolina 27341, United States",
+        "schedule": "6:30 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144669",
+        "id": 314
+      },
+      "geometry": {
+        "longitude": -79.784458,
+        "latitude": 35.513108,
+        "coordinates": [
+          -79.784458,
+          35.513108
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Animal Services Hearing Panel Pool",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "As Needed As Needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144711",
+        "id": 315
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Arts Commission",
+        "location": "Alternating",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Second Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=49",
+        "id": 316
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Board of Equalization and Review (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "As needed As needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=52",
+        "id": 317
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Board of Health",
+        "location": "C.H. \u0026 Hillsborough Health Depts. (alternating)",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "7:00 pm Fourth Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=7",
+        "id": 318
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Board of Social Services",
+        "location": "Hillsborough Commons Board Room",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "4:00 pm Third Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=11",
+        "id": 319
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Carrboro Board of Adjustment",
+        "location": "Carrboro Town Hall",
+        "address": "Carrboro Town Hall, 301 W Main St, Carrboro, North Carolina 27510, United States",
+        "schedule": "7:00 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=17",
+        "id": 320
+      },
+      "geometry": {
+        "longitude": -79.077495,
+        "latitude": 35.911409,
+        "coordinates": [
+          -79.077495,
+          35.911409
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Carrboro Northern Transition Area Advisory Committee",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "Meets as called Meets as called",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=64",
+        "id": 321
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Carrboro Planning Board",
+        "location": "Carrboro Town Hall",
+        "address": "Carrboro Town Hall, 301 W Main St, Carrboro, North Carolina 27510, United States",
+        "schedule": "7:30 pm First and Third Thursday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=15",
+        "id": 322
+      },
+      "geometry": {
+        "longitude": -79.077495,
+        "latitude": 35.911409,
+        "coordinates": [
+          -79.077495,
+          35.911409
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Board of Adjustment",
+        "location": "Chapel Hill Town Hall",
+        "address": "Chapel Hill, North Carolina, United States",
+        "schedule": "7:30 pm First Wednesday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=24",
+        "id": 323
+      },
+      "geometry": {
+        "longitude": -79.05578,
+        "latitude": 35.913154,
+        "coordinates": [
+          -79.05578,
+          35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Library Advisory Board",
+        "location": "Chapel Hill Public Library Meeting Room C",
+        "address": "Chapel Hill Public Library, 100 Library Dr, Chapel Hill, North Carolina 27514, United States",
+        "schedule": "5:30 pm Second Monday in Feb, May, Sep, \u0026 Nov",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144701",
+        "id": 324
+      },
+      "geometry": {
+        "longitude": -79.035588,
+        "latitude": 35.932167,
+        "coordinates": [
+          -79.035588,
+          35.932167
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Orange County Visitors Bureau Advisory Board",
+        "location": "Varies",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "8:00 am Third Wednesday of every month except Jul. \u0026 Dec.",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=6",
+        "id": 325
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Parks, Greenways and Recreation Commission",
+        "location": "Chapel Hill Public Library",
+        "address": "Chapel Hill Public Library, 100 Library Dr, Chapel Hill, North Carolina 27514, United States",
+        "schedule": "7:00 pm Third Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144672",
+        "id": 326
+      },
+      "geometry": {
+        "longitude": -79.035588,
+        "latitude": 35.932167,
+        "coordinates": [
+          -79.035588,
+          35.932167
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Chapel Hill Planning Commission",
+        "location": "Chapel Hill Town Council",
+        "address": "Chapel Hill, North Carolina, United States",
+        "schedule": "7:00 pm First and third Tuesday of every month except July",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=13",
+        "id": 327
+      },
+      "geometry": {
+        "longitude": -79.05578,
+        "latitude": 35.913154,
+        "coordinates": [
+          -79.05578,
+          35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Commission for the Environment",
+        "location": "Bonnie B. Davis Environment \u0026 Agricultural Center",
+        "address": "Davis, North Carolina, United States",
+        "schedule": "7:00 pm Second Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=54",
+        "id": 328
+      },
+      "geometry": {
+        "longitude": -76.460199,
+        "latitude": 34.797385,
+        "coordinates": [
+          -76.460199,
+          34.797385
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Durham Technical Community College Board of Trustees",
+        "location": "Lyon Board Room, Durham Tech Main Campus",
+        "address": "Durham, North Carolina, United States",
+        "schedule": "3:00 pm Varies",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144690",
+        "id": 329
+      },
+      "geometry": {
+        "longitude": -78.901805,
+        "latitude": 35.996653,
+        "coordinates": [
+          -78.901805,
+          35.996653
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Economic Development Advisory Board (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "Rotating",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "12:00 pm Second Tuesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144706",
+        "id": 330
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Hillsborough Board of Adjustment",
+        "location": "Hillsborough Town Hall Annex",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "7:00 pm Second  Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=50",
+        "id": 331
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Hillsborough Planning Board",
+        "location": "Hillsborough Town Hall Annex",
+        "address": "Hillsborough, North Carolina, United States",
+        "schedule": "7:00 pm Third Thursday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=42",
+        "id": 332
+      },
+      "geometry": {
+        "longitude": -79.099228,
+        "latitude": 36.07523,
+        "coordinates": [
+          -79.099228,
+          36.07523
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Historic Preservation Commission (APPLICANTS SHALL RESIDE WITHIN THE TERRITORIAL JURISDICTION OF ORANGE COUNTY)",
+        "location": "Old Orange County Courthouse",
+        "address": "Orange County Courthouse, 106 E Margaret Ln, Hillsborough, North Carolina 27278, United States",
+        "schedule": "7:00 pm Fourth Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=53",
+        "id": 333
+      },
+      "geometry": {
+        "longitude": -79.099206,
+        "latitude": 36.0745765,
+        "coordinates": [
+          -79.099206,
+          36.0745765
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Human Relations Commission",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Fourth Tuesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=16",
+        "id": 334
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Jury Commission",
+        "location": "Orange County Courthouse",
+        "address": "Orange County Courthouse, 106 E Margaret Ln, Hillsborough, North Carolina 27278, United States",
+        "schedule": "As needed As needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=10",
+        "id": 335
+      },
+      "geometry": {
+        "longitude": -79.099206,
+        "latitude": 36.0745765,
+        "coordinates": [
+          -79.099206,
+          36.0745765
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Mebane Board of Adjustment",
+        "location": "Mebane Town Hall",
+        "address": "Mebane, North Carolina, United States",
+        "schedule": "6:00 pm First Monday of every month (if necessary)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=26",
+        "id": 336
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Mebane Planning Board",
+        "location": "Mebane Town Hall",
+        "address": "Mebane, North Carolina, United States",
+        "schedule": "6:30 pm Second Monday of every month (if necessary)",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=32",
+        "id": 337
+      },
+      "geometry": {
+        "longitude": -79.266962,
+        "latitude": 36.095972,
+        "coordinates": [
+          -79.266962,
+          36.095972
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Nursing Home Community Advisory Committee",
+        "location": "Seymour Center, 2551 Homestead Rd., Chapel Hill",
+        "address": "Chapel Hill, North Carolina, United States",
+        "schedule": "5:30 pm First Tuesday of every other month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=4",
+        "id": 338
+      },
+      "geometry": {
+        "longitude": -79.05578,
+        "latitude": 35.913154,
+        "coordinates": [
+          -79.05578,
+          35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Board of Adjustment (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "Whitted Building, Room 230",
+        "address": "Orange Street, Beaufort, North Carolina 28516, United States",
+        "schedule": "7:00 pm Second Monday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=46",
+        "id": 339
+      },
+      "geometry": {
+        "longitude": -76.66512,
+        "latitude": 34.72012,
+        "coordinates": [
+          -76.66512,
+          34.72012
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Housing Authority",
+        "location": "Southern Human Services Center",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144698",
+        "id": 340
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Parks and Recreation Council",
+        "location": "Bonnie B. Davis Environment \u0026 Agricultural Center",
+        "address": "Davis, North Carolina, United States",
+        "schedule": "6:30 pm First Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=44",
+        "id": 341
+      },
+      "geometry": {
+        "longitude": -76.460199,
+        "latitude": 34.797385,
+        "coordinates": [
+          -76.460199,
+          34.797385
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Planning Board (REQUIRES DISCLOSURE STATEMENT)",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "7:00 pm First Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=56",
+        "id": 342
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange Unified Transportation Board",
+        "location": "West Campus Office Building, Room 204",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:30 pm Third Wednesday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144670",
+        "id": 343
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange Water \u0026 Sewer Authority Board of Directors",
+        "location": "OWASA Community Room",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "6:00 pm Second Thursday of every month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=21",
+        "id": 344
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "GoTriangle Special Tax Board (COMMISSIONERS ONLY)",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "TBD Once every January; more as needed",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144708",
+        "id": 345
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Joint Orange Chatham Community Action Agency (CURRENTLY NOT ACCEPTING APPLICATIONS)",
+        "location": "alternating locations-Orange/Chatham",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "12:00 or 4:00 pm second Thursday of each month",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=43",
+        "id": 346
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Orange County Climate Council",
+        "location": "TBA",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "TBA TBA",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144716",
+        "id": 347
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Solid Waste Advisory Group (SWAG)",
+        "location": "",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144710",
+        "id": 348
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Workforce Development Board - Regional Partnership",
+        "location": "Rotates between participating counties",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "day-time meeting quarterly",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=29",
+        "id": 349
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    }
+  ]
+}
