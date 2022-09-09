@@ -61,8 +61,7 @@ public class IntegrationTest : TestLogger
     [Fact]
     public async Task AveryTest()
     {
-        var meetings = (await Client.ScrapeICal(NorthCarolinaScrapeTarget.Avery))
-            .ToList();
+        var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.Avery).ToListAsync();
 
         Log(meetings);
 
@@ -80,12 +79,23 @@ public class IntegrationTest : TestLogger
         var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.NewHannover).ToListAsync();
         Log(meetings);
 
-        meetings[35].Should().BeEquivalentTo(new ScrapedMeeting("New Hannover", "Board of Commissioners Regular Meeting",
+        meetings.Should().ContainEquivalentOf(new ScrapedMeeting(
+            "New Hannover",
+            "Board of Commissioners Regular Meeting",
             "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-            "2020-11-16T16:00:00", //could be parsed as datetime
-            "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-120/"));
+            "2022-12-05T16:00:00", //could be parsed as datetime
+            "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-163/"));
 
-        meetings.Count().Should().Be(121);
+        meetings.Count().Should().BeGreaterThan(50); //like 120
+    }
+
+    [Fact]
+    public async Task OrangeTest()
+    {
+        var meetings = await Client.Scrape(NorthCarolinaScrapeTarget.Orange).ToListAsync();
+        Log(meetings);
+
+        meetings.Count().Should().BeGreaterThan(10); //like 120
     }
 
     [Fact]
@@ -93,11 +103,23 @@ public class IntegrationTest : TestLogger
     {
         var host = Services.Initalize();
         var resolver = host.Services.GetRequiredService<MeetingFactory>();
-        //var example = new ScrapedMeeting("Board of Commissioners", "New Hannover County, NC", "every two weeks on monday", "more info and remote");
-        //var meeting = await resolver.GetMappableMeeting(example);
         var result = await resolver.ResolveLocation("New Hannover County, NC");
-        result.Geometry.Coordinate.Longitude.Should().BeApproximately(-77.86, .01);
-        result.Geometry.Coordinate.Latitude.Should().BeApproximately(34.18, .01);
+        result.Geometry.Coordinate.Longitude.Should().BeApproximately(-77.86, .1);
+        result.Geometry.Coordinate.Latitude.Should().BeApproximately(34.18, .1);
+    }
+
+    [Fact]
+    public async Task CountyCoordinateLookupWeirdAnchor()
+    {
+        var host = Services.Initalize();
+        var resolver = host.Services.GetRequiredService<MeetingFactory>();
+        var example = new ScrapedMeeting("Cumberland", "Mid-Carolina Aging Advisory Council",
+            "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
+            "1st Thursday of the last month of each quarter",
+            "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions");
+        var result = await resolver.GetMappableMeeting(example);
+        result.Geometry.Longitude.Should().BeApproximately(-78.37, .1);
+        result.Geometry.Latitude.Should().BeApproximately(34.99, .1);
     }
 
     protected void LogCsv(List<Meeting> meetings)
