@@ -40,35 +40,45 @@
     </div>
   </header>
   <main>
- <!--Introduction & Map Section-->
+    <!--Introduction & Map Section-->
     <section id="introduction-section">
       <h2><span>Welcome!</span> The Open Meeting Toolkit helps community-based teams, such as Code for America
-        Brigades, to evaluate and improve the openness of local public meetings while engaging civic technology volunteers. </h2>
+        Brigades, to evaluate and improve the openness of local public meetings while engaging civic technology 
+        volunteers. </h2>
       <br>
-  <figure>
-       <iframe src="publicmeetings.html" width="90%" height="550px" title="Map of Public Meetings in the Carolinas"
-        style="border: 1px solid #222;"></iframe>
-  <figcaption>Map of public meetings in the Carolinas. Map may not be current. Confirm meeting information before attending. </figcaption>
-</figure>
-           <h2>Introduction</h2>
+      <figure>
+        <iframe src="publicmeetings.html" width="90%" height="550px" title="Map of Public Meetings in the Carolinas"
+          style="border: 1px solid #222;"></iframe>
+        <figcaption>Map of public meetings in the Carolinas. Map may not be current. Confirm meeting information before
+          attending. </figcaption>
+      </figure>
+      <h2>Introduction</h2>
       <p>
-      The Open Meeting Toolkit for the Carolinas builds on the Open Meetings Policy project by Sunshine Request and Code for Asheville. Volunteers in Asheville 
-        attended local government meetings, observed barriers to participation, synthesized their findings, developed a policy proposal, gathered support, and 
-        presented that proposal to their local government. Code for the Carolinas volunteers realized the potential in their project to improve access to local
-        government statewide and to engage civic technology volunteers with a variety of skills and backgrounds. Code for America recognized this scaling project 
-        as a Summer 2022 Impact Sprint. 
-        
-        This website provides resources to support a team of volunteers using the Toolkit to improve access to public meetings in their North Carolina community. 
-        Resources include instructions for mapping public meetings, doing an environmental scan of local community features that affect public meetings, forms for taking 
-        structured notes about public meetings (before, during, and after), guidance on synthesizing observations, and examples of recommendations.
-      </p> 
-   </section>
-<!--Local Scan & Toolkit Instruction Section-->
+        The Open Meeting Toolkit for the Carolinas builds on the Open Meetings Policy project by Sunshine Request and
+        Code for Asheville. Volunteers in Asheville
+        attended local government meetings, observed barriers to participation, synthesized their findings, developed a
+        policy proposal, gathered support, and
+        presented that proposal to their local government. Code for the Carolinas volunteers realized the potential in
+        their project to improve access to local
+        government statewide and to engage civic technology volunteers with a variety of skills and backgrounds. Code
+        for America recognized this scaling project
+        as a Summer 2022 Impact Sprint.
+
+        This website provides resources to support a team of volunteers using the Toolkit to improve access to public
+        meetings in their North Carolina community.
+        Resources include instructions for mapping public meetings, doing an environmental scan of local community
+        features that affect public meetings, forms for taking
+        structured notes about public meetings (before, during, and after), guidance on synthesizing observations, and
+        examples of recommendations.
+      </p>
+    </section>
+    <!--Local Scan & Toolkit Instruction Section-->
     <section id="scan-section">
       <h2>Local Scan</h2>
-      
+
       <p>
-        Start by getting to know some background about public meetings in your community. The Toolkit's local scan includes two activities to help you prepare: 
+        Start by getting to know some background about public meetings in your community. The Toolkit's local scan
+        includes two activities to help you prepare:
         a map of public meetings and an environmental scan, called a STEEPLE analysis.
       </p>
 
@@ -78,54 +88,119 @@
           <h3>Add Meetings to the Map</h3>
         </summary>
         <p>
-The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North Carolina.
-	</p>
+          The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North
+          Carolina.
+        </p>
 
-	<ul><li>Adding meetings to the map is a jump-right-in activity that lets any new volunteer contribute to the Open Meeting Toolkit project.</li>
-	<li>The map can be a compelling visual for outreach to engage new participants.	</li>
-	<li>The map can be useful to local teams planning to evaluate meetings.	</li>
-	<li>We can support local teams by helping to complete maps for their communities.</li>
-	<li>We could find a partner who commits to host and maintain the map (not very likely).</li>
-	<li>Local teams could find partners who commit to hosting and maintaining maps for their county (more likely).	</li>
-	<li>Code for the Carolinas has not committed to completing or maintaining the map.</li></ul>
-<p>
-To add meetings to the map, provide a comma-separated value (.csv) file containing the fields from the Data Dictionary to the Code for the Carolinas team. 
-Include as many fields as possible for the meetings in your community, keeping in mind that some information may not be available online. You can collect this 
-data in any spreadsheet program. Once you have collected the data, export it in .csv format and save it as meetings.csv. Provide it to Code for the Carolinas. 
-</p>
-	    <h4>Data Dictionary</h4>
-<table> 
-  <tr>
-    <th>Field</th>
-    <th>Definition</th>
-    <th>Format</th>
-    <th>Example</th>
-  </tr>
-<tr><td>	Public body	</td><td>	Local government board or commission holding the meeting	</td><td>	Text	</td><td>	Asheville Planning Board	</td>  </tr>
-<tr><td>	On map		</td><td>	1 means the meeting is listed on the map, blank = not listed	</td><td>	Binary	</td> <td>	1	</td>  </tr>
-<tr>	<td>	Location	</td> <td>	Public place or building for which the meeting is held		</td><td>	Text	</td><td>	City Hall	</td></tr>
-<tr>	<td>	Address		</td><td>	Postal address of the meeting location				</td><td>	Text	</td><td>	123 Address Street, City, ST 54321	</td>	</tr>
-<tr>	<td>	Latitude	</td><td>	Distance north or south of the equator				</td><td>	Numeric	</td><td>	35.05118986		</td>	</tr>
-<tr>	<td>	Longitude	</td><td>	Distance east or west of the zero meridian			</td><td>	Numeric	</td><td>	-78.87702582	</td>	</tr>
-<tr>	<td>	Schedule	</td><td>	Days on which the meeting is regularly held			</td><td>	Text	</td><td>	2nd Tuesday of the month	</td>	</tr>
-<tr>	<td>	Start time	</td><td>	Time at which the meeting starts				</td><td>	Time	</td><td>	0.541666667	</td>	</tr>
-<tr>	<td>	End time	</td><td>	Time at which the meeting ends					</td><td>	Time	</td><td>	0.625	</td>	</tr>
-<tr>	<td>	Remote options	</td><td>	Description of options to attend the meeting online		</td><td>	Text	</td><td>	Zoom	</td>	</tr>
-<tr>	<td>	Source		</td><td>	Webpage of the government and public body holding the meeting	</td><td>	URL	</td><td>	https://www.buncombecounty.org/transparency/boards-commissions/default.aspx	</td>	</tr>
-</table>	
+        <ul>
+          <li>Adding meetings to the map is a jump-right-in activity that lets any new volunteer contribute to the Open
+            Meeting Toolkit project.</li>
+          <li>The map can be a compelling visual for outreach to engage new participants. </li>
+          <li>The map can be useful to local teams planning to evaluate meetings. </li>
+          <li>We can support local teams by helping to complete maps for their communities.</li>
+          <li>We could find a partner who commits to host and maintain the map (not very likely).</li>
+          <li>Local teams could find partners who commit to hosting and maintaining maps for their county (more likely).
+          </li>
+          <li>Code for the Carolinas has not committed to completing or maintaining the map.</li>
+        </ul>
+        <p>
+          To add meetings to the map, provide a comma-separated value (.csv) file containing the fields from the Data
+          Dictionary to the Code for the Carolinas team.
+          Include as many fields as possible for the meetings in your community, keeping in mind that some information
+          may not be available online. You can collect this
+          data in any spreadsheet program. Once you have collected the data, export it in .csv format and save it as
+          meetings.csv. Provide it to Code for the Carolinas.
+        </p>
+        <h4>Data Dictionary</h4>
+        <table>
+          <tr>
+            <th>Field</th>
+            <th>Definition</th>
+            <th>Format</th>
+            <th>Example</th>
+          </tr>
+          <tr>
+            <td> Public body </td>
+            <td> Local government board or commission holding the meeting </td>
+            <td> Text </td>
+            <td> Asheville Planning Board </td>
+          </tr>
+          <tr>
+            <td> On map </td>
+            <td> 1 means the meeting is listed on the map, blank = not listed </td>
+            <td> Binary </td>
+            <td> 1 </td>
+          </tr>
+          <tr>
+            <td> Location </td>
+            <td> Public place or building for which the meeting is held </td>
+            <td> Text </td>
+            <td> City Hall </td>
+          </tr>
+          <tr>
+            <td> Address </td>
+            <td> Postal address of the meeting location </td>
+            <td> Text </td>
+            <td> 123 Address Street, City, ST 54321 </td>
+          </tr>
+          <tr>
+            <td> Latitude </td>
+            <td> Distance north or south of the equator </td>
+            <td> Numeric </td>
+            <td> 35.05118986 </td>
+          </tr>
+          <tr>
+            <td> Longitude </td>
+            <td> Distance east or west of the zero meridian </td>
+            <td> Numeric </td>
+            <td> -78.87702582 </td>
+          </tr>
+          <tr>
+            <td> Schedule </td>
+            <td> Days on which the meeting is regularly held </td>
+            <td> Text </td>
+            <td> 2nd Tuesday of the month </td>
+          </tr>
+          <tr>
+            <td> Start time </td>
+            <td> Time at which the meeting starts </td>
+            <td> Time </td>
+            <td> 0.541666667 </td>
+          </tr>
+          <tr>
+            <td> End time </td>
+            <td> Time at which the meeting ends </td>
+            <td> Time </td>
+            <td> 0.625 </td>
+          </tr>
+          <tr>
+            <td> Remote options </td>
+            <td> Description of options to attend the meeting online </td>
+            <td> Text </td>
+            <td> Zoom </td>
+          </tr>
+          <tr>
+            <td> Source </td>
+            <td> Webpage of the government and public body holding the meeting </td>
+            <td> URL </td>
+            <td> https://www.buncombecounty.org/transparency/boards-commissions/default.aspx </td>
+          </tr>
+        </table>
 
       </details>
-      
+
       <!--STEEPLE Analysis Section  -->
       <details>
         <summary>
           <h3>Complete a STEEPLE Analysis</h3>
         </summary>
         <p>
-		The STEEPLE Analysis helps you get to know about your community in ways that will help you identify barriers to participating in public meetings. When the project 
-		team shared this part of the Toolkit with Sunshine Request and Code for Asheville, they said this type of up-front analysis would have made their work a lot easier!
-	      
-	      <p>
+          The STEEPLE Analysis helps you get to know about your community in ways that will help you identify barriers
+          to participating in public meetings. When the project
+          team shared this part of the Toolkit with Sunshine Request and Code for Asheville, they said this type of
+          up-front analysis would have made their work a lot easier!
+
+        <p>
           The STEEPLE Analysis comes from a tool called the PEST analysis.
           It was developed by Harvard Business Professor Francis J. Aguilar,
           in his 1964 book Scanning the Business Environment. The main idea behind this process is
@@ -142,28 +217,39 @@ data in any spreadsheet program. Once you have collected the data, export it in 
           <summary><span>STEEPLE Analysis Instructions:</span></summary>
           <p>Plan to bring your team together for about one hour to complete the STEEPLE Analysis. You will do this
             analysis to help your own local team prepare to evaluate local government meetings.
-		  
-	 <p><strong>Temporary Instructions</strong></p>
-	 <br>
-	 <p><strong>These instructions are for teams starting to use the Toolkit at the DemocracyLab Hackathon on September 10, 2022. 
-	We expect revised instructions to be posted by September 30th. Using these temporary instructions, all members of the Open Meeting Toolkit Baserow group
-	will be able to access your Toolkit data, including STEEPLE Analysis, any contact information you include for team members, and meeting evaluations. 
-	Code for the Carolinas members will only use this information to help you with troubleshooting and to improve the Toolkit, such as revising data types. 
-	We will not analyze your responses or commit to retaining them after December 31, 2022. Keep this in mind when deciding what to include in the Toolkit. 
-	You may want to export your responses and save them locally.</strong>		  
+
+          <p><strong>Temporary Instructions</strong></p>
+          <br>
+          <p><strong>These instructions are for teams starting to use the Toolkit at the DemocracyLab Hackathon on
+              September 10, 2022.
+              We expect revised instructions to be posted by September 30th. Using these temporary instructions, all
+              members of the Open Meeting Toolkit Baserow group
+              will be able to access your Toolkit data, including STEEPLE Analysis, any contact information you include
+              for team members, and meeting evaluations.
+              Code for the Carolinas members will only use this information to help you with troubleshooting and to
+              improve the Toolkit, such as revising data types.
+              We will not analyze your responses or commit to retaining them after December 31, 2022. Keep this in mind
+              when deciding what to include in the Toolkit.
+              You may want to export your responses and save them locally.</strong>
           </p>
 
           <p><strong>Prepare Baserow</strong></p>
           <ol>
             <li>Local Team Leaders should make sure that you and/ or at least one member of your team has a <a
-                href="https://baserow.io/" target="_blank">Baserow</a> account and is a member of the Open Meeting Toolkit group. A member of Code for the Carolinas can use your email address to add you to the group and invite you to Baserow. 
-		    Baserow is free, open source software.
+                href="https://baserow.io/" target="_blank">Baserow</a> account and is a member of the Open Meeting
+              Toolkit group. A member of Code for the Carolinas can use your email address to add you to the group and
+              invite you to Baserow.
+              Baserow is free, open source software.
             </li>
-	    <li>Locate the Open Meeting Toolkit database in the sidebar on left side of the screen and <a href="https://baserow.io/user-docs/create-a-database" target="_blank">duplicate</a> it using the three-dot menu.
-              <p><figure><img src="./toolkit-site/assests/how-to-duplicate-the-database-using-the-three-dot-menu.jpg"
+            <li>Locate the Open Meeting Toolkit database in the sidebar on left side of the screen and <a
+                href="https://baserow.io/user-docs/create-a-database" target="_blank">duplicate</a> it using the
+              three-dot menu.
+              <p>
+              <figure><img src="./toolkit-site/assests/how-to-duplicate-the-database-using-the-three-dot-menu.jpg"
                   alt="to duplicate the database click on the three dot menu"></p>
-             <figcaption>Baserow sidebar with Open Meeting Toolkit showing three-dot menu</figcaption>
-		</figure></li>
+                <figcaption>Baserow sidebar with Open Meeting Toolkit showing three-dot menu</figcaption>
+              </figure>
+            </li>
           </ol>
           <br>
           <p><strong>Fill in STEEPLE Analysis Questions</strong></p>
@@ -174,39 +260,48 @@ data in any spreadsheet program. Once you have collected the data, export it in 
               acquainted before you start work on the STEEPLE analysis.
             </li>
             <li>
-              How will you collaborate? You may choose to collaborate in a breakout room, in chat, 
+              How will you collaborate? You may choose to collaborate in a breakout room, in chat,
               <a href="https://etherpad.org/" target="_blank">in an Etherpad</a>, or using some other method
             </li>
           </ol>
           <p>The STEEPLE analysis has seven parts. Plan to spend no more than about 10 minutes on each part. You can
             always go back and adjust your responses in Baserow. You will have a text box on the last page of the survey
             (Ethical) where you can include any additional information or clarify your answers.</p>
-<!--To complete the whole form as a team (This is the only option we will recommend at the Hackathon. Commenting out the other option.): -->
+          <!--To complete the whole form as a team (This is the only option we will recommend at the Hackathon. Commenting out the other option.): -->
           <ol>
             <li>Choose one person to take notes on your team's work.</li>
             <li>From the STEEPLE Analysis table in your database, click on the STEEPLE Social form.
-              <p><figure><img src="./toolkit-site/assests/click-on-STEEPLE-social-form.jpg"
-                alt="click on STEEPLE social form"></p>
-            <figcaption>Baserow STEEPLE Analysis menu showing STEEPLE Social form</figcaption>
-		</figure></li> 
-            <li>Use the Share form function to create a link to the STEEPLE Social form. Send that link to the person who will record and submit your team's responses. You may choose to do that yourself as team lead, or have someone else do it. That person does not need a Baserow account.
-              <p><figure><img src="./toolkit-site/assests/share-form-with-team.jpg"
-                alt="click on share form to create a link to send to who will record and submit teams responses"></p>
-               <figcaption>Baserow Share form function showing link to share STEEPLE Social form</figcaption>
-		</figure>
-	      </li>
-            <li>Complete and submit the pages of the STEEPLE Analysis form in order. While you can't go backward on the form, you can change your responses directly in the STEEPLE Analysis table in Baserow. You can also use the link to generate a new, blank form and complete only the pages you want to change.</li>
+              <p>
+              <figure><img src="./toolkit-site/assests/click-on-STEEPLE-social-form.jpg"
+                  alt="click on STEEPLE social form"></p>
+                <figcaption>Baserow STEEPLE Analysis menu showing STEEPLE Social form</figcaption>
+              </figure>
+            </li>
+            <li>Use the Share form function to create a link to the STEEPLE Social form. Send that link to the person
+              who will record and submit your team's responses. You may choose to do that yourself as team lead, or have
+              someone else do it. That person does not need a Baserow account.
+              <p>
+              <figure><img src="./toolkit-site/assests/share-form-with-team.jpg"
+                  alt="click on share form to create a link to send to who will record and submit teams responses"></p>
+                <figcaption>Baserow Share form function showing link to share STEEPLE Social form</figcaption>
+              </figure>
+            </li>
+            <li>Complete and submit the pages of the STEEPLE Analysis form in order. While you can't go backward on the
+              form, you can change your responses directly in the STEEPLE Analysis table in Baserow. You can also use
+              the link to generate a new, blank form and complete only the pages you want to change.</li>
           </ol>
-	  <p>
-	The STEEPLE analysis and meeting evaluation questions are listed below so that you can easily review them while you prepare or refer to them while you complete the Baserow forms. There are also links to 
-		  references that will help you answer some of the questions.
-	  </p>
-	  	 <p><strong>Temporary Instructions</strong></p>
-	 <br>
-	 <p><strong>At this time Baserow creates a new row for each part of the STEEPLE form. If you prefer, you can copy and paste organize all data into same row.</strong>
+          <p>
+            The STEEPLE analysis and meeting evaluation questions are listed below so that you can easily review them
+            while you prepare or refer to them while you complete the Baserow forms. There are also links to
+            references that will help you answer some of the questions.
+          </p>
+          <p><strong>Temporary Instructions</strong></p>
+          <br>
+          <p><strong>At this time Baserow creates a new row for each part of the STEEPLE form. If you prefer, you can
+              copy and paste organize all data into same row.</strong>
 
-<!--To complete parts of the form as individuals or small teams:-->
-          <!--br>
+            <!--To complete parts of the form as individuals or small teams:-->
+            <!--br>
           <ol>
             <!--p><u><strong>To complete parts of the form as individuals or small teams:</strong></u></p>
             <!--li>From the STEEPLE Analysis table in your database, click on a STEEPLE form. Use the Share form function to access a link to each form. Send each link to an individual or small team.
@@ -225,233 +320,277 @@ data in any spreadsheet program. Once you have collected the data, export it in 
         </details>
         
         <!-- Social Questions -->
-        <details>
-          <summary><span>S</span>ocial</summary>
+          <details>
+            <summary><span>S</span>ocial</summary>
 
-          <ol>
-            <li>List the name of the community where your team will evaluate the local public meetings. This will
-              usually be a county, city, or town. Throughout this activity, the words "your community" refer to the
-              community you list here.</li>
-            <li>Tell us about your community.
-              <ul>
-                <li>Use the search box at <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221"
-                    target="_blank">Quickfacts from the US Census</a> to look up your community. Look over the
-                  factsheet, and then enter 3 to 5 important facts about your community. If you're not sure what to
-                  include, start by comparing values for your community to the US and to North Carolina.</li>
-              </ul>
-            </li>
-          </ol>
-        </details>
-
-        <!-- Technical Questions -->
-        <details>
-          <summary><span>T</span>echnical</summary>
-          <p>
-            The public transportation question is based on the following resource: De Oña, Juan, and Rocio De Oña.
-            "Quality of service in public transport based on customer satisfaction surveys: A review and assessment of
-            methodological approaches." <strong>Transportation Science 49</strong>, no. 3 (2015): 605-622.
-          </p>
-          <ol>
-            <li>Use the <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221" target="_blank">Census
-                Quickfacts</a> to look up how many households in your county have a broadband internet subscription at
-              home.</li>
-            <ul>
-              <li>Over 80%</li>
-              <li>70-80%</li>
-              <li>60-70%</li>
-              <li>Under 60%</li>
-            </ul>
-            <li>Try to find information about the next meetings of the county commissioners, city council, and school
-              board in your community. How easy was it to find this information?</li>
-            <ul>
-              <li>Very easy</li>
-              <li>Somewhat easy</li>
-              <li>Not easy</li>
-            </ul>
-            <li>From the perspective of someone taking public transit to attend a local government meeting, how would
-              you rate public transit in your community? Consider factors like: stops in convenient locations, frequent
-              service, accessible stops and vehicles, and information about schedules and routes that is easy to find
-              and use.
-              <p>*Rate the service as poor, fair, or good. You can also mark not sure.</p>
-            </li>
-          </ol>
-        </details>
-
-        <!-- Environmental Questions-->
-        <details>
-          <summary><span>E</span>nvironmental</summary>
-
-          <ol>
-            <li>Do any of the following weather conditions sometimes make it hard to go to meetings in your community?
-              Mark all that apply.</li>
-            <ul>
-              <li>heavy rain, thunderstorms, tropical storms, hurricanes, or floods</li>
-              <li>snow or ice</li>
-              <li>extreme heat, fire, smoke, or air pollution</li>
-              <li>none of the above</li>
-            </ul>
-            <li>Do any of the following features of your community sometimes make it hard to go to meetings? Mark all
-              that apply.
-            </li>
-            <ul>
-              <li>traffic</li>
-              <li>mountains</li>
-              <li>bodies of water</li>
-              <li>none of the above</li>
-            </ul>
-          </ol>
-        </details>
-
-        <!-- Economic Questions-->
-        <details>
-          <summary><span>E</span>conomic</summary>
-          <ol>
-            <li>In 2020, the poverty level for a family of 4 was about $26,500. What percentage of people in your
-              community live in poverty?</li>
-            <ul>
-              <li>You can use <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221" target="_blank">Census
-                  QuickFacts</a> to find the answer:
+            <ol>
+              <li>List the name of the community where your team will evaluate the local public meetings. This will
+                usually be a county, city, or town. Throughout this activity, the words "your community" refer to the
+                community you list here.</li>
+              <li>Tell us about your community.
+                <ul>
+                  <li>Use the search box at <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221"
+                      target="_blank">Quickfacts from the US Census</a> to look up your community. Look over the
+                    factsheet, and then enter 3 to 5 important facts about your community. If you're not sure what to
+                    include, start by comparing values for your community to the US and to North Carolina.</li>
+                </ul>
               </li>
-            </ul>
-            <li>What is your local government's budget?</li>
-            <ul>
-              <li>If you find a budget document online, please include a link.</li>
-            </ul>
-            <li>List some of the main companies or industries where people in your community work:</li>
-          </ol>
+            </ol>
+          </details>
+
+          <!-- Technical Questions -->
+          <details>
+            <summary><span>T</span>echnical</summary>
+            <p>
+              The public transportation question is based on the following resource: De Oña, Juan, and Rocio De Oña.
+              "Quality of service in public transport based on customer satisfaction surveys: A review and assessment of
+              methodological approaches." <strong>Transportation Science 49</strong>, no. 3 (2015): 605-622.
+            </p>
+            <ol>
+              <li>Use the <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221" target="_blank">Census
+                  Quickfacts</a> to look up how many households in your county have a broadband internet subscription at
+                home.</li>
+              <ul>
+                <li>Over 80%</li>
+                <li>70-80%</li>
+                <li>60-70%</li>
+                <li>Under 60%</li>
+              </ul>
+              <li>Try to find information about the next meetings of the county commissioners, city council, and school
+                board in your community. How easy was it to find this information?</li>
+              <ul>
+                <li>Very easy</li>
+                <li>Somewhat easy</li>
+                <li>Not easy</li>
+              </ul>
+              <li>From the perspective of someone taking public transit to attend a local government meeting, how would
+                you rate public transit in your community? Consider factors like: stops in convenient locations,
+                frequent
+                service, accessible stops and vehicles, and information about schedules and routes that is easy to find
+                and use.
+                <p>*Rate the service as poor, fair, or good. You can also mark not sure.</p>
+              </li>
+            </ol>
+          </details>
+
+          <!-- Environmental Questions-->
+          <details>
+            <summary><span>E</span>nvironmental</summary>
+
+            <ol>
+              <li>Do any of the following weather conditions sometimes make it hard to go to meetings in your community?
+                Mark all that apply.</li>
+              <ul>
+                <li>heavy rain, thunderstorms, tropical storms, hurricanes, or floods</li>
+                <li>snow or ice</li>
+                <li>extreme heat, fire, smoke, or air pollution</li>
+                <li>none of the above</li>
+              </ul>
+              <li>Do any of the following features of your community sometimes make it hard to go to meetings? Mark all
+                that apply.
+              </li>
+              <ul>
+                <li>traffic</li>
+                <li>mountains</li>
+                <li>bodies of water</li>
+                <li>none of the above</li>
+              </ul>
+            </ol>
+          </details>
+
+          <!-- Economic Questions-->
+          <details>
+            <summary><span>E</span>conomic</summary>
+            <ol>
+              <li>In 2020, the poverty level for a family of 4 was about $26,500. What percentage of people in your
+                community live in poverty?</li>
+              <ul>
+                <li>You can use <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221"
+                    target="_blank">Census
+                    QuickFacts</a> to find the answer:
+                </li>
+              </ul>
+              <li>What is your local government's budget?</li>
+              <ul>
+                <li>If you find a budget document online, please include a link.</li>
+              </ul>
+              <li>List some of the main companies or industries where people in your community work:</li>
+            </ol>
+          </details>
+
+          <!-- Political Questions -->
+          <details>
+            <summary><span>P</span>olitical</summary>
+            <p>You may find the <a href="https://ballotpedia.org/North_Carolina_local_elections,_2022"
+                target="_blank">North Carolina local elections 2022</a> page helpful for questions in this section.</p>
+            <ol>
+              <li>When are the next elections for your community?</li>
+              <li>What positions are elected in your community?</li>
+              <ul>
+                <li>Who holds these positions?</li>
+              </ul>
+              <li>According to <a href="https://www.ncpedia.org/" target="_blank">NCPedia</a>, "By law, each county in
+                North Carolina has a board of commissioners. These boards vary in size, term of office, method of
+                election, method of selecting the chairperson, and administrative structure." Research your county's
+                board
+                of commissioners and summarize 3-5 key points.</li>
+              <li>Research the largest city or town in your community. Summarize 3-5 key points. Use the <a
+                  href="https://www.nclm.org/advocacy/how-nc-cities-work" target="_blank">North Carolina League of
+                  Municipalities website</a> to understand how cities, towns, and villages are governed in North
+                Carolina.
+              </li>
+              <li>Research other relevant officials, such as the city manager, sheriff, or school board. Summarize 3-5
+                key
+                points.</li>
+              <li>Do you know of other local groups advocating for open meetings?</li>
+              <li>What are some current controversial political issues in your community? Focus on issues that involve
+                your local government rather than state or national issues. Local news media can be good sources for
+                this
+                information.</li>
+
+            </ol>
+          </details>
+
+          <!-- Legal Questions  -->
+          <details>
+            <summary><span>L</span>egal</summary>
+
+            <p>Public meetings in North Carolina are governed by Article 33C in the State Law, <a
+                href="https://www.ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_143/Article_33C.pdf"
+                target="_blank">"Meetings of Public Bodies."</a> If you want to understand the legal context of public
+              meetings in North Carolina, we suggest <a
+                href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Open%20Meetings%20Overview.pdf"
+                target="_blank">"Open Meetings and Other Legal Requirements for Local Government Boards"</a> by Frayda
+              S.
+              Bluestein at the UNC School of Government.
+            </p>
+
+            <ol>
+              <li>Locate the Code of Ordinances for your county and for the largest city in your county. Paste the links
+                here for reference.</li>
+              <li>Local governments can have additional policies about public meetings that go beyond state law. Skim
+                the
+                codes of ordinances and describe any local policies you find about public meetings.
+              </li>
+              <li>Locate the bylaws for one or more boards or commissions in your community. Paste the links here for
+                reference.
+              </li>
+              <li>Boards and commissions can have policies about public meetings that go beyond state law. Skim the
+                bylaws
+                and describe any policies you find about public meetings.
+              </li>
+            </ol>
+          </details>
+
+          <!-- Ethical Questions  -->
+          <details>
+            <summary><span>E</span>thical</summary>
+            <ol>
+              <li>Great work on the STEEPLE analysis! Take some time to look over what you have learned about the local
+                community, so far. What characteristics does your team share with this community?</li>
+              <ul>
+                <li>Examples: Race, economic background, ability, etc.</li>
+              </ul>
+              <li>Are there characteristics from your community that aren't represented by your local team?</li>
+              <li>How can your local team make sure that marginalized voices are recognized?</li>
+              <li>Have there been safety issues associated with public meetings in your community?</li>
+              <ul>
+                <li>"Safety issues" could include threats to public officials or community members, or other ways that
+                  might make people scared to participate in public meetings.</li>
+              </ul>
+              <li>Add any additional comments you'd like to include here.</li>
+            </ol>
+          </details>
+
         </details>
-
-        <!-- Political Questions -->
-        <details>
-          <summary><span>P</span>olitical</summary>
-          <p>You may find the <a href="https://ballotpedia.org/North_Carolina_local_elections,_2022"
-              target="_blank">North Carolina local elections 2022</a> page helpful for questions in this section.</p>
-          <ol>
-            <li>When are the next elections for your community?</li>
-            <li>What positions are elected in your community?</li>
-            <ul>
-              <li>Who holds these positions?</li>
-            </ul>
-            <li>According to <a href="https://www.ncpedia.org/" target="_blank">NCPedia</a>, "By law, each county in
-              North Carolina has a board of commissioners. These boards vary in size, term of office, method of
-              election, method of selecting the chairperson, and administrative structure." Research your county's board
-              of commissioners and summarize 3-5 key points.</li>
-            <li>Research the largest city or town in your community. Summarize 3-5 key points. Use the <a
-                href="https://www.nclm.org/advocacy/how-nc-cities-work" target="_blank">North Carolina League of
-                Municipalities website</a> to understand how cities, towns, and villages are governed in North Carolina.
-            </li>
-            <li>Research other relevant officials, such as the city manager, sheriff, or school board. Summarize 3-5 key
-              points.</li>
-            <li>Do you know of other local groups advocating for open meetings?</li>
-            <li>What are some current controversial political issues in your community? Focus on issues that involve
-              your local government rather than state or national issues. Local news media can be good sources for this
-              information.</li>
-
-          </ol>
-        </details>
-
-        <!-- Legal Questions  -->
-        <details>
-          <summary><span>L</span>egal</summary>
-
-          <p>Public meetings in North Carolina are governed by Article 33C in the State Law, <a
-              href="https://www.ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_143/Article_33C.pdf"
-              target="_blank">"Meetings of Public Bodies."</a> If you want to understand the legal context of public
-            meetings in North Carolina, we suggest <a
-              href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Open%20Meetings%20Overview.pdf"
-              target="_blank">"Open Meetings and Other Legal Requirements for Local Government Boards"</a> by Frayda S.
-            Bluestein at the UNC School of Government.
-          </p>
-
-          <ol>
-            <li>Locate the Code of Ordinances for your county and for the largest city in your county. Paste the links
-              here for reference.</li>
-            <li>Local governments can have additional policies about public meetings that go beyond state law. Skim the
-              codes of ordinances and describe any local policies you find about public meetings.
-            </li>
-            <li>Locate the bylaws for one or more boards or commissions in your community. Paste the links here for
-              reference.
-            </li>
-            <li>Boards and commissions can have policies about public meetings that go beyond state law. Skim the bylaws
-              and describe any policies you find about public meetings.
-            </li>
-          </ol>
-        </details>
-
-        <!-- Ethical Questions  -->
-        <details>
-          <summary><span>E</span>thical</summary>
-          <ol>
-            <li>Great work on the STEEPLE analysis! Take some time to look over what you have learned about the local
-              community, so far. What characteristics does your team share with this community?</li>
-            <ul>
-              <li>Examples: Race, economic background, ability, etc.</li>
-            </ul>
-            <li>Are there characteristics from your community that aren't represented by your local team?</li>
-            <li>How can your local team make sure that marginalized voices are recognized?</li>
-            <li>Have there been safety issues associated with public meetings in your community?</li>
-            <ul>
-              <li>"Safety issues" could include threats to public officials or community members, or other ways that
-                might make people scared to participate in public meetings.</li>
-            </ul>
-            <li>Add any additional comments you'd like to include here.</li>
-          </ol>
-        </details>
-
-      </details>
     </section>
 
     <!--Meeting Evaluation Section-->
     <section id="evaluation-section">
-	<h2>Meeting Marathon Plan</h2>
-    <p>
-	    When your team has completed the local scan, it's time to plan which meetings you will attend. Look over meeting data for your community on the map of public meetings, 
-	    on the meetings data file your team prepared, or on the website of your local government. 
-	    </p><p>
-	    For fun, use this <a href="https://docs.google.com/document/d/1rzDyY1SPl5N68InYZ6To4OyWwdS5qRcGnJvGjq3oouE/edit?usp=sharing" target="_blank">Meeting Marathon template</a>  to organize your team's plan around the theme of a Meeting Marathon. Because some of the most common races are 5K, 10K and marathons (26.2 miles)
-	    challenge your team to pledge to attend 5, 10, or 26 meetings! Make a copy of the Google Document, complete the table with the date, public body, 
-	    and team member for each meeting. Don't forget to allow a week before the meeting and a week after the meeting to check information for the Before Meeting
-	    and After Meeting evaluation forms. Keep the template for your records so you can follow up with teammates and encourage them. 
-	    </p>
-	    
+      <h2>Meeting Marathon Plan</h2>
+      <p>
+        When your team has completed the local scan, it's time to plan which meetings you will attend. Look over meeting
+        data for your community on the map of public meetings,
+        on the meetings data file your team prepared, or on the website of your local government.
+      </p>
+      <p>
+        For fun, use this <a
+          href="https://docs.google.com/document/d/1rzDyY1SPl5N68InYZ6To4OyWwdS5qRcGnJvGjq3oouE/edit?usp=sharing"
+          target="_blank">Meeting Marathon template</a> to organize your team's plan around the theme of a Meeting
+        Marathon. Because some of the most common races are 5K, 10K and marathons (26.2 miles)
+        challenge your team to pledge to attend 5, 10, or 26 meetings! Make a copy of the Google Document, complete the
+        table with the date, public body,
+        and team member for each meeting. Don't forget to allow a week before the meeting and a week after the meeting
+        to check information for the Before Meeting
+        and After Meeting evaluation forms. Keep the template for your records so you can follow up with teammates and
+        encourage them.
+      </p>
+
       <h2>Meeting Evaluation</h2>
-      <p>Our meeting evaluation tools are based on Code for Asheville's summary of their observations, <a href="https://www.plainlanguage.gov/resources/checklists/web-checklist/" target="_blank">resources on plain language from the U.S. government</a>, 
-	      <a href="https://adhoc.team/playbook-accessibility/" target="_blank">Accessibility Beyond Compliance</a>, and other sources on usability. </p>
-      
-	 <strong>Sunshine Request and Code for Asheville Observations</strong>
-      <br>
-	<p>When people from Sunshine Request and Code for Asheville attended public meetings, they noticed the following challenges with public
-        participation and described them in their proposed <a href="https://docs.google.com/document/d/e/2PACX-1vQDj9Ey7xh52bENqU2oYct6AQxLd8hJv-bY0B_9ZvCajC4cfFCdnQ_2_4QRHWxeEFgf7LkuHkMfg6Ed/pub" target="_blank">Open Meetings Policy</a>:</p>
-      <br>
-	<ul>
-	<li>The ever-changing processes for public comment makes it unclear how the public can participate in public comment, and difficult to know what to expect from the process.</li>
-	<li>Public comment and other opportunities for feedback are not provided at every meeting - there should be consistent, ongoing opportunities for public input.</li>
-	<li>Public comment is not allowed for all agenda items, and the criteria under which comment is allowed varies between public bodies. </li> 
-	<li>The current public comment process requires a burdensome advance sign-up process that requires disclosure of unnecessary personal information.</li>
-	<li>Due to technical or process issues, residents have been disconnected or skipped during public comment periods. We lack a fair process to ensure these residents are provided an opportunity to participate.</li>
-	<li>Meeting materials are not posted online in advance of meetings on a clear, consistent schedule. Meeting minutes are not consistently posted in a timely manner after meetings.</li>
-	<li>Meeting materials do not contain a clear indication of updates or modifications to documents that were posted previously.</li>
-	<li>Local government entities publish meeting information on a variety of platforms and websites, making it difficult to know which source of information is the official (and most up-to-date) source of information. This creates additional work for staff and board members as any updates need to be posted in multiple locations.</li>
-	<li>Basic board information, such as membership, contact information, meeting schedules, and bylaws are not posted or updated consistently for all public bodies.</li>
-	 <li>Local government entities lack data-driven metrics of public participation, such as
-          the number of comments or the methods under which they were provided. As a result, it is
-          challenging for staff, elected officials, or the public to analyze how changes to the public
-          meeting process increase or decrease public participation.</li>
-        <li>Due to a lack of consistency in the process for public participation, it can be
-          difficult to evaluate public support or opposition to measures considered by public bodies.</li>
-      </ul>
-	<br>	   
-	<p> The Evaluations menu of the Evaluations table in your Baserow Open Meeting Toolkit database includes the following forms: Before Meeting,
-		During Meeting, and After Meeting. Use the Share form button to generate a link to the form. Team leads will want to provide these links to all team members. 
-		<br>
-	    Team members who are evaluating meetings should start the Before Meeting form one week before the meeting date. Check to see if a meeting agenda that lists the topics that will be covered is available online.
-	    Complete the remaining questions on the Before Meeting form at your convenience any time before the meeting. Complete the During Meeting form as soon as 
-            possible after the meeting. Complete the After Meeting form one week after the meeting, to allow time for meeting information, such as recordings
-	    and minutes, to be posted online.
-		<br>
-	 Full text of all evaluation forms is provided below so you can easily refer to the questions.
-	</p>   
-  	    
+      <p>Our meeting evaluation tools are based on Code for Asheville's summary of their observations, <a
+          href="https://www.plainlanguage.gov/resources/checklists/web-checklist/" target="_blank">resources on plain
+          language from the U.S. government</a>,
+        <a href="https://adhoc.team/playbook-accessibility/" target="_blank">Accessibility Beyond Compliance</a>, and
+        other sources on usability.
+      </p>
+      <!-- Sunshine Request and Code for Asheville Observations -->
+      <details>
+        <summary>
+          <h3>Sunshine Request and Code for Asheville Observations</h3>
+        </summary>
+        <br>
+        <p>When people from Sunshine Request and Code for Asheville attended public meetings, they noticed the following
+          challenges with public
+          participation and described them in their proposed <a
+            href="https://docs.google.com/document/d/e/2PACX-1vQDj9Ey7xh52bENqU2oYct6AQxLd8hJv-bY0B_9ZvCajC4cfFCdnQ_2_4QRHWxeEFgf7LkuHkMfg6Ed/pub"
+            target="_blank">Open Meetings Policy</a>:</p>
+        <br>
+        <ul>
+          <li>The ever-changing processes for public comment makes it unclear how the public can participate in public
+            comment, and difficult to know what to expect from the process.</li>
+          <li>Public comment and other opportunities for feedback are not provided at every meeting - there should be
+            consistent, ongoing opportunities for public input.</li>
+          <li>Public comment is not allowed for all agenda items, and the criteria under which comment is allowed varies
+            between public bodies. </li>
+          <li>The current public comment process requires a burdensome advance sign-up process that requires disclosure
+            of unnecessary personal information.</li>
+          <li>Due to technical or process issues, residents have been disconnected or skipped during public comment
+            periods. We lack a fair process to ensure these residents are provided an opportunity to participate.</li>
+          <li>Meeting materials are not posted online in advance of meetings on a clear, consistent schedule. Meeting
+            minutes are not consistently posted in a timely manner after meetings.</li>
+          <li>Meeting materials do not contain a clear indication of updates or modifications to documents that were
+            posted previously.</li>
+          <li>Local government entities publish meeting information on a variety of platforms and websites, making it
+            difficult to know which source of information is the official (and most up-to-date) source of information.
+            This creates additional work for staff and board members as any updates need to be posted in multiple
+            locations.</li>
+          <li>Basic board information, such as membership, contact information, meeting schedules, and bylaws are not
+            posted or updated consistently for all public bodies.</li>
+          <li>Local government entities lack data-driven metrics of public participation, such as
+            the number of comments or the methods under which they were provided. As a result, it is
+            challenging for staff, elected officials, or the public to analyze how changes to the public
+            meeting process increase or decrease public participation.</li>
+          <li>Due to a lack of consistency in the process for public participation, it can be
+            difficult to evaluate public support or opposition to measures considered by public bodies.</li>
+        </ul>
+        <br>
+        <p> The Evaluations menu of the Evaluations table in your Baserow Open Meeting Toolkit database includes the
+          following forms: Before Meeting,
+          During Meeting, and After Meeting. Use the Share form button to generate a link to the form. Team leads will
+          want to provide these links to all team members.
+          <br>
+          Team members who are evaluating meetings should start the Before Meeting form one week before the meeting
+          date. Check to see if a meeting agenda that lists the topics that will be covered is available online.
+          Complete the remaining questions on the Before Meeting form at your convenience any time before the meeting.
+          Complete the During Meeting form as soon as
+          possible after the meeting. Complete the After Meeting form one week after the meeting, to allow time for
+          meeting information, such as recordings
+          and minutes, to be posted online.
+          <br>
+          Full text of all evaluation forms is provided below so you can easily refer to the questions.
+        </p>
+      </details>
+
       <!-- Before the meeting -->
       <details>
         <summary>
@@ -534,6 +673,7 @@ data in any spreadsheet program. Once you have collected the data, export it in 
           </li>
         </ol>
       </details>
+      <!-- During the Meeting -->
       <details>
         <summary>
           <h3>During the Meeting</h3>
@@ -567,7 +707,7 @@ data in any spreadsheet program. Once you have collected the data, export it in 
           <li></li>
         </ul>
       </details>
-
+      <!-- After the Meeting -->
       <details>
         <summary>
           <h3>After the Meeting</h3>
@@ -600,71 +740,98 @@ data in any spreadsheet program. Once you have collected the data, export it in 
 
       </details>
 
-         </section>
+    </section>
     <section id="recommendations-section">
       <h2>Recommendations</h2>
-       <p><strong>Temporary Instructions</strong></p>
-	 <br>
-	 <p><strong>Instructions for analysis and a more complete Recommendations section will be provided by September 30.</strong>
-	<br></p>
-	    
-	<p> As you decide what changes to recommend, here are two approaches to consider: policy and partnerships. </p>
-	<h2>Policy</h2>
-	<p> As you consider policy recommendations, review the political and legal sections of your STEEPLE Analysis. Look at what local policies exist for 
-	public meetings and for changing or amending those policies. Keep in mind that local policies can create additional requirements for local 
-	governments but must still meet all requirements of state law. Some questions to consider: 
-	</p>
-	<ul>
-	<li>What actions can you take if a current policy is not being followed in practice?</li>
-	<li>What is the process to propose changes to current policy?</li>
-	</ul>
-	<p>
-	Sunshine Request and Code for Asheville created a policy proposal called the <a href="https://https://docs.google.com/document/d/e/2PACX-1vQDj9Ey7xh52bENqU2oYct6AQxLd8hJv-bY0B_9ZvCajC4cfFCdnQ_2_4QRHWxeEFgf7LkuHkMfg6Ed/pub" target="_blank">Open Meetings Policy</a> 
-	and presented it to the Governance Committee of Asheville City Council. They also prepared a <a href="https://openmeetingspolicy.com" target="_blank">petition</a> and gathered support from organizations and individuals. Your team may want to use these as models. 	
-	</p>
-	<h2>Partnerships</h2>
-   	<p>
-	Your team may also want to consider partnerships as a way to make it easier to participate in local government, especially by making information easier to access. We provide a few 
-	examples here. Think carefully before making an ongoing commitment for your team to provide this information. It may be better for you to partner with a local non-profit
-	that will host the information on an ongoing basis. Your team might be most effective by engaging civic technology volunteers to help the non-profit prepare their site, rather
-	than trying to start a new organization.
-	</p>
-	<ul>
-	<li>The <a href="https://councildataproject.org/" target="_blank">Council Data Project</a> provides a model for hosting recordings of local government meetings.</li>
-	<li>Digitizing city records, such as agendas and minutes, following <a href="https://phildini.dev/digitizing-55-000-pages-of-civic-meetings" target="_blank">this model</a>.</li>
-	<li>Maintaining a map of public meetings for your county and/ or providing downloadable calendar notices in the standard format, ICS (Internet Calendar Scheduling).</li>
-	</ul>	
-   	</section>
-    	<section id="faq-section">
+      <br>
+      <p><strong>Temporary Instructions:</strong></p>
+      <p><mark>Instructions for analysis and a more complete Recommendations section will be provided by September
+          30th.</mark>
+        <br>
+      </p>
+      <br>
+      <strong></strong>
+      <p> As you decide what changes to recommend, here are two approaches to consider: <strong>Policy</strong> & <strong>Partnerships</strong>. </p>
+      <h2>Policy</h2>
+      <p> As you consider policy recommendations, review the political and legal sections of your STEEPLE Analysis. Look
+        at what local policies exist for
+        public meetings and for changing or amending those policies. Keep in mind that local policies can create
+        additional requirements for local
+        governments but must still meet all requirements of state law. Some questions to consider:
+      </p>
+      <ul>
+        <li>What actions can you take if a current policy is not being followed in practice?</li>
+        <li>What is the process to propose changes to current policy?</li>
+      </ul>
+      <p>
+        Sunshine Request and Code for Asheville created a policy proposal called the <a
+          href="https://https://docs.google.com/document/d/e/2PACX-1vQDj9Ey7xh52bENqU2oYct6AQxLd8hJv-bY0B_9ZvCajC4cfFCdnQ_2_4QRHWxeEFgf7LkuHkMfg6Ed/pub"
+          target="_blank">Open Meetings Policy</a>
+        and presented it to the Governance Committee of Asheville City Council. They also prepared a <a
+          href="https://openmeetingspolicy.com" target="_blank">petition</a> and gathered support from organizations and
+        individuals. Your team may want to use these as models.
+      </p>
+      <h2>Partnerships</h2>
+      <p>
+        Your team may also want to consider partnerships as a way to make it easier to participate in local government,
+        especially by making information easier to access. We provide a few
+        examples here. Think carefully before making an ongoing commitment for your team to provide this information. It
+        may be better for you to partner with a local non-profit
+        that will host the information on an ongoing basis. Your team might be most effective by engaging civic
+        technology volunteers to help the non-profit prepare their site, rather
+        than trying to start a new organization.
+      </p>
+      <ul>
+        <li>The <a href="https://councildataproject.org/" target="_blank">Council Data Project</a> provides a model for
+          hosting recordings of local government meetings.</li>
+        <li>Digitizing city records, such as agendas and minutes, following <a
+            href="https://phildini.dev/digitizing-55-000-pages-of-civic-meetings" target="_blank">this model</a>.</li>
+        <li>Maintaining a map of public meetings for your county and/ or providing downloadable calendar notices in the
+          standard format, ICS (Internet Calendar Scheduling).</li>
+      </ul>
+    </section>
+    <section id="faq-section">
       <h2>Frequently Asked Questions</h2>
-	    
-	<h3>What is a public meeting?</h3>
-	<p>We use the term public meeting to refer to local government meetings that are required by law (<a href="https://www.ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_143/Article_33C.pdf"
-              target="_blank">"NC General Statute Chapter 143 33C"</a>) to allow the public to 
-	attend and, in some cases, to provide public comment. From the statute: "public body" means any elected or appointed authority, board, commission, committee, council,
-	or other body of the State, or of one or more counties, cities, school administrative units, constituent institutions of The University of North Carolina, or other political
-	subdivisions or public corporations in the State that (i) is composed of two or more members and (ii) exercises or is authorized to exercise a legislative, policy-making, 
-	quasi-judicial, administrative, or advisory function." There are a few additional considerations, so if you are in doubt, please consult the statute.</p>  	
-	<br>
-	<h3>Can I use the Open Meeting Toolkit for the Carolinas in other places besides North Carolina?</h3>
-	<p>There is some interest in adapting the Toolkit for use in other places. Right now, it provides resources for North Carolina.</p>	    
-	<br>
-	<h3>Can a team use the Open Meeting Toolkit without a team leader?</h3>
-	<p>Yes, the Toolkit can be used by self-directed teams who share responsibility for leadership.</p>
-	<br>
-	<h3>What if I notice a technical problem or want to suggest an improvement?</h3>
-	<p>The Toolkit is being developed by civic technology volunteers. If you are a civic technology volunteer yourself and know how to fix the problem, we	
-	invite you to  <a href="https://github.com/Code-for-the-Carolinas/openmeetingtoolkit" target="_blank">collaborate with us on GitHub</a>. You are also welcome
-	to contact Code for the Carolinas by email: info at codeforthecarolinas dot org.</p>
-	<br>
-	<h3>Is the Toolkit suitable for research?</h3>	
-	<p>No, the Toolkit provides a structure and resources for local teams to make observations to help inform improvements to public meetings in 
-	their own communities. Findings from the Toolkit are not intended for publication or as contributions to general knowledge. Use of the Toolkit may
-	involve recording some public information about public officials, but in general the Toolkit is for recording information about public meetings, not about people.</p>
-	</section>
+
+      <h3>What is a public meeting?</h3>
+      <p>We use the term public meeting to refer to local government meetings that are required by law (<a
+          href="https://www.ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_143/Article_33C.pdf"
+          target="_blank">"NC General Statute Chapter 143 33C"</a>) to allow the public to
+        attend and, in some cases, to provide public comment. From the statute: "public body" means any elected or
+        appointed authority, board, commission, committee, council,
+        or other body of the State, or of one or more counties, cities, school administrative units, constituent
+        institutions of The University of North Carolina, or other political
+        subdivisions or public corporations in the State that (i) is composed of two or more members and (ii) exercises
+        or is authorized to exercise a legislative, policy-making,
+        quasi-judicial, administrative, or advisory function." There are a few additional considerations, so if you are
+        in doubt, please consult the statute.</p>
+      <br>
+      <h3>Can I use the Open Meeting Toolkit for the Carolinas in other places besides North Carolina?</h3>
+      <p>There is some interest in adapting the Toolkit for use in other places. Right now, it provides resources for
+        North Carolina.</p>
+      <br>
+      <h3>Can a team use the Open Meeting Toolkit without a team leader?</h3>
+      <p>Yes, the Toolkit can be used by self-directed teams who share responsibility for leadership.</p>
+      <br>
+      <h3>What if I notice a technical problem or want to suggest an improvement?</h3>
+      <p>The Toolkit is being developed by civic technology volunteers. If you are a civic technology volunteer yourself
+        and know how to fix the problem, we
+        invite you to <a href="https://github.com/Code-for-the-Carolinas/openmeetingtoolkit" target="_blank">collaborate
+          with us on GitHub</a>. You are also welcome
+        to contact Code for the Carolinas by email: info at codeforthecarolinas dot org.</p>
+      <br>
+      <h3>Is the Toolkit suitable for research?</h3>
+      <p>No, the Toolkit provides a structure and resources for local teams to make observations to help inform
+        improvements to public meetings in
+        their own communities. Findings from the Toolkit are not intended for publication or as contributions to general
+        knowledge. Use of the Toolkit may
+        involve recording some public information about public officials, but in general the Toolkit is for recording
+        information about public meetings, not about people.</p>
+    </section>
     <section id="contact-section">
       <h2>Contact</h2>
-	email: info at codeforthecarolinas dot org    
+      <!-- <a href = "mailto: info@codeforthecarolinas.org">info@codeforthecarolinas.org</a> -->
+      info at codeforthecarolinas dot org
     </section>
     <footer>
       <div id="footer-section">
