@@ -1,0 +1,820 @@
+{
+  "features": [
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "A.B.C. Board",
+        "location": "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
+        "address": "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
+        "schedule": "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "50cd1d69-fac3-4065-8a31-9be0d27fdafa"
+      },
+      "geometry": {
+        "longitude": -78.870995,
+        "latitude": 35.049355,
+        "coordinates": [
+          -78.870995,
+          35.049355
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Adult Care Home Community Advisory Committee",
+        "location": "Various adult care homes in Cumberland County",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Third Thursday of the last month of each quarter at 1:00 p.m. There is an initial training period of 15 hours to include study of a committee handbook and orientation visits to long-term care facilities. Additional training of 10 hours per year is required. Visits in the assigned facilities are of the utmost importance in the participation on this committee. A commitment of at least one day per quarter to visit facilities and 4 hours per quarter for business and training meetings.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "15f93150-527e-4b53-8d68-38bd54986669"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Animal Services Board",
+        "location": "Animal\u00A0Services Department \n4704 Corporation Drive \nFayetteville, NC",
+        "address": "Animal\u00A0Services Department \n4704 Corporation Drive \nFayetteville, NC",
+        "schedule": "First Monday of every other month (Feb./Apr./June/Aug./Oct./Dec.) at 6:00 p.m. (No meetings held on first or last day of any month.) The average length of a meeting varies.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "c5032f75-258e-48f6-829d-c00da538b481"
+      },
+      "geometry": {
+        "longitude": -78.889975,
+        "latitude": 34.955995,
+        "coordinates": [
+          -78.889975,
+          34.955995
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Board of Adjustment",
+        "location": "Historic Cumberland County Courthouse, Hearing Room #3 \n130 Gillespie Street \nFayetteville, NC",
+        "address": "Historic Cumberland County Courthouse, Hearing Room #3 \n130 Gillespie Street \nFayetteville, NC",
+        "schedule": "Third Thursday of each month at 6:00 p.m. The average length of a meeting varies. Each member spends approximately three hours per month in service to this board.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "04cd10e2-edb0-4824-8a85-7aa439b34faf"
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Board of Health",
+        "location": "Cumberland County Health Department \nBoard Room \n1235 Ramsey Street \nFayetteville, NC",
+        "address": "Cumberland County Health Department \nBoard Room \n1235 Ramsey Street \nFayetteville, NC",
+        "schedule": "Third Tuesday of each month at 6:00 p.m. July and September meetings take place only if desired.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "495852c8-37fe-4f4e-8d1f-4ba791bb3a64"
+      },
+      "geometry": {
+        "longitude": -78.88205,
+        "latitude": 35.07386,
+        "coordinates": [
+          -78.88205,
+          35.07386
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cape Fear Valley Health System Board of Trustees",
+        "location": "Cape Fear Valley Health System \nBoard Room First Floor/Administrative Area \n1638 Owen Drive\nFayetteville, NC",
+        "address": "Cape Fear Valley Health System \nBoard Room First Floor/Administrative Area \n1638 Owen Drive\nFayetteville, NC",
+        "schedule": "Last Wednesday of each month at\u00A05:30 p.m. (No April or July Meeting; November \u0026 December meeting combined)",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "7686dae4-e604-4cc5-bd8b-525093cef4c9"
+      },
+      "geometry": {
+        "longitude": -78.814741,
+        "latitude": 35.42516,
+        "coordinates": [
+          -78.814741,
+          35.42516
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Civic Center Commission",
+        "location": "Cumberland County Civic Center \nCrown Coliseum Board Room \n1960 Coliseum Drive \nFayetteville, NC",
+        "address": "Cumberland County Civic Center \nCrown Coliseum Board Room \n1960 Coliseum Drive \nFayetteville, NC",
+        "schedule": "Fourth Tuesday of each month at 5:30 p.m. The Board is also divided into three subcommittees that meet on a monthly basis: Finance Committee, Capital Improvements Committee, and Marketing and Sales Committee.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "7d338510-afd2-4235-ac57-f3bc5d22b692"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Cemetery Commission",
+        "location": "As called",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Meets on an as-needed basis",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "d1e8a5fc-f0e9-4be2-a950-69776e46e896"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Community Child Protection/Fatality Prevention Team",
+        "location": "Department of Social Services Building\n4th Floor, Room 440 \n1225 Ramsey Street\nFayetteville, NC",
+        "address": "Department of Social Services Building\n4th Floor, Room 440 \n1225 Ramsey Street\nFayetteville, NC",
+        "schedule": "Third Thursday of each month at 3:00 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "ccb9db29-b26d-44da-a4c3-b29eab058952"
+      },
+      "geometry": {
+        "longitude": -78.88209,
+        "latitude": 35.07162,
+        "coordinates": [
+          -78.88209,
+          35.07162
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Finance Corporation",
+        "location": "Cumberland County Courthouse, Room 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "Cumberland County Courthouse, Room 564 \n117 Dick Street \nFayetteville, NC",
+        "schedule": "Meetings are held on an as needed basis usually at 12:00 p.m. The length of the meetings varies.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "a68ced5b-86bd-42ec-985a-a5d93d1989ae"
+      },
+      "geometry": {
+        "longitude": -78.87624,
+        "latitude": 35.0509,
+        "coordinates": [
+          -78.87624,
+          35.0509
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Home and Community Care Block Grant Committee",
+        "location": "Various service provider locations within Cumberland County",
+        "address": "CenturyLink, 717 Mcgilvary St, Fayetteville, North Carolina 28301, United States",
+        "schedule": "Meets as needed.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "02231dc7-9b82-4ff9-a6d4-1b77e669cd54"
+      },
+      "geometry": {
+        "longitude": -78.890066,
+        "latitude": 35.052648,
+        "coordinates": [
+          -78.890066,
+          35.052648
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Industrial Facilities and Pollution Control Financing Authority",
+        "location": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "schedule": "Meetings are held on an as needed basis usually at 12:00 PM. The length of the meetings varies.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "2a5159e4-ce36-4a7a-a8d2-4bc7da2f05f9"
+      },
+      "geometry": {
+        "longitude": -78.87624,
+        "latitude": 35.0509,
+        "coordinates": [
+          -78.87624,
+          35.0509
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Juvenile Crime Prevention Council",
+        "location": "Cumberland County CommuniCare, \nLower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
+        "address": "Cumberland County CommuniCare, \nLower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
+        "schedule": "Second Wednesday of each month at 1:15 p.m. Meetings are normally one to two hours in length.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "ab026f0f-f68a-4ccf-a8e9-59b00a32d8fe"
+      },
+      "geometry": {
+        "longitude": -78.89155,
+        "latitude": 35.055465,
+        "coordinates": [
+          -78.89155,
+          35.055465
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Local Emergency Planning Committee",
+        "location": "Rotating Locations",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "On the last Thursday of the first month of each quarter at 10:00 a.m. Members are also required to attend and work with the subcommittee they are assigned to. The meetings generally last approximately one hour. The time required for the subcommittee would vary depending on the nature of the subcommittee (i.e., Membership, Resources, Exercise, Planning, etc.)",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "ddce45e5-ed7a-494b-8f53-4347f9553764"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Cumberland County Workforce Development Board",
+        "location": "FTCC General Classroom Building\nRoom 114\n2817 Ft. Bragg Rd",
+        "address": "D-3229 Barracks, D-3229 Ardennes Rd, Fort Bragg, North Carolina 28307, United States",
+        "schedule": "Third Tuesday\u00A0of every other month at 11:00\u00A0a.m. (starting in January)",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "5a2b7c05-69f8-4ba7-85bf-442531dd3f6d"
+      },
+      "geometry": {
+        "longitude": -79.004488,
+        "latitude": 35.126227,
+        "coordinates": [
+          -79.004488,
+          35.126227
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Equalization and Review Board",
+        "location": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "address": "Cumberland County Courthouse, \nRoom 564 \n117 Dick Street \nFayetteville, NC",
+        "schedule": "2nd Wednesday of every month (except July) at 3:00 p.m. The Regular Board of Equalization and Review holds its first meeting each year no earlier than the first Monday in April and no later than the first Monday in May. In a year in which a countywide reappraisal (revaluation) is not conducted, the Board must complete its duties on or before the third Monday after they begin their duties, unless in its opinion a longer period is required. However, in no event may they sit longer than July 1st. In a year in which a revaluation is conducted, the Board may sit until December 31st.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "3b5ece4f-de10-45ac-84cf-cf99c0cde0f5"
+      },
+      "geometry": {
+        "longitude": -78.87624,
+        "latitude": 35.0509,
+        "coordinates": [
+          -78.87624,
+          35.0509
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Farm Advisory Board",
+        "location": "Historic Cumberland County Courthouse, \nRoom 107C \n130 Gillespie Street \nFayetteville, NC",
+        "address": "Historic Cumberland County Courthouse, \nRoom 107C \n130 Gillespie Street \nFayetteville, NC",
+        "schedule": "Quarterly - second Tuesday of the first month at 7:00 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "94baafbb-f419-4016-bcf7-75a4b36ace5b"
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville Area Convention and Visitors Bureau Board of Directors",
+        "location": "Fayetteville Area Convention and Visitors Bureau \nBoard Room\n245 Person Street\n\nFayetteville, NC",
+        "address": "Fayetteville Area Convention and Visitors Bureau \nBoard Room\n245 Person Street\n\nFayetteville, NC",
+        "schedule": "Quarterly on 4th Wednesday (starting in January) at 12:00 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "91968bfa-2b59-4867-8ba3-6aa06cdea496"
+      },
+      "geometry": {
+        "longitude": -78.874542,
+        "latitude": 35.051411,
+        "coordinates": [
+          -78.874542,
+          35.051411
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville Cumberland County Economic Development Corporation",
+        "location": "201 Hay Street\nR. B. Williams Building Ste 401A\nFayetteville, NC",
+        "address": "201 Hay Street\nR. B. Williams Building Ste 401A\nFayetteville, NC",
+        "schedule": "Second Tuesday of each month at\u00A08:00 a.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "7173591b-c6f7-4a94-86ad-e5a0c7b47db6"
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville Technical Community College Board of Trustees",
+        "location": "Fayetteville Technical Community College, \nBoard Room Tony Rand Student Center \n2201 Hull Road \nFayetteville, NC",
+        "address": "Fayetteville Technical Community College, \nBoard Room Tony Rand Student Center \n2201 Hull Road \nFayetteville, NC",
+        "schedule": "The third Monday of each month at 12:30 p.m. No meetings in July and December. The maximum time per meeting would be four hours which includes committee meetings and lunch. Called meetings do occur occasionally and trustees are encouraged to attend some organizational meetings out of town or out of state. The Board is also divided into five sub committees that meet on the third Monday of each month prior to the 12:45 PM, Board Meeting, except July and December: (1) Finance Committee; (2) Human Resources Committee; (3) Building and Grounds Committee; and (4) Curriculum Committee; and (5) Planning Committee.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "9cbc7024-d992-434e-a03f-5409da38c234"
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Fayetteville-Cumberland Parks and Recreation Advisory Commission",
+        "location": "City of Fayetteville Parks \u0026 Recreation\n121 Lamon Street \nFayetteville, NC",
+        "address": "City of Fayetteville Parks \u0026 Recreation\n121 Lamon Street \nFayetteville, NC",
+        "schedule": "1st Tuesday of every month at 5:30 p.m. Meetings last one to one and one-half hours with occasional committee meetings as needed.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "3ff3bf5c-a155-4ed5-a0ef-ab9abb9e57e5"
+      },
+      "geometry": {
+        "longitude": -78.87519,
+        "latitude": 35.05929,
+        "coordinates": [
+          -78.87519,
+          35.05929
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Human Relations Commission",
+        "location": "Festival Park Plaza Training Room 1st Floor\n225 Ray Ave\nFayetteville, NC 28301",
+        "address": "Festival Park Plaza Training Room 1st Floor\n225 Ray Ave\nFayetteville, NC 28301",
+        "schedule": "Second Thursday of every month at 5:30 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "1e748f24-ccef-47a3-b69d-90088472002e"
+      },
+      "geometry": {
+        "longitude": -78.88183,
+        "latitude": 35.05583,
+        "coordinates": [
+          -78.88183,
+          35.05583
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Joint Appearance Commission",
+        "location": "Fayetteville City Hall\nE.E. Smith Conference Room",
+        "address": "Fayetteville, North Carolina, United States",
+        "schedule": "Second\u00A0Monday\u00A0of the month at 5:30 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "fef7419e-3622-4cb8-a541-1246a6e69d97"
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Joint Fort Bragg \u0026 Cumberland County Food Policy Council",
+        "location": "1235 Ramsey Street, Fayetteville, NC",
+        "address": "1235 Ramsey Street, Fayetteville, NC",
+        "schedule": "First Wednesday of Each Month \n\n    Odd numbered days @ 5 p.m.\n    Even numbered days @ 12 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "ef069712-d958-4294-bd56-dbeac173bbd1"
+      },
+      "geometry": {
+        "longitude": -78.88205,
+        "latitude": 35.07386,
+        "coordinates": [
+          -78.88205,
+          35.07386
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Joint Planning Board",
+        "location": "Historic Cumberland County Courthouse\nHearing Room #3 \n130 Gillespie Street \nFayetteville, North Carolina",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Third Tuesday of each month at 6:00 p.m.\u00A0Meetings vary in length. Members also serve on sub-committees (Administrative, Comprehensive Planning, Codes and Nominating). These sub-committees meet on an as-needed basis. In addition, time is spent outside of the meetings to review various documents and plans on which the Board is required to vote.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "66cca6bd-e32b-458a-9a40-e4bffaf45dec"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Jury Commission",
+        "location": "Judge E. Maurice Braswell Courthouse \n3rd Floor \n117 Dick Street, Fayetteville",
+        "address": "Fayetteville, North Carolina, United States",
+        "schedule": "The Jury Commission meets at least twice a year. The Commission is responsible to meet as often as required to complete the jury list for the next year by the 30th day of November of each year. The amount of time required for each meeting and the number of meetings required is determined by the Commission and dictated by the procedures that the Commission chooses to prepare the Master List.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "56b90332-f292-4542-ad54-056152e6937c"
+      },
+      "geometry": {
+        "longitude": -78.878292,
+        "latitude": 35.052576,
+        "coordinates": [
+          -78.878292,
+          35.052576
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Library Board of Trustees",
+        "location": "Various libraries throughout the County",
+        "address": "Hope Mills Public Library, 3411 Golfview Rd, Hope Mills, North Carolina 28348, United States",
+        "schedule": "Third Thursday of each month at 9:05 a.m. (except for December). The approximate amount of time a Library Trustee would devote to the Board each month is two hours for meeting attendance with variable preparation and follow-up time. Periodic committee meeting attendance may be required. Trustee committees are: By-Laws (on call) and Nominating (on call).",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "f6932724-2bf6-46fc-a1d9-9fa3a6d586e3"
+      },
+      "geometry": {
+        "longitude": -78.95902,
+        "latitude": 34.974601,
+        "coordinates": [
+          -78.95902,
+          34.974601
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Mid-Carolina Aging Advisory Council",
+        "location": "Various locations in the three county region (Cumberland, Harnett and Sampson counties)",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "First\u00A0Thursday of the\u00A0last month of each quarter at 2:00 p.m. Length of meetings varies.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "8e15dee8-cd65-407a-bb1b-c8ecdd4f01d4"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "North Carolina Southeast",
+        "location": "70 West Broad Street, Elizabethtown, NC",
+        "address": "70 West Broad Street, Elizabethtown, NC",
+        "schedule": "Quarterly",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "b29a3a9f-cfa7-4c2d-879f-6a2f36a48681"
+      },
+      "geometry": {
+        "longitude": -78.605956,
+        "latitude": 34.628959,
+        "coordinates": [
+          -78.605956,
+          34.628959
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Nursing Home Advisory Board",
+        "location": "Various nursing homes in Cumberland County",
+        "address": "Cumberland County, North Carolina, United States",
+        "schedule": "Third Thursday of the last month of each quarter at 10:00 a.m. There is an initial training period of 15 hours to include study of a committee handbook and orientation visits to long-term care facilities. Additional training of 10 hours per year is required. Visits in the assigned facilities are of the utmost importance in the participation on this committee. A commitment of at least one day per quarter to visit facilities and 4 hours per quarter for business and training meetings.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "a18e46ca-ecd3-40cf-823b-b5d3e5e5c4f5"
+      },
+      "geometry": {
+        "longitude": -78.83,
+        "latitude": 35.05,
+        "coordinates": [
+          -78.83,
+          35.05
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Senior Citizens Advisory Commission",
+        "location": "FCPR Senior Center, Large Program Room\n739 Blue Street\nFayetteville, NC",
+        "address": "FCPR Senior Center, Large Program Room\n739 Blue Street\nFayetteville, NC",
+        "schedule": "Second Tuesday of each month at 2:30 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "9a3b11cc-1d06-413a-86c4-65ccfb57dc41"
+      },
+      "geometry": {
+        "longitude": -78.89206,
+        "latitude": 35.06488,
+        "coordinates": [
+          -78.89206,
+          35.06488
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Social Services Board",
+        "location": "Department of Social Services, \nBoard Room \n1225 Ramsey Street\nFayetteville, NC",
+        "address": "Department of Social Services, \nBoard Room \n1225 Ramsey Street\nFayetteville, NC",
+        "schedule": "Last Wednesday of each month at 1:00 p.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "bde55de6-8cb1-4047-94de-2f23e9082817"
+      },
+      "geometry": {
+        "longitude": -79.778167,
+        "latitude": 36.091909,
+        "coordinates": [
+          -79.778167,
+          36.091909
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Southeastern Economic Development Commission",
+        "location": "707 West Broad Street, \nElizabethtown, NC",
+        "address": "707 West Broad Street, \nElizabethtown, NC",
+        "schedule": "Full Board meets one time annually - Usually in April",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "ae74b708-2b73-481f-98c3-63fb05263d3c"
+      },
+      "geometry": {
+        "longitude": -78.613504,
+        "latitude": 34.631128,
+        "coordinates": [
+          -78.613504,
+          34.631128
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Cumberland",
+        "publicbody": "Transportation Advisory Board",
+        "location": "Historic Cumberland County Courthouse \nHearing Room #3\n130 Gillespie Street \nFayetteville, NC",
+        "address": "Historic Cumberland County Courthouse \nHearing Room #3\n130 Gillespie Street \nFayetteville, NC",
+        "schedule": "The\u00A0second Tuesday of the first month in the quarter, (January, April, July, and October) at 10:00 a.m.",
+        "start": null,
+        "end": null,
+        "remote": "",
+        "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
+        "id": "3e5d8198-69e5-46ac-8168-b9ff2199c25a"
+      },
+      "geometry": {
+        "longitude": -78.87914,
+        "latitude": 35.051535,
+        "coordinates": [
+          -78.87914,
+          35.051535
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    }
+  ]
+}

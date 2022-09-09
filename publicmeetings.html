@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Display a popup on click</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <body>
+        <div class="sidebar">
+            <div class="heading">
+                <h1>Public Meetings in the Carolinas</h1>
+            </div>
+            <div id="listings" class="listings"></div>
+        </div>
+        <div id="map" class="map"></div>
+        <head>
+            <style>
+
+                body {
+                    color: #444;
+                    background-color: white;
+                    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    -webkit-font-smoothing: antialiased;
+                }
+
+                * {
+                    box-sizing: border-box;
+                }
+
+                .sidebar {
+                    position: absolute;
+                    width: 33.3333%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    overflow: hidden;
+                    border-right: 1px solid rgba(0, 0, 0, 0.2);
+                }
+
+                .map {
+                    position: absolute;
+                    left: 33.3333%;
+                    width: 66.6666%;
+                    top: 0;
+                    bottom: 0;
+                }
+
+                h1 {
+                    font-size: 20px;
+                    margin: 0;
+                    font-weight: 400;
+                    line-height: 20px;
+                    padding: 20px 2px;
+                }
+
+                a {
+                    color: #6667AB;
+                    text-decoration: none;
+                }
+
+                    a:hover {
+                        color: #6667AB;
+                    }
+
+                .heading {
+                    background: #fff;
+                    border-bottom: 1px solid #eee;
+                    min-height: 60px;
+                    line-height: 60px;
+                    padding: 0px 10px;
+                    background-color: #006152;
+                    color: #fff;
+                }
+
+                .listings {
+                    height: 100%;
+                    overflow: auto;
+                    padding-bottom: 60px;
+                }
+
+                    .listings .item {
+                        display: block;
+                        border-bottom: 1px solid #eee;
+                        padding: 10px;
+                        text-decoration: none;
+                    }
+
+                        .listings .item:last-child {
+                            border-bottom: none;
+                        }
+                        .listings .item .title {
+                            display: block;
+                            color: #333 ;
+                            font-weight: 700;
+                        }
+
+                            .listings .item .title small {
+                                font-weight: 400;
+                            }
+                            .listings .item.active .title,
+                            .listings .item .title:hover {
+                                color: #333;
+                            }
+                        .listings .item.active {
+                            background-color: #f8f8f8;
+                        }
+                ::-webkit-scrollbar {
+                    width: 3px;
+                    height: 3px;
+                    border-left: 0;
+                    background: rgba(0, 0, 0, 0.1);
+                }
+                ::-webkit-scrollbar-track {
+                    background: none;
+                }
+                ::-webkit-scrollbar-thumb {
+                    background: #444;
+                    border-radius: 0;
+                }
+
+                .marker {
+                    border: none;
+                    cursor: pointer;
+                    height: 45px;
+                    width: 45px;
+                    background-image: url('yellow-marker-icon.svg');
+                }
+
+                /* Marker tweaks */
+                .mapboxgl-popup {
+                    width:100000px;
+                    padding-bottom: 50px;
+                }
+
+                .mapboxgl-popup-close-button {
+                    display: none;
+                }
+                .mapboxgl-popup-content {
+                    font: 200 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+                    padding: 0;
+                    width: 500px;
+                }
+                    .mapboxgl-popup-content h3 {
+                        background: #006152;
+                        color: #fff;
+                        margin: 0;
+                        padding: 10px;
+                        border-radius: 3px 3px 0 0;
+                        font-weight: 300;
+                        margin-top: -15px;
+                    }
+
+                    .mapboxgl-popup-content h4 {
+                        margin: 0;
+                        padding: 10px;
+                        font-weight: 400;
+                    }
+
+                    .mapboxgl-popup-content div {
+                        padding: 10px;
+                    }
+
+                .mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+                    margin-top: 15px;
+                }
+
+                .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+                    border-bottom-color: #444;
+                }
+            </style>
+        </head>
+        <script>
+
+            mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
+
+            /**
+             * Add the map to the page
+             */
+            const map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v10',
+                center: [-79.8, 35.3],
+                zoom: 5,
+                scrollZoom: false
+            });
+
+            const meetings = {
+                'type': 'FeatureCollection',
+                'features': [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.547049, 35.595747]
+                        },
+                        'properties': {
+                            'government': 'Buncombe County',
+                            'publicbody': 'Affordable Housing Committee',
+                            'location': 'Buncombe County Permits & Inspections',
+                            'address': '30 Valley Street, Meeting Room, Asheville, NC 28801',
+                            'schedule': '1st Tuesday of every month',
+                            'start': '1:00 PM',
+                            'end': '2:30 PM',
+                            'remote':'',
+                            'id':'1'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.55529, 35.59748]
+                        },
+                        'properties': {
+                            'government': 'City of Asheville',
+                            'publicbody': 'Asheville City Council',
+                            'location': 'Harrah’s Cherokee Center',
+                            'address': '87 Haywood St, Asheville, NC 28801',
+                            'schedule': 'Second and fourth Tuesday of every monthh',
+                            'start': '5:00 PM',
+                            'end': '',
+                            'remote':'',
+                            'id': '2'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.54826026293046, 35.598922154690385]
+                        },
+                        'properties': {
+                            'government': 'Asheville-Buncombe County',
+                            'publicbody': 'AB Tech/Buncombe County Joint Capital Advisory Committee',
+                            'location': 'County Administration Building',
+                            'address': '200 College Street, Asheville, NC 28801',
+                            'schedule': 'As needed',
+                            'start': '',
+                            'end': '',
+                            'remote':'Zoom',
+                            'id':'3'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.548260262931, 35.59892215469039]
+                        },
+                        'properties': {
+                            'government': 'Buncombe County',
+                            'publicbody': 'Ad Hoc Reappraisal Committee',
+                            'location': 'County Administration Building',
+                            'address': '200 College Street, Asheville, NC 28801',
+                            'schedule': '1st and 3rd Wednesday of every month',
+                            'start': '5:00 PM',
+                            'end': '7:00 PM',
+                            'remote':'Watch live through the Engagement Hub: Public Engagement Hub or watch live on the City YouTube Channel.\nListen live by calling 855-925-2801 Enter Code 9409.\nPre-recorded voicemail comments by calling 855-925-2801 Enter Code 9409.  Voicemail comments will be accepted until Wednesday, April 13 at 5:00 p.m.\nWritten public comments by email – AAHCAVL@PublicInput.com.',
+                            'id':'4'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.6231, 35.601185]
+                        },
+                        'properties': {
+                            'government': 'Buncombe County',
+                            'publicbody': 'Adult Care Home Community Advisory Committee',
+                            'location': 'Land of Sky Regional Council Offices',
+                            'address': '339 New Leicester Highway, Asheville, NC 28806',
+                            'schedule': '3rd Friday of each month',
+                            'start': '9:00 AM',
+                            'end': '',
+                            'remote':'',
+                            'id':'5'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.54873467670735, 35.596417199178475]
+                        },
+                        'properties': {
+                            'government': 'Asheville-Buncombe County',
+                            'publicbody': 'African American Heritage Commission',
+                            'location': 'City Hall',
+                            'address': '70 Court Plaza, 1st Floor North Conference Room Asheville, NC 28801 ',
+                            'schedule': '2nd Thursday of each month',
+                            'start': '11:30 AM',
+                            'end': '',
+                            'remote':'Watch live through the Engagement Hub: Public Engagement Hub or watch live on the City YouTube Channel.\nListen live by calling 855-925-2801 Enter Code 9409.\nPre-recorded voicemail comments by calling 855-925-2801 Enter Code 9409.  Voicemail comments will be accepted until Wednesday, April 13 at 5:00 p.m.\nWritten public comments by email – AAHCAVL@PublicInput.com.',
+                            'id':'6'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-82.6328, 35.61869]
+                        },
+                        'properties': {
+                            'government': 'Buncombe County',
+                            'publicbody': 'Agricultural Advisory Board for Farmland Preservation',
+                            'location': 'Soil & Water Conference',
+                            'address': '49 Mt. Carmel Road, Asheville, NC 28806',
+                            'schedule': '3rd Tuesday of each month',
+                            'start': '11:00 AM',
+                            'end': '12:00 PM ',
+                            'remote':'Zoom',
+                            'id':'7'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates':[-82.54873467670735, 35.596417199178475]
+                        },
+                        'properties': {
+                            'government': 'City of Ashevile',
+                            'publicbody': 'Asheville Board of Adjustment',
+                            'location': 'City Hall',
+                            'address': '70 Court Plaza, 1st Floor North Conference Room Asheville, NC 28801',
+                            'schedule': '4th Monday of each month',
+                            'start': '2:00 PM',
+                            'end': '',
+                            'remote':'Zoom',
+                            'id':'8'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates':[-82.56039420232847, 35.597385858594926]
+                        },
+                        'properties': {
+                            'government': 'Asheville-Buncombe County',
+                            'publicbody': 'Asheville-Buncombe Regional Sports Commission',
+                            'location': 'Chamber of Commerce',
+                            'address': '36 Montford Ave, Asheville, NC 28801',
+                            'schedule': '4th Monday of each month',
+                            'start': '',
+                            'end': '',
+                            'remote':'',
+                            'id':'9'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates':[-79.4014219293032, 36.06924312939426]
+                        },
+                        'properties': {
+                            'government': 'Alamance County',
+                            'publicbody': 'County Commissioners',
+                            'location': 'County Office Building',
+                            'address': '124 W. Elm St., Commissioners Meeting Room located on the 2nd Floor, Graham, NC  27253',
+                            'schedule': '1st Monday and 3rd Monday of the month',
+                            'start': '9:00 AM and 7:00 PM, respectively',
+                            'end': '',
+                            'remote':'Video recordings of our Commissioners Meetings both online and on the local Time-Warner Public Access Channels.  The television broadcast of the meetings will occur on the 2nd and 4th Wednesdays of each month at 10 PM.  Online videos will be made available after processing the videos through Youtube, our service providers for multimedia.  The meetings are now streamed live.',
+                            'id':'10'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates':[-79.451182400000019,36.08054825636156]
+                        },
+                        'properties': {
+                            'government': 'Alamance County',
+                            'publicbody': 'Adult Care Home Community Advisory Committee',
+                            'location': 'J. R. Kernodle Senior Center',
+                            'address': '1535 S Mebane St, Burlington NC 27215',
+                            'schedule': '3rd Tuesday of each quarter',
+                            'start': '2:00 PM',
+                            'end': '',
+                            'remote':'Unknown',
+                            'id':'11'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates':[-79.4014219293032, 36.06924312939426]
+                        },
+                        'properties': {
+                            'government': 'My New Meeting County',
+                            'publicbody': 'My New Meeting',
+                            'location': 'Place',
+                            'address': '124 W. Elm St., Commissioners Meeting Room located on the 2nd Floor, Graham, NC  27253',
+                            'schedule': '1st Monday and 3rd Monday of the month',
+                            'start': '9:00 AM and 7:00 PM, respectively',
+                            'end': '',
+                            'remote':'Video recordings of our Commissioners Meetings both online and on the local Time-Warner Public Access Channels.  The television broadcast of the meetings will occur on the 2nd and 4th Wednesdays of each month at 10 PM.  Online videos will be made available after processing the videos through Youtube, our service providers for multimedia.  The meetings are now streamed live.',
+                            'id':'12'
+                        }
+                    },
+                ]
+            };
+
+            /**
+             * Wait until the map loads to make changes to the map.
+             */
+            map.on('load', () => {
+                /**
+                 * This is where your '.addLayer()' used to be, instead
+                 * add only the source without styling a layer
+                 */
+                map.addSource('places', {
+                    'type': 'geojson',
+                    'data': meetings
+                });
+
+                /**
+                 * Add all the things to the page:
+                 * - The location listings on the side of the page
+                 * - The markers onto the map
+                 */
+                buildLocationList(meetings);
+                addMarkers(meetings);
+
+                fetch("meetings.json")
+                .then(response => response.json())
+                .then(moreMeetings => {
+                    map.addSource('morePlaces', {
+                        'type': 'geojson',
+                        'data': moreMeetings
+                    });
+                    buildLocationList(moreMeetings);
+                    addMarkers(moreMeetings);
+                }).catch(function (err) {
+                    console.log('Failed to load more meetings', err);
+                });
+            });
+
+            /**
+             * Add a marker to the map for every meeting listing.
+             **/
+            function addMarkers(meetings) {
+                /* For each feature in the GeoJSON object above: */
+                for (const marker of meetings.features) {
+                    /* Create a div element for the marker. */
+                    const el = document.createElement('div');
+                    /* Assign a unique `id` to the marker. */
+                    el.id = `marker-${marker.properties.id}`;
+                    /* Assign the `marker` class to each marker for styling. */
+                    el.className = 'marker';
+
+                    /**
+                     * Create a marker using the div element
+                     * defined above and add it to the map.
+                     **/
+                    new mapboxgl.Marker(el, { offset: [0, -23] })
+                        .setLngLat(marker.geometry.coordinates)
+                        .addTo(map);
+
+                    /**
+                     * Listen to the element and when it is clicked, do three things:
+                     * 1. Fly to the point
+                     * 2. Close all other popups and display popup for clicked meeting
+                     * 3. Highlight listing in sidebar (and remove highlight for all other listings)
+                     **/
+                    el.addEventListener('click', (e) => {
+                        /* Fly to the point */
+                        flytoMeeting(marker);
+                        /* Close all other popups and display popup for clicked meeting */
+                        createPopUp(marker);
+                        /* Highlight listing in sidebar */
+                        const activeItem = document.getElementsByClassName('active');
+                        e.stopPropagation();
+                        if (activeItem[0]) {
+                            activeItem[0].classList.remove('active');
+                        }
+                        const listing = document.getElementById(
+                            `listing-${marker.properties.id}`
+                        );
+                        listing.classList.add('active');
+                    });
+                }
+            }
+
+            /**
+             * Add a listing for each meeting to the sidebar.
+             **/
+            function buildLocationList(meetings) {
+                for (const meeting of meetings.features) {
+                    /* Add a new listing section to the sidebar. */
+                    const listings = document.getElementById('listings');
+                    const listing = listings.appendChild(document.createElement('div'));
+                    /* Assign a unique `id` to the listing. */
+                    listing.id = `listing-${meeting.properties.id}`;
+                    /* Assign the `item` class to each listing for styling. */
+                    listing.className = 'item';
+
+                    /* Add the link to the individual listing created above. */
+                    const link = listing.appendChild(document.createElement('a'));
+                    link.href = '#';
+                    link.className = 'title';
+                    link.id = `link-${meeting.properties.id}`;
+                    link.innerHTML = `${meeting.properties.publicbody}`;
+
+                    /* Add details to the individual listing. */
+                    const details = listing.appendChild(document.createElement('div'));
+                    details.innerHTML = `${meeting.properties.location}`;
+                    if (meeting.properties.phone) {
+                        details.innerHTML += ` &middot; ${meeting.properties.phoneFormatted}`;
+                    }
+
+                    /**
+                     * Listen to the element and when it is clicked, do four things:
+                     * 1. Update the `currentFeature` to the meeting associated with the clicked link
+                     * 2. Fly to the point
+                     * 3. Close all other popups and display popup for clicked meeting
+                     * 4. Highlight listing in sidebar (and remove highlight for all other listings)
+                     **/
+                    link.addEventListener('click', function () {
+                        for (const feature of meetings.features) {
+                            if (this.id === `link-${feature.properties.id}`) {
+                                flytoMeeting(feature);
+                                createPopUp(feature);
+                            }
+                        }
+                        const activeItem = document.getElementsByClassName('active');
+                        if (activeItem[0]) {
+                            activeItem[0].classList.remove('active');
+                        }
+                        this.parentNode.classList.add('active');
+                    });
+                }
+            }
+
+            /**
+             * Use Mapbox GL JS's `flyTo` to move the camera smoothly
+             * a given center point.
+             **/
+            function flytoMeeting(currentFeature) {
+                map.flyTo({
+                    center: currentFeature.geometry.coordinates,
+                    zoom: 15
+                });
+            }
+
+            /**
+             * Create a Mapbox GL JS `Popup`.
+             **/
+            function createPopUp(currentFeature) {
+                const popUps = document.getElementsByClassName('mapboxgl-popup');
+                if (popUps[0]) popUps[0].remove();
+                const popup = new mapboxgl.Popup({ closeOnClick: false })
+                    .setLngLat(currentFeature.geometry.coordinates)
+                    .setHTML(
+                        `<h3><center>${currentFeature.properties.publicbody}</center></h3>
+                                    <h4>
+                                    <table>
+                                    <tr>
+                                    <th><center>Government</center></th>
+                                    <th><center>Public Body</center></th>
+                                    <th><center>Location</center></th>
+                                    </tr>
+                                    <tr>
+                                    <td><center>${currentFeature.properties.government}</center></td>
+                                    <td><center>${currentFeature.properties.publicbody}</center></td>
+                                    <td><center>${currentFeature.properties.location}</center></td>
+                                    </tr>
+                                    <tr>
+                                    <th><center>Address</center></th>
+                                    <th><center>Schedule</center></th>
+                                    <th><center>Start Time</center></th>
+                                    </tr>
+                                    <tr>
+                                    <td><center>${currentFeature.properties.address}</center></td>
+                                    <td><center>${currentFeature.properties.schedule}</center></td>
+                                    <td><center>${currentFeature.properties.start}</center></td>
+                                    </tr>
+                                    <tr>
+                                    <th><center>End Time</center></th>
+                                    <th><center>Remote Options</center></th>
+                                    </tr>
+                                    <tr>
+                                    <td><center>${currentFeature.properties.end}</center></td>
+                                    <td><center>${currentFeature.properties.remote}</center></td>
+                                    </h4>`
+                    )
+                    .addTo(map);
+            }
+
+            //adding zoom and rotation controls to map
+            map.addControl(new mapboxgl.NavigationControl());
+
+        </script>
+    </body>
+</html>
