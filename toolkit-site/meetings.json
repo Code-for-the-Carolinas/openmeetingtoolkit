@@ -4205,7 +4205,7 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Workforce Development Board",
         "location": "FTCC General Classroom Building\nRoom 114\n2817 Ft. Bragg Rd",
-        "address": "COL Aaron Bank Hall, D-3915, Fort Bragg, North Carolina 28307, United States",
+        "address": "Soldier Support Center, 4-2843 Normandy Dr # 284-28433, Fort Bragg, North Carolina 28307, United States",
         "schedule": "Third Tuesday\u00A0of every other month at 11:00\u00A0a.m. (starting in January)",
         "start": "",
         "end": "",
@@ -4214,11 +4214,11 @@
         "id": 275
       },
       "geometry": {
-        "longitude": -78.999733,
-        "latitude": 35.129784,
+        "longitude": -79.001217,
+        "latitude": 35.139046,
         "coordinates": [
-          -78.999733,
-          35.129784
+          -79.001217,
+          35.139046
         ],
         "type": "Point"
       },

@@ -2,6 +2,8 @@
 using CsvHelper.Configuration;
 using System.Text.Json;
 using System.Globalization;
+using System.Formats.Asn1;
+using System.Text.RegularExpressions;
 
 namespace Scrapers;
 
@@ -52,7 +54,10 @@ public static class Serializer
         var writer = new StringWriter();
         using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
         csv.WriteRecords(flatMeetings);
-        return writer.ToString();
+        csv.Flush();
+        var csvData = writer.ToString();
+        csvData = string.Join(Environment.NewLine, csvData.Split(Environment.NewLine).Select((r, i) => i == 0 ? r.Replace('_', ' ') : r)); //there has to be an easy way to do this with csvhelper but I don't see it
+        return csvData;
     }
 
     private static JsonSerializerOptions JsonOptions()
