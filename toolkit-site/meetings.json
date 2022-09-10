@@ -230,11 +230,11 @@
         "id": 109
       },
       "geometry": {
-        "longitude": -82.492382,
-        "latitude": 35.587814,
+        "longitude": -82.525597,
+        "latitude": 35.503652,
         "coordinates": [
-          -82.492382,
-          35.587814
+          -82.525597,
+          35.503652
         ],
         "type": "Point"
       },
@@ -4205,7 +4205,7 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Workforce Development Board",
         "location": "FTCC General Classroom Building\nRoom 114\n2817 Ft. Bragg Rd",
-        "address": "Soldier Support Center, 4-2843 Normandy Dr # 284-28433, Fort Bragg, North Carolina 28307, United States",
+        "address": "COL Aaron Bank Hall, D-3915, Fort Bragg, North Carolina 28307, United States",
         "schedule": "Third Tuesday\u00A0of every other month at 11:00\u00A0a.m. (starting in January)",
         "start": "",
         "end": "",
@@ -4214,11 +4214,11 @@
         "id": 275
       },
       "geometry": {
-        "longitude": -79.001217,
-        "latitude": 35.139046,
+        "longitude": -78.999733,
+        "latitude": 35.129784,
         "coordinates": [
-          -79.001217,
-          35.139046
+          -78.999733,
+          35.129784
         ],
         "type": "Point"
       },
@@ -4925,7 +4925,7 @@
         "government": "Avery",
         "publicbody": "Veterans Day - County Offices Closed",
         "location": "VEVENT",
-        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "address": "Avery, North Carolina, United States",
         "schedule": "11/11/2022 12:00:00 AM America/New_York",
         "start": "",
         "end": "",
@@ -4934,11 +4934,11 @@
         "id": 305
       },
       "geometry": {
-        "longitude": -76.72044,
-        "latitude": 34.7253,
+        "longitude": -76.71097,
+        "latitude": 34.72454,
         "coordinates": [
-          -76.72044,
-          34.7253
+          -76.71097,
+          34.72454
         ],
         "type": "Point"
       },
@@ -4949,7 +4949,7 @@
         "government": "Avery",
         "publicbody": "Thanksgiving Holiday - County Offices Closed",
         "location": "VEVENT",
-        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "address": "Avery, North Carolina, United States",
         "schedule": "11/24/2022 12:00:00 AM America/New_York",
         "start": "",
         "end": "",
@@ -4958,11 +4958,11 @@
         "id": 306
       },
       "geometry": {
-        "longitude": -76.72044,
-        "latitude": 34.7253,
+        "longitude": -76.71097,
+        "latitude": 34.72454,
         "coordinates": [
-          -76.72044,
-          34.7253
+          -76.71097,
+          34.72454
         ],
         "type": "Point"
       },
@@ -4973,7 +4973,7 @@
         "government": "Avery",
         "publicbody": "Christmas Holiday - County Offices Closed",
         "location": "VEVENT",
-        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "address": "Avery, North Carolina, United States",
         "schedule": "12/23/2022 12:00:00 AM America/New_York",
         "start": "",
         "end": "",
@@ -4982,11 +4982,11 @@
         "id": 307
       },
       "geometry": {
-        "longitude": -76.72044,
-        "latitude": 34.7253,
+        "longitude": -76.71097,
+        "latitude": 34.72454,
         "coordinates": [
-          -76.72044,
-          34.7253
+          -76.71097,
+          34.72454
         ],
         "type": "Point"
       },
@@ -4997,7 +4997,7 @@
         "government": "Avery",
         "publicbody": "Christmas Holiday - County Offices Closed",
         "location": "VEVENT",
-        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "address": "Avery, North Carolina, United States",
         "schedule": "12/26/2022 12:00:00 AM America/New_York",
         "start": "",
         "end": "",
@@ -5006,11 +5006,11 @@
         "id": 308
       },
       "geometry": {
-        "longitude": -76.72044,
-        "latitude": 34.7253,
+        "longitude": -76.71097,
+        "latitude": 34.72454,
         "coordinates": [
-          -76.72044,
-          34.7253
+          -76.71097,
+          34.72454
         ],
         "type": "Point"
       },
