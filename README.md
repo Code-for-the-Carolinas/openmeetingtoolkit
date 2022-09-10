@@ -56,6 +56,6 @@ Once you are ready to make more changes, you will need to do a pull request to g
 3. `git status`, you might have to do other commands until the status says your branch is up to date. 
 4. **BEFORE** making any changes: `git checkout gh-pages`
 5. `git pull upstream gh-pages`
-6. `git status` to double check your branch is up to date. 
+6. `git status` to double check your branch is up to date, you might have to do other commands **until** the status says your branch is up to date. 
 7. Follow the above steps in Contributing to gh-pages, starting at #3 if you want to make any more changes. 
 
