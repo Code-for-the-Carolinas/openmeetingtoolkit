@@ -32,6 +32,29 @@ public static class Serializer
         }
     }
 
+    public static string ToCsv(this IEnumerable<MappableMeeting> meetings)
+    {
+
+        var flatMeetings = meetings.Select(m=>new {
+            m.Properties.Government,
+            Public_body = m.Properties.Publicbody,
+            On_Map = "",
+            m.Properties.Location,
+            m.Properties.Address,
+            m.Geometry.Latitude,
+            m.Geometry.Longitude,
+            m.Properties.Schedule,
+            Start_time = m.Properties.Start,
+            End_time = m.Properties.End,
+            Remote_options = m.Properties.Remote,
+            Source = m.Properties.MoreInfo
+        });
+        var writer = new StringWriter();
+        using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
+        csv.WriteRecords(flatMeetings);
+        return writer.ToString();
+    }
+
     private static JsonSerializerOptions JsonOptions()
     {
         var option = new JsonSerializerOptions(JsonSerializerDefaults.Web) { WriteIndented = true };

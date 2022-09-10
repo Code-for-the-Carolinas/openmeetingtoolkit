@@ -63,7 +63,7 @@ public class MeetingFactory
     /// <returns></returns>
     protected string AnchorLocation(string? location, params string[] anchors)
     {
-        var badLocations = new[] { "as called", "various locations"};
+        var badLocations = new[] { "as called", "various locations", "vevent" };
 
         if (string.IsNullOrWhiteSpace(location)
             || badLocations.Contains(location.ToLower()))
