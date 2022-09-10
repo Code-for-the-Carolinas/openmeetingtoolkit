@@ -52,7 +52,7 @@ If you would like to contribute please follow the below instructions:
 # Getting the latest updates
 Once you are ready to make more changes, you will need to do a pull request to get the lastest updates from the repo:
 1. On your local machine, in the terminal do `git checkout main` --if you aren't already in the main branch. 
-2. `git pull`
+2. `git pull upstream main`
 3. `git status`, you might have to do other commands until the status says your branch is up to date. 
 4. **BEFORE** making any changes: `git checkout gh-pages`
 5. `git pull upstream gh-pages`
