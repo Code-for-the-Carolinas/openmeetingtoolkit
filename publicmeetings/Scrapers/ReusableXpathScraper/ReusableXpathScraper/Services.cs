@@ -1,9 +1,9 @@
-﻿using Geo.MapBox.DependencyInjection;
+﻿namespace ReusableXpathScraper;
+using Geo.MapBox.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
-namespace Scrapers;
+using Scrapers;
 
 public static class Services
 {
@@ -11,14 +11,15 @@ public static class Services
     {
         var config = new ConfigurationBuilder()
             .AddUserSecrets<Meeting>()
-            .Build()
-            .GetSection("MapBox")["Key"];
+            .AddJsonFile("appsettings.json")
+            .Build();
 
         var host = Host.CreateDefaultBuilder(args)
             .ConfigureServices((_, services) => services
             .AddLocalization()
             .AddHttpClient()
-            .AddMapBoxServices(o => o.UseKey(config))
+            .AddMapBoxServices(o => o.UseKey(config.GetSection("MapBox")["Key"]))
+            .Configure<FilePaths>(config.GetRequiredSection(nameof(FilePaths)))
             .AddScoped<CalendarService>()
             .AddScoped<MeetingFactory>()
             .AddScoped<CachingMeetingFactory>()
