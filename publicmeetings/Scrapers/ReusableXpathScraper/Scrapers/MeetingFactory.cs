@@ -1,7 +1,6 @@
 ﻿namespace Scrapers;
 using Geo.MapBox.Models.Parameters;
 using Geo.MapBox.Abstractions;
-using System.Text.RegularExpressions;
 using Geo.MapBox.Models.Responses;
 using System.Globalization;
 

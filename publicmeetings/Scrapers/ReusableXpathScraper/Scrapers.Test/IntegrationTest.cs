@@ -2,6 +2,7 @@ using Xunit;
 using Xunit.Abstractions;
 using FluentAssertions;
 using Microsoft.Extensions.DependencyInjection;
+using ReusableXpathScraper;
 
 namespace Scrapers.Test;
 

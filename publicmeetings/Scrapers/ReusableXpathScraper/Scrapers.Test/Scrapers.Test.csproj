@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ReusableXpathScraper\ReusableXpathScraper.csproj" />
     <ProjectReference Include="..\Scrapers\Scrapers.csproj" />
   </ItemGroup>
 

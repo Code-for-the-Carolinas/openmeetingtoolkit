@@ -16,6 +16,19 @@ public static class Serializer
         return writer.ToString();
     }
 
+    public static List<MeetingCorrection> FromCsv(this string meetingCsv)
+    {
+        var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+        {
+            PrepareHeaderForMatch = args => args.Header.ToLowerInvariant().Replace(" ", ""),
+            ShouldSkipRecord = row => row.ToString()?.Trim()?.All(c => c == ',' || c == ' ' ) ?? true,
+        };
+
+        using var reader = new StreamReader(meetingCsv);
+        using var csv = new CsvReader(reader, config);
+        return csv.GetRecords<MeetingCorrection>().ToList();
+    }
+
     public static async IAsyncEnumerable<MappableMeeting> FromCsv(this string meetingCsv, MeetingFactory factory)
     {
         var config = new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -35,7 +48,8 @@ public static class Serializer
     public static string ToCsv(this IEnumerable<MappableMeeting> meetings)
     {
 
-        var flatMeetings = meetings.Select(m=>new {
+        var flatMeetings = meetings.Select(m => new
+        {
             m.Properties.Government,
             Public_body = m.Properties.Publicbody,
             On_Map = "",
@@ -52,7 +66,10 @@ public static class Serializer
         var writer = new StringWriter();
         using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
         csv.WriteRecords(flatMeetings);
-        return writer.ToString();
+        csv.Flush();
+        var csvData = writer.ToString();
+        csvData = string.Join(Environment.NewLine, csvData.Split(Environment.NewLine).Select((r, i) => i == 0 ? r.Replace('_', ' ') : r)); //there has to be an easy way to do this with csvhelper but I don't see it
+        return csvData;
     }
 
     private static JsonSerializerOptions JsonOptions()

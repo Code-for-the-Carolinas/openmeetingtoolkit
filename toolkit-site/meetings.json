@@ -230,11 +230,11 @@
         "id": 109
       },
       "geometry": {
-        "longitude": -82.525597,
-        "latitude": 35.503652,
+        "longitude": -82.559814,
+        "latitude": 35.596121,
         "coordinates": [
-          -82.525597,
-          35.503652
+          -82.559814,
+          35.596121
         ],
         "type": "Point"
       },
@@ -290,54 +290,6 @@
     },
     {
       "properties": {
-        "government": "",
-        "publicbody": "",
-        "location": "",
-        "address": "",
-        "schedule": "",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 112
-      },
-      "geometry": {
-        "longitude": -79.3896838690365,
-        "latitude": 35.5568849207,
-        "coordinates": [
-          -79.3896838690365,
-          35.5568849207
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "",
-        "publicbody": "",
-        "location": "",
-        "address": "",
-        "schedule": "",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 113
-      },
-      "geometry": {
-        "longitude": -79.3896838690365,
-        "latitude": 35.5568849207,
-        "coordinates": [
-          -79.3896838690365,
-          35.5568849207
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
         "government": "Alamance County",
         "publicbody": "County Commissioners",
         "location": "County Office Building",
@@ -347,7 +299,7 @@
         "end": "",
         "remote": "Video recordings of our Commissioners Meetings both online and on the local Time-Warner Public Access Channels.  The television broadcast of the meetings will occur on the 2nd and 4th Wednesdays of each month at 10 PM.  Online videos will be made available after processing the videos through Youtube, our service providers for multimedia.  The meetings are now streamed live.",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/",
-        "id": 114
+        "id": 112
       },
       "geometry": {
         "longitude": -79.814381,
@@ -371,7 +323,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/adult-care-home-community-advisory-committee/",
-        "id": 115
+        "id": 113
       },
       "geometry": {
         "longitude": -79.451938,
@@ -395,7 +347,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/agricultural-advisory-board/",
-        "id": 116
+        "id": 114
       },
       "geometry": {
         "longitude": -79.487215,
@@ -419,7 +371,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-beautiful-commission/",
-        "id": 117
+        "id": 115
       },
       "geometry": {
         "longitude": -79.4,
@@ -443,7 +395,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-community-college-board-of-trustees/",
-        "id": 118
+        "id": 116
       },
       "geometry": {
         "longitude": -79.35742400000001,
@@ -467,7 +419,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/alamance-county-board-of-adjustment/",
-        "id": 119
+        "id": 117
       },
       "geometry": {
         "longitude": -79.4,
@@ -491,7 +443,7 @@
         "end": "",
         "remote": "https://www.youtube.com/channel/UC1QADkhkyUpac9rMs42imjA",
         "moreInfo": "https://www.alamance-nc.com/planningdept/boards/planning-board/",
-        "id": 120
+        "id": 118
       },
       "geometry": {
         "longitude": -79.4,
@@ -515,7 +467,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/senior-services-committee/",
-        "id": 121
+        "id": 119
       },
       "geometry": {
         "longitude": -79.451938,
@@ -539,7 +491,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/alamance-county-transportation-authority/",
-        "id": 122
+        "id": 120
       },
       "geometry": {
         "longitude": -79.814381,
@@ -563,7 +515,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/altamahaw-ossipee-fire-district-commission/",
-        "id": 123
+        "id": 121
       },
       "geometry": {
         "longitude": -79.507246,
@@ -587,7 +539,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/animal-review-board/",
-        "id": 124
+        "id": 122
       },
       "geometry": {
         "longitude": -79.4,
@@ -611,7 +563,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/board-of-equalization-and-review/",
-        "id": 125
+        "id": 123
       },
       "geometry": {
         "longitude": -79.790701,
@@ -635,7 +587,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/healthdept/board-of-health/",
-        "id": 126
+        "id": 124
       },
       "geometry": {
         "longitude": -79.4,
@@ -659,7 +611,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/burlington-board-of-adjustment/",
-        "id": 127
+        "id": 125
       },
       "geometry": {
         "longitude": -79.437799,
@@ -683,7 +635,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/burlington-planning-and-zoning-commission/",
-        "id": 128
+        "id": 126
       },
       "geometry": {
         "longitude": -79.436653,
@@ -707,7 +659,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/burlington-alamance-airport-authority/",
-        "id": 129
+        "id": 127
       },
       "geometry": {
         "longitude": -79.476222,
@@ -731,7 +683,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/e-m-holt-fire-district-commission/",
-        "id": 130
+        "id": 128
       },
       "geometry": {
         "longitude": -79.4,
@@ -755,7 +707,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/ems-peer-review-committee/",
-        "id": 131
+        "id": 129
       },
       "geometry": {
         "longitude": -79.355225,
@@ -779,7 +731,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/eli-whitney-fire-district-commission/",
-        "id": 132
+        "id": 130
       },
       "geometry": {
         "longitude": -79.307239,
@@ -803,7 +755,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/elon-fire-district-commission/",
-        "id": 133
+        "id": 131
       },
       "geometry": {
         "longitude": -79.50669,
@@ -827,7 +779,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/elon-planning-and-zoning-commission/",
-        "id": 134
+        "id": 132
       },
       "geometry": {
         "longitude": -79.50669,
@@ -851,7 +803,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/faucette-fire-district-commission/",
-        "id": 135
+        "id": 133
       },
       "geometry": {
         "longitude": -79.520187,
@@ -875,7 +827,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/gibsonville-board-of-adjustment/",
-        "id": 136
+        "id": 134
       },
       "geometry": {
         "longitude": -79.543097,
@@ -899,7 +851,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/gibsonville-planning-board/",
-        "id": 137
+        "id": 135
       },
       "geometry": {
         "longitude": -79.543097,
@@ -923,7 +875,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/graham-board-of-adjustment/",
-        "id": 138
+        "id": 136
       },
       "geometry": {
         "longitude": -79.4,
@@ -947,7 +899,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/graham-planning-board/",
-        "id": 139
+        "id": 137
       },
       "geometry": {
         "longitude": -79.400576,
@@ -971,7 +923,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/haw-river-fire-district-commission/",
-        "id": 140
+        "id": 138
       },
       "geometry": {
         "longitude": -79.364186,
@@ -995,7 +947,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/haw-river-planning-and-zoning-commission/",
-        "id": 141
+        "id": 139
       },
       "geometry": {
         "longitude": -79.364186,
@@ -1019,7 +971,7 @@
         "end": "",
         "remote": "https://www.youtube.com/channel/UCdav77c1nQtsM1tnx5rr0yQ",
         "moreInfo": "https://www.alamance-nc.com/planningdept/boards/historic-properties-commission/",
-        "id": 142
+        "id": 140
       },
       "geometry": {
         "longitude": -79.4,
@@ -1043,7 +995,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/jury-commission/",
-        "id": 143
+        "id": 141
       },
       "geometry": {
         "longitude": -79.4,
@@ -1067,7 +1019,7 @@
         "end": "9:30 AM",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/justice-advisory-council/",
-        "id": 144
+        "id": 142
       },
       "geometry": {
         "longitude": -79.4,
@@ -1091,7 +1043,7 @@
         "end": "2:00 PM",
         "remote": "Please contact Karen Collins, JCPC Administrative Assistant, kcjcpc@outlook.comfor virtual meeting links.",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/juvenile-crime-prevention-council/",
-        "id": 145
+        "id": 143
       },
       "geometry": {
         "longitude": -79.400576,
@@ -1115,7 +1067,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/library-committee/",
-        "id": 146
+        "id": 144
       },
       "geometry": {
         "longitude": -78.888448,
@@ -1139,7 +1091,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/local-emergency-planning-committee-lepc-for-hazardous-chemicals/",
-        "id": 147
+        "id": 145
       },
       "geometry": {
         "longitude": -79.4,
@@ -1163,7 +1115,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/mebane-board-of-adjustment/",
-        "id": 148
+        "id": 146
       },
       "geometry": {
         "longitude": -79.266962,
@@ -1187,7 +1139,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/mebane-fire-department/",
-        "id": 149
+        "id": 147
       },
       "geometry": {
         "longitude": -79.291313,
@@ -1211,7 +1163,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/mebane-planning-board/",
-        "id": 150
+        "id": 148
       },
       "geometry": {
         "longitude": -79.266962,
@@ -1235,7 +1187,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/north-central-fire-district-commission/",
-        "id": 151
+        "id": 149
       },
       "geometry": {
         "longitude": -79.4,
@@ -1259,7 +1211,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/north-eastern-fire-district-commission/",
-        "id": 152
+        "id": 150
       },
       "geometry": {
         "longitude": -79.4,
@@ -1283,7 +1235,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/nursing-home-community-advisory-committee/",
-        "id": 153
+        "id": 151
       },
       "geometry": {
         "longitude": -79.451938,
@@ -1307,7 +1259,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/public-transit-advisory-commission-ptac/",
-        "id": 154
+        "id": 152
       },
       "geometry": {
         "longitude": -79.4,
@@ -1331,7 +1283,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/recreation/home/recreation-and-parks-commission/",
-        "id": 155
+        "id": 153
       },
       "geometry": {
         "longitude": -79.4,
@@ -1355,7 +1307,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/snow-camp-fire-department/",
-        "id": 156
+        "id": 154
       },
       "geometry": {
         "longitude": -79.43002,
@@ -1379,7 +1331,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/dss/social-services-board/",
-        "id": 157
+        "id": 155
       },
       "geometry": {
         "longitude": -79.4,
@@ -1403,7 +1355,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/swepsonville-fire-district-commission/",
-        "id": 158
+        "id": 156
       },
       "geometry": {
         "longitude": -79.520187,
@@ -1427,7 +1379,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/tourism-development-authority/",
-        "id": 159
+        "id": 157
       },
       "geometry": {
         "longitude": -78.902268,
@@ -1451,7 +1403,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/veterans-service-committee/",
-        "id": 160
+        "id": 158
       },
       "geometry": {
         "longitude": -79.4,
@@ -1475,7 +1427,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/village-of-alamance-planning-board/",
-        "id": 161
+        "id": 159
       },
       "geometry": {
         "longitude": -79.485855,
@@ -1499,7 +1451,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/workforce-development-board/",
-        "id": 162
+        "id": 160
       },
       "geometry": {
         "longitude": -79.485855,
@@ -1507,30 +1459,6 @@
         "coordinates": [
           -79.485855,
           36.035136
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "",
-        "publicbody": "",
-        "location": "",
-        "address": "",
-        "schedule": "",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 163
-      },
-      "geometry": {
-        "longitude": -79.3896838690365,
-        "latitude": 35.5568849207,
-        "coordinates": [
-          -79.3896838690365,
-          35.5568849207
         ],
         "type": "Point"
       },
@@ -1547,7 +1475,7 @@
         "end": "Varies, usually 09:00 AM or 06:45 PM",
         "remote": "Site states \u0022The meetings are broadcast live on CCNCTV Spectrum Cable Channel 5. The meetings are rebroadcast the Wednesday following the meeting at 7:00 p.m. and Friday following the meeting at 10:30 a.m.\u0022  Recordings are available on Youtube here: https://www.youtube.com/user/CumberlandCountyNC/videos",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/meetings",
-        "id": 164
+        "id": 161
       },
       "geometry": {
         "longitude": -78.83,
@@ -1571,7 +1499,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 165
+        "id": 162
       },
       "geometry": {
         "longitude": -78.798912,
@@ -1595,7 +1523,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 166
+        "id": 163
       },
       "geometry": {
         "longitude": -78.83,
@@ -1619,7 +1547,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 167
+        "id": 164
       },
       "geometry": {
         "longitude": -78.974686,
@@ -1643,7 +1571,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 168
+        "id": 165
       },
       "geometry": {
         "longitude": -78.885238,
@@ -1667,7 +1595,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 169
+        "id": 166
       },
       "geometry": {
         "longitude": -78.889539,
@@ -1691,7 +1619,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 170
+        "id": 167
       },
       "geometry": {
         "longitude": -78.814741,
@@ -1715,7 +1643,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 171
+        "id": 168
       },
       "geometry": {
         "longitude": -78.83,
@@ -1739,7 +1667,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 172
+        "id": 169
       },
       "geometry": {
         "longitude": -78.83,
@@ -1763,7 +1691,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 173
+        "id": 170
       },
       "geometry": {
         "longitude": -77.925838,
@@ -1787,7 +1715,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 174
+        "id": 171
       },
       "geometry": {
         "longitude": -78.83,
@@ -1811,7 +1739,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 175
+        "id": 172
       },
       "geometry": {
         "longitude": -78.83,
@@ -1835,7 +1763,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 176
+        "id": 173
       },
       "geometry": {
         "longitude": -78.83,
@@ -1859,7 +1787,7 @@
         "end": "03:15 PM at the latest",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 177
+        "id": 174
       },
       "geometry": {
         "longitude": -78.83,
@@ -1883,7 +1811,7 @@
         "end": "11:00 AM",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 178
+        "id": 175
       },
       "geometry": {
         "longitude": -78.83,
@@ -1907,7 +1835,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 179
+        "id": 176
       },
       "geometry": {
         "longitude": -78.890066,
@@ -1931,7 +1859,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 180
+        "id": 177
       },
       "geometry": {
         "longitude": -78.83,
@@ -1955,7 +1883,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 181
+        "id": 178
       },
       "geometry": {
         "longitude": -78.885238,
@@ -1979,7 +1907,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 182
+        "id": 179
       },
       "geometry": {
         "longitude": -78.874542,
@@ -2003,7 +1931,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 183
+        "id": 180
       },
       "geometry": {
         "longitude": -78.83,
@@ -2027,7 +1955,7 @@
         "end": "4:30 PM",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 184
+        "id": 181
       },
       "geometry": {
         "longitude": -78.9267805,
@@ -2051,7 +1979,7 @@
         "end": "7:00 PM",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 185
+        "id": 182
       },
       "geometry": {
         "longitude": -78.878292,
@@ -2075,14 +2003,14 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 186
+        "id": 183
       },
       "geometry": {
-        "longitude": -78.83,
-        "latitude": 35.05,
+        "longitude": -78.881839,
+        "latitude": 35.056116,
         "coordinates": [
-          -78.83,
-          35.05
+          -78.881839,
+          35.056116
         ],
         "type": "Point"
       },
@@ -2099,7 +2027,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 187
+        "id": 184
       },
       "geometry": {
         "longitude": -78.883411,
@@ -2123,7 +2051,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 188
+        "id": 185
       },
       "geometry": {
         "longitude": -78.83,
@@ -2147,7 +2075,7 @@
         "end": "Varies",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 189
+        "id": 186
       },
       "geometry": {
         "longitude": -78.885238,
@@ -2171,7 +2099,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 190
+        "id": 187
       },
       "geometry": {
         "longitude": -78.83,
@@ -2195,7 +2123,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 191
+        "id": 188
       },
       "geometry": {
         "longitude": -78.987023,
@@ -2219,7 +2147,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 192
+        "id": 189
       },
       "geometry": {
         "longitude": -70.258169,
@@ -2243,7 +2171,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 193
+        "id": 190
       },
       "geometry": {
         "longitude": -78.83,
@@ -2267,7 +2195,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 194
+        "id": 191
       },
       "geometry": {
         "longitude": -78.83,
@@ -2291,7 +2219,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 195
+        "id": 192
       },
       "geometry": {
         "longitude": -78.83,
@@ -2315,7 +2243,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 196
+        "id": 193
       },
       "geometry": {
         "longitude": -77.925838,
@@ -2339,7 +2267,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 197
+        "id": 194
       },
       "geometry": {
         "longitude": -78.83,
@@ -2363,7 +2291,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 198
+        "id": 195
       },
       "geometry": {
         "longitude": -78.885238,
@@ -2371,30 +2299,6 @@
         "coordinates": [
           -78.885238,
           35.057381
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "",
-        "publicbody": "",
-        "location": "",
-        "address": "",
-        "schedule": "",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 199
-      },
-      "geometry": {
-        "longitude": -79.3896838690365,
-        "latitude": 35.5568849207,
-        "coordinates": [
-          -79.3896838690365,
-          35.5568849207
         ],
         "type": "Point"
       },
@@ -2411,14 +2315,14 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://votedavidsoncountync.com/home-page",
-        "id": 200
+        "id": 196
       },
       "geometry": {
-        "longitude": -80.21,
-        "latitude": 35.79,
+        "longitude": -80.283876,
+        "latitude": 35.840107,
         "coordinates": [
-          -80.21,
-          35.79
+          -80.283876,
+          35.840107
         ],
         "type": "Point"
       },
@@ -2435,7 +2339,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.co.davidson.nc.us/467/Board-of-Health",
-        "id": 201
+        "id": 197
       },
       "geometry": {
         "longitude": -80.059071,
@@ -2459,7 +2363,7 @@
         "end": "6:00 PM",
         "remote": "",
         "moreInfo": "https://www.co.davidson.nc.us/690/Social-Services-Board-Information",
-        "id": 202
+        "id": 198
       },
       "geometry": {
         "longitude": -80.21,
@@ -2483,7 +2387,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 203
+        "id": 199
       },
       "geometry": {
         "longitude": -80.21,
@@ -2491,30 +2395,6 @@
         "coordinates": [
           -80.21,
           35.79
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "",
-        "publicbody": "",
-        "location": "",
-        "address": "",
-        "schedule": "",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 204
-      },
-      "geometry": {
-        "longitude": -79.3896838690365,
-        "latitude": 35.5568849207,
-        "coordinates": [
-          -79.3896838690365,
-          35.5568849207
         ],
         "type": "Point"
       },
@@ -2531,7 +2411,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=2",
-        "id": 205
+        "id": 200
       },
       "geometry": {
         "longitude": -80.26,
@@ -2555,7 +2435,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=75",
-        "id": 206
+        "id": 201
       },
       "geometry": {
         "longitude": -80.280823,
@@ -2579,7 +2459,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=5",
-        "id": 207
+        "id": 202
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2603,7 +2483,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=43",
-        "id": 208
+        "id": 203
       },
       "geometry": {
         "longitude": -80.232435,
@@ -2627,7 +2507,7 @@
         "end": "12:00 PM",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=13",
-        "id": 209
+        "id": 204
       },
       "geometry": {
         "longitude": -80.26,
@@ -2651,7 +2531,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=15",
-        "id": 210
+        "id": 205
       },
       "geometry": {
         "longitude": -80.26,
@@ -2675,7 +2555,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=87",
-        "id": 211
+        "id": 206
       },
       "geometry": {
         "longitude": -80.0999,
@@ -2699,7 +2579,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=44",
-        "id": 212
+        "id": 207
       },
       "geometry": {
         "longitude": -80.2593,
@@ -2723,7 +2603,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=23",
-        "id": 213
+        "id": 208
       },
       "geometry": {
         "longitude": -80.26,
@@ -2747,7 +2627,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=26",
-        "id": 214
+        "id": 209
       },
       "geometry": {
         "longitude": -80.26,
@@ -2771,7 +2651,7 @@
         "end": "9:30 AM",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=86",
-        "id": 215
+        "id": 210
       },
       "geometry": {
         "longitude": -80.26,
@@ -2795,7 +2675,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=29",
-        "id": 216
+        "id": 211
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2819,7 +2699,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=30",
-        "id": 217
+        "id": 212
       },
       "geometry": {
         "longitude": -80.073653,
@@ -2843,7 +2723,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=84",
-        "id": 218
+        "id": 213
       },
       "geometry": {
         "longitude": -80.26,
@@ -2867,7 +2747,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=89",
-        "id": 219
+        "id": 214
       },
       "geometry": {
         "longitude": -80.26,
@@ -2891,7 +2771,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=39",
-        "id": 220
+        "id": 215
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2915,7 +2795,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=40",
-        "id": 221
+        "id": 216
       },
       "geometry": {
         "longitude": -80.073653,
@@ -2939,7 +2819,7 @@
         "end": "",
         "remote": "Some Forsyth County meetings are streamed at https://vimeo.com/forsythcountync",
         "moreInfo": "https://forsyth.cc/Commissioners/volunteer_boards.aspx?ItemID=41",
-        "id": 222
+        "id": 217
       },
       "geometry": {
         "longitude": -80.243258,
@@ -2963,7 +2843,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tracy Warner, Ombudsman, (336) 904-0300",
-        "id": 223
+        "id": 218
       },
       "geometry": {
         "longitude": -79.451938,
@@ -2987,7 +2867,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Crystal Norman\u00A0 (336) 904-0300",
-        "id": 224
+        "id": 219
       },
       "geometry": {
         "longitude": -79.451938,
@@ -3011,7 +2891,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/board-of-health/",
-        "id": 225
+        "id": 220
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3035,7 +2915,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tracy Warner, Ombudsman, (336) 904-0300",
-        "id": 226
+        "id": 221
       },
       "geometry": {
         "longitude": -79.451938,
@@ -3059,7 +2939,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/human-services/social-services-board/",
-        "id": 227
+        "id": 222
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3083,7 +2963,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tammy Wall 336-629-5141",
-        "id": 228
+        "id": 223
       },
       "geometry": {
         "longitude": -79.81,
@@ -3107,7 +2987,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Sheriff Terry Johnson\u00A0 336-570-6300",
-        "id": 229
+        "id": 224
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3131,7 +3011,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Meredith Edwards, Clerk of Court 336-570-5200",
-        "id": 230
+        "id": 225
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3155,7 +3035,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/justice-advisory-council/",
-        "id": 231
+        "id": 226
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3179,7 +3059,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/juvenile-crime-prevention-council/",
-        "id": 232
+        "id": 227
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3203,7 +3083,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/public-safety/local-emergency-planning-committee-lepc-for-hazardous-chemicals/",
-        "id": 233
+        "id": 228
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3227,7 +3107,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tonya Caddle 336-570-4052",
-        "id": 234
+        "id": 229
       },
       "geometry": {
         "longitude": -79.502324,
@@ -3251,7 +3131,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/alamance-county-planning-board/",
-        "id": 235
+        "id": 230
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3275,7 +3155,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Jeremy Akins, Tax Administrator\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-228-1312",
-        "id": 236
+        "id": 231
       },
       "geometry": {
         "longitude": -78.678044,
@@ -3299,7 +3179,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Conrad Olmedo 336-513-5416",
-        "id": 237
+        "id": 232
       },
       "geometry": {
         "longitude": -79.437799,
@@ -3317,20 +3197,20 @@
         "government": "Alamance",
         "publicbody": "Burlington Planning and Zoning Commission",
         "location": "Burlington Municipal Building, Room 202",
-        "address": "Burlington Municipal Building, 425 S Lexington Ave, Burlington, North Carolina 27215, United States",
+        "address": "Alamance Rd, Burlington, North Carolina 27215, United States",
         "schedule": "7:00 p.m. the fourth Monday of each month",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "Conrad Olmedo 336-513-5416",
-        "id": 238
+        "id": 233
       },
       "geometry": {
-        "longitude": -79.436653,
-        "latitude": 36.091335,
+        "longitude": -79.45431,
+        "latitude": 36.06594,
         "coordinates": [
-          -79.436653,
-          36.091335
+          -79.45431,
+          36.06594
         ],
         "type": "Point"
       },
@@ -3347,7 +3227,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "DiAnne Enoch, Clerk\u00A0 336-584-3601",
-        "id": 239
+        "id": 234
       },
       "geometry": {
         "longitude": -79.50669,
@@ -3371,7 +3251,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben Baxley, Town Manager\u00A0\u00A0 336-449-4144",
-        "id": 240
+        "id": 235
       },
       "geometry": {
         "longitude": -79.543097,
@@ -3395,7 +3275,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben Baxley, Town Manager\u00A0\u00A0 336-449-4144",
-        "id": 241
+        "id": 236
       },
       "geometry": {
         "longitude": -79.543097,
@@ -3419,7 +3299,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Justin Snyder 336-570-6700",
-        "id": 242
+        "id": 237
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3443,7 +3323,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Justin Snyder 336-570-6700",
-        "id": 243
+        "id": 238
       },
       "geometry": {
         "longitude": -79.400576,
@@ -3467,7 +3347,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Sean Tencer, Town Manager\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-578-0784",
-        "id": 244
+        "id": 239
       },
       "geometry": {
         "longitude": -79.364186,
@@ -3491,7 +3371,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Sean Tencer, Town Manager\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-578-0784",
-        "id": 245
+        "id": 240
       },
       "geometry": {
         "longitude": -79.364186,
@@ -3515,7 +3395,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/planning-and-taxation/historic-properties-commission/",
-        "id": 246
+        "id": 241
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3539,7 +3419,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "919-563-9990",
-        "id": 247
+        "id": 242
       },
       "geometry": {
         "longitude": -79.266962,
@@ -3563,7 +3443,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "919-563-9990",
-        "id": 248
+        "id": 243
       },
       "geometry": {
         "longitude": -79.266962,
@@ -3587,7 +3467,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben York, Clerk\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-226-0033",
-        "id": 249
+        "id": 244
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3611,7 +3491,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Ben York, Clerk\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-226-0033",
-        "id": 250
+        "id": 245
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3635,7 +3515,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Brad Moore\u00A0\u00A0\u00A0\u00A0 336-290-0380",
-        "id": 251
+        "id": 246
       },
       "geometry": {
         "longitude": -79.487215,
@@ -3659,7 +3539,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 252
+        "id": 247
       },
       "geometry": {
         "longitude": -79.355225,
@@ -3683,7 +3563,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Dr. Algie C. Gatewood, President\u00A0\u00A0 336-506-4150",
-        "id": 253
+        "id": 248
       },
       "geometry": {
         "longitude": -79.35742400000001,
@@ -3707,7 +3587,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Peter Murphy 336-222-0565",
-        "id": 254
+        "id": 249
       },
       "geometry": {
         "longitude": -79.484225,
@@ -3731,7 +3611,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Dan Danieley, Executive Director\u00A0\u00A0\u00A0\u00A0\u00A0 336-227-0771",
-        "id": 255
+        "id": 250
       },
       "geometry": {
         "longitude": -79.476222,
@@ -3755,11 +3635,11 @@
         "end": "",
         "remote": "",
         "moreInfo": "Susana Goldman, Director of Alamance County Public Libraries 336-229-3588",
-        "id": 256
+        "id": 251
       },
       "geometry": {
-        "longitude": -78.888448,
-        "latitude": 35.9023,
+        "longitude": -79.4363686,
+        "latitude": 36.0927885,
         "coordinates": [
           -78.888448,
           35.9023
@@ -3779,7 +3659,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/public-transit-advisory-commission-ptac/",
-        "id": 257
+        "id": 252
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3803,7 +3683,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.alamance-nc.com/boardscommittees/boards-and-committees/other-boards-and-committees/recreation-and-parks-commission/",
-        "id": 258
+        "id": 253
       },
       "geometry": {
         "longitude": -79.485855,
@@ -3827,7 +3707,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Grace VandeViser, Executive Director (336) 570-1444",
-        "id": 259
+        "id": 254
       },
       "geometry": {
         "longitude": -78.902268,
@@ -3851,7 +3731,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "Tammy Crawford, Veterans Service Officer\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 336-570-6763",
-        "id": 260
+        "id": 255
       },
       "geometry": {
         "longitude": -79.486391,
@@ -3869,20 +3749,20 @@
         "government": "Cumberland",
         "publicbody": "A.B.C. Board",
         "location": "ABC Board Office Conference Room \n424 Person Street\nFayetteville, NC",
-        "address": "Person Street, Fayetteville, North Carolina 28301, United States",
+        "address": "424 Person Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Monday of each month at 6:00 p.m. The average length of a meeting is approximately two hours.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 261
+        "id": 256
       },
       "geometry": {
-        "longitude": -78.86733,
-        "latitude": 35.04916,
+        "longitude": -78.870995,
+        "latitude": 35.049355,
         "coordinates": [
-          -78.86733,
-          35.04916
+          -78.870995,
+          35.049355
         ],
         "type": "Point"
       },
@@ -3899,7 +3779,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 262
+        "id": 257
       },
       "geometry": {
         "longitude": -78.83,
@@ -3923,7 +3803,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 263
+        "id": 258
       },
       "geometry": {
         "longitude": -78.889975,
@@ -3947,7 +3827,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 264
+        "id": 259
       },
       "geometry": {
         "longitude": -78.87914,
@@ -3965,20 +3845,20 @@
         "government": "Cumberland",
         "publicbody": "Board of Health",
         "location": "Cumberland County Health Department \nBoard Room \n1235 Ramsey Street \nFayetteville, NC",
-        "address": "Ramsey Street, Fayetteville, North Carolina 28311, United States",
+        "address": "1235 Ramsey Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Third Tuesday of each month at 6:00 p.m. July and September meetings take place only if desired.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 265
+        "id": 260
       },
       "geometry": {
-        "longitude": -78.85364,
-        "latitude": 35.16869,
+        "longitude": -78.88205,
+        "latitude": 35.07386,
         "coordinates": [
-          -78.85364,
-          35.16869
+          -78.88205,
+          35.07386
         ],
         "type": "Point"
       },
@@ -3995,7 +3875,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 266
+        "id": 261
       },
       "geometry": {
         "longitude": -78.814741,
@@ -4019,7 +3899,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 267
+        "id": 262
       },
       "geometry": {
         "longitude": -78.83,
@@ -4043,7 +3923,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 268
+        "id": 263
       },
       "geometry": {
         "longitude": -76.98508,
@@ -4067,7 +3947,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 269
+        "id": 264
       },
       "geometry": {
         "longitude": -78.88209,
@@ -4091,7 +3971,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 270
+        "id": 265
       },
       "geometry": {
         "longitude": -78.87624,
@@ -4115,7 +3995,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 271
+        "id": 266
       },
       "geometry": {
         "longitude": -78.890066,
@@ -4139,7 +4019,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 272
+        "id": 267
       },
       "geometry": {
         "longitude": -78.87624,
@@ -4157,20 +4037,20 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Juvenile Crime Prevention Council",
         "location": "Cumberland County CommuniCare, \nLower Level Conference Room \n109 Bradford Ave \nFayetteville, NC 28301",
-        "address": "Bradford Avenue, Fayetteville, North Carolina 28301, United States",
+        "address": "109 Bradford Avenue, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Wednesday of each month at 1:15 p.m. Meetings are normally one to two hours in length.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 273
+        "id": 268
       },
       "geometry": {
-        "longitude": -78.89288,
-        "latitude": 35.05289,
+        "longitude": -78.89155,
+        "latitude": 35.055465,
         "coordinates": [
-          -78.89288,
-          35.05289
+          -78.89155,
+          35.055465
         ],
         "type": "Point"
       },
@@ -4187,7 +4067,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 274
+        "id": 269
       },
       "geometry": {
         "longitude": -76.98508,
@@ -4211,7 +4091,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 275
+        "id": 270
       },
       "geometry": {
         "longitude": -78.999733,
@@ -4235,7 +4115,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 276
+        "id": 271
       },
       "geometry": {
         "longitude": -78.87624,
@@ -4259,7 +4139,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 277
+        "id": 272
       },
       "geometry": {
         "longitude": -78.87914,
@@ -4283,7 +4163,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 278
+        "id": 273
       },
       "geometry": {
         "longitude": -78.874542,
@@ -4307,7 +4187,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 279
+        "id": 274
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4331,7 +4211,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 280
+        "id": 275
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4355,7 +4235,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 281
+        "id": 276
       },
       "geometry": {
         "longitude": -78.87519,
@@ -4379,7 +4259,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 282
+        "id": 277
       },
       "geometry": {
         "longitude": -78.88183,
@@ -4403,7 +4283,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 283
+        "id": 278
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4427,7 +4307,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 284
+        "id": 279
       },
       "geometry": {
         "longitude": -78.88205,
@@ -4451,7 +4331,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 285
+        "id": 280
       },
       "geometry": {
         "longitude": -78.87914,
@@ -4475,7 +4355,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 286
+        "id": 281
       },
       "geometry": {
         "longitude": -78.878292,
@@ -4499,7 +4379,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 287
+        "id": 282
       },
       "geometry": {
         "longitude": -79.5178,
@@ -4523,7 +4403,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 288
+        "id": 283
       },
       "geometry": {
         "longitude": -78.37,
@@ -4547,7 +4427,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 289
+        "id": 284
       },
       "geometry": {
         "longitude": -78.605956,
@@ -4571,7 +4451,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 290
+        "id": 285
       },
       "geometry": {
         "longitude": -78.83,
@@ -4589,20 +4469,20 @@
         "government": "Cumberland",
         "publicbody": "Senior Citizens Advisory Commission",
         "location": "FCPR Senior Center, Large Program Room\n739 Blue Street\nFayetteville, NC",
-        "address": "Blue Street, Fayetteville, North Carolina 28301, United States",
+        "address": "739 Blue Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Second Tuesday of each month at 2:30 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 291
+        "id": 286
       },
       "geometry": {
-        "longitude": -78.89206,
-        "latitude": 35.06488,
+        "longitude": -78.89218,
+        "latitude": 35.06403,
         "coordinates": [
-          -78.89206,
-          35.06488
+          -78.89218,
+          35.06403
         ],
         "type": "Point"
       },
@@ -4613,20 +4493,20 @@
         "government": "Cumberland",
         "publicbody": "Social Services Board",
         "location": "Department of Social Services, \nBoard Room \n1225 Ramsey Street\nFayetteville, NC",
-        "address": "Ramsey Street, Fayetteville, North Carolina 28311, United States",
+        "address": "1225 Ramsey Street, Fayetteville, North Carolina 28301, United States",
         "schedule": "Last Wednesday of each month at 1:00 p.m.",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 292
+        "id": 287
       },
       "geometry": {
-        "longitude": -78.85364,
-        "latitude": 35.16869,
+        "longitude": -78.88209,
+        "latitude": 35.07162,
         "coordinates": [
-          -78.85364,
-          35.16869
+          -78.88209,
+          35.07162
         ],
         "type": "Point"
       },
@@ -4643,7 +4523,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 293
+        "id": 288
       },
       "geometry": {
         "longitude": -78.613504,
@@ -4667,7 +4547,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www.cumberlandcountync.gov/departments/commissioners-group/commissioners/appointed-boards/board-descriptions",
-        "id": 294
+        "id": 289
       },
       "geometry": {
         "longitude": -78.87914,
@@ -4686,67 +4566,19 @@
         "publicbody": "Board of Commissioners Agenda Review",
         "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
         "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-09-15T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-82/",
-        "id": 295
-      },
-      "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
-        "coordinates": [
-          -77.867841,
-          34.24198
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-09-19T09:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-159/",
-        "id": 296
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
         "schedule": "2022-09-29T16:00:00",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-81/",
-        "id": 297
+        "id": 290
       },
       "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
+        "longitude": -77.868156,
+        "latitude": 34.2416,
         "coordinates": [
-          -77.867841,
-          34.24198
+          -77.868156,
+          34.2416
         ],
         "type": "Point"
       },
@@ -4763,7 +4595,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-160/",
-        "id": 298
+        "id": 291
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4787,14 +4619,14 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-83/",
-        "id": 299
+        "id": 292
       },
       "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
+        "longitude": -77.868156,
+        "latitude": 34.2416,
         "coordinates": [
-          -77.867841,
-          34.24198
+          -77.868156,
+          34.2416
         ],
         "type": "Point"
       },
@@ -4811,7 +4643,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-161/",
-        "id": 300
+        "id": 293
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4835,14 +4667,14 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-84/",
-        "id": 301
+        "id": 294
       },
       "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
+        "longitude": -77.868156,
+        "latitude": 34.2416,
         "coordinates": [
-          -77.867841,
-          34.24198
+          -77.868156,
+          34.2416
         ],
         "type": "Point"
       },
@@ -4859,7 +4691,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-162/",
-        "id": 302
+        "id": 295
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4883,14 +4715,14 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-85/",
-        "id": 303
+        "id": 296
       },
       "geometry": {
-        "longitude": -77.867841,
-        "latitude": 34.24198,
+        "longitude": -77.868156,
+        "latitude": 34.2416,
         "coordinates": [
-          -77.867841,
-          34.24198
+          -77.868156,
+          34.2416
         ],
         "type": "Point"
       },
@@ -4907,7 +4739,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-163/",
-        "id": 304
+        "id": 297
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4931,7 +4763,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 305
+        "id": 298
       },
       "geometry": {
         "longitude": -76.71097,
@@ -4955,7 +4787,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 306
+        "id": 299
       },
       "geometry": {
         "longitude": -76.71097,
@@ -4979,7 +4811,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 307
+        "id": 300
       },
       "geometry": {
         "longitude": -76.71097,
@@ -5003,7 +4835,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 308
+        "id": 301
       },
       "geometry": {
         "longitude": -76.71097,
@@ -5027,7 +4859,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=47",
-        "id": 309
+        "id": 302
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5051,14 +4883,14 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=34",
-        "id": 310
+        "id": 303
       },
       "geometry": {
         "longitude": -79.3896838690365,
-        "latitude": 35.5568849207,
+        "latitude": 35.5568849207634,
         "coordinates": [
           -79.3896838690365,
-          35.5568849207
+          35.5568849207634
         ],
         "type": "Point"
       },
@@ -5075,7 +4907,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=990744288",
-        "id": 311
+        "id": 304
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5099,7 +4931,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=25",
-        "id": 312
+        "id": 305
       },
       "geometry": {
         "longitude": -76.460199,
@@ -5123,7 +4955,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=38",
-        "id": 313
+        "id": 306
       },
       "geometry": {
         "longitude": -79.087285,
@@ -5147,7 +4979,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144669",
-        "id": 314
+        "id": 307
       },
       "geometry": {
         "longitude": -79.784458,
@@ -5171,7 +5003,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144711",
-        "id": 315
+        "id": 308
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5195,7 +5027,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=49",
-        "id": 316
+        "id": 309
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5219,7 +5051,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=52",
-        "id": 317
+        "id": 310
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5243,7 +5075,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=7",
-        "id": 318
+        "id": 311
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5267,7 +5099,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=11",
-        "id": 319
+        "id": 312
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5291,7 +5123,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=17",
-        "id": 320
+        "id": 313
       },
       "geometry": {
         "longitude": -79.077495,
@@ -5315,7 +5147,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=64",
-        "id": 321
+        "id": 314
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5339,7 +5171,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=15",
-        "id": 322
+        "id": 315
       },
       "geometry": {
         "longitude": -79.077495,
@@ -5363,7 +5195,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=24",
-        "id": 323
+        "id": 316
       },
       "geometry": {
         "longitude": -79.05578,
@@ -5381,20 +5213,20 @@
         "government": "Orange",
         "publicbody": "Chapel Hill Library Advisory Board",
         "location": "Chapel Hill Public Library Meeting Room C",
-        "address": "Chapel Hill Public Library, 100 Library Dr, Chapel Hill, North Carolina 27514, United States",
+        "address": "Meeting Street, Chapel Hill, North Carolina 27516, United States",
         "schedule": "5:30 pm Second Monday in Feb, May, Sep, \u0026 Nov",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144701",
-        "id": 324
+        "id": 317
       },
       "geometry": {
-        "longitude": -79.035588,
-        "latitude": 35.932167,
+        "longitude": -79.0634775,
+        "latitude": 35.884595,
         "coordinates": [
-          -79.035588,
-          35.932167
+          -79.0634775,
+          35.884595
         ],
         "type": "Point"
       },
@@ -5411,7 +5243,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=6",
-        "id": 325
+        "id": 318
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5435,7 +5267,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144672",
-        "id": 326
+        "id": 319
       },
       "geometry": {
         "longitude": -79.035588,
@@ -5459,7 +5291,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=13",
-        "id": 327
+        "id": 320
       },
       "geometry": {
         "longitude": -79.05578,
@@ -5483,7 +5315,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=54",
-        "id": 328
+        "id": 321
       },
       "geometry": {
         "longitude": -76.460199,
@@ -5507,7 +5339,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144690",
-        "id": 329
+        "id": 322
       },
       "geometry": {
         "longitude": -78.901805,
@@ -5531,7 +5363,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144706",
-        "id": 330
+        "id": 323
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5555,7 +5387,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=50",
-        "id": 331
+        "id": 324
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5579,7 +5411,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=42",
-        "id": 332
+        "id": 325
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5603,7 +5435,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=53",
-        "id": 333
+        "id": 326
       },
       "geometry": {
         "longitude": -79.099206,
@@ -5627,7 +5459,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=16",
-        "id": 334
+        "id": 327
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5651,7 +5483,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=10",
-        "id": 335
+        "id": 328
       },
       "geometry": {
         "longitude": -79.099206,
@@ -5675,7 +5507,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=26",
-        "id": 336
+        "id": 329
       },
       "geometry": {
         "longitude": -79.266962,
@@ -5699,7 +5531,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=32",
-        "id": 337
+        "id": 330
       },
       "geometry": {
         "longitude": -79.266962,
@@ -5723,7 +5555,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=4",
-        "id": 338
+        "id": 331
       },
       "geometry": {
         "longitude": -79.05578,
@@ -5731,6 +5563,30 @@
         "coordinates": [
           -79.05578,
           35.913154
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Orange",
+        "publicbody": "Opioid Advisory Committee",
+        "location": "TBD",
+        "address": "Orange, North Carolina, United States",
+        "schedule": "TBD TBD",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144721",
+        "id": 332
+      },
+      "geometry": {
+        "longitude": -78.522231,
+        "latitude": 35.129611,
+        "coordinates": [
+          -78.522231,
+          35.129611
         ],
         "type": "Point"
       },
@@ -5747,7 +5603,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=46",
-        "id": 339
+        "id": 333
       },
       "geometry": {
         "longitude": -76.66512,
@@ -5771,7 +5627,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144698",
-        "id": 340
+        "id": 334
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5795,7 +5651,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=44",
-        "id": 341
+        "id": 335
       },
       "geometry": {
         "longitude": -76.460199,
@@ -5819,7 +5675,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=56",
-        "id": 342
+        "id": 336
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5843,7 +5699,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144670",
-        "id": 343
+        "id": 337
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5867,7 +5723,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=21",
-        "id": 344
+        "id": 338
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5891,7 +5747,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144708",
-        "id": 345
+        "id": 339
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5915,7 +5771,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=43",
-        "id": 346
+        "id": 340
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5939,7 +5795,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144716",
-        "id": 347
+        "id": 341
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5963,7 +5819,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144710",
-        "id": 348
+        "id": 342
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5987,7 +5843,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=29",
-        "id": 349
+        "id": 343
       },
       "geometry": {
         "longitude": -78.522231,
