@@ -3700,9 +3700,9 @@
       "properties": {
         "government": "Alamance",
         "publicbody": "Tourism Development Authority",
-        "location": "Chamber of Commerce/Visitor Bureau",
-        "address": "Durham Chamber of Commerce, 300 W Morgan St, Durham, North Carolina 27701, United States",
-        "schedule": "10:30 a.m. on the fourth Tuesday of every month.\u00A0 Changes will be posted at https://www.visitalamance.com/about/tourism-development-authority/",
+        "location": "Alamance NC",
+        "address": "Alamance, North Carolina, United States",
+        "schedule": "10:30 a.m. on the fourth Tuesday of every month.",
         "start": "",
         "end": "",
         "remote": "",
@@ -3710,11 +3710,11 @@
         "id": 254
       },
       "geometry": {
-        "longitude": -78.902268,
-        "latitude": 35.99853,
+        "longitude": -79.485855,
+        "latitude": 36.035136,
         "coordinates": [
-          -78.902268,
-          35.99853
+          -79.485855,
+          36.035136
         ],
         "type": "Point"
       },
@@ -4085,7 +4085,7 @@
         "government": "Cumberland",
         "publicbody": "Cumberland County Workforce Development Board",
         "location": "FTCC General Classroom Building\nRoom 114\n2817 Ft. Bragg Rd",
-        "address": "COL Aaron Bank Hall, D-3915, Fort Bragg, North Carolina 28307, United States",
+        "address": "D-3229 Barracks, D-3229 Ardennes Rd, Fort Bragg, North Carolina 28307, United States",
         "schedule": "Third Tuesday\u00A0of every other month at 11:00\u00A0a.m. (starting in January)",
         "start": "",
         "end": "",
@@ -4094,11 +4094,11 @@
         "id": 270
       },
       "geometry": {
-        "longitude": -78.999733,
-        "latitude": 35.129784,
+        "longitude": -79.004488,
+        "latitude": 35.126227,
         "coordinates": [
-          -78.999733,
-          35.129784
+          -79.004488,
+          35.126227
         ],
         "type": "Point"
       },
@@ -4566,60 +4566,12 @@
         "publicbody": "Board of Commissioners Agenda Review",
         "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
         "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
-        "schedule": "2022-09-29T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-81/",
-        "id": 290
-      },
-      "geometry": {
-        "longitude": -77.868156,
-        "latitude": 34.2416,
-        "coordinates": [
-          -77.868156,
-          34.2416
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Regular Meeting",
-        "location": "NHC Courthouse - Room 301 @ 24 N 3rd St, Wilmington, NC 28401, USA",
-        "address": "24 North 3rd Street, Wilmington, North Carolina 28401, United States",
-        "schedule": "2022-10-03T16:00:00",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-160/",
-        "id": 291
-      },
-      "geometry": {
-        "longitude": -77.945692,
-        "latitude": 34.23618,
-        "coordinates": [
-          -77.945692,
-          34.23618
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "New Hannover",
-        "publicbody": "Board of Commissioners Agenda Review",
-        "location": "NHC Government Center - Conference Room 601 @ 230 Government Center Dr, Wilmington, NC 28403, USA",
-        "address": "230 Government Center Drive, Wilmington, North Carolina 28403, United States",
         "schedule": "2022-10-13T16:00:00",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-83/",
-        "id": 292
+        "id": 290
       },
       "geometry": {
         "longitude": -77.868156,
@@ -4643,7 +4595,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-161/",
-        "id": 293
+        "id": 291
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4667,7 +4619,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-84/",
-        "id": 294
+        "id": 292
       },
       "geometry": {
         "longitude": -77.868156,
@@ -4691,7 +4643,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-162/",
-        "id": 295
+        "id": 293
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4715,7 +4667,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-agenda-review-85/",
-        "id": 296
+        "id": 294
       },
       "geometry": {
         "longitude": -77.868156,
@@ -4739,7 +4691,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://commissioners.nhcgov.com/event/board-of-commissioners-regular-meeting-163/",
-        "id": 297
+        "id": 295
       },
       "geometry": {
         "longitude": -77.945692,
@@ -4757,20 +4709,20 @@
         "government": "Avery",
         "publicbody": "Veterans Day - County Offices Closed",
         "location": "VEVENT",
-        "address": "Avery, North Carolina, United States",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
         "schedule": "11/11/2022 12:00:00 AM America/New_York",
         "start": "",
         "end": "",
         "remote": "",
         "moreInfo": "",
-        "id": 298
+        "id": 296
       },
       "geometry": {
-        "longitude": -76.71097,
-        "latitude": 34.72454,
+        "longitude": -76.72044,
+        "latitude": 34.7253,
         "coordinates": [
-          -76.71097,
-          34.72454
+          -76.72044,
+          34.7253
         ],
         "type": "Point"
       },
@@ -4781,8 +4733,56 @@
         "government": "Avery",
         "publicbody": "Thanksgiving Holiday - County Offices Closed",
         "location": "VEVENT",
-        "address": "Avery, North Carolina, United States",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
         "schedule": "11/24/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 297
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Christmas Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "12/23/2022 12:00:00 AM America/New_York",
+        "start": "",
+        "end": "",
+        "remote": "",
+        "moreInfo": "",
+        "id": 298
+      },
+      "geometry": {
+        "longitude": -76.72044,
+        "latitude": 34.7253,
+        "coordinates": [
+          -76.72044,
+          34.7253
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "government": "Avery",
+        "publicbody": "Christmas Holiday - County Offices Closed",
+        "location": "VEVENT",
+        "address": "Avery Street, Morehead City, North Carolina 28557, United States",
+        "schedule": "12/26/2022 12:00:00 AM America/New_York",
         "start": "",
         "end": "",
         "remote": "",
@@ -4790,59 +4790,11 @@
         "id": 299
       },
       "geometry": {
-        "longitude": -76.71097,
-        "latitude": 34.72454,
+        "longitude": -76.72044,
+        "latitude": 34.7253,
         "coordinates": [
-          -76.71097,
-          34.72454
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "Avery",
-        "publicbody": "Christmas Holiday - County Offices Closed",
-        "location": "VEVENT",
-        "address": "Avery, North Carolina, United States",
-        "schedule": "12/23/2022 12:00:00 AM America/New_York",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 300
-      },
-      "geometry": {
-        "longitude": -76.71097,
-        "latitude": 34.72454,
-        "coordinates": [
-          -76.71097,
-          34.72454
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "government": "Avery",
-        "publicbody": "Christmas Holiday - County Offices Closed",
-        "location": "VEVENT",
-        "address": "Avery, North Carolina, United States",
-        "schedule": "12/26/2022 12:00:00 AM America/New_York",
-        "start": "",
-        "end": "",
-        "remote": "",
-        "moreInfo": "",
-        "id": 301
-      },
-      "geometry": {
-        "longitude": -76.71097,
-        "latitude": 34.72454,
-        "coordinates": [
-          -76.71097,
-          34.72454
+          -76.72044,
+          34.7253
         ],
         "type": "Point"
       },
@@ -4859,7 +4811,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=47",
-        "id": 302
+        "id": 300
       },
       "geometry": {
         "longitude": -78.522231,
@@ -4883,7 +4835,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=34",
-        "id": 303
+        "id": 301
       },
       "geometry": {
         "longitude": -79.3896838690365,
@@ -4907,7 +4859,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=990744288",
-        "id": 304
+        "id": 302
       },
       "geometry": {
         "longitude": -78.522231,
@@ -4931,7 +4883,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=25",
-        "id": 305
+        "id": 303
       },
       "geometry": {
         "longitude": -76.460199,
@@ -4955,7 +4907,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=38",
-        "id": 306
+        "id": 304
       },
       "geometry": {
         "longitude": -79.087285,
@@ -4979,7 +4931,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144669",
-        "id": 307
+        "id": 305
       },
       "geometry": {
         "longitude": -79.784458,
@@ -5003,7 +4955,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144711",
-        "id": 308
+        "id": 306
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5027,7 +4979,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=49",
-        "id": 309
+        "id": 307
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5051,7 +5003,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=52",
-        "id": 310
+        "id": 308
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5075,7 +5027,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=7",
-        "id": 311
+        "id": 309
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5099,7 +5051,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=11",
-        "id": 312
+        "id": 310
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5123,7 +5075,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=17",
-        "id": 313
+        "id": 311
       },
       "geometry": {
         "longitude": -79.077495,
@@ -5147,7 +5099,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=64",
-        "id": 314
+        "id": 312
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5171,7 +5123,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=15",
-        "id": 315
+        "id": 313
       },
       "geometry": {
         "longitude": -79.077495,
@@ -5195,7 +5147,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=24",
-        "id": 316
+        "id": 314
       },
       "geometry": {
         "longitude": -79.05578,
@@ -5219,7 +5171,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144701",
-        "id": 317
+        "id": 315
       },
       "geometry": {
         "longitude": -79.0634775,
@@ -5243,7 +5195,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=6",
-        "id": 318
+        "id": 316
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5267,7 +5219,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144672",
-        "id": 319
+        "id": 317
       },
       "geometry": {
         "longitude": -79.035588,
@@ -5291,7 +5243,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=13",
-        "id": 320
+        "id": 318
       },
       "geometry": {
         "longitude": -79.05578,
@@ -5315,7 +5267,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=54",
-        "id": 321
+        "id": 319
       },
       "geometry": {
         "longitude": -76.460199,
@@ -5339,7 +5291,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144690",
-        "id": 322
+        "id": 320
       },
       "geometry": {
         "longitude": -78.901805,
@@ -5363,7 +5315,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144706",
-        "id": 323
+        "id": 321
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5387,7 +5339,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=50",
-        "id": 324
+        "id": 322
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5411,7 +5363,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=42",
-        "id": 325
+        "id": 323
       },
       "geometry": {
         "longitude": -79.099228,
@@ -5435,7 +5387,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=53",
-        "id": 326
+        "id": 324
       },
       "geometry": {
         "longitude": -79.099206,
@@ -5459,7 +5411,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=16",
-        "id": 327
+        "id": 325
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5483,7 +5435,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=10",
-        "id": 328
+        "id": 326
       },
       "geometry": {
         "longitude": -79.099206,
@@ -5507,7 +5459,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=26",
-        "id": 329
+        "id": 327
       },
       "geometry": {
         "longitude": -79.266962,
@@ -5531,7 +5483,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=32",
-        "id": 330
+        "id": 328
       },
       "geometry": {
         "longitude": -79.266962,
@@ -5555,7 +5507,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=4",
-        "id": 331
+        "id": 329
       },
       "geometry": {
         "longitude": -79.05578,
@@ -5579,7 +5531,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144721",
-        "id": 332
+        "id": 330
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5603,7 +5555,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=46",
-        "id": 333
+        "id": 331
       },
       "geometry": {
         "longitude": -76.66512,
@@ -5627,7 +5579,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144698",
-        "id": 334
+        "id": 332
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5651,7 +5603,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=44",
-        "id": 335
+        "id": 333
       },
       "geometry": {
         "longitude": -76.460199,
@@ -5675,7 +5627,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=56",
-        "id": 336
+        "id": 334
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5699,7 +5651,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144670",
-        "id": 337
+        "id": 335
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5723,7 +5675,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=21",
-        "id": 338
+        "id": 336
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5747,7 +5699,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144708",
-        "id": 339
+        "id": 337
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5771,7 +5723,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=43",
-        "id": 340
+        "id": 338
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5795,7 +5747,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144716",
-        "id": 341
+        "id": 339
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5819,7 +5771,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=1258144710",
-        "id": 342
+        "id": 340
       },
       "geometry": {
         "longitude": -78.522231,
@@ -5843,7 +5795,7 @@
         "end": "",
         "remote": "",
         "moreInfo": "https://www4.orangecountync.gov/boards/indivbd.asp?BoardID=29",
-        "id": 343
+        "id": 341
       },
       "geometry": {
         "longitude": -78.522231,
