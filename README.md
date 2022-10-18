@@ -21,7 +21,13 @@ If you would like to contribute please follow the below instructions:
   - `git add -A`
   - `git commit -m "description of changes"`
   - `git push`
-5. In [Github](https://github.com/Code-for-the-Carolinas/openmeetingtoolkit) create a pull request from your gh-pages to code-for-the-Carolina's gh-pages, 
+5. Merge gh-pages to main branch in terminal:
+  - `git checkout main`
+  - `git merge gh-pages`
+  - `git push`
+  - `git status`, you might have to do other commands until the status says your branch is up to date. 
+  
+6. In [Github](https://github.com/Code-for-the-Carolinas/openmeetingtoolkit) create a pull request from your gh-pages to code-for-the-Carolina's gh-pages, 
   - click on Pull requests
   - click on New Pull request button -in green on the right
   - click on compare across forks link -at the top in blue
@@ -41,14 +47,15 @@ If you would like to contribute please follow the below instructions:
 7. Check the website to make sure it has your changes--please note it can take up to 15 minutes for the updates to pull through. 
 8. Close out the github issue you worked on, if applicable 
 9. Manually synch your forked repo to code-for-the-Carolina's by clicking the synch button in Github
-10. Don't forget to update the main branch with the changes you made in gh-pages in Github. Most of us have been manually updating it (copying the material from the file(s) we changed in gh-pages and pasting it in the correspoding file(s) in main--message in slack if you need more info about this)
+10. Don't forget to update the main branch with the changes you made in gh-pages in Github. Most of us have been manually updating it (copying the material from the file(s) we changed in gh-pages and pasting it in the correspoding file(s) in main. You are able to do a pull request though from your repo's main to Code for Carolina's main though--message in slack if you need help)
 
 # Getting the latest updates
 Once you are ready to make more changes, you will need to do a pull request to get the lastest updates from the repo:
 1. On your local machine, in the terminal do `git checkout main` --if you aren't already in the main branch. 
-2. `git pull`
-3. **BEFORE** making any changes: `git checkout gh-pages`
-3. `git pull upstream gh-pages`
-4. `git status` to double check you are up to date. 
-3. Follow the above steps in Contributing to gh-pages, starting at #3 if you want to make any more changes. 
+2. `git pull upstream main`
+3. `git status`, you might have to do other commands until the status says your branch is up to date. 
+4. **BEFORE** making any changes: `git checkout gh-pages`
+5. `git pull upstream gh-pages`
+6. `git status` to double check your branch is up to date, you might have to do other commands **until** the status says your branch is up to date. 
+7. Follow the above steps in Contributing to gh-pages, starting at #3 if you want to make any more changes. 
 
