@@ -39,7 +39,7 @@ public class MeetingFactory
         var coords = new Location(bestLocation.Geometry.Coordinate.Longitude, bestLocation.Geometry.Coordinate.Latitude);
 
         var betterMeeting = new Meeting(
-            Government: meeting.County,
+            Government: meeting.County + " County",
             Publicbody: meeting.Name,
             Location: meeting.Location,
             Address: bestLocation.PlaceInformation.First().PlaceName,
