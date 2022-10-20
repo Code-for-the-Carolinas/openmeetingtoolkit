@@ -6,6 +6,7 @@
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <script src="https://npmcdn.com/csv2geojson@latest/csv2geojson.js"></script>
     <body>
         <div class="sidebar">
             <div class="heading">
@@ -178,6 +179,9 @@
             mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
             const stateCoords = [-79.8, 35.3] 
             const defaultZoom = 6
+            const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
+            const sheetName = 'all';
+            const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
             /**
              * Add the map to the page
              */
@@ -410,6 +414,30 @@
                     },
                 ]
             };
+            const getMeetingData = () => {
+                fetch(sheetURI)
+                .then(response => response.text())
+                .then(csvMeetings => {
+                    csv2geojson.csv2geojson(csvMeetings, {
+                        latfield: 'Latitude',
+                        lonfield: 'Longitude',
+                        delimiter: ',',
+                    }, (err, moreMeetings) => {
+                        console.log(moreMeetings)
+                        if (err) {
+                            console.error(err)
+                        }
+                        map.addSource('morePlaces', {
+                            'type': 'geojson',
+                            'data': moreMeetings
+                        })
+                        buildCountyList(moreMeetings)
+                    });
+                }).catch(function (err) {
+                    console.log('Failed to load more meetings', err);
+                });
+
+            }
 
             /**
              * Wait until the map loads to make changes to the map.
@@ -432,18 +460,19 @@
                 // buildLocationList(meetings);
                 // addMarkers(meetings);
 
-                fetch("meetings.json")
-                .then(response => response.json())
-                .then(moreMeetings => {
-                    map.addSource('morePlaces', {
-                        'type': 'geojson',
-                        'data': moreMeetings
-                    });
+                // fetch("meetings.json")
+                // .then(response => response.json())
+                // .then(moreMeetings => {
+                //     map.addSource('morePlaces', {
+                //         'type': 'geojson',
+                //         'data': moreMeetings
+                //     });
 
-                    buildCountyList(moreMeetings)
-                }).catch(function (err) {
-                    console.log('Failed to load more meetings', err);
-                });
+                //     buildCountyList(moreMeetings)
+                // }).catch(function (err) {
+                //     console.log('Failed to load more meetings', err);
+                // });
+                getMeetingData();
             });
 
             /**
@@ -455,7 +484,7 @@
                     /* Create a div element for the marker. */
                     const el = document.createElement('div');
                     /* Assign a unique `id` to the marker. */
-                    el.id = `marker-${marker.properties.id}`;
+                    el.id = `marker-${marker.properties.Id}`;
                     /* Assign the `marker` class to each marker for styling. */
                     el.className = 'marker';
 
@@ -485,7 +514,7 @@
                             activeItem[0].classList.remove('active');
                         }
                         const listing = document.getElementById(
-                            `listing-${marker.properties.id}`
+                            `listing-${marker.properties.Id}`
                         );
                         listing.classList.add('active');
                     });
@@ -511,7 +540,7 @@
             **/
             function buildMeetingListByCounty(meetingList) {
                 return meetingList.features.reduce((obj, item) => {
-                    const county = item.properties.government;
+                    const county = item.properties.Government;
 
                     if (county !== "") {
                         if (!obj[county]) {
@@ -614,7 +643,7 @@
                     const listings = document.getElementById('listings');
                     const listing = listings.appendChild(document.createElement('div'));
                     /* Assign a unique `id` to the listing. */
-                    listing.id = `listing-${meeting.properties.id}`;
+                    listing.id = `listing-${meeting.properties.Id}`;
                     /* Assign the `item` class to each listing for styling. */
                     listing.className = 'item';
 
@@ -622,12 +651,12 @@
                     const link = listing.appendChild(document.createElement('a'));
                     link.href = '#';
                     link.className = 'title';
-                    link.id = `link-${meeting.properties.id}`;
-                    link.innerHTML = `${meeting.properties.publicbody}`;
+                    link.id = `link-${meeting.properties.Id}`;
+                    link.innerHTML = `${meeting.properties.Public_body}`;
 
                     /* Add details to the individual listing. */
                     const details = listing.appendChild(document.createElement('div'));
-                    details.innerHTML = `${meeting.properties.location}`;
+                    details.innerHTML = `${meeting.properties.Location}`;
                     if (meeting.properties.phone) {
                         details.innerHTML += ` &middot; ${meeting.properties.phoneFormatted}`;
                     }
@@ -641,7 +670,7 @@
                      **/
                     link.addEventListener('click', function () {
                         for (const feature of meetings) {
-                            if (this.id === `link-${feature.properties.id}`) {
+                            if (this.id === `link-${feature.properties.Id}`) {
                                 flytoMeeting(feature.geometry.coordinates, 15);
                                 createPopUp(feature);
                             }
@@ -677,7 +706,7 @@
                 const popup = new mapboxgl.Popup({ closeOnClick: false })
                     .setLngLat(currentFeature.geometry.coordinates)
                     .setHTML(
-                        `<h3><center>${currentFeature.properties.publicbody}</center></h3>
+                        `<h3><center>${currentFeature.properties.Public_body}</center></h3>
                                     <h4>
                                     <table>
                                     <tr>
@@ -686,9 +715,9 @@
                                     <th><center>Location</center></th>
                                     </tr>
                                     <tr>
-                                    <td><center>${currentFeature.properties.government}</center></td>
-                                    <td><center>${currentFeature.properties.publicbody}</center></td>
-                                    <td><center>${currentFeature.properties.location}</center></td>
+                                    <td><center>${currentFeature.properties.Government}</center></td>
+                                    <td><center>${currentFeature.properties.Public_body}</center></td>
+                                    <td><center>${currentFeature.properties.Location}</center></td>
                                     </tr>
                                     <tr>
                                     <th><center>Address</center></th>
@@ -696,17 +725,17 @@
                                     <th><center>Start Time</center></th>
                                     </tr>
                                     <tr>
-                                    <td><center>${currentFeature.properties.address}</center></td>
-                                    <td><center>${currentFeature.properties.schedule}</center></td>
-                                    <td><center>${currentFeature.properties.start}</center></td>
+                                    <td><center>${currentFeature.properties.Address}</center></td>
+                                    <td><center>${currentFeature.properties.Schedule}</center></td>
+                                    <td><center>${currentFeature.properties.Start_time}</center></td>
                                     </tr>
                                     <tr>
                                     <th><center>End Time</center></th>
                                     <th><center>Remote Options</center></th>
                                     </tr>
                                     <tr>
-                                    <td><center>${currentFeature.properties.end}</center></td>
-                                    <td><center>${currentFeature.properties.remote}</center></td>
+                                    <td><center>${currentFeature.properties.End_time}</center></td>
+                                    <td><center>${currentFeature.properties.Remote_options}</center></td>
                                     </h4>`
                     )
                     .addTo(map);
