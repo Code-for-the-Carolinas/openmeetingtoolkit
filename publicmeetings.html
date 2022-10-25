@@ -479,12 +479,19 @@
              * Add a marker to the map for every meeting listing.
              **/
             function addMarkers(meetings) {
+                const groupedMeetings = groupMeetingsByLocation(meetings)
                 /* For each feature in the GeoJSON object above: */
-                for (const marker of meetings) {
+                for (const meeting in groupedMeetings) {
+                    const marker = groupedMeetings[meeting]
+
+                    if (marker.length > 1) {
+                        addGroupMarker(marker)
+                    } else {
+                        console.log(marker)
                     /* Create a div element for the marker. */
                     const el = document.createElement('div');
                     /* Assign a unique `id` to the marker. */
-                    el.id = `marker-${marker.properties.Id}`;
+                    el.id = `marker-${marker[0].properties.Id}`;
                     /* Assign the `marker` class to each marker for styling. */
                     el.className = 'marker';
 
@@ -493,7 +500,7 @@
                      * defined above and add it to the map.
                      **/
                     new mapboxgl.Marker(el, { offset: [0, -23] })
-                        .setLngLat(marker.geometry.coordinates)
+                        .setLngLat(marker[0].geometry.coordinates)
                         .addTo(map);
 
                     /**
@@ -504,9 +511,9 @@
                      **/
                     el.addEventListener('click', (e) => {
                         /* Fly to the point */
-                        flytoMeeting(marker.geometry.coordinates, 15);
+                        flytoMeeting(marker[0].geometry.coordinates, 15);
                         /* Close all other popups and display popup for clicked meeting */
-                        createPopUp(marker);
+                        createPopUp(marker[0]);
                         /* Highlight listing in sidebar */
                         const activeItem = document.getElementsByClassName('active');
                         e.stopPropagation();
@@ -514,11 +521,48 @@
                             activeItem[0].classList.remove('active');
                         }
                         const listing = document.getElementById(
-                            `listing-${marker.properties.Id}`
+                            `listing-${marker[0].properties.Id}`
                         );
                         listing.classList.add('active');
                     });
                 }
+            }
+            }
+// TODO: add event listener for meetings in popup list
+            function addGroupMarker(arrOfMeetings) {
+                const locationKey = (arrOfMeetings[0].geometry.coordinates).toString()
+                const el = document.createElement('div');
+                el.id = `marker-${locationKey}`
+                el.className = 'marker'
+
+                new mapboxgl.Marker(el, { offset: [0, -23] })
+                    .setLngLat(arrOfMeetings[0].geometry.coordinates)
+                    .addTo(map);
+
+                
+                el.addEventListener('click', e => {
+                    createGroupPopUp(arrOfMeetings)
+                    
+                }, false)
+                
+            }
+
+            function groupMeetingsByLocation(meetings) {
+                const meetingList = {}
+
+                for(let i = 0; i < meetings.length; i++) {
+                    // construct key using lat and long to group by
+                    const coords = meetings[i].geometry.coordinates
+                    const coordsKey = coords.toString()
+
+                    if (meetingList[coordsKey]) {
+                        meetingList[coordsKey].push(meetings[i])
+                    } else {
+                        meetingList[coordsKey] = new Array(meetings[i]) 
+                    }
+                }
+                console.log('grouped obj: ', meetingList)
+                return meetingList
             }
 
             /**
@@ -737,6 +781,24 @@
                                     <td><center>${currentFeature.properties.End_time}</center></td>
                                     <td><center>${currentFeature.properties.Remote_options}</center></td>
                                     </h4>`
+                    )
+                    .addTo(map);
+            }
+
+            function createGroupPopUp(arrOfMeetings) {
+                const html = `
+                        <ul class='meeting-list'>
+                            ${arrOfMeetings.map((meeting) => `<li class='meeting-item'><a href="#" id=${meeting.properties.Id}>${meeting.properties.Public_body}</a></li>`).join("")}
+                        </ul>
+                        `;
+                
+                const popUps = document.getElementsByClassName('mapboxgl-popup');
+                if (popUps[0]) popUps[0].remove();
+                const popup = new mapboxgl.Popup({ closeOnClick: false })
+                    .setLngLat(arrOfMeetings[0].geometry.coordinates)
+                    .setHTML(
+                        `<h3><center>Meetings at this location</center></h3>
+                                    ${html}`
                     )
                     .addTo(map);
             }
