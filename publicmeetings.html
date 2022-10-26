@@ -178,7 +178,7 @@
 
             mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
             const stateCoords = [-79.8, 35.3] 
-            const defaultZoom = 6
+            const defaultZoom = 7
             const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
             const sheetName = 'all';
             const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
@@ -483,11 +483,10 @@
                 /* For each feature in the GeoJSON object above: */
                 for (const meeting in groupedMeetings) {
                     const marker = groupedMeetings[meeting]
-
+                    /* Add a group of meetings marker to map*/
                     if (marker.length > 1) {
                         addGroupMarker(marker)
                     } else {
-                        console.log(marker)
                     /* Create a div element for the marker. */
                     const el = document.createElement('div');
                     /* Assign a unique `id` to the marker. */
@@ -511,7 +510,7 @@
                      **/
                     el.addEventListener('click', (e) => {
                         /* Fly to the point */
-                        flytoMeeting(marker[0].geometry.coordinates, 15);
+                        flytoMeeting(marker[0].geometry.coordinates, 14);
                         /* Close all other popups and display popup for clicked meeting */
                         createPopUp(marker[0]);
                         /* Highlight listing in sidebar */
@@ -528,7 +527,7 @@
                 }
             }
             }
-// TODO: add event listener for meetings in popup list
+
             function addGroupMarker(arrOfMeetings) {
                 const locationKey = (arrOfMeetings[0].geometry.coordinates).toString()
                 const el = document.createElement('div');
@@ -541,6 +540,7 @@
 
                 
                 el.addEventListener('click', e => {
+                    flytoMeeting(arrOfMeetings[0].geometry.coordinates, 14)
                     createGroupPopUp(arrOfMeetings)
                     
                 }, false)
@@ -637,7 +637,7 @@
                     const meetingList = countyList[event.target.id]
                     
                     /* Fly to general are of listings*/
-                    flytoMeeting(meetingList[0].geometry.coordinates, 8)
+                    flytoMeeting(meetingList[0].geometry.coordinates, 10)
                     buildLocationList(meetingList)
                     addMarkers(meetingList)
                 }, false)
@@ -787,9 +787,9 @@
 
             function createGroupPopUp(arrOfMeetings) {
                 const html = `
-                        <ul class='meeting-list'>
-                            ${arrOfMeetings.map((meeting) => `<li class='meeting-item'><a href="#" id=${meeting.properties.Id}>${meeting.properties.Public_body}</a></li>`).join("")}
-                        </ul>
+                        <div class='listings' id='meeting-location'>
+                            ${arrOfMeetings.map((meeting, idx) => `<div class='item'><a href="#" class='meeting-link title' id=${idx}>${meeting.properties.Public_body}</a></div>`).join("")}
+                        </div>
                         `;
                 
                 const popUps = document.getElementsByClassName('mapboxgl-popup');
@@ -801,6 +801,17 @@
                                     ${html}`
                     )
                     .addTo(map);
+
+                const meetingsAtLocation = document.querySelector('#meeting-location')
+
+                meetingsAtLocation.addEventListener('click', e => {
+                    if(!e.target.matches('.meeting-link')) return
+                    e.preventDefault()
+                    popUps[0].remove()
+                    flytoMeeting(arrOfMeetings[e.target.id].geometry.coordinates, 14)
+                    createPopUp(arrOfMeetings[e.target.id])
+
+                })
             }
 
             //adding zoom and rotation controls to map
