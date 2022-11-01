@@ -210,7 +210,7 @@
                         if (err) throw err
                         meetingGS = data
                     })
-                    console.log(meetingGS)
+                    
                     return meetingGS
                 } catch (error) {
                     throw error
@@ -238,8 +238,30 @@
                     const meetingsGS = await getMeetingGSheetData();
                     const meetingsJson = await getMeetingJsonData();
 
-                    meetingsGS.features.forEach(f => geoJson.features.push(f))
                     meetingsJson.features.forEach(j => geoJson.features.push(j))
+                    meetingsGS.features.forEach(f => geoJson.features.push({
+                        geometry: {
+                            type: f.geometry.type,
+                            longitude: f.geometry.coordinates?.[0],
+                            latitude: f.geometry.coordinates?.[1],
+                            coordinates: [...f.geometry?.coordinates],
+                            
+                        },
+                        properties: {
+                            address: f.properties?.Address,
+                            end: f.properties?.End_time,
+                            government: f.properties?.Government,
+                            id: f.properties?.Id,
+                            location: f.properties?.Location,
+                            publicbody: f.properties?.Public_body,
+                            schedule: f.properties?.Schedule,
+                            moreInfo: f.properties?.Source,
+                            start: f.properties?.Start_time,
+                            remote: f.properties?.Remote_options,
+                        },
+                        type: f.type
+                    }))
+
                     return geoJson
                 } catch (error) {
                     throw error
@@ -315,7 +337,7 @@
                             activeItem[0].classList.remove('active');
                         }
                         const listing = document.getElementById(
-                            `listing-${marker[0].properties.Id}`
+                            `listing-${marker[0].properties.id}`
                         );
                         listing.classList.add('active');
                     });
@@ -356,7 +378,6 @@
                         meetingList[coordsKey] = new Array(meetings[i]) 
                     }
                 }
-                console.log('grouped obj: ', meetingList)
                 return meetingList
             }
 
@@ -379,7 +400,7 @@
             **/
             function buildMeetingListByCounty(meetingList) {
                 return meetingList.features.reduce((obj, item) => {
-                    const county = item.properties.Government;
+                    const county = item.properties.Government || item.properties.government;
 
                     if (county !== "") {
                         if (!obj[county]) {
@@ -478,11 +499,15 @@
 
                 /* Continue to add meeting listings */
                 for (const meeting of (meetings)) {
+                    const publicBody = meeting.properties.Public_body || meeting.properties.publicbody
+                    const id = meeting.properties.Id || meeting.properties.id
+                    const location = meeting.properties.Location || meeting.properties.location
+
                     /* Add a new listing section to the sidebar. */
                     const listings = document.getElementById('listings');
                     const listing = listings.appendChild(document.createElement('div'));
                     /* Assign a unique `id` to the listing. */
-                    listing.id = `listing-${meeting.properties.Id}`;
+                    listing.id = `listing-${id}`;
                     /* Assign the `item` class to each listing for styling. */
                     listing.className = 'item';
 
@@ -490,12 +515,12 @@
                     const link = listing.appendChild(document.createElement('a'));
                     link.href = '#';
                     link.className = 'title';
-                    link.id = `link-${meeting.properties.Id}`;
-                    link.innerHTML = `${meeting.properties.Public_body}`;
+                    link.id = `link-${id}`;
+                    link.innerHTML = `${publicBody}`;
 
                     /* Add details to the individual listing. */
                     const details = listing.appendChild(document.createElement('div'));
-                    details.innerHTML = `${meeting.properties.Location}`;
+                    details.innerHTML = `${location}`;
                     if (meeting.properties.phone) {
                         details.innerHTML += ` &middot; ${meeting.properties.phoneFormatted}`;
                     }
@@ -507,9 +532,12 @@
                      * 3. Close all other popups and display popup for clicked meeting
                      * 4. Highlight listing in sidebar (and remove highlight for all other listings)
                      **/
+                    // TODO: use event delgation to create event listeners
                     link.addEventListener('click', function () {
+                        
                         for (const feature of meetings) {
-                            if (this.id === `link-${feature.properties.Id}`) {
+                            const featId = feature.properties.Id || feature.properties.id
+                            if (this.id === `link-${featId}`) {
                                 flytoMeeting(feature.geometry.coordinates, 15);
                                 createPopUp(feature);
                             }
@@ -545,7 +573,7 @@
                 const popup = new mapboxgl.Popup({ closeOnClick: false })
                     .setLngLat(currentFeature.geometry.coordinates)
                     .setHTML(
-                        `<h3><center>${currentFeature.properties.Public_body}</center></h3>
+                        `<h3><center>${currentFeature.properties.publicbody}</center></h3>
                                     <h4>
                                     <table>
                                     <tr>
@@ -554,9 +582,9 @@
                                     <th><center>Location</center></th>
                                     </tr>
                                     <tr>
-                                    <td><center>${currentFeature.properties.Government}</center></td>
-                                    <td><center>${currentFeature.properties.Public_body}</center></td>
-                                    <td><center>${currentFeature.properties.Location}</center></td>
+                                    <td><center>${currentFeature.properties.government}</center></td>
+                                    <td><center>${currentFeature.properties.publicbody}</center></td>
+                                    <td><center>${currentFeature.properties.location}</center></td>
                                     </tr>
                                     <tr>
                                     <th><center>Address</center></th>
@@ -564,17 +592,17 @@
                                     <th><center>Start Time</center></th>
                                     </tr>
                                     <tr>
-                                    <td><center>${currentFeature.properties.Address}</center></td>
-                                    <td><center>${currentFeature.properties.Schedule}</center></td>
-                                    <td><center>${currentFeature.properties.Start_time}</center></td>
+                                    <td><center>${currentFeature.properties.address}</center></td>
+                                    <td><center>${currentFeature.properties.schedule}</center></td>
+                                    <td><center>${currentFeature.properties.start}</center></td>
                                     </tr>
                                     <tr>
                                     <th><center>End Time</center></th>
                                     <th><center>Remote Options</center></th>
                                     </tr>
                                     <tr>
-                                    <td><center>${currentFeature.properties.End_time}</center></td>
-                                    <td><center>${currentFeature.properties.Remote_options}</center></td>
+                                    <td><center>${currentFeature.properties.end}</center></td>
+                                    <td><center>${currentFeature.properties.remote}</center></td>
                                     </h4>`
                     )
                     .addTo(map);
@@ -583,7 +611,7 @@
             function createGroupPopUp(arrOfMeetings) {
                 const html = `
                         <div class='listings' id='meeting-location'>
-                            ${arrOfMeetings.map((meeting, idx) => `<div class='item'><a href="#" class='meeting-link title' id=${idx}>${meeting.properties.Public_body}</a></div>`).join("")}
+                            ${arrOfMeetings.map((meeting, idx) => `<div class='item'><a href="#" class='meeting-link title' id=${idx}>${meeting.properties.publicbody}</a></div>`).join("")}
                         </div>
                         `;
                 
