@@ -4,6 +4,7 @@
     --primary-color: #fff;
     --secondary-color: #ffb446;
     --anchor-color: #5650BE;
+    --font-color: #222;
 }
 
 * {
@@ -11,8 +12,10 @@
     padding: 0px;
 }
 
-html, body {
+body {
     font-family: 'Poppins';
+    /* border: 5px solid black; */
+    /* padding-top: 8vh; */
 }
 
 a {
@@ -21,13 +24,94 @@ a {
 
 .navbar {
     background-color: var(--primary-color);
+    /* border: 4px solid black; */
+    /* height: 8vh; */
+}
+
+section {
+    padding: 1em;
+}
+
+iframe {
+    border: 4px solid var(--font-color);
+}
+
+p {
+    font-size: larger;
+    padding-left: 2em;
+}
+
+#introduction-section{
+    background-color: var(--secondary-color);
+}
+
+#scan-section{
+    /* margin: 0 auto; */
+    /* padding: 2em 2em 10em 10em; */
+    background-color: #fff;
+}
+#scan-section h2{
+    /* padding-bottom: 1em; */
+    /* padding-top: 0.5em; */
+}
+
+#scan-section h3{
+    /* font-size: 22px; */
+    /* padding-bottom: 1em; */
+    /* padding-left: 1.75em; */
+
+}
+
+#scan-section p{
+    /* padding-left: 2.5em; */
+    /* font-size: 17px; */
+}
+
+#evaluation-section{
+    /* margin: 0 auto; */
+    /* padding: 2em 2em 10em 10em; */
+    background-color:#F0DCD2;
+}
+
+#evaluation-section h2{
+    /* padding-bottom: 1em; */
+    /* padding-top: 0.5em; */
+}
+
+#evaluation-section h3{
+    /* font-size: 22px; */
+    /* padding-bottom: 1em; */
+    /* padding-left: 1.75em; */
 }
 
 
-#header-section {
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color: var(--primary-color);
+#evaluation-section p{
+    /* font-size: 17px; */
+    /* padding-left: 2.5em; */
+
+}
+#evaluation-section ul, ol{
+    /* margin-left: 3em; */
+    /* Rocio removed so the ordered lists can populate */
+    /* list-style: inside; */
+}
+
+#recommendations-section{
+    /* margin: 0 auto; */
+    /* padding: 2em 2em 10em 10em; */
+    background-color: #fff;
+}
+
+#faq-section{
+    /* margin: 0 auto; */
+    /* padding: 2em 2em 10em 10em; */
+    background-color: #F0DCD2;
+}
+
+#contact-section{
+    /* margin: 0 auto; */
+    /* padding: 2em 2em 10em 10em; */
+    background-color: #fff;
 }
 
 #footer-section {
@@ -36,91 +120,6 @@ a {
     padding-top:1.2em;
     padding-bottom: 0.25em;
     background-color: var(--primary-color);
-}
-
-#introduction-section{
-    /* margin: 0 auto; */
-    padding: 2em 2em 10em 10em;
-    background-color: var(--secondary-color);
-}
-
-#introduction-section h2{
-    padding: 1em 1em 1em 0;
-    color:#222;
-    font-size: 31px;
-}
-
-#introduction-section h2 span{
-    font-weight: bold;
-}
-
-#scan-section{
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color: #fff;
-}
-#scan-section h2{
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-}
-
-#scan-section h3{
-    font-size: 22px;
-    padding-bottom: 1em;
-    padding-left: 1.75em;
-
-}
-
-#scan-section p{
-    padding-left: 2.5em;
-    font-size: 17px;
-}
-
-#evaluation-section{
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color:#F0DCD2;
-}
-
-#evaluation-section h2{
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-}
-
-#evaluation-section h3{
-    font-size: 22px;
-    padding-bottom: 1em;
-    padding-left: 1.75em;
-}
-
-
-#evaluation-section p{
-    font-size: 17px;
-    padding-left: 2.5em;
-
-}
-#evaluation-section ul, ol{
-    margin-left: 3em;
-    /* Rocio removed so the ordered lists can populate */
-    /* list-style: inside; */
-}
-
-#recommendations-section{
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color: #fff;
-}
-
-#faq-section{
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color: #F0DCD2;
-}
-
-#contact-section{
-    margin: 0 auto;
-    padding: 2em 2em 10em 10em;
-    background-color: #fff;
 }
 
 footer, footer a{
