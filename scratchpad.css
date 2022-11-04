@@ -1,0 +1,73 @@
+
+header{
+  height:150px;
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  padding-left: 65px;
+}
+
+#navbar {
+  position:absolute;
+  top:0px;
+  width: 86%;
+}
+header h1 {
+  font-family: 'Source Sans Pro';
+  line-height: 1em;
+  font-size: 30px;
+  color: #333;
+  padding: 20px 10px 20px 10px;
+  margin-top: -15px;
+  margin-left: -105px;
+}
+
+#title {
+  width:15%;
+  float: left;
+  font-weight: bold;
+}
+
+#title h1 span{
+    font-weight: bolder;
+}
+
+details {
+  padding: 0.5em 1em 0;
+
+}
+
+summary {
+  font-size: 18px;
+}
+
+summary h3{
+  padding-left: 2em;
+  margin-top:-1.15em;
+}
+
+summary span{
+  font-size: 19px;
+  padding-right:1px;
+  font-weight: bold;
+  color:black;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  padding: 0.5em;
+}

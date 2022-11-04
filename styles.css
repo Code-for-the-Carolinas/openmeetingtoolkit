@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&family=Source+Sans+Pro:wght@400;700&display=swap');
 
-*{
+:root {
+    --primary-color: #fff;
+    --secondary-color: #ffb446;
+    --anchor-color: #5650BE;
+}
+
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -9,14 +15,19 @@ html, body {
     font-family: 'Poppins';
 }
 
-a{
-    color:#5650BE
+a {
+    color: var(--anchor-color);
 }
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
 
 #header-section {
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
-    background-color: #fff;
+    background-color: var(--primary-color);
 }
 
 #footer-section {
@@ -24,15 +35,13 @@ a{
     text-align: center;
     padding-top:1.2em;
     padding-bottom: 0.25em;
-    background-color: #fff;
+    background-color: var(--primary-color);
 }
 
 #introduction-section{
-/* uncommented because it is overriding the body font of Poppins */
-    /* font-family: 'Source Sans Pro'; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 2em 2em 10em 10em;
-    background-color: #ffb446;
+    background-color: var(--secondary-color);
 }
 
 #introduction-section h2{
@@ -119,88 +128,15 @@ footer, footer a{
     text-decoration: none;
 }
 
-header{
-    height:150px;
-}
-
-nav {
-    float: right;
-    padding: 75px 25px;
-}
-nav ul li{
-    display: inline-block;
-}
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 18px;
-    color: #333;
-    padding-left: 65px;
-}
-
-#navbar {
-    position:absolute;
-    top:0px;
-    width: 86%;
-}
-header h1 {
-    font-family: 'Source Sans Pro';
-    line-height: 1em;
-    font-size: 30px;
-    color: #333;
-    padding: 20px 10px 20px 10px;
-    margin-top: -15px;
-    margin-left: -105px;
-}
-
-#title {
-    width:15%;
-    float: left;
-    font-weight: bold;
-  }
-
-  #title h1 span{
-      font-weight: bolder;
-  }
-
-details {
-    padding: 0.5em 1em 0;
-
-}
-
-summary {
-    font-size: 18px;
-}
-
-summary h3{
-    padding-left: 2em;
-    margin-top:-1.15em;
-}
-
-summary span{
-    font-size: 19px;
-    padding-right:1px;
-    font-weight: bold;
-    color:black;
-}
-
-details[open] {
-    padding: 0.5em;
-}
-
-details[open] summary {
-    padding: 0.5em;
-}
-
 
 /*Mobile Styles*/
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 
 
 } /* for desktops */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 
 
 } /* for laptops */
@@ -210,12 +146,12 @@ details[open] summary {
 
  } /* for large tablets */
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
 
 } /* for smaller tablets */
 
-@media screen and (max-width: 500px) { 
-    
+@media screen and (max-width: 500px) {
+
 
  } /* for cellphones */
