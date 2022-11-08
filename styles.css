@@ -28,8 +28,7 @@ a{
 }
 
 #introduction-section{
-/* uncommented because it is overriding the body font of Poppins */
-    /* font-family: 'Source Sans Pro'; */
+    font-family: 'Source Sans Pro';
     margin: 0 auto;
     padding: 2em 2em 10em 10em;
     background-color: #ffb446;
@@ -135,7 +134,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #333;
-    padding-left: 65px;
+    padding-left: 70px;
 }
 
 #navbar {
@@ -149,12 +148,11 @@ header h1 {
     font-size: 30px;
     color: #333;
     padding: 20px 10px 20px 10px;
-    margin-top: -15px;
-    margin-left: -105px;
+    margin-left: -80px;
 }
 
 #title {
-    width:15%;
+    width:17%;
     float: left;
     font-weight: bold;
   }
