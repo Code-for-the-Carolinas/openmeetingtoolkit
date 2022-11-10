@@ -13,7 +13,6 @@
             <div class="heading">
                 <h1>Public Meetings in the Carolinas</h1>
             </div>
-            <div id="counties" class="listings"></div>
             <div id="listings" class="listings"></div>
         </div>
         <div id="map" class="map"></div>
@@ -178,19 +177,21 @@
         <script>
 
             mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
+
             const stateCoords = [-79.8, 35.3] 
             const defaultZoom = 7
             const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
             const sheetName = 'all';
             const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
+
             /**
              * Add the map to the page
              */
             const map = new mapboxgl.Map({
                 container: 'map',
                 style: 'mapbox://styles/mapbox/light-v10',
-                center: stateCoords,
-                zoom: defaultZoom,
+                center: [-79.8, 35.3],
+                zoom: 5,
                 scrollZoom: false
             });
 
@@ -298,12 +299,14 @@
             function addMarkers(meetings) {
                 const groupedMeetings = groupMeetingsByLocation(meetings)
                 /* For each feature in the GeoJSON object above: */
+
                 for (const meeting in groupedMeetings) {
                     const marker = groupedMeetings[meeting]
                     /* Add a group of meetings marker to map*/
                     if (marker.length > 1) {
                         addGroupMarker(marker)
                     } else {
+
                     /* Create a div element for the marker. */
                     const el = document.createElement('div');
                     /* Assign a unique `id` to the marker. */
@@ -327,7 +330,9 @@
                      **/
                     el.addEventListener('click', (e) => {
                         /* Fly to the point */
+
                         flytoMeeting(marker[0].geometry.coordinates, 14);
+
                         /* Close all other popups and display popup for clicked meeting */
                         createPopUp(marker[0]);
                         /* Highlight listing in sidebar */
@@ -382,6 +387,7 @@
             }
 
             /**
+
              * Clear the map of markers and zoom back out
              * Remove popup
              */
@@ -534,11 +540,12 @@
                      **/
                     // TODO: use event delgation to create event listeners
                     link.addEventListener('click', function () {
-                        
+
                         for (const feature of meetings) {
                             const featId = feature.properties.Id || feature.properties.id
                             if (this.id === `link-${featId}`) {
                                 flytoMeeting(feature.geometry.coordinates, 15);
+
                                 createPopUp(feature);
                             }
                         }
@@ -549,18 +556,16 @@
                         this.parentNode.classList.add('active');
                     });
                 }
-                
             }
 
             /**
              * Use Mapbox GL JS's `flyTo` to move the camera smoothly
              * a given center point.
-             * Defaults: coords = center of State, zoomLevel = state in focus
              **/
-            function flytoMeeting(coords = stateCoords, zoomLevel = defaultZoom) {
+            function flytoMeeting(currentFeature) {
                 map.flyTo({
-                    center: coords,
-                    zoom: zoomLevel
+                    center: currentFeature.geometry.coordinates,
+                    zoom: 15
                 });
             }
 
