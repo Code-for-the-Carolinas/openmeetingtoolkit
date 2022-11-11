@@ -68,374 +68,438 @@
         A team leader should create a Google Folder for your team's files related to the Open Meeting Toolkit. At least one member of your team should be proficient with the Google Suite. 
         GitHub knowledge will only be needed if your team chooses to host a local copy of the map.
       </p>
-
     </section>
-    <section id="scan-section">
-      <h2>Local Scan</h2>
-      <h3>Add Meetings to Map</h3>
-      <p>Volunteers add meeting info to .csv</p>
-      <p>Code for the Carolinas team processes .csv file and updates map.</p>
+    <!--Local Scan & Toolkit Instruction Section-->
+	 <h2>Local Scan</h2>
 
-      <p>Follow these <a
-          href="https://docs.google.com/document/d/1umRBihRG165tB5uarxCjCqJnvfFPM51719xYgUW4yMc/edit#heading=h.uu2fgedjoicz"
-          target="_blank">
-          instructions</a> to locate and add public meetings in your area to the map!</p>
+      <p>
+        Start by getting to know some background about public meetings in your community. The Toolkit's local scan
+        includes two activities to help you prepare: a map of public meetings and an environmental scan, called a STEEPLE analysis. Consider hosting
+        one or more kickoff events for your team to do these activities as they prepare to use the Toolkit.</p>
+
+      <!--Map Instructions-->
       <details>
-
-<!--STEEPLE Analysis Section  -->
-        <summary>
-          <h3>STEEPLE Analysis</h3>
+	<h3>Add Meetings to the Map</h3>
         </summary>
         <p>
-          The STEEPLE Analysis comes from a tool called the PEST analysis.
-          It was developed by Harvard Business Professor Francis J. Aguilar,
-          in his 1964 book Scanning the Business Environment. The main idea behind this process is
-          to get a general impression of the community where you will be evaluating public meetings.
-          We are using a version of the tool from management training firm Professional Academy, which
-          asks questions about the Social, Technical, Environmental, Economic, Political, Legal, and
-          Ethical characteristics of the local community. The letters have been rearranged to STEEPLE
-          so it is easier to remember and also organizes related concepts in a more logical order
-          (example: political next to legal).
+          The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North
+          Carolina. 
         </p>
-        <p> Follow the <a
-            href="https://docs.google.com/document/d/1S5WOgN8p71ix2OK7B3HdRA-xz3dr55gKpQVTfvuLZCM/edit?usp=sharing"
-            target="_blank">STEEPLE Analysis instructions</a> to help guide you in completing the form on Baserow.
-        </p>
-<!-- Social Questions -->
-        <details>
-          <summary><span>S</span>ocial</summary>
-
-          <ol>
-            <li>List the name of the community where your team will evaluate the local public meetings. This will
-              usually be a county, city, or town. Throughout this activity, the words "your community" refer to the
-              community you list here.</li>
-            <li>Tell us about your community.
-              <ul>
-                <li>Use the search box at <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221"
-                    target="_blank">Quickfacts from the US Census</a> to look up your community. Look over the
-                  factsheet, and then enter 3 to 5 important facts about your community. If you're not sure what to
-                  include, start by comparing values for your community to the US and to North Carolina.</li>
-              </ul>
-            </li>
-          </ol>
-        </details>
-
-  <!-- Technical Questions -->
-        <details>
-          <summary><span>T</span>echnical</summary>
+        <ul>
+          <li>Adding meetings to the map is a jump-right-in activity that lets any new volunteer contribute to the project.</li>
+          <li>The map can be a compelling visual for outreach to engage new participants. </li>
+          <li>The map can be useful to local teams planning to evaluate meetings. </li>
+          <li>Neither Sunshine Request nor Code for the Carolinas has committed to completing or maintaining a statewide map. Your team also has no obligation to complete or maintain a local map. If you identify a local community organization with a
+          long-term interest in open government, you may want to consider making a local version of the map for that partner organization to host and maintain.</li>
+        </ul>
         <p>
-          The public transportation question is based on the following resource: De Oña, Juan, and Rocio De Oña. "Quality of service in public transport based on customer satisfaction surveys: A review and assessment of methodological approaches." <strong>Transportation Science 49</strong>, no. 3 (2015): 605-622.
-        </p> 
-          <ol>
-            <li>Use the <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221"
-              target="_blank">Census Quickfacts</a> to look up how many households in your county have a broadband internet subscription at home.</li>
-            <ul>
-              <li>Over 80%</li>
-              <li>70-80%</li>
-              <li>60-70%</li>
-              <li>Under 60%</li>
-            </ul>
-            <li>Try to find information about the next meetings of the county commissioners, city council, and school board in your community. How easy was it to find this information?</li>
-            <ul>
-              <li>Very easy</li>
-              <li>Somewhat easy</li>
-              <li>Not easy</li>
-            </ul>
-            <li>From the perspective of someone taking public transit to attend a local government meeting, how would you rate public transit in your community? Consider factors like: stops in convenient locations, frequent service, accessible stops and vehicles, and information about schedules and routes that is easy to find and use.
-            <p>*Rate the service as poor, fair, or good. You can also mark not sure.</p>
-            </li>
-          </ol>
-        </details>
+          <strong>COMPLETE INSTRUCTIONS AND OFFICIAL DATA DICTIONARY WILL BE PROVIDED HERE</strong>
+          To add meetings to the statewide map, provide a comma-separated value (.csv) file containing the fields from the Data
+          Dictionary to the Sunshine Request team.
+          Include as many fields as possible for the meetings in your community, keeping in mind that some information
+          may not be available online. You can collect this
+          data in any spreadsheet program. Once you have collected the data, export it in .csv format and save it as
+          meetings.csv. Provide it to Sunshine Request.
+        </p>
+        <h4>Data Dictionary</h4>
+        <style> table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+         }
+        </style>
+        <table>
+          <tr>
+            <th>Field</th>
+            <th>Definition</th>
+            <th>Format</th>
+            <th>Example</th>
+          </tr>
+            <tr>
+            <td> Government </td>
+            <td> Local government for which the meeting is held, such as a city or county. Include the word “County” for each county. Do not include words such as “City of” or “Town of.” </td>
+            <td> Text </td>
+            <td> Asheville, Buncombe County</td>
+          </tr>
+          <tr>
+            <td> Public body </td>
+            <td> Local government board or commission holding the meeting.</td>
+            <td> Text </td>
+            <td> Asheville Planning Board </td>
+          </tr>
+          <tr>
+            <td> Location </td>
+            <td> Public place or building for which the meeting is held </td>
+	<h4>Data Dictionary</h4>
+          </tr>
+          <tr>
+            <td> Schedule </td>
+            <td> Days on which the meeting is regularly held. Can also be specific dates for the coming year if the meeting schedule is not regular. </td>
+            <td> Text </td>
+            <td> 2nd Tuesday of the month </td>
+          </tr>
+	<h4>Data Dictionary</h4>
+          </tr>
+          <tr>
+            <td> Source </td>
+            <td> Webpage of the government and public body holding the meeting. If possible, this should be the official government page rather than social media or another unofficial source.</td>
+            <td> URL </td>
+            <td> https://www.buncombecounty.org/transparency/boards-commissions/default.aspx </td>
+          </tr>
+	<h4>Data Dictionary</h4>
+          <h3>Complete a STEEPLE Analysis</h3>
+        </summary>
+        <p>
+          The STEEPLE Analysis helps you get to know your community in ways that will help you identify barriers
+          to participating in public meetings. When the Code for the Carolinas team shared this part of the Toolkit with 
+          Sunshine Request and Code for Asheville, they said that this type of
+          up-front analysis would have made their work a lot easier!
 
-<!-- Environmental Questions-->
+        <p>
+	<h3>Complete a STEEPLE Analysis</h3>
+        <!-- Instructions -->
         <details>
-          <summary><span>E</span>nvironmental</summary>
+          <summary><span>STEEPLE Analysis Instructions:</span></summary>
+          <p>Plan to bring your team together for about one to two hours to complete the STEEPLE Analysis. You will do this
+            analysis to help your local team prepare to evaluate local government meetings. The analysis can be done online or in person. We
+            do recommend that you bring team members together to work on the analysis at the same time. As a local team leader, you should read the complete instructions in advance to prepare for the activity.</p> 
 
-          <ol>
-            <li>Do any of the following weather conditions sometimes make it hard to go to meetings in your community? Mark all that apply.</li>
-            <ul>
-              <li>heavy rain, thunderstorms, tropical storms, hurricanes, or floods</li>
-              <li>snow or ice</li>
-              <li>extreme heat, fire, smoke, or air pollution</li>
-              <li>none of the above</li>
-            </ul>
-            <li>Do any of the following features of your community sometimes make it hard to go to meetings? Mark all that apply.
-            </li>
-            <ul>
-              <li>traffic</li>
-              <li>mountains</li>
-              <li>bodies of water</li>
-              <li>none of the above</li>
-            </ul>
-          </ol>
-        </details>
-
-<!-- Economic Questions-->
-        <details>
-          <summary><span>E</span>conomic</summary>
-          <ol>
-            <li>In 2020, the poverty level for a family of 4 was about $26,500. What percentage of people in your community live in poverty?</li>
-            <ul>
-              <li>You can use <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221" target="_blank">Census
-                  QuickFacts</a> to find the answer:
+            <p>Decide how your team wants to work on the STEEPLE Analysis. Here are two things to consider:</p>
+            <ol>
+              <li>
+                Does your team know each other? Lead a round of synchronous or asynchronous introductions to get
+                acquainted before you start work on the STEEPLE analysis.
               </li>
-            </ul>
-            <li>What is your local government's budget?</li>
-            <ul>
-              <li>If you find a budget document online, please include a link.</li>
-            </ul>
-            <li>List some of the main companies or industries where people in your community work:</li>
-          </ol>
-        </details>
+              <li>
+                How will you collaborate? You may choose to collaborate in a breakout room, in chat,
+                <a href="https://etherpad.org/" target="_blank">in an Etherpad</a>, or using some other method. Consider using a brief icebreaker that invites participants to share
+                about their connections to the community, like "Compare [your community] to another place you have lived or visited." or "How would you describe [your community] to someone who just moved here?"
+              </li>
+            </ol></p>
 
-<!-- Political Questions -->
-        <details>
-          <summary><span>P</span>olitical</summary>
-        <p>You may find the <a href="https://ballotpedia.org/North_Carolina_local_elections,_2022" target="_blank">North Carolina local elections 2022</a> page helpful for questions in this section.</p>
+          <p><strong>Access the Google Form</strong></p>
           <ol>
-            <li>When are the next elections for your community?</li>
-            <li>What positions are elected in your community?</li>
-            <ul>
-              <li>Who holds these positions?</li>
-            </ul>
-            <li>According to <a href="https://www.ncpedia.org/" target="_blank">NCPedia</a>, "By law, each county in North Carolina has a board of commissioners. These boards vary in size, term of office, method of election, method of selecting the chairperson, and administrative structure." Research your county's board of commissioners and summarize 3-5 key points.</li>
-            <li>Research the largest city or town in your community. Summarize 3-5 key points. Use the <a href="https://www.nclm.org/advocacy/how-nc-cities-work" target="_blank">North Carolina League of Municipalities website</a> to understand how cities, towns, and villages are governed in North Carolina.</li>
-            <li>Research other relevant officials, such as the city manager, sheriff, or school board. Summarize 3-5 key points.</li>
-            <li>Do you know of other local groups advocating for open meetings?</li>
-            <li>What are some current controversial political issues in your community? Focus on issues that involve your local government rather than state or national issues. Local news media can be good sources for this information.</li>
-
+            <li>A local team leader should access the Open Meeting Toolkit Folder in the Sunshine Request Google Workspace and make a copy of the Open Meeting Toolkit STEEPLE Analysis form. </li>
+            <li>Click on the Send button at the upper right. <a href="https://support.google.com/docs/answer/2839588?hl=en" target="_blank"> Use the Email or Get a link option</a> to share a link to the form.</li>
+            <li>Provide the link to the team member who will complete the form. This can be yourself or another team member. </li>
           </ol>
-        </details>
+          <br>
+          <p><strong>Fill in STEEPLE Analysis Questions</strong></p>
 
-<!-- Legal Questions  -->        
-        <details>
-          <summary><span>L</span>egal</summary>
+          <p>The STEEPLE analysis has seven parts. The full text of the question is listed below so all team members can easily refer to them. Plan to spend no more than about 10 minutes on each part. There is a text box at the end of the survey
+            where you can include any additional information or clarify your responses. The form is set to automatically save your responses as they are entered. You can
+            always go back and adjust your responses in the Google Form. To maximize learning as a team and as individuals, work on all parts of the analysis together as a team. Ideally all team members will help with 
+            the STEEPLE analysis, with one person entering the team's answers into the form. There are some time-saving suggestions for breaking up the work in the Political and Legal sections. It is especially valuable for 
+            the whole team to work together on the Ethical section.</p>
 
-          <p>Public meetings in North Carolina are governed by Article 33C in the State Law, <a href="https://www.ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_143/Article_33C.pdf" target="_blank">"Meetings of Public Bodies."</a> If you want to understand the legal context of public meetings in North Carolina, we suggest <a href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Open%20Meetings%20Overview.pdf" target="_blank">"Open Meetings and Other Legal Requirements for Local Government Boards"</a> by Frayda S. Bluestein at the UNC School of Government.
-          </p>
 
-          <ol>
-            <li>Locate the Code of Ordinances for your county and for the largest city in your county. Paste the links here for reference.</li>
-            <li>Local governments can have additional policies about public meetings that go beyond state law. Skim the codes of ordinances and describe any local policies you find about public meetings.
-            </li>
-            <li>Locate the bylaws for one or more boards or commissions in your community. Paste the links here for reference.
-            </li>
-            <li>Boards and commissions can have policies about public meetings that go beyond state law. Skim the bylaws and describe any policies you find about public meetings.
-            </li>
-            <li>What actions can you take if a current policy is not being followed in practice?</li>
-            <li>What is the process to propose changes to current policies?</li>
 
-          </ol>
-        </details>
+        <!-- Social Questions -->
+          <details>
+	<h3>Complete a STEEPLE Analysis</h3>
+          <details>
+            <summary><span>P</span>olitical</summary>
+            <p>You may find the <a href="https://ballotpedia.org/North_Carolina_local_elections,_2022"
+                target="_blank">North Carolina local elections</a> page and the <a href="https://www.ncsbe.gov/" target="_blank">North Carolina State Board of Elections</a> site helpful for questions in this section.</p>
+                <p>Optional time-saving tip: Divide the research for questions 2, 3, and 4 among different parts of your team.</p>
+            <ol>
+              <li>When are the next elections for your community?</li>
+              <li>According to <a href="https://www.ncpedia.org/" target="_blank">NCPedia</a>, "By law, each county in
+                North Carolina has a board of commissioners. These boards vary in size, term of office, method of
+                election, method of selecting the chairperson, and administrative structure." Research your county's
+	<h3>Complete a STEEPLE Analysis</h3>
+                target="_blank">"Meetings of Public Bodies."</a> If you want to understand the legal context of public
+              meetings in North Carolina, we suggest <a
+                href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Open%20Meetings%20Overview.pdf"
+                target="_blank">"Open Meetings and Other Legal Requirements for Local Government Boards"</a> by Frayda S. Bluestein at the UNC School of Government.
+            </p>
 
-<!-- Ethical Questions  -->
-        <details>
-          <summary><span>E</span>thical</summary>
-          <ol>
-            <li>Great work on the STEEPLE analysis! Take some time to look over what you have learned about the local
-              community, so far. What characteristics does your team share with this community?</li>
-            <ul>
-              <li>Examples: Race, economic background, ability, etc.</li>
-            </ul>
-            <li>Are there characteristics from your community that aren't represented by your local team?</li>
-            <li>How can your local team make sure that marginalized voices are recognized?</li>
-            <li>Have there been safety issues associated with public meetings in your community?</li>
-            <ul>
-              <li>"Safety issues" could include threats to public officials or community members, or other ways that
+            <ol>
+              <li>Locate the Code of Ordinances for your county. Paste the link here for reference.</li>
+              <li>Local governments can have additional policies about public meetings that go beyond state law. Skim
+                the code of ordinances and describe any local policies you find about public meetings.</li>
+              <li>Locate the Code of Ordinances for the largest city in your county. Paste the link here for reference.</li>
+              <li>Local governments can have additional policies about public meetings that go beyond state law. Skim
+                the code of ordinances and describe any local policies you find about public meetings.</li>
+              <li>Locate the bylaws for one or more boards or commissions in your community. Paste the links here for reference.</li>
+              <li>Boards and commissions can have policies about public meetings that go beyond state law. Skim the
+                bylaws and describe any policies you find about public meetings. </li>
+            </ol>
+          </details>
+          <!-- Ethical Questions  -->
+          <details>
+            <summary><span>E</span>thical</summary>
+            <p>You've made a lot of progress on the STEEPLE analysis. You're almost done! Take some time to look over what you have learned about your community. 
+            Be sure to bring as many team members as possible together for this section, where you reflect on ethical topics related to your team evaluating access to public meetings.</p>
+            <ol>
+              <li>What characteristics does your team share with this community? Examples: age, education, income, health, race, etc.</li>
+              <li>Are there characteristics from your community that aren't represented by your local team?</li>
+              <li>How can your local team make sure that marginalized voices are recognized as you use the Toolkit to evaluate meetings?</li>
+              <li>Have there been safety issues associated with public meetings in your community?"Safety issues" could include threats to public officials or community members, or other events that
                 might make people scared to participate in public meetings.</li>
-            </ul>
-            <li>Add any additional comments you'd like to include here.</li>
-          </ol>
+             <li>Add any additional comments you'd like to include here.</li>
+            </ol>
+          </details>
+        <p>Click Submit to submit your STEEPLE Analysis. Your team's responses will be available on the Responses tab to the local team leader who shared the form. You will refer back to them in the analysis phase of using the Toolkit.</p>
         </details>
-
-      </details>
     </section>
 
-    <!--Meeting Evaluation Section-->
-    <section id="evaluation-section">
+	<h3>Complete a STEEPLE Analysis</h3>
+      <h2>Meeting Marathon Plan</h2>
+      <p>
+        When your team has completed the local scan, it's time to plan which meetings you will attend. Look over meeting
+        data for your community on the Map of Public Meetings, on the meetings data file your team prepared, or on the website of your local government. 
+        We recommend that you create an initial plan to observe meetings over a period of three months, then begin to analyze your evaluations as a team. 
+      </p>
+      <p>
+        For fun, use this <a
+          href="https://docs.google.com/document/d/1rzDyY1SPl5N68InYZ6To4OyWwdS5qRcGnJvGjq3oouE/edit?usp=sharing"
+          target="_blank">Meeting Marathon template</a> to organize your team's plan around the theme of a Meeting
+        Marathon. Because some of the most common races are 5K, 10K and marathons (26.2 miles), 
+        challenge your team to pledge to attend 5, 10, or 26 meetings! Make a copy of the Google Document, complete the
+        table with the date, public body, and team member for each meeting. Don't forget to allow a week before the meeting and a week after the meeting
+        to check information for the Before Meeting and After Meeting evaluation forms. Keep the template for your records so you can follow up with teammates and encourage them.
+      </p>
       <h2>Meeting Evaluation</h2>
-      <p>Our meeting evaluation tools will be based on the following findings by
-        Code for Asheville, <a href="https://adhoc.team/playbook-accessibility/" target="_blank">Accessibility Beyond
-          Compliance</a>, as well as additional sources on usability: </p>
-      <p>During the creation of this policy proposal, the following challenges with public
-        participation were identified:</p>
-      <ul>
-        <li>The current public comment process requires a burdensome advance sign-up
-          process that requires disclosure of unnecessary personal information.</li>
-        <li>Meeting materials do not contain a clear indication of updates or modifications
-          to documents that were posted previously.</li>
-        <li>Local government entities lack data-driven metrics of public participation, such as
-          the number of comments or the methods under which they were provided. As a result, it is
-          challenging for staff, elected officials, or the public to analyze how changes to the public
-          meeting process increase or decrease public participation.</li>
-        <li>Due to a lack of consistency in the process for public participation, it can be
-          difficult to evaluate public support or opposition to measures considered by public bodies.</li>
-      </ul>
-
+      <p>Our meeting evaluation tools are based on Code for Asheville's summary of their observations, <a
+          href="https://www.plainlanguage.gov/resources/checklists/web-checklist/" target="_blank">resources on plain
+	<h3>Sunshine Request and Code for Asheville Observations</h3>
+        </ul>
+         </details>
+        <br>
+        <p><p><strong>Access the Meeting Evaluations Google Form</strong></p>
+        <ol>
+          <li>A local team leader should access the Open Meeting Toolkit Folder in the Sunshine Request Google Workspace and make a copy of the Meeting Evaluations form and of the Analysis Spreadsheet. </li>
+          <li>Move these copies to a folder in your Google Workspace.</li>
+          <li><a href="https://support.google.com/docs/answer/2917686?hl=en" target="_blank">Tell the Google Form to send responses to the Analysis Spreadsheet</a>. On the Responses tab of the form, access the three dot menu
+          and choose Select response destination. Use the option to send responses to an existing file. Select the Analysis Spreadsheet.</li> 
+          <li>Make any changes you would like to make to the Meeting Evaluation form. For example, you might rename the file and/or add your location to the top of the form. Our project team put a lot of work into writing and testing questions, but
+            you are free to adjust, add, or delete questions to make the process work better for your team.</li>
+          <li>Share the form with your team members. Click on the Send button at the upper right. <a href="https://support.google.com/docs/answer/2839588?hl=en" target="_blank"> Use the Email or Get a link option</a> to share a link to the form.</li>
+          <li>Make sure all team members have access to the Meeting Evaluation form link. </li>
+          <p>
+          Team members who are evaluating meetings should start the Before Meeting evaluation one week before the meeting
+          date. Check to see if a meeting agenda that lists the topics that will be covered is available online.
+          Complete the remaining questions on the Before Meeting form at your convenience any time before the meeting.
+          Complete the During Meeting form as soon as possible after the meeting. Complete the After Meeting form one week after the meeting, to allow time for
+          meeting information, such as recordings and minutes, to be posted online.</p>
+        <p>
+         Full text of all evaluation forms is provided below so you can easily refer to the questions. It is a good idea to read over the questions in advance. It is OK to skip questions. The end of each section provides space for comments and clarifications.
+        </p>
+        </p>
+          
+      <!-- Before the meeting -->
       <details>
-        <!-- Before the meeting -->
-        <details>
-          <summary>
-            <h3>Before the Meeting</h3>
-          </summary>
-          <p>All Meetings</p>
-          <ol>
-            <li>
-              What is the name of the public body holding the meeting? A public body could be a board, commission,
-              council, or other group.
-            </li>
-            <li>
-              What is the date of the meeting?
-            </li>
-            <li>A meeting agenda lists the topics to be discussed during a meeting. When was the meeting agenda
-              available (allow only one selection):
-
-              <ul>
-                <li>At least one week in advance (7+ days before the meeting) </li>
-                <li>1-6 days before the meeting</li>
-                <li>The day of the meeting</li>
-                <li>It was never available</li>
-              </ul>
-            </li>
-            <li>What logistical/practical information are you able to find (mark all that apply):</li>
-            <ul>
-              <li>Meeting location/address</li>
-              <li>Meeting time</li>
-              <li>Parking information</li>
-              <li>Public transit information</li>
-              <li>Accessibility considerations that will be provided</li>
-              <li>Instructions on requesting additional accessibility measures</li>
-              <li>None of the above</li>
+        <summary>
+	<h3>Before the Meeting</h3>
             </ul>
-            <li>Before attending the meeting, which of the following, if any, were you able to locate? In this question,
-              the word “board” refers to the board, commission, council, or other group holding the meeting (mark all
-              that apply):
-              <ul>
-                <li>Board membership</li>
-                <li>Board contact info</li>
-                <li>Board meeting schedules</li>
-                <li>Board bylaws</li>
-                <li>Last time website was updated</li>
-                <li>None of the above</li>
-              </ul>
+          </li>
+          <li>
+            Date of the meeting?
+          </li>
+          <li>A meeting agenda lists the topics to be discussed during a meeting. When was the meeting agenda
+            available?
+            <ul>
+              <li>At least one week in advance (for example, on Monday for a meeting the following Monday) </li>
+              <li>At least 48 hours before the time of the meeting</li>
+	<h4>Web Accessibility Evaluation</h4>
+          <li><b>Cognitive, learning, and neurological disabilities.</b> People with cognitive, learning, and neurological disabilities may use assistive technology that changes the colors, spacing, or size of text to make it easier to read. They may be affected by visual flickering or long sections of text. Mark Yes or No for all of the following website features:
+            <ul>
+              <li>7a. Text written in <a href="https://www.plainlanguage.gov/guidelines/">plain language</a> (short, clear words and sentences)</li>
+              <li>7b. Text content structured using <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/">logically-nested heading tags</a> and <a href="https://dequeuniversity.com/tips/list-markup">lists</a> when appropriate</li>
+              <li>7c. No distracting animations or sound like popup ads and autoplay slideshows</li>
+              <li>7d. Meaningful visuals like photos, graphs, and icons to supplement text</li>
+              <li>7e. Multiple ways to find content like search and menu navigation</li>          
+	<h4>Web Accessibility Evaluation</h4>
+          <li><b>Physical disabilities.</b> People with physical disabilities may use assistive technology like ergonomic keyboards, joysticks, or voice recognition to navigate web content. Mark Yes or No for all of the following website features:
+            <ul>
+              <li>8a. Links and interactive elements that can be browsed and selected by keyboard in a <a href="https://www.a11y-collective.com/glossary/tab-order/">logical tab order</a></li>
+              <li>8b. <a href="https://www.deque.com/blog/accessible-focus-indicators/">Visual focus indicators</a> when navigating by keyboard</li>
+              <li>8c. Option to <a href="https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/">skip to main content</a> when navigating by keyboard</li>
+              <li>8d. <a href="https://www.w3.org/WAI/WCAG21/Understanding/target-size.html">Large clickable areas</a> on non-text links like buttons and controls (at least 44x44 pixels)</li>            
+            </ul>
+	<h4>Web Accessibility Evaluation</h4>
+          <li><b>Visual disabilities.</b> People with visual disabilities may have customized settings that adjust screen colors or enlarge text. They may also use a screen reader or navigate websites by keyboard. Mark Yes or No for all of the following website features:
+            <ul>
+              <li>9a. <a href="https://accessibility.psu.edu/images/alttext/">Alternative text</a> (alt text) for any images like photos and icons that have a purpose other than just decoration</li>
+              <li>9b. Link text that <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">describes the purpose of the link</a></li>
+              <li>9c. Pages that remain functional when the text is <a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">zoomed to 200%</a></li>
+              <li>9d. <a href="https://www.w3.org/WAI/tutorials/page-structure/">Semantic markup</a> to identify types of content like navigation and footer</li>
+              <li>9e. Enough <a href="https://webaim.org/resources/contrastchecker/">text contrast</a> with the background</li>
+	<h4>Web Accessibility Evaluation</h4>
+            </ul>
+          </li>
+           <li>
+            Provide any additional information you think is important here.
+          </li>
+        </ol>
+      </details>
+	<h3>During the Meeting</h3>
+
+        <ol>
+         <li>Select the name of the public body holding the meeting. A public body could be a board, commission,
+            council, or other group.
+         <ul>
+              <li>County Board of Commissioners</li>
+              <li>City Council</li>
+              <li>Other</li>
+            </ul>
+          </li>
+          <li>Date of the meeting?</li>
+          <li>How did you attend the meeting?
+<ul>
+<li>On site</li>
+<li>Online</li>
+</ul></li>
+<li>Was your attendance at the meeting tracked?
+<ul>
+<li>There was a registration process that asked me to confirm my identity. </li>
+<li>There was a registration process that asked for my name.</li>
+<li>My attendance was countable, but not tracked to me personally.</li>
+</ul></li>          
+<li>Did attendees have to pass through screening to enter the meeting? Mark all that apply.
+<ul>
+<li>Bags were screened.</li>
+<li>People had to pass through a scanner or metal detector.</li>
+<li>People were physically screened (patted down).</li>
+<li>People were asked to show identification.</li>
+<li>There was an online registration process.</li>
+<li>No screening was required to enter the meeting.</li>
+</ul></li>                
+<li>Did the agenda show how and when public comments can be made by community attendees?
+<ul>
+<li>Yes</li>
+<li>No</li>
+</ul></li>
+<li>Were you able to participate in the meeting by making comments or questions? Participation may be spoken or written.</li>
+<ul>
+<li>Yes, and the meeting included a clear explanation of how to participate.</li>
+<li>Yes, but the meeting did not include a clear explanation of how to participate.</li>
+<li>No, attendees could listen but not participate.</li>
+</ul></li>
+<li>Which of the following accessibility considerations did you see? Mark all that apply.
+<ul>
+<li>Foreign language interpretation</li>
+<li>Live transcription speech-to-text</li>
+<li>Sign language interpreter</li>
+<li>Verbal description or explanation of images such as charts</li>
+<li>Reserved spaces for people with disability parking placards (on site only)</li>
+<li>Near public transit (on site only)</li>
+<li>Clear signs to help people find the meeting (on site only)
+<li> Meeting room could be accessed without using stairs (on site only)
+</ul></li>
+<li>Was the meeting disrupted by technical problems? Mark all that apply.
+<ul>
+<li>No, at most minor technical difficulties that were quickly resolved.</li>
+<li>Yes, the public body holding the meeting had technical problems.</li>
+<li>Yes, my device or connection had technical problems. (online only)</li>
+</ul></li>
+<li>Did the meeting follow an agenda that was available at the start of the meeting?
+<ul>
+<li>Yes</li>
+<li>No, the meeting did not follow the agenda</li>
+<li>An agenda was never provided</li>
+</ul></li>
+<li>During the meeting, I learned that some of the previously posted information was not current. Mark all that apply.
+<ul>
+<li>Board membership</li>
+<li>Elected officials</li>
+<li>Contact information</li>
+<li>Meeting schedules</li>
+<li>Meeting bylaws</li>
+</ul></li>
+<li>Provide any additional information you think is important here.</li>
+</ol>
+</details>
+	<h3>After the Meeting</h3>
+        </summary>
+         <ol>
+         <li>Select the name of the public body holding the meeting. A public body could be a board, commission,
+            council, or other group.         
+            <ul>
+              <li>County Board of Commissioners</li>
+              <li>City Council</li>
+              <li>Other</li>
+            </ul>
             </li>
-            <li>Can you submit questions by voicemail or email before the meeting?
+          <li>Date of the meeting?</li>
+<li>Were participants informed of where records like meeting minutes or recordings would be posted after the meeting? Mark all that apply.
+<ul>
+<li>Yes, participants were told at the meeting</li>
+<li>Yes, participants were given written information at the meeting</li>
+<li>Yes, participants were notified by email after the meeting</li>
+<li>No, participants were not informed about where to find records after the meeting</li>
+</ul></li>
+<li>After attending the meeting, which of the following records were you able to find? Mark all that apply.
+<ul>
+	<h3>After the Meeting</h3>
+<li>Person to contact by email</li>
+<li>Online form or survey</li>
+</ul></li>
+<li><b>Web accessibility for auditory disabilities</b> People with auditory disabilities and English language learners may use <a href="https://www.w3.org/WAI/media/av/captions/">captions</a> and <a href="https://www.w3.org/WAI/media/av/transcripts/">transcripts</a> to help them understand multimedia content. Mark all that apply.
+            <ul>
+              <li>7a. Does the multimedia content have captions?
               <ul>
-                <li>Yes, by voicemail only</li>
-                <li>Yes, by email only</li>
-                <li>Yes, by both email and voicemail</li>
-                <li>No</li>
-                <li>Unsure</li>
-                <li>You must submit questions some other way other than email or voicemail</li>
+              <li>Multimedia content has accurate captions (also known as subtitles) that describe audio information, including non-speech audio like music descriptions.</li>
+              <li>Multimedia content has automatic captions that have not been proofread to match audio content.</li>
+              <li>Multimedia content has no captions.</li>
+              <li>No audio or video content.</li>
               </ul>
-            </li>
-            <li>Does the meeting website incorporate any of the following digital accessibility considerations (mark all
-              that apply):
+              <li>7b. Does the multimedia content have transcripts?</li>
               <ul>
-                <li><a
-                    href="https://help.siteimprove.com/support/solutions/articles/80000448460-accessibility-bold-vs-strong-and-italic-vs-emphasis"
-                    target="_blank">Text is structured with tags</a> to guide screen readers and help provide more
-                  context and information about the content of a webpage.</li>
-                <li><a
-                    href="https://accessibility.psu.edu/images/alttext/#:~:text=ALT%20text%20refers%20to%20invisible,no%20ALT%20Text%20is%20used."
-                    target="_blank">Alternative text (alt text)</a> is provided for images and other non-text content
-                </li>
-                <li><a href="https://www.nngroup.com/articles/errors-forms-design-guidelines/" target="_blank">Color is
-                    used</a> to complement information, rather than convey it completely</li>
-                <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank">Contrast</a> is used between
-                  text and background</li>
-                <li><a href="https://www.deque.com/blog/accessible-focus-indicators/" target="_blank">Visual focus
-                    indicators</a> are included to give a user guidance or draw attention to important content</li>
-                <li>Information is not hidden behind animations that make it difficult for users to navigate and focus
-                  (examples: autoplay videos, chat windows, pop-up boxes, or oversized animated cursors)</li>
-                <li>Other</li>
-                <li>Unsure</li>
-                <li>None of the above</li>
+              <li>Multimedia content has accurate transcripts that describe both audio and visual information.</li>
+              <li>Multimedia content has transcripts that may not be accurate or complete, such as automatic or audio-only transcripts.</li>
+              <li>Multimedia content has no transcripts.</li>
+              <li>No audio or video content.</li>
               </ul>
+            </ul>
             </li>
-          </ol>
-        </details>
-        <details>
-          <summary>
-            <h3>During the Meeting</h3>
-          </summary>
+<li>Provide any additional information you think is important here.</li>
+</ol>           
+      </details>
 
-          <p>All Meetings</p>
-          <ul>
-            <li>What is the process or meeting structure like?
-              <ul>
-                <li>If there&apos;s a schedule, list it out</li>
-              </ul>
-            </li>
-            <li>Can the public participate (Y/N)?
-              <ul>
-                <li>If so, how? </li>
-              </ul>
-            </li>
-            <li>How is it known what agenda items can and cannot be commented on by the public?</li>
-            <li>If any, which agenda items don&apos;t allow any comment or response from the public?</li>
-
-          </ul>
-
-          <p>Online Only</p>
-          <ul>
-            <li>Were there any disconnections that made you unable to comment/respond to
-              participate in the meeting?</li>
-          </ul>
-
-          <p>Onsite Only</p>
-          <ul>
-            <li></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>
-            <h3>After the Meeting</h3>
-          </summary>
-          <p>All Meetings</p>
-
-          <ul>
-            <li>Are there opportunities to provide feedback about the meeting?
-              <ul>
-                <li>If so, how?</li>
-              </ul>
-            <li>How were the meetings wrapped up? A final overview of previously discussed items, etc.</li>
-            </li>
-            <li>Are meeting minutes eventually posted (Y/N)?
-              <ul>
-                <li>If so, how long since the end of the meeting? </li>
-              </ul>
-            </li>
-
-          </ul>
-
-          <p>Online Only</p>
-          <ul>
-            <li></li>
-          </ul>
-          <p>Onsite Only</p>
-          <ul>
-            <li></li>
-          </ul>
-
-        </details>
-
-        <h3>Meeting Evaluation Synthesis </h3>
-        <p>This section contains a series of questions that tie together themes from evaluation of multiple
-          local meetings.</p>
-        <p>Do meeting the agendas posted before the meeting clearly show what agenda items can and cannot be
-          commented on by the public? Are there any recommendations for improvement in how participation
-          opportunities are shown?</p>
     </section>
+
+    <section id="analysis-section">
+        <h2>Analysis</h2>
+<p>You are welcome to analyze your team's findings using any method that is comfortable for you. We have developed a suggested method of analysis aligned with the Open Meetings Policy developed by Code for Asheville and Sunshine Request.</p>
+<p>The Open Meetings Policy is divided into sections, including Basic Public Body Information, Public Meeting Information, Public Meeting Materials, Meeting Procedure, and Public Participation. The analysis approach described here has the 
+  goal of helping you understand whether the problems they found also exist in your community. This can be a starting point to make a decision about whether you want to recommend the same or similar policy changes as they did.  </p>
+  <p>
+    The Analysis Spreadsheet you have used to collect Meeting Evaluations contains Google Sheets macros that can be used to view columns with responses related to each section of the policy proposal. What each macro does is explained on the 
+    Macro Descriptions tab of the Analysis Spreadsheet. After using a macro to refine a view, use the AllColumns macro to unhide all columns before using another macro.
+  </p>
+     </section>   
+
     <section id="recommendations-section">
       <h2>Recommendations</h2>
-    </section>
-    <section id="faq-section">
-      <h2>Frequently Asked Questions</h2>
+      <p> As you decide what changes to recommend, here are two approaches to consider: <strong>Policy</strong> & <strong>Partnerships</strong>. </p>
+      <h2>Policy</h2>
+      <p> As you consider policy recommendations, review the political and legal sections of your STEEPLE Analysis. Look
+	<h3>What if I notice a technical problem or want to suggest an improvement?</h3>
+      <p>The Toolkit is being developed by civic technology volunteers. If you are a civic technology volunteer yourself
+        and know how to fix the problem, we
+        invite you to <a href="https://github.com/Code-for-the-Carolinas/openmeetingtoolkit" target="_blank">collaborate
+          with us on GitHub</a>. 
+      <br>
+      <h3>What if we didn't attach the Analysis Spreadsheet to our Google Form?</h3>
+      <p>If you didn't attach the spreadsheet before collecting responses, you can still use the analysis macros. Copy your responses from the Responses tab of the Form to the Analysis Spreadsheet. 
+      <br>
+      <h3>Is the Toolkit suitable for research?</h3>
+      <p>No, the Toolkit provides a structure and resources for local teams to make observations to help inform
+        improvements to public meetings in
+        their own communities. Findings from the Toolkit are not intended for publication or as contributions to general
+        knowledge. Use of the Toolkit may
+        involve recording some public information about public officials, but in general the Toolkit is for recording
+        information about public meetings, not about people.</p>
     </section>
     <section id="contact-section">
       <h2>Contact</h2>
+      <!-- <a href = "mailto: info@codeforthecarolinas.org">info@codeforthecarolinas.org</a> -->
+      info at codeforthecarolinas dot org
     </section>
     <footer>
       <div id="footer-section">
@@ -451,5 +515,4 @@
     </footer>
   </main>
 </body>
-
 </html>
