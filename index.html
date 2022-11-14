@@ -71,7 +71,7 @@
         for America recognized this scaling project as a Summer 2022 Impact Sprint.
     </p>
     </section>
-    <!--Local Scan & Toolkit Instruction Section-->
+   <!--Local Scan & Toolkit Instruction Section-->
     <section id="scan-section">
       <h2>Local Scan</h2>
       <p>
@@ -79,9 +79,6 @@
         includes two activities to help you prepare: a map of public meetings and an environmental scan, called a STEEPLE analysis. Consider hosting
         one or more kickoff events for your team to do these activities as they prepare to use the Toolkit.</p>
       <!--Map Instructions-->
-      <details>
-        <summary>
-          <h3>Add Meetings to the Map</h3>
       <details>
         <summary>
           <h3>Add Meetings to the Map</h3>
@@ -98,13 +95,58 @@
           long-term interest in open government, you may want to consider making a local version of the map for that partner organization to host and maintain.</li>
         </ul>
         <p>
-          <strong>COMPLETE INSTRUCTIONS AND OFFICIAL DATA DICTIONARY WILL BE PROVIDED HERE</strong>
-          To add meetings to the statewide map, provide a comma-separated value (.csv) file containing the fields from the Data
-          Dictionary to the Sunshine Request team.
-          Include as many fields as possible for the meetings in your community, keeping in mind that some information
-          may not be available online. You can collect this
-          data in any spreadsheet program. Once you have collected the data, export it in .csv format and save it as
-          meetings.csv. Provide it to Sunshine Request.
+         North Carolina’s public meetings law, Article 33, Meetings of Public Bodies, states: “If a public body has a Web site and has established a schedule of regular meetings, the public body shall post the schedule of regular meetings to the Web site.” This section explains how your team can collect data on county or city meetings and provide that data to Sunshine Request so it can be added to the Map of Public Meetings in the Carolinas.
+         </p>
+         <p>
+        The process has four steps:
+        </p>
+        <ol>
+        <li>Find the relevant information for the city/county.</li>
+        <li>Decide whether to collect data manually or through web scraping.</li> 
+        <li>Collect the information.</li>
+         <li>Add the information to the map.</li>
+        </ol>
+        <p>
+         This process requires spreadsheet software and internet search skills.  Web-scraping requires some programming skill.
+         </p>
+         <p>
+         A local team leader should read the complete instructions to prepare for the activity. There is also a document with more detailed instructions you could use as a handout for team members.
+        </p>
+         <h4>Step 1: Find Information</h4>
+         <p>
+         Put the county or city name, the state, and terms like “boards” or “commissions” (for example, “alamance county north carolina boards commissions”) into a search engine. Include the state to avoid confusion when there are places with the same name in multiple states. One of the top links will usually be a page that lists several boards and commissions.
+        </p>
+         <h4>Step 2: Decide How to Collect Information</h4>
+        <p>
+         If your team does not have someone with programming skills, you will collect information manually. You can skip the rest of this step.
+        </p>
+        <p>
+         Examine the main page that lists multiple boards and commissions. 
+        </p>
+        <p>
+         If the page contains information about many meetings arranged in a standard format, and your team has someone with programming skills who wants to try web scraping, web scraping may help you collect data more quickly. 
+        </p>
+         <p>
+         If the information about meetings is not provided in a consistent format, web scraping probably wouldn’t save you time over manual data collection. Both manual and web scraping processes are described in the next section. 
+        </p>
+         <h4>Step 4: Collect Information</h4>
+         <p>
+         There are two ways to collect the data: manual and web scraping.
+        </p>
+        <p>
+         Manual data collection means examining the individual meetings and completing the relevant fields in a spreadsheet.  If you are doing it this way, open a workbook in any spreadsheet program that can export a CSV file.  Make sure that the columns in the workbook correspond to the fields listed below in the data dictionary.
+         </p>
+        <p>
+         Web scraping can save you time if the pages are sufficiently well-structured. Web scraping involves writing or modifying a script to automate the data collection and to produce a CSV file. The fields in the CSV file you output should match those listed in the Data Dictionary.  
+        </p>
+         <p>
+         We provide some sample web scraping scripts in C# and Python. These can be used for reference on future web scrapers. Within the GitHub repository for the project is the “publicmeetings/Scrapers” directory.  The readme file in that directory contains more information on the scrapers themselves. The directory contains two groups of files: some county-specific scrapers using Python’s BeautifulSoup library, and a C# scraper designed to handle multiple counties, as well as automating some other parts of the process (particularly getting the latitudes and longitudes of the meetings).  
+        </p>
+        <p>
+         If you prefer a different programming language for web scraping, you can use your preferred language to write a script. Just make sure it outputs a CSV file in the desired format.  
+        </p>
+        <p>        
+         Meetings pages are often somewhat incomplete or irregularly structured. Some amount of manual data collection and data cleaning will probably still be necessary. All of the webs scraping operations using the code mentioned above did require additional manual work.
         </p>
         <h4>Data Dictionary</h4>
        <style> table, th, td {
@@ -189,8 +231,42 @@
             <td> URL </td>
             <td> https://www.buncombecounty.org/transparency/boards-commissions/default.aspx </td>
           </tr>
+          <tr>
+            <td> ID </td>
+            <td> Unique identifier for the meeting.  See below.</td>
+            <td> text </td>
+            <td> 100, chatham100</td>
+          </tr>
         </table>
-
+        
+        <h5>ID Field</h5>
+        <p>
+        The ID field must be a unique string. Meetings currently on the map use integers as IDs. To make sure your team’s IDs are unique, we recommend you use the form countyx, where x is a unique integer that you assign to each meeting record.
+      </p>
+      <p>
+        Latitude and Longitude 
+      </p>
+      <p>
+        Latitude and longitude will almost certainly not be included in the data. The script Sunshine Request will use to add your CSV file of meetings to the map will use the address to guess the latitude and longitude. These guesses are not always correct, especially if the address is incomplete. If you have the address, you can search using Google Maps or the US Census Bureau geocoder.  Both services can return latitude and longitude information about the location.  Please check the results that you get from these services, as there have been some instances where the returned coordinates were in another county or were otherwise incorrect. 
+      </p>
+      <p>
+        Some common issues that have been seen in the data:
+      </p>
+      <ul>
+        <li>The meeting location or time is given as “varies” or something similar.</li>
+        <li>Sometimes only a location is given, without an address.</li>
+        <li>End times may not be listed.  Sometimes this is replaced with an estimate of the meeting length.</li>
+      </ul>
+      <p>
+        Use your judgment in resolving these data issues, keeping in mind the map’s role as an activity for learning and exploring.
+      </p>
+      <p>
+        Once the information has been fully collected, save or export the spreadsheet as a CSV file.
+      </p>
+      <h4>Step 4: Add Informatin to the Map</h4>
+      <p>
+        Provide your CSV file to Sunshine Request and their team will add it to the map. If you are comfortable working in GitHub, you can use a pull request to submit your file. Another option would be to email the file to records@sunshinerequest.com . Allow about a week for the Sunshine Request team to update the map with your meetings.
+      </p>
       </details>
 
       <!--STEEPLE Analysis Section  -->
@@ -850,7 +926,12 @@
         involve recording some public information about public officials, but in general the Toolkit is for recording
         information about public meetings, not about people.</p>
     </section>
-     <footer>
+    <section id="contact-section">
+      <h2>Contact</h2>
+      <!-- <a href = "mailto: info@codeforthecarolinas.org">info@codeforthecarolinas.org</a> -->
+      info at codeforthecarolinas dot org
+    </section>
+    <footer>
       <div id="footer-section">
         <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
           <a property="dct:title" rel="cc:attributionURL"
