@@ -198,20 +198,21 @@
             const getMeetingGSheetData = async () => {
                 let meetingGS;
                 try {
-                    const res = await fetch(sheetURI)
-                    const data = await res.text()
-
+                    const res = await fetch(sheetURI);
+                    const data = await res.text();
 
                     csv2geojson.csv2geojson(data, {
                         latfield: 'Latitude',
                         lonfield: 'Longitude',
                         delimiter: ',',
-                    }, (err, data) => {
-                        if (err) throw err
+                    }, (error, data) => {
+                        if (error) {
+                            console.log('error getting csv', error)
+                        }
                         meetingGS = data
                     })
 
-                    return meetingGS
+                    return meetingGS;
                 } catch (error) {
                     throw error
                 }
@@ -219,7 +220,7 @@
 
             const getMeetingJsonData = async () => {
                 try {
-                    const res = await fetch('/meetings.json')
+                    const res = await fetch('assets/meetings.json')
                     const data = await res.json()
 
                     return data

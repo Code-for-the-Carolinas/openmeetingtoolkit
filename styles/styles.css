@@ -193,12 +193,12 @@ details[open] summary {
 
 /*Mobile Styles*/
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 
 
 } /* for desktops */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 
 
 } /* for laptops */
@@ -208,12 +208,12 @@ details[open] summary {
 
  } /* for large tablets */
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
 
 } /* for smaller tablets */
 
-@media screen and (max-width: 500px) { 
-    
+@media screen and (max-width: 500px) {
+
 
  } /* for cellphones */
