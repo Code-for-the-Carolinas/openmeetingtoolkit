@@ -218,7 +218,7 @@
 
             const getMeetingJsonData = async () => {
                 try {
-                    const res = await fetch('/meetings.json')
+                    const res = await fetch('meetings.json')
                     const data = await res.json()
 
                     return data
