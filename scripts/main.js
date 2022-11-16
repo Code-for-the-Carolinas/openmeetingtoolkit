@@ -6,9 +6,13 @@ const defaultZoom = 7
 const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
+
+// `https://docs.google.com/spreadsheets/d/12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q/gviz/tq?tqx=out:csv&sheet=all`;
+
 /**
  * Add the map to the page
  */
+
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
@@ -17,24 +21,22 @@ const map = new mapboxgl.Map({
     scrollZoom: false
 });
 
-
 const getMeetingGSheetData = async () => {
-    let meetingGS;
+    // let meetingGS;
     try {
         const res = await fetch(sheetURI)
         const data = await res.text()
 
-
-        csv2geojson.csv2geojson(data, {
+        return csv2geojson.csv2geojson(data, {
             latfield: 'Latitude',
             lonfield: 'Longitude',
             delimiter: ',',
         }, (err, data) => {
             if (err) throw err
-            meetingGS = data
+            return data;
         })
 
-        return meetingGS
+        // return meetingGS
     } catch (error) {
         throw error
     }
