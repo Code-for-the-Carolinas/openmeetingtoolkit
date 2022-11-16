@@ -42,9 +42,9 @@ const getMeetingGSheetData = async () => {
 
 const getMeetingJsonData = async () => {
     try {
-        const res = await fetch('/meetings.json')
+        const res = await fetch('assets/meetings.json')
         const data = await res.json()
-
+        console.log('meetings json', data)
         return data
     } catch (error) {
         throw error
