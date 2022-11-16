@@ -205,8 +205,10 @@
                         latfield: 'Latitude',
                         lonfield: 'Longitude',
                         delimiter: ',',
-                    }, (err, data) => {
-                        if (err) throw err
+                    }, (error, data) => {
+                        if (error) {
+                            console.log('error getting csv', error)
+                        }
                         meetingGS = data
                     })
 
@@ -218,7 +220,7 @@
 
             const getMeetingJsonData = async () => {
                 try {
-                    const res = await fetch('meetings.json')
+                    const res = await fetch('assets/meetings.json')
                     const data = await res.json()
 
                     return data
