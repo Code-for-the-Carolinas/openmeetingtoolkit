@@ -198,9 +198,8 @@
             const getMeetingGSheetData = async () => {
                 let meetingGS;
                 try {
-                    const res = await fetch(sheetURI)
-                    const data = await res.text()
-
+                    const res = await fetch(sheetURI);
+                    const data = await res.text();
 
                     csv2geojson.csv2geojson(data, {
                         latfield: 'Latitude',
@@ -211,7 +210,7 @@
                         meetingGS = data
                     })
 
-                    return meetingGS
+                    return meetingGS;
                 } catch (error) {
                     throw error
                 }
