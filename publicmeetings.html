@@ -423,7 +423,7 @@
             **/
             function buildCountyList(meetingList) {
                 const countyList = buildMeetingListByCounty(meetingList)
-                const counties = document.querySelector('#counties');
+                const counties = document.querySelector('#listings');
                 /* Sort list of counties */
                 const sortedCounties = Object.keys(countyList).sort((c1, c2) => c1.localeCompare(c2))
 
@@ -562,8 +562,9 @@
              * a given center point.
              **/
             function flytoMeeting(currentFeature) {
+                console.log(currentFeature)
                 map.flyTo({
-                    center: currentFeature.geometry.coordinates,
+                    center: currentFeature,
                     zoom: 15
                 });
             }
