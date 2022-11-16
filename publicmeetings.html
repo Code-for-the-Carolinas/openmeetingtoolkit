@@ -178,12 +178,11 @@
 
             mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
 
-            const stateCoords = [-79.8, 35.3] 
+            const stateCoords = [-79.8, 35.3]
             const defaultZoom = 7
             const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
             const sheetName = 'all';
             const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
-
             /**
              * Add the map to the page
              */
@@ -211,7 +210,7 @@
                         if (err) throw err
                         meetingGS = data
                     })
-                    
+
                     return meetingGS
                 } catch (error) {
                     throw error
@@ -246,7 +245,7 @@
                             longitude: f.geometry.coordinates?.[0],
                             latitude: f.geometry.coordinates?.[1],
                             coordinates: [...f.geometry?.coordinates],
-                            
+
                         },
                         properties: {
                             address: f.properties?.Address,
@@ -268,7 +267,7 @@
                     throw error
                 }
             }
- 
+
 
             /**
              * Wait until the map loads to make changes to the map.
@@ -360,13 +359,13 @@
                     .setLngLat(arrOfMeetings[0].geometry.coordinates)
                     .addTo(map);
 
-                
+
                 el.addEventListener('click', e => {
                     flytoMeeting(arrOfMeetings[0].geometry.coordinates, 14)
                     createGroupPopUp(arrOfMeetings)
-                    
+
                 }, false)
-                
+
             }
 
             function groupMeetingsByLocation(meetings) {
@@ -380,7 +379,7 @@
                     if (meetingList[coordsKey]) {
                         meetingList[coordsKey].push(meetings[i])
                     } else {
-                        meetingList[coordsKey] = new Array(meetings[i]) 
+                        meetingList[coordsKey] = new Array(meetings[i])
                     }
                 }
                 return meetingList
@@ -401,7 +400,7 @@
                 flytoMeeting();
              }
 
-            /** 
+            /**
              * Builds and returns a full meeting list separated by county
             **/
             function buildMeetingListByCounty(meetingList) {
@@ -419,7 +418,7 @@
                 }, []);
             }
 
-            /** 
+            /**
              * Adds the County list to sidebar
             **/
             function buildCountyList(meetingList) {
@@ -443,8 +442,8 @@
                     link.innerHTML = `${countyName}`
 
                 }
-                /** 
-                 * Uses event delegation to listen for clicks on list items 
+                /**
+                 * Uses event delegation to listen for clicks on list items
                  * Build meeting list for the county and add markers to map
                  **/
 
@@ -452,12 +451,12 @@
                     // ignore if not clicking on link
                     if(!event.target.matches('.title')) return
                     event.preventDefault();
-                    
+
                     // hide counties list when a county is clicked
                     counties.style.display = 'none'
 
                     const meetingList = countyList[event.target.id]
-                    
+
                     /* Fly to general are of listings*/
                     flytoMeeting(meetingList[0].geometry.coordinates, 10)
                     buildLocationList(meetingList)
@@ -477,7 +476,7 @@
                 const listings = document.querySelector(parentElem)
                 const backButton = listings.appendChild(document.createElement('div'))
                 backButton.className = 'item'
-                
+
                 /* Make the back button a link for accessibility */
                 const link = backButton.appendChild(document.createElement('a'))
                 link.href = '#'
@@ -485,7 +484,7 @@
                 link.id = 'Back'
                 link.innerText = '< Back to Counties'
 
-                
+
                 backButton.addEventListener('click', () => {
                     document.querySelector(showElem).style.display = 'block'
                     removeAllMarkers();
@@ -619,7 +618,7 @@
                             ${arrOfMeetings.map((meeting, idx) => `<div class='item'><a href="#" class='meeting-link title' id=${idx}>${meeting.properties.publicbody}</a></div>`).join("")}
                         </div>
                         `;
-                
+
                 const popUps = document.getElementsByClassName('mapboxgl-popup');
                 if (popUps[0]) popUps[0].remove();
                 const popup = new mapboxgl.Popup({ closeOnClick: false })
