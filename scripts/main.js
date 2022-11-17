@@ -1,46 +1,25 @@
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
-
 const stateCoords = [-79.8, 35.3]
 const defaultZoom = 7
 const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 
-// `https://docs.google.com/spreadsheets/d/12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q/gviz/tq?tqx=out:csv&sheet=all`;
 
-/**
- * Add the map to the page
- */
-
-const map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/light-v10',
-    center: [-79.8, 35.3],
-    zoom: 5,
-    scrollZoom: false
-});
+const handleFetchErrors = (response) => {
+    if (!response.ok) {
+        throw Error(response.statusText);
+    }
+    return response;
+};
 
 const getMeetingGSheetData = async () => {
-    // let meetingGS;
-    try {
-        const res = await fetch(sheetURI)
-        const data = await res.text()
-
-        return csv2geojson.csv2geojson(data, {
-            latfield: 'Latitude',
-            lonfield: 'Longitude',
-            delimiter: ',',
-        }, (err, data) => {
-            if (err) throw err
-            return data;
-        })
-
-        // return meetingGS
-    } catch (error) {
-        throw error
-    }
-}
+    return fetch(sheetURI)
+        .then(handleFetchErrors) // This will handle network status errors.
+        .then((response) => (response.text())) // Convert the response to a text string.
+        .then((data) => (data)) // Return the data.
+        .catch((error) => (console.log('fetching error', error))); // This will handle any other errors.
+};
 
 const getMeetingJsonData = async () => {
     try {
@@ -51,7 +30,7 @@ const getMeetingJsonData = async () => {
     } catch (error) {
         throw error
     }
-}
+};
 
 const mergeMeetingData = async () => {
 
@@ -62,7 +41,6 @@ const mergeMeetingData = async () => {
     try {
         const meetingsGS = await getMeetingGSheetData();
         const meetingsJson = await getMeetingJsonData();
-
         meetingsJson.features.forEach(j => geoJson.features.push(j))
         meetingsGS.features.forEach(f => geoJson.features.push({
             geometry: {
@@ -86,41 +64,14 @@ const mergeMeetingData = async () => {
             },
             type: f.type
         }))
-
+        console.log('geo', geoJson.features)
         return geoJson
     } catch (error) {
         throw error
     }
-}
+};
 
-
-/**
- * Wait until the map loads to make changes to the map.
- */
-map.on('load', () => {
-    /**
-     * This is where your '.addLayer()' used to be, instead
-     * add only the source without styling a layer
-     */
-
-    mergeMeetingData()
-    .then(meetings => {
-        map.addSource('meetingPlaces', {
-            'type': 'geojson',
-            'data': meetings
-        });
-
-        buildCountyList(meetings)
-    }).catch(function (err) {
-        console.log('Failed to meetings', err);
-    });
-
-});
-
-/**
- * Add a marker to the map for every meeting listing.
- **/
-function addMarkers(meetings) {
+const addMarkers = (meetings) => {
     const groupedMeetings = groupMeetingsByLocation(meetings)
     /* For each feature in the GeoJSON object above: */
 
@@ -210,12 +161,8 @@ function groupMeetingsByLocation(meetings) {
     return meetingList
 }
 
-/**
-
-    * Clear the map of markers and zoom back out
-    * Remove popup
-    */
-    function removeAllMarkers() {
+// Clear the map of markers and zoom back out
+function removeAllMarkers() {
     const markers = document.querySelectorAll('.marker')
     const popup = document.querySelector('.mapboxgl-popup')
     if(popup) popup.remove()
@@ -223,7 +170,7 @@ function groupMeetingsByLocation(meetings) {
         marker.remove()
     }
     flytoMeeting();
-    }
+}
 
 /**
  * Builds and returns a full meeting list separated by county
@@ -308,7 +255,6 @@ function backButton(showElem, parentElem, removeEle) {
     link.className = 'title'
     link.id = 'Back'
     link.innerText = '< Back to Counties'
-
 
     backButton.addEventListener('click', () => {
         document.querySelector(showElem).style.display = 'block'
@@ -466,6 +412,38 @@ function createGroupPopUp(arrOfMeetings) {
 
     })
 }
+
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v10',
+    center: [-79.8, 35.3],
+    zoom: 5,
+    scrollZoom: false
+});
+
+/**
+ * Wait until the map loads to make changes to the map.
+ */
+
+map.on('load', () => {
+    /**
+     * This is where your '.addLayer()' used to be, instead
+     * add only the source without styling a layer
+     */
+
+    mergeMeetingData()
+    .then(meetings => {
+        map.addSource('meetingPlaces', {
+            'type': 'geojson',
+            'data': meetings
+        });
+
+        buildCountyList(meetings)
+    }).catch(function (err) {
+        console.log('Failed to meetings', err);
+    });
+
+});
 
 //adding zoom and rotation controls to map
 map.addControl(new mapboxgl.NavigationControl());
