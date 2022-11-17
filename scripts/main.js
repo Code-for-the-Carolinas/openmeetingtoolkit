@@ -16,20 +16,17 @@ const handleFetchErrors = (response) => {
 const getMeetingGSheetData = async () => {
     return fetch(sheetURI)
         .then(handleFetchErrors) // This will handle network status errors.
-        .then((response) => (response.text())) // Convert the response to a text string.
+        .then((response) => (response.text())) // Return response as text string.
         .then((data) => (data)) // Return the data.
-        .catch((error) => (console.log('fetching error', error))); // This will handle any other errors.
+        .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
 };
 
 const getMeetingJsonData = async () => {
-    try {
-        const res = await fetch('assets/meetings.json')
-        const data = await res.json()
-        console.log('meetings json', data)
-        return data
-    } catch (error) {
-        throw error
-    }
+    return fetch('assets/meetings.json')
+        .then(handleFetchErrors) // This will handle network status errors.
+        .then((response) => (response.json())) // Return response as object.
+        .then((data) => (data)) // Return the data.
+        .catch((error) => (console.log('fetching json error', error))) // This will handle any other errors.
 };
 
 const mergeMeetingData = async () => {
