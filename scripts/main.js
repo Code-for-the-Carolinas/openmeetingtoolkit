@@ -1,5 +1,5 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
-const stateCoords = [-79.8, 35.3]
+const defaultCooridinates = [-79.8, 35.3]
 const defaultZoom = 7
 const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
 const sheetName = 'all';
@@ -9,6 +9,7 @@ const meetingsSheetData = [];
 const meetingsJsonData = {};
 const meetingsData = [];
 
+// __Data Fetching Functions__
 const handleFetchErrors = (response) => {
     if (!response.ok) {
         throw Error(response.statusText);
@@ -16,13 +17,13 @@ const handleFetchErrors = (response) => {
     return response;
 };
 
-const getMeetingGSheetData = () => {
+const getMeetingGoogleSheetData = () => {
     return fetch(sheetURI)
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
             // add data to page
-            return data
+            return data;
         }) // Return the data.
         .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
 };
@@ -37,53 +38,74 @@ const getMeetingJsonData = () => {
 
 // Testing single function to get all data.
 const getMeetingData = () => {
-    getMeetingGSheetData()
-        .then((data) => (console.log(data)))
-    // console.log(data)
-    // return meetingsJson;
+    return getMeetingGoogleSheetData()
+        .then((data) => {
+            // Organize meetings by county then return meetings.
+
+            return formatCsvData(data);
+        })
+        .catch((error) => (console.log('Error getting meeting data', error)));
 };
 
- // Not in use. May not be needed.
-const mergeMeetingData = async () => {
 
-    let geoJson = {
-        type: 'FeatureCollection',
-        features: []
+ // Formats CSV data to create geoJson object.
+ const formatCsvData = (csvData) => {
+
+    // Build a string for the headers of the CSV data.
+    let i = 0;
+    let headerString = '';
+
+    // Read the string until carriage return is found.
+    // This indicates everything before are the headers
+    // and everything after is the CSV data.
+    while(csvData.charAt(i) !== '\n') {
+        // console.log(csvData[i]);
+        headerString = headerString + csvData[i];
+        i++;
+    };
+    // console.log(headerString);
+
+    // while(csvData.charAt(i+1) !== '\n') {
+    //     console.log(csvData[i]);
+    //     // headerString = headerString + csvData[i];
+    //     i++;
+    // };
+    const csvData = csvData.subString().split();
+
+    // Create an array for each header.
+    const headers = headerString.split(',');
+    console.log(headers)
+
+    // Now we can build a data set as an object for the CSV data.
+
+  };
+
+
+
+
+
+
+
+
+
+function groupMeetingsByLocation(meetings) {
+    const meetingList = {}
+
+    for(let i = 0; i < meetings.length; i++) {
+        // construct key using lat and long to group by
+        const coords = meetings[i].geometry.coordinates
+        const coordsKey = coords.toString()
+
+        if (meetingList[coordsKey]) {
+            meetingList[coordsKey].push(meetings[i])
+        } else {
+            meetingList[coordsKey] = new Array(meetings[i])
+        }
     }
-    try {
-        const meetingsGS = await getMeetingGSheetData();
-        // const meetingsJson = await getMeetingJsonData();
-        // meetingsJson.features.forEach(j => geoJson.features.push(j))
+    return meetingList
+}
 
-        meetingsGS.features.forEach(f => geoJson.features.push({
-            geometry: {
-                type: f.geometry.type,
-                longitude: f.geometry.coordinates?.[0],
-                latitude: f.geometry.coordinates?.[1],
-                coordinates: [...f.geometry?.coordinates],
-
-            },
-            properties: {
-                address: f.properties?.Address,
-                end: f.properties?.End_time,
-                government: f.properties?.Government,
-                id: f.properties?.Id,
-                location: f.properties?.Location,
-                publicbody: f.properties?.Public_body,
-                schedule: f.properties?.Schedule,
-                moreInfo: f.properties?.Source,
-                start: f.properties?.Start_time,
-                remote: f.properties?.Remote_options,
-            },
-            type: f.type
-        }))
-        // console.log('geo', geoJson.features)
-        return geoJson
-    } catch (error) {
-        throw error
-    }
-};
-
+// __Map functions__
 const addMarkers = (meetings) => {
     const groupedMeetings = groupMeetingsByLocation(meetings)
     /* For each feature in the GeoJSON object above: */
@@ -157,23 +179,6 @@ function addGroupMarker(arrOfMeetings) {
 
 }
 
-function groupMeetingsByLocation(meetings) {
-    const meetingList = {}
-
-    for(let i = 0; i < meetings.length; i++) {
-        // construct key using lat and long to group by
-        const coords = meetings[i].geometry.coordinates
-        const coordsKey = coords.toString()
-
-        if (meetingList[coordsKey]) {
-            meetingList[coordsKey].push(meetings[i])
-        } else {
-            meetingList[coordsKey] = new Array(meetings[i])
-        }
-    }
-    return meetingList
-}
-
 // Clear the map of markers and zoom back out
 function removeAllMarkers() {
     const markers = document.querySelectorAll('.marker')
@@ -185,78 +190,6 @@ function removeAllMarkers() {
     flytoMeeting();
 }
 
-/**
- * Builds and returns a full meeting list separated by county
-**/
-function buildMeetingListByCounty(meetingList) {
-    return meetingList.features.reduce((obj, item) => {
-        const county = item.properties.Government || item.properties.government;
-
-        if (county !== "") {
-            if (!obj[county]) {
-                obj[county] = [{properties: {...item.properties}, geometry: {...item.geometry}}];
-            } else {
-                obj[county].push({properties: {...item.properties}, geometry: {...item.geometry}});
-            }
-        }
-        return obj;
-    }, []);
-};
-
-/**
- * Adds the County list to sidebar
-**/
-function buildCountyList(meetingList) {
-    const countyList = buildMeetingListByCounty(meetingList)
-    const counties = document.querySelector('#listings');
-    /* Sort list of counties */
-    const sortedCounties = Object.keys(countyList).sort((c1, c2) => c1.localeCompare(c2))
-
-    for (const countyName of sortedCounties) {
-
-        /* Add a new county listing section to the sidebar. */
-        const county = counties.appendChild(document.createElement('div'));
-        /* Assign the `item` class to each listing for styling. */
-        county.className = 'item';
-
-        /* Add the link to the individual listing created above. */
-        const link = county.appendChild(document.createElement('a'));
-        link.href = '#';
-        link.className = 'title';
-        link.id = `${countyName}`;
-        link.innerHTML = `${countyName}`
-
-    }
-    /**
-     * Uses event delegation to listen for clicks on list items
-     * Build meeting list for the county and add markers to map
-     **/
-
-    counties.addEventListener('click', function(event) {
-        // ignore if not clicking on link
-        if(!event.target.matches('.title')) return
-        event.preventDefault();
-
-        // hide counties list when a county is clicked
-        counties.style.display = 'none'
-
-        const meetingList = countyList[event.target.id]
-
-        /* Fly to general are of listings*/
-        flytoMeeting(meetingList[0].geometry.coordinates, 10)
-        buildLocationList(meetingList)
-        addMarkers(meetingList)
-    }, false)
-    return countyList
-}
-
-/**
- *  Back button handles re-showing the county list
- *  Removes previous meeting listings and each event handler
- *  Removes markers from maps
- *  String with selector type is required for now
- *  Future: pass the elements as arguments
- **/
 function backButton(showElem, parentElem, removeEle) {
     const listings = document.querySelector(parentElem)
     const backButton = listings.appendChild(document.createElement('div'))
@@ -279,9 +212,7 @@ function backButton(showElem, parentElem, removeEle) {
     })
 }
 
-/**
- * Add a listing for each meeting to the sidebar.
- **/
+// Add a listing for each meeting to the sidebar.
 function buildLocationList(meetings) {
     /* Add back button to top of list to nav back to counties */
     backButton('#counties', '#listings', '.item')
@@ -341,10 +272,8 @@ function buildLocationList(meetings) {
     }
 }
 
-/**
- * Use Mapbox GL JS's `flyTo` to move the camera smoothly
- * a given center point.
- **/
+// Use Mapbox GL JS's `flyTo` to move the camera smoothly
+// a given center point.
 function flytoMeeting(currentFeature) {
     console.log(currentFeature)
     map.flyTo({
@@ -353,9 +282,7 @@ function flytoMeeting(currentFeature) {
     });
 }
 
-/**
- * Create a Mapbox GL JS `Popup`.
- **/
+// Create a Mapbox GL JS `Popup`.
 function createPopUp(currentFeature) {
     const popUps = document.getElementsByClassName('mapboxgl-popup');
     if (popUps[0]) popUps[0].remove();
@@ -426,35 +353,26 @@ function createGroupPopUp(arrOfMeetings) {
     })
 }
 
+// Create new map instance inside the div with id 'map'.
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
-    center: [-79.8, 35.3],
+    center: defaultCooridinates,
     zoom: 5,
     scrollZoom: false
 });
 
-/**
- * Wait until the map loads to make changes to the map.
- */
-
+// After the initial html loads for the page,
+// fetch the meeting data,
+// add each entry to the map,
+// then build list of meetings and add to page.
 map.on('load', () => {
-    /**
-     * This is where your '.addLayer()' used to be, instead
-     * add only the source without styling a layer
-     */
 
-    //  getMeetingGSheetData()
-    //  .then((data) => (console.log('gs', data)))
-    //  .catch((error) => (console.log(error)));
-
-    //  getMeetingJsonData()
-    //  .then((data) => (console.log(data)))
-    //  .catch((error) => (console.log(error)));
+    // Get the meeting data and add to the map.
     getMeetingData()
     //  getMeetingJsonData()
-    // .then((meetings) => {
-        // console.log('load', meetings)
+    .then((meetings) => {
+        console.log('load', meetings)
         // map.addSource('meetingPlaces', {
         //     'type': 'geojson',
         //     'data': {
@@ -463,10 +381,10 @@ map.on('load', () => {
         //     }
         // });
         // buildCountyList(meetings);
-    // })
-    // .catch((error) => (console.log('map load error', error)));
+    })
+    .catch((error) => (console.log('map load error', error)));
 
 });
 
-//adding zoom and rotation controls to map
+// Add zoom and navigation controls to map interface.
 map.addControl(new mapboxgl.NavigationControl());
