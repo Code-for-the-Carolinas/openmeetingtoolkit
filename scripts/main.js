@@ -49,34 +49,57 @@ const getMeetingData = () => {
 
 
  // Formats CSV data to create geoJson object.
- const formatCsvData = (csvData) => {
+ const formatCsvData = (data) => {
+
+    const meetingData = [];
 
     // Build a string for the headers of the CSV data.
-    let i = 0;
+    let headerIndex = 0;
     let headerString = '';
 
     // Read the string until carriage return is found.
     // This indicates everything before are the headers
     // and everything after is the CSV data.
-    while(csvData.charAt(i) !== '\n') {
-        // console.log(csvData[i]);
-        headerString = headerString + csvData[i];
-        i++;
+    while(data.charAt(headerIndex) !== '\n') {
+        // console.log(data[i]);
+        headerString = headerString + data[headerIndex];
+        headerIndex++;
     };
-    // console.log(headerString);
-
-    // while(csvData.charAt(i+1) !== '\n') {
-    //     console.log(csvData[i]);
-    //     // headerString = headerString + csvData[i];
-    //     i++;
-    // };
-    const csvData = csvData.subString().split();
 
     // Create an array for each header.
     const headers = headerString.split(',');
     console.log(headers)
 
     // Now we can build a data set as an object for the CSV data.
+    const csvData = data.substring(i+1).split(",");
+    console.log(csvData)
+
+    const csvRow = [];
+    for(let i = 0; i < csvData.length; i += headers.length) {
+        // csvRow.push(csvData[i]);
+        const meetingEntry = {
+            "properties": {
+                "government": cvsData[1],
+                "publicbody": cvsData[2],
+                "location": cvsData[4],
+                "address": cvsData[5],
+                "schedule": cvsData[8],
+                "start": cvsData[9],
+                "end": cvsData[10],
+                "remote": cvsData[11],
+                "moreInfo": cvsData[12],
+                // "id": ,
+            },
+            "geometry": {
+                "longitude": cvsData[7],
+                "latitude": cvsData[6],
+                "coordinates": [cvsData[7], cvsData[6]],
+                "type": "Point",
+            },
+            "type": "Feature"
+        };
+        meetingData.push(meetingEntry);
+    }
 
   };
 
