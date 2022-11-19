@@ -5,6 +5,9 @@ const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 
+const meetingsSheetData = [];
+const meetingsJsonData = {};
+const meetingsData = [];
 
 const handleFetchErrors = (response) => {
     if (!response.ok) {
@@ -13,15 +16,18 @@ const handleFetchErrors = (response) => {
     return response;
 };
 
-const getMeetingGSheetData = async () => {
+const getMeetingGSheetData = () => {
     return fetch(sheetURI)
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
-        .then((data) => (data)) // Return the data.
+        .then((data) => {
+            // add data to page
+            return data
+        }) // Return the data.
         .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
 };
 
-const getMeetingJsonData = async () => {
+const getMeetingJsonData = () => {
     return fetch('assets/meetings.json')
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.json())) // Return response as object.
@@ -29,6 +35,15 @@ const getMeetingJsonData = async () => {
         .catch((error) => (console.log('fetching json error', error))) // This will handle any other errors.
 };
 
+// Testing single function to get all data.
+const getMeetingData = () => {
+    getMeetingGSheetData()
+        .then((data) => (console.log(data)))
+    // console.log(data)
+    // return meetingsJson;
+};
+
+ // Not in use. May not be needed.
 const mergeMeetingData = async () => {
 
     let geoJson = {
@@ -37,8 +52,9 @@ const mergeMeetingData = async () => {
     }
     try {
         const meetingsGS = await getMeetingGSheetData();
-        const meetingsJson = await getMeetingJsonData();
-        meetingsJson.features.forEach(j => geoJson.features.push(j))
+        // const meetingsJson = await getMeetingJsonData();
+        // meetingsJson.features.forEach(j => geoJson.features.push(j))
+
         meetingsGS.features.forEach(f => geoJson.features.push({
             geometry: {
                 type: f.geometry.type,
@@ -61,7 +77,7 @@ const mergeMeetingData = async () => {
             },
             type: f.type
         }))
-        console.log('geo', geoJson.features)
+        // console.log('geo', geoJson.features)
         return geoJson
     } catch (error) {
         throw error
@@ -185,7 +201,7 @@ function buildMeetingListByCounty(meetingList) {
         }
         return obj;
     }, []);
-}
+};
 
 /**
  * Adds the County list to sidebar
@@ -428,17 +444,27 @@ map.on('load', () => {
      * add only the source without styling a layer
      */
 
-    mergeMeetingData()
-    .then(meetings => {
-        map.addSource('meetingPlaces', {
-            'type': 'geojson',
-            'data': meetings
-        });
+    //  getMeetingGSheetData()
+    //  .then((data) => (console.log('gs', data)))
+    //  .catch((error) => (console.log(error)));
 
-        buildCountyList(meetings)
-    }).catch(function (err) {
-        console.log('Failed to meetings', err);
-    });
+    //  getMeetingJsonData()
+    //  .then((data) => (console.log(data)))
+    //  .catch((error) => (console.log(error)));
+    getMeetingData()
+    //  getMeetingJsonData()
+    // .then((meetings) => {
+        // console.log('load', meetings)
+        // map.addSource('meetingPlaces', {
+        //     'type': 'geojson',
+        //     'data': {
+        //         'type': 'FeatureCollection',
+        //         'features': meetings,
+        //     }
+        // });
+        // buildCountyList(meetings);
+    // })
+    // .catch((error) => (console.log('map load error', error)));
 
 });
 

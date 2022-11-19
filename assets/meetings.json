@@ -1,5 +1,4 @@
-{
-  "features": [
+[
     {
       "properties": {
         "government": "Asheville",
@@ -5061,5 +5060,5 @@
       },
       "type": "Feature"
     }
-  ]
-}
+]
+
