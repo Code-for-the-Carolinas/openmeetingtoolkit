@@ -21,7 +21,7 @@
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 
   <link href="styles/styles.css" rel="stylesheet">
-  <link href="styles/mapStyles.css" rel="stylesheet">
+  <!-- <link href="styles/mapStyles.css" rel="stylesheet"> -->
   <script type="text/javascript" src="scripts/main.js" defer></script>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
@@ -64,12 +64,12 @@
       </div>
 
       <!-- This is where MapBox puts the map it generates -->
-      <div id="map-div" class="row border border-4 border-dark">
-        <div class="col">
+      <div id="map-div" class="row">
+        <div id="meeting-list" class="col-4">
           <h2 class="heading fs-4">Public Meetings in the Carolinas</h2>
-          <div id="listings" class="listings"></div>
+          <div id="listings"></div>
         </div>
-        <div id="map" class="col-7"></div>
+        <div id="map" class="col-8"></div>
       </div>
 
       <div class="row">
@@ -175,15 +175,7 @@
         <h4>Data Dictionary</h4>
 
 
-        <style> table, th, td {
-          border: 1px solid black;
-          border-collapse: collapse;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          padding-left: 10px;
-          padding-right: 10px;
-         }
-        </style>
+
 
         <table>
           <tr>

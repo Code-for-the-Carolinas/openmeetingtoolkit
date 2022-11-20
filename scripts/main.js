@@ -142,7 +142,7 @@ const showMeetingInfo = (meeting) => {
             focusAfterOpen: false
         })
         .setHTML(
-            `<table class="meeting-info-table text-center">
+            `<table class="meeting-info-table">
                 <caption>${publicbody}</caption>
                 <tr>
                 <th>Government</th>
