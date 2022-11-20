@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <!-- Gets rid of favicon 404 error -->
+  <link rel="shortcut icon" href="#">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -22,10 +24,14 @@
   <link href="styles/mapStyles.css" rel="stylesheet">
   <script type="text/javascript" src="scripts/main.js" defer></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+
   <title>Open Meeting Toolkit</title>
 </head>
 
 <body>
+
   <header>
     <div id="header-section">
       <div id="title">
@@ -34,68 +40,62 @@
       <div id="navbar">
         <nav>
           <ul>
-
             <li><a href="#introduction-section">Introduction</a></li>
             <li><a href="#scan-section">Local Scan</a></li>
             <li><a href="#evaluation-section">Evaluation</a></li>
             <li><a href="#recommendations-section">Recommendations</a></li>
             <li><a href="#recommendations-section">Analysis</a></li>
             <li><a href="#faq-section">FAQ</a></li>
-
           </ul>
         </nav>
       </div>
     </div>
   </header>
+
   <main>
     <!--Introduction & Map Section-->
     <section id="introduction-section">
-      <div>
-        <h2><span>Welcome!</span> The Open Meeting Toolkit helps community-based teams, such as Code for America
+      <div class="row">
+        <h1 class="fs-3">
+          <span><b>Welcome!</b></span> The Open Meeting Toolkit helps community-based teams, such as Code for America
           Brigades, to evaluate and improve the openness of local public meetings while engaging civic technology
-          volunteers. </h2>
-        <br>
+          volunteers.
+        </h1>
       </div>
 
-      <!-- this should be refactored to use only js -->
-      <!-- <figure>
-        <iframe src="publicmeetings.html" width="90%" height="550px" title="Map of Public Meetings in the Carolinas"
-          style="border: 1px solid #222;"></iframe>
-        <figcaption>Map of public meetings in the Carolinas. Map is a proof-of-concept prototype and may not be current. <b>Confirm meeting details before
-          attending</b>. </figcaption>
-      </figure> -->
-
+      <!-- This is where MapBox puts the map it generates -->
       <div id="map-div" class="row border border-4 border-dark">
         <div class="col">
-          <h1 class="heading">Public Meetings in the Carolinas</h1>
+          <h2 class="heading fs-4">Public Meetings in the Carolinas</h2>
           <div id="listings" class="listings"></div>
         </div>
         <div id="map" class="col-7"></div>
       </div>
 
-<div class="row">
-  <h2>Introduction</h2>
-  <p>
-    Do you wish it were easier to participate in your local government? This website provides a Toolkit to support a team of volunteers working to improve access to public
-    meetings in their North Carolina community. Resources include instructions for mapping public meetings, a checklist for doing an environmental scan of local community
-    features that affect public meetings, forms for taking structured notes about public meetings (before, during, and after), guidance on synthesizing observations, and
-    examples of ways to recommend improvements through feedback, policy change, and partnerships.
-  </p>
-  <p>
-    While no specialized technical knowledge is needed to use the Toolkit, at least one member of your team should be proficient with the Google Suite. All Toolkit resources are hosted by Sunshine Request on GitHub and Google Workspace.
-    A team leader should create a Google Folder for your team's files related to the Open Meeting Toolkit. GitHub knowledge will only be needed if your team chooses to host a local copy of the map.
-  </p>
-    <p>
-    The Open Meeting Toolkit for the Carolinas builds on the Open Meetings Policy project by Sunshine Request and
-    Code for Asheville. Volunteers in Asheville attended local government meetings, observed barriers to participation, synthesized their findings, developed a
-    policy proposal, gathered support, and presented that proposal to their local government. Code for the Carolinas volunteers realized the potential in
-    their project to improve access to local government statewide and to engage civic technology volunteers with a variety of skills and backgrounds. Code
-    for America recognized this scaling project as a Summer 2022 Impact Sprint.
-</p>
-</div>
+      <div class="row">
+        <h2>Introduction</h2>
+        <p>
+          Do you wish it were easier to participate in your local government? This website provides a Toolkit to support a team of volunteers working to improve access to public
+          meetings in their North Carolina community. Resources include instructions for mapping public meetings, a checklist for doing an environmental scan of local community
+          features that affect public meetings, forms for taking structured notes about public meetings (before, during, and after), guidance on synthesizing observations, and
+          examples of ways to recommend improvements through feedback, policy change, and partnerships.
+        </p>
+        <p>
+          While no specialized technical knowledge is needed to use the Toolkit, at least one member of your team should be proficient with the Google Suite. All Toolkit resources are hosted by Sunshine Request on GitHub and Google Workspace.
+          A team leader should create a Google Folder for your team's files related to the Open Meeting Toolkit. GitHub knowledge will only be needed if your team chooses to host a local copy of the map.
+        </p>
+          <p>
+          The Open Meeting Toolkit for the Carolinas builds on the Open Meetings Policy project by Sunshine Request and
+          Code for Asheville. Volunteers in Asheville attended local government meetings, observed barriers to participation, synthesized their findings, developed a
+          policy proposal, gathered support, and presented that proposal to their local government. Code for the Carolinas volunteers realized the potential in
+          their project to improve access to local government statewide and to engage civic technology volunteers with a variety of skills and backgrounds. Code
+          for America recognized this scaling project as a Summer 2022 Impact Sprint.
+      </p>
+      </div>
 
     </section>
-   <!--Local Scan & Toolkit Instruction Section-->
+
+    <!--Local Scan & Toolkit Instruction Section-->
     <section id="scan-section">
       <h2>Local Scan</h2>
       <p>
@@ -173,7 +173,9 @@
          Meetings pages are often somewhat incomplete or irregularly structured. Some amount of manual data collection and data cleaning will probably still be necessary. All of the webs scraping operations using the code mentioned above did require additional manual work.
         </p>
         <h4>Data Dictionary</h4>
-       <style> table, th, td {
+
+
+        <style> table, th, td {
           border: 1px solid black;
           border-collapse: collapse;
           padding-top: 10px;
@@ -182,7 +184,8 @@
           padding-right: 10px;
          }
         </style>
-               <table>
+
+        <table>
           <tr>
             <th>Field</th>
             <th>Definition</th>
@@ -266,7 +269,7 @@
         <h5>ID Field</h5>
         <p>
         The ID field must be a unique string. Meetings currently on the map use integers as IDs. To make sure your team’s IDs are unique, we recommend you use the form countyx, where x is a unique integer that you assign to each meeting record.
-      </p>
+        </p>
       <p>
         Latitude and Longitude
       </p>

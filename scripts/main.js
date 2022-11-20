@@ -18,98 +18,36 @@ const handleFetchErrors = (response) => {
 };
 
 const getMeetingGoogleSheetData = () => {
-    return fetch(sheetURI)
+    // return fetch(sheetURI)
+    return fetch('assets/meetings.csv')
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
-            // add data to page
             return data;
-        }) // Return the data.
+        })
         .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
 };
 
 const getMeetingJsonData = () => {
     return fetch('assets/meetings.json')
         .then(handleFetchErrors) // This will handle network status errors.
-        .then((response) => (response.json())) // Return response as object.
+        .then((response) => (response.json())) // Parse response into object.
         .then((data) => (data)) // Return the data.
         .catch((error) => (console.log('fetching json error', error))) // This will handle any other errors.
 };
 
-// Testing single function to get all data.
 const getMeetingData = () => {
-    return getMeetingGoogleSheetData()
-        .then((data) => {
-            // Organize meetings by county then return meetings.
+    // Need to fetch the Google Sheet data.
+    // return getMeetingGoogleSheetData()
+    //     .then((data) => {
+    //         const parsedData = d3.csvParse(data);
+    //         // Then add it to the
+    //         return parsedData;
+    //     })
+    //     .catch((error) => (console.log('Error getting meeting data', error)));
 
-            return formatCsvData(data);
-        })
-        .catch((error) => (console.log('Error getting meeting data', error)));
+    // return fetch()
 };
-
-
- // Formats CSV data to create geoJson object.
- const formatCsvData = (data) => {
-
-    const meetingData = [];
-
-    // Build a string for the headers of the CSV data.
-    let headerIndex = 0;
-    let headerString = '';
-
-    // Read the string until carriage return is found.
-    // This indicates everything before are the headers
-    // and everything after is the CSV data.
-    while(data.charAt(headerIndex) !== '\n') {
-        // console.log(data[i]);
-        headerString = headerString + data[headerIndex];
-        headerIndex++;
-    };
-
-    // Create an array for each header.
-    const headers = headerString.split(',');
-    console.log(headers)
-
-    // Now we can build a data set as an object for the CSV data.
-    const csvData = data.substring(i+1).split(",");
-    console.log(csvData)
-
-    const csvRow = [];
-    for(let i = 0; i < csvData.length; i += headers.length) {
-        // csvRow.push(csvData[i]);
-        const meetingEntry = {
-            "properties": {
-                "government": cvsData[1],
-                "publicbody": cvsData[2],
-                "location": cvsData[4],
-                "address": cvsData[5],
-                "schedule": cvsData[8],
-                "start": cvsData[9],
-                "end": cvsData[10],
-                "remote": cvsData[11],
-                "moreInfo": cvsData[12],
-                // "id": ,
-            },
-            "geometry": {
-                "longitude": cvsData[7],
-                "latitude": cvsData[6],
-                "coordinates": [cvsData[7], cvsData[6]],
-                "type": "Point",
-            },
-            "type": "Feature"
-        };
-        meetingData.push(meetingEntry);
-    }
-
-  };
-
-
-
-
-
-
-
-
 
 function groupMeetingsByLocation(meetings) {
     const meetingList = {}
@@ -391,21 +329,40 @@ const map = new mapboxgl.Map({
 // then build list of meetings and add to page.
 map.on('load', () => {
 
-    // Get the meeting data and add to the map.
-    getMeetingData()
-    //  getMeetingJsonData()
-    .then((meetings) => {
-        console.log('load', meetings)
-        // map.addSource('meetingPlaces', {
-        //     'type': 'geojson',
-        //     'data': {
-        //         'type': 'FeatureCollection',
-        //         'features': meetings,
-        //     }
-        // });
-        // buildCountyList(meetings);
-    })
-    .catch((error) => (console.log('map load error', error)));
+    // First get the local json file.
+    getMeetingJsonData()
+        .then((data) => {
+            // Add data to meetingsData.
+            for (let meeting in data) {
+                meetingsData.push(meeting);
+            }
+        })
+        .catch((error) => (console.log('error getting meeting json', error)));
+
+    // Then get the Google Sheet data.
+    getMeetingGoogleSheetData()
+        .then((data) => {
+            // Parse the csv data into an object for easy access.
+            const parsedData = d3.csvParse(data);
+            // Add the data to meetingsData.
+            for (let row in data) {
+                let meetingObject = {
+                }
+            }
+            return parsedData;
+        })
+        .then((meetings) => {
+            console.log('load', meetings)
+            // map.addSource('meetingPlaces', {
+            //     'type': 'geojson',
+            //     'data': {
+            //         'type': 'FeatureCollection',
+            //         'features': meetings,
+            //     }
+            // });
+            // buildCountyList(meetings);
+        })
+        .catch((error) => (console.log('map load error', error)));
 
 });
 
