@@ -329,37 +329,51 @@ const map = new mapboxgl.Map({
 // then build list of meetings and add to page.
 map.on('load', () => {
 
-    // First get the local json file.
-    getMeetingJsonData()
-        .then((data) => {
-            // Add data to meetingsData.
-            for (let meeting in data) {
-                meetingsData.push(meeting);
-            }
-        })
-        .catch((error) => (console.log('error getting meeting json', error)));
-
     // Then get the Google Sheet data.
     getMeetingGoogleSheetData()
         .then((data) => {
             // Parse the csv data into an object for easy access.
             const parsedData = d3.csvParse(data);
-            // Add the data to meetingsData.
-            for (let row in data) {
-                let meetingObject = {
-                }
-            }
             return parsedData;
+        })
+        .then((data) => {
+            // Format data for mapbox
+            const geoJsonArray = [];
+            for (let meeting of data) {
+                let meetingGeoJson = {
+                    "properties": {
+                        "government": meeting.Government,
+                        "publicbody": meeting.Public_body,
+                        "location": meeting.Location,
+                        "address": meeting.Address,
+                        "schedule": meeting.Schedule,
+                        "start": meeting.Start_time,
+                        "end": meeting.End_time,
+                        "remote": meeting.Remote_options,
+                        "moreInfo": meeting.source,
+                        "id": meeting.Id,
+                      },
+                      "geometry": {
+                        "longitude": meeting.Longitude,
+                        "latitude": meeting.Latitude,
+                        "coordinates": [meeting.Longitude, meeting.Latitude],
+                        "type": "Point"
+                      },
+                      "type": "Feature"
+                };
+                geoJsonArray.push(meetingGeoJson);
+            }
+            return geoJsonArray;
         })
         .then((meetings) => {
             console.log('load', meetings)
-            // map.addSource('meetingPlaces', {
-            //     'type': 'geojson',
-            //     'data': {
-            //         'type': 'FeatureCollection',
-            //         'features': meetings,
-            //     }
-            // });
+            map.addSource('meetingPlaces', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': meetings,
+                }
+            });
             // buildCountyList(meetings);
         })
         .catch((error) => (console.log('map load error', error)));
