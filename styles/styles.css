@@ -27,6 +27,19 @@ section {
   padding: 1em;
 }
 
+details {
+  border: 2px solid black;
+  padding: 1em;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+
 a {
   color: var(--anchor-color);
 }
@@ -54,8 +67,10 @@ button:hover {
 #map-div {
   /* border: 4px solid green; */
   margin: 1em;
-  height: 60vh;
+  min-height: 60vh;
   padding: 1em;
+  display: flex;
+  /* flex-direction: row; */
 }
 
 #meeting-list {
@@ -101,12 +116,15 @@ button:hover {
     background-size: cover;
 }
 
-.meeting-marker svg path {
-  /* stroke: red; */
+
+@media screen and (orientation:landscape) and (max-width: 1024px){
+  #map-div {
+    flex-direction: column;
+  }
 }
 
-
-.meeting-marker svg:hover path {
-  fill: var(--anchor-color);
+@media screen and (orientation:portrait) {
+  #map-div {
+    flex-direction: column;
+  }
 }
-

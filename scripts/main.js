@@ -260,7 +260,6 @@ map.on('load', () => {
                       },
                       "type": "Feature"
                 };
-                console.log(meetingsData)
                 meetingsData.push(meetingGeoJson);
             }
             return meetingsData;
