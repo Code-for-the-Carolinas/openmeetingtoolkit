@@ -108,13 +108,6 @@ a:hover {
     border-radius: 0;
 }
 
-.marker {
-    border: none;
-    cursor: pointer;
-    height: 45px;
-    width: 45px;
-    background-image: url('../assets/yellow-marker-icon.svg');
-}
 
 /* Marker tweaks */
 .mapboxgl-popup {

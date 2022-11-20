@@ -30,12 +30,14 @@ const getMeetingGoogleSheetData = () => {
         .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
 };
 
+// Helper function to clear all child elements from a parent div.
 const clearDiv = (parent) => {
     while (parent.firstChild) {
         parent.removeChild(parent.firstChild);
     }
 };
 
+// __Map Listing Functions__
 // Groups meetings by county then sorts A-Z
 const groupMeetingsByCounty = (meetings) => {
     // For each meeting in the meeting list,
@@ -61,18 +63,18 @@ const groupMeetingsByCounty = (meetings) => {
 // TODO: Implement function to show meeting when clicked
 const showMeetings = (meetings) => {
     // const {id} = event.target;
-    console.log(meetings);
+    // console.log(meetings);
     // list meetings
     clearDiv(document.querySelector('#listings'));
     let meetingList = document.getElementById('listings');
-    // clearDiv(meetingList);
 
-    const backButton = document.createElement('button');
+    let backButton = document.createElement('button');
     backButton.innerHTML = 'BACK'
     meetingList.appendChild(backButton)
 
     backButton.onclick = (event) => {
         event.preventDefault();
+        removeMarkers();
         flyToMeeting(defaultCooridinates, defaultZoom);
         showMeetingsByCounties(meetingsData);
     };
@@ -87,7 +89,8 @@ const showMeetings = (meetings) => {
             flyToMeeting(meeting.geometry.coordinates, 10);
             showMeetingInfo(meeting);
         };
-        meetingList.appendChild(meetingButton)
+        meetingList.appendChild(meetingButton);
+        addMeetingMarker(meeting.geometry.coordinates, meeting);
     }
 };
 
@@ -100,7 +103,7 @@ const showMeetingsByCounties = (meetingList) => {
     const countiesDiv = document.querySelector('#listings');
 
     const meetingsByCountyList = groupMeetingsByCounty(meetingList);
-    console.log('meetings by county', meetingsByCountyList)
+    // console.log('meetings by county', meetingsByCountyList)
 
     // Create a list of county names sorted alphabetically.
     const countyNamesSorted = Object.keys(meetingsByCountyList).sort((c1, c2) => c1.localeCompare(c2));
@@ -122,6 +125,8 @@ const showMeetingsByCounties = (meetingList) => {
     }
 };
 
+
+// __MapBox Functions__
 // Goes to meeting location on map.
 const flyToMeeting = (meetingLocation, zoom) => {
     map.flyTo({
@@ -177,12 +182,41 @@ const showMeetingInfo = (meeting) => {
         .addTo(map);
 };
 
+// Removes all popups from map.
 const removePopup = () => {
     const popUps = document.getElementsByClassName('mapboxgl-popup');
     if (popUps[0]) {
         popUps[0].remove();
     }
 }
+
+// Adds map marker for a given set of coordinates
+const addMeetingMarker = (coordinates, meeting) => {
+    const markerElement = document.createElement('div');
+    markerElement.className = 'meeting-marker';
+    markerElement.onclick = () => {
+        flyToMeeting(coordinates, 7);
+        showMeetingInfo(meeting);
+    }
+    const marker = new mapboxgl.Marker({
+        'anchor': 'center',
+        'element': markerElement,
+    })
+    .setLngLat(coordinates)
+    .addTo(map);
+}
+
+const removeMarkers = () => {
+    const markers = document.querySelectorAll('.mapboxgl-marker')
+    for(let marker of markers) {
+        marker.remove();
+    }
+}
+
+
+
+
+
 
 // __Map functions__
 // Create new map instance inside the div with id 'map'.
