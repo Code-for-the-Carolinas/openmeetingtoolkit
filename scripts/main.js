@@ -213,11 +213,6 @@ const removeMarkers = () => {
     }
 }
 
-
-
-
-
-
 // __Map functions__
 // Create new map instance inside the div with id 'map'.
 const map = new mapboxgl.Map({
@@ -265,6 +260,7 @@ map.on('load', () => {
                       },
                       "type": "Feature"
                 };
+                console.log(meetingsData)
                 meetingsData.push(meetingGeoJson);
             }
             return meetingsData;
