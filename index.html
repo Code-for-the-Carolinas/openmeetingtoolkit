@@ -83,25 +83,26 @@
     features that affect public meetings, forms for taking structured notes about public meetings (before, during, and after), guidance on synthesizing observations, and
     examples of ways to recommend improvements through feedback, policy change, and partnerships.
   </p>
-  <p>
-    While no specialized technical knowledge is needed to use the Toolkit, at least one member of your team should be proficient with the Google Suite. All Toolkit resources are hosted by Sunshine Request on GitHub and Google Workspace.
-    A team leader should create a Google Folder for your team's files related to the Open Meeting Toolkit. GitHub knowledge will only be needed if your team chooses to host a local copy of the map.
-  </p>
-    <p>
+   <p>
     The Open Meeting Toolkit for the Carolinas builds on the Open Meetings Policy project by Sunshine Request and
     Code for Asheville. Volunteers in Asheville attended local government meetings, observed barriers to participation, synthesized their findings, developed a
     policy proposal, gathered support, and presented that proposal to their local government. Code for the Carolinas volunteers realized the potential in
     their project to improve access to local government statewide and to engage civic technology volunteers with a variety of skills and backgrounds. Code
     for America recognized this scaling project as a Summer 2022 Impact Sprint.
+    <h3>Getting Started</h3>  
+    <p>
+    While no specialized technical knowledge is needed to use the Toolkit, at least one member of your team should be proficient with the Google Suite. 
+      All Toolkit resources are hosted by Sunshine Request on their <a href="https://github.com/sunshine-request" target="_blank">GitHub</a> and <a href="https://drive.google.com/drive/folders/1Irt-PMG0ZBGti6Dea2fg8Fc7NrM05f4N?usp=sharing" target="_blank">Google Workspace<\a>.
+    A team leader should create a Google Folder for your team's files related to the Open Meeting Toolkit and contact Sunshine Request at records@sunshinerequest.com to be added as a Collaborator on the Google Forms. GitHub knowledge will only be needed if your team chooses to host a local copy of the map.
+    </p>
 </p>
 </div>
-
     </section>
    <!--Local Scan & Toolkit Instruction Section-->
     <section id="scan-section">
       <h2>Local Scan</h2>
       <p>
-        Start by getting to know more about public meetings in your community. The Toolkit's local scan
+        Start by getting to know more about your community and the public meetings your local government holds. The Toolkit's local scan
         includes two activities to help you prepare: a map of public meetings and an environmental scan, called a STEEPLE analysis. Consider hosting
         one or more kickoff events for your team to do these activities as they prepare to use the Toolkit.</p>
       <!--Map Instructions-->
@@ -124,7 +125,7 @@
          North Carolina’s public meetings law, Article 33, Meetings of Public Bodies, states: “If a public body has a Web site and has established a schedule of regular meetings, the public body shall post the schedule of regular meetings to the Web site.” This section explains how your team can collect data on county or city meetings and provide that data to Sunshine Request so it can be added to the Map of Public Meetings in the Carolinas.
          </p>
          <p>
-        The process has four steps:
+        The process of adding your community's meetings to the map has four steps:
         </p>
         <ol>
         <li>Find the relevant information for the city/county.</li>
@@ -133,10 +134,10 @@
          <li>Add the information to the map.</li>
         </ol>
         <p>
-         This process requires spreadsheet software and internet search skills.  Web-scraping requires some programming skill.
+         This process requires spreadsheet software skills and internet search skills.  Web-scraping requires some programming skill.
          </p>
          <p>
-         A local team leader should read the complete instructions to prepare for the activity. There is also a document with more detailed instructions you could use as a handout for team members.
+         A local team leader should read the complete instructions to prepare for the activity. There is also a document with more detailed instructions you could use adapt for use as a handout for team members, the <a href="https://docs.google.com/document/d/1nn2dBH0zFVuw5SuKsKKsInglghcS9bu9tsPa3bRmsUY/edit?usp=sharing" target="_blank">Sample Kickoff Event Map Activity Instructions</a>.
         </p>
          <h4>Step 1: Find Information</h4>
          <p>
@@ -169,7 +170,7 @@
          We provide some sample web scraping scripts in C# and Python. These can be used for reference on future web scrapers. Within the GitHub repository for the project is the “publicmeetings/Scrapers” directory.  The readme file in that directory contains more information on the scrapers themselves. The directory contains two groups of files: some county-specific scrapers using Python’s BeautifulSoup library, and a C# scraper designed to handle multiple counties, as well as automating some other parts of the process (particularly getting the latitudes and longitudes of the meetings).
         </p>
         <p>
-         If you prefer a different programming language for web scraping, you can use your preferred language to write a script. Just make sure it outputs a CSV file in the desired format.
+         If you prefer a different programming language for web scraping, you can use your preferred language to write a script that provides output as a CSV file with the fields from the Data Dictionary.
         </p>
         <p>
          Meetings pages are often somewhat incomplete or irregularly structured. Some amount of manual data collection and data cleaning will probably still be necessary. All of the webs scraping operations using the code mentioned above did require additional manual work.
@@ -289,7 +290,7 @@
       <p>
         Once the information has been fully collected, save or export the spreadsheet as a CSV file.
       </p>
-      <h4>Step 4: Add Informatin to the Map</h4>
+      <h4>Step 4: Add Information to the Map</h4>
       <p>
         Provide your CSV file to Sunshine Request and their team will add it to the map. If you are comfortable working in GitHub, you can use a pull request to submit your file. Another option would be to email the file to records@sunshinerequest.com . Allow about a week for the Sunshine Request team to update the map with your meetings.
       </p>
@@ -303,36 +304,33 @@
         <p>
           The STEEPLE Analysis helps you get to know your community in ways that will help you identify barriers
           to participating in public meetings. When the Code for the Carolinas team shared this part of the Toolkit with
-          Sunshine Request and Code for Asheville, they said that this type of
-          up-front analysis would have made their work a lot easier!
-
+          Sunshine Request and Code for Asheville, they said that this type of up-front analysis would have made their work a lot easier! As you work on the 
+          STEEPLE Analysis, keep in mind that it is a learning activity. Focus more on learning and incorporating multiple perspectives than on getting all of the answers "right."
         <p>
           The STEEPLE Analysis comes from a tool called the PEST analysis.
           It was developed by Harvard Business Professor Francis J. Aguilar,
           in his 1964 book Scanning the Business Environment. The main idea behind this process is
           to get a general impression of the community where you will be evaluating public meetings.
-          We are using a version of the tool from management training firm Professional Academy, which
+          We are using <a href="https://www.professionalacademy.com/blogs/marketing-theories-pestel-analysis/" target="_blank">a version of the tool from management training firm Professional Academy</a>, which
           asks questions about the Social, Technical, Environmental, Economic, Political, Legal, and
           Ethical characteristics of the local community. The letters have been rearranged to STEEPLE
-          so it is easier to remember and also organizes related concepts in a more logical order
-          (example: political next to legal).
+          so it is easier to remember and also organizes related concepts in a more logical order for our topic (example: political next to legal).
         </p>
-
         <!-- Instructions -->
         <details>
           <summary><span>STEEPLE Analysis Instructions:</span></summary>
           <p>Plan to bring your team together for about one to two hours to complete the STEEPLE Analysis. You will do this
             analysis to help your local team prepare to evaluate local government meetings. The analysis can be done online or in person. We
             do recommend that you bring team members together to work on the analysis at the same time. As a local team leader, you should read the complete instructions in advance to prepare for the activity.</p>
-
-            <p>Decide how your team wants to work on the STEEPLE Analysis. Here are two things to consider:</p>
+            <p>
+            Decide how your team wants to work on the STEEPLE Analysis. Here are two things to consider as you plan for the activity:</p>
             <ol>
               <li>
                 Does your team know each other? Lead a round of synchronous or asynchronous introductions to get
                 acquainted before you start work on the STEEPLE analysis.
               </li>
               <li>
-                How will you collaborate? You may choose to collaborate in a breakout room, in chat,
+                How will you collaborate? You may choose to collaborate in person or online in a videoconference, 
                 <a href="https://etherpad.org/" target="_blank">in an Etherpad</a>, or using some other method. Consider using a brief icebreaker that invites participants to share
                 about their connections to the community, like "Compare [your community] to another place you have lived or visited." or "How would you describe [your community] to someone who just moved here?"
               </li>
@@ -340,25 +338,22 @@
 
           <p><strong>Access the Google Form</strong></p>
           <ol>
-            <li>A local team leader should access the Open Meeting Toolkit Folder in the Sunshine Request Google Workspace and make a copy of the Open Meeting Toolkit STEEPLE Analysis form. </li>
-            <li>Click on the Send button at the upper right. <a href="https://support.google.com/docs/answer/2839588?hl=en" target="_blank"> Use the Email or Get a link option</a> to share a link to the form.</li>
-            <li>Provide the link to the team member who will complete the form. This can be yourself or another team member. </li>
+            <li>A local team leader should access the Open Meeting Toolkit Folder in the Sunshine Request <a href="https://drive.google.com/drive/folders/1Irt-PMG0ZBGti6Dea2fg8Fc7NrM05f4N?usp=sharing" target="_blank">Google Workspace<\a> and make a copy of the Open Meeting Toolkit STEEPLE Analysis form in your own Google folder. </li>
+            <li>Click on the Send button at the upper right of the form. <a href="https://support.google.com/docs/answer/2839588?hl=en" target="_blank"> Use the Email or Get a link option</a> to share a link to the form with a local team member.</li>
+            <li>Provide the link to the team member who will complete the form for your team. This can be yourself or another team member.</li>
           </ol>
           <br>
           <p><strong>Fill in STEEPLE Analysis Questions</strong></p>
 
-          <p>The STEEPLE analysis has seven parts. The full text of the question is listed below so all team members can easily refer to them. Plan to spend no more than about 10 minutes on each part. There is a text box at the end of the survey
+          <p>The STEEPLE analysis has seven parts. The full text of the questions are listed below so all team members can easily refer to them. You may also want to review this <a href="https://docs.google.com/document/d/e/2PACX-1vSbsYmFyDrI_LSf9dd2P_hpkyNtm3yXTVsamFpTQQlx_8Dt9URgTdWOUtSbAdXCM0C5QjQ8WBF7FWTD/pub" target="_blank">STEEPLE Analysis Example<\a> for Cumberland County. 
+            Keep in mind that there is no single right answer to many of these questions. Plan to spend no more than about 10 minutes on each section. There is a text box at the end of the survey
             where you can include any additional information or clarify your responses. The form is set to automatically save your responses as they are entered. You can
-            always go back and adjust your responses in the Google Form. To maximize learning as a team and as individuals, work on all parts of the analysis together as a team. Ideally all team members will help with
+            always go back and adjust your responses in the Responses section of the Google Form. To maximize learning as a team and as individuals, work on all parts of the analysis together as a team. Ideally all team members will help with
             the STEEPLE analysis, with one person entering the team's answers into the form. There are some time-saving suggestions for breaking up the work in the Political and Legal sections. It is especially valuable for
             the whole team to work together on the Ethical section.</p>
-
-
-
         <!-- Social Questions -->
           <details>
             <summary><span>S</span>ocial</summary>
-
             <ol>
               <li>List the name of the community where your team will evaluate the local public meetings. This will
                 usually be a county, city, or town. Throughout this activity, the words "your community" refer to the
@@ -368,21 +363,15 @@
                   <li>Use the search box at <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221"
                       target="_blank">Quickfacts from the US Census</a> to look up your community. Look over the
                     factsheet, and then enter 3 to 5 important facts about your community. If you're not sure what to
-                    include, start by comparing values for your community to the US and to North Carolina.</li>
+                    include, start by comparing some values for your community to the US and to North Carolina.</li>
                 </ul>
               </li>
             </ol>
           </details>
-
           <!-- Technical Questions -->
           <details>
             <summary><span>T</span>echnical</summary>
-            <p>
-              The public transportation question is based on the following resource: De Oña, Juan, and Rocio De Oña.
-              "Quality of service in public transport based on customer satisfaction surveys: A review and assessment of
-              methodological approaches." <strong>Transportation Science 49</strong>, no. 3 (2015): 605-622.
-            </p>
-            <ol>
+              <ol>
               <li>Use the <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221" target="_blank">Census
                   Quickfacts</a> to look up how many households in your county have a broadband internet subscription at
                 home.</li>
@@ -401,18 +390,22 @@
               </ul>
               <li>From the perspective of someone taking public transit to attend a local government meeting, how would
                 you rate public transit in your community? Consider factors like: stops in convenient locations,
-                frequent
-                service, accessible stops and vehicles, and information about schedules and routes that is easy to find
+                frequent service, accessible stops and vehicles, and information about schedules and routes that is easy to find
                 and use.
-                <p>*Rate the service as poor, fair, or good. You can also mark not sure.</p>
+                <li>Good</li>
+                <li>Fair</li>
+                <li>Poor</li>
               </li>
+               <p>
+              The public transportation question is based on the following resource: De Oña, Juan, and Rocio De Oña.
+              "Quality of service in public transport based on customer satisfaction surveys: A review and assessment of
+              methodological approaches." <strong>Transportation Science 49</strong>, no. 3 (2015): 605-622.
+            </p>
             </ol>
           </details>
-
           <!-- Environmental Questions-->
           <details>
             <summary><span>E</span>nvironmental</summary>
-
             <ol>
               <li>Do any of the following weather conditions sometimes make it hard to go to meetings in your community?
                 Mark all that apply.</li>
@@ -433,7 +426,6 @@
               </ul>
             </ol>
           </details>
-
           <!-- Economic Questions-->
           <details>
             <summary><span>E</span>conomic</summary>
@@ -453,7 +445,6 @@
               <li>List some of the main companies or industries where people in your community work:</li>
             </ol>
           </details>
-
           <!-- Political Questions -->
           <details>
             <summary><span>P</span>olitical</summary>
@@ -480,10 +471,8 @@
                 your local government rather than state or national issues. Local news media can be good sources for
                 this
                 information.</li>
-
             </ol>
           </details>
-
           <!-- Legal Questions  -->
           <details>
             <summary><span>L</span>egal</summary>
@@ -495,7 +484,6 @@
                 href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Open%20Meetings%20Overview.pdf"
                 target="_blank">"Open Meetings and Other Legal Requirements for Local Government Boards"</a> by Frayda S. Bluestein at the UNC School of Government.
             </p>
-
             <ol>
               <li>Locate the Code of Ordinances for your county. Paste the link here for reference.</li>
               <li>Local governments can have additional policies about public meetings that go beyond state law. Skim
@@ -525,7 +513,6 @@
         <p>Click Submit to submit your STEEPLE Analysis. Your team's responses will be available on the Responses tab to the local team leader who shared the form. You will refer back to them in the analysis phase of using the Toolkit.</p>
         </details>
     </section>
-
     <!--Meeting Evaluation Section-->
     <section id="evaluation-section">
       <h2>Meeting Marathon Plan</h2>
