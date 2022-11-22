@@ -1,9 +1,13 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2ZvdXVhZXNjbHd0In0.4CfhKr_VP1IDEM08Nk7PXg';
 
-const stateCooridinates = [-79.0193, 35.7596 ];
+// Nort Carolina
 const defaultCooridinates = [-79.8, 35.3];
-const defaultZoom = 5;
-const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
+const defaultZoom = 7;
+
+// Change this to the id of your Google Sheet!
+// const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
+const spreadSheetID = '1mUvNFfMyX3yrgo-b9fTsHk3rHPWLKJyzbwuRbSV2dDQ';
+
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 
@@ -20,8 +24,9 @@ const handleFetchErrors = (response) => {
 };
 
 const getMeetingGoogleSheetData = () => {
-    // return fetch(sheetURI)
-    return fetch('assets/meetings.csv')
+    return fetch(sheetURI)
+    // return fetch('assets/meetings.csv')
+
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
@@ -65,19 +70,22 @@ const showMeetings = (meetings) => {
     // const {id} = event.target;
     // console.log(meetings);
     // list meetings
+
     clearDiv(document.querySelector('#listings'));
     let meetingList = document.getElementById('listings');
 
     let backButton = document.createElement('button');
-    backButton.innerHTML = 'BACK'
-    meetingList.appendChild(backButton)
+    backButton.innerHTML = 'BACK';
+    meetingList.appendChild(backButton);
 
     backButton.onclick = (event) => {
         event.preventDefault();
         removeMarkers();
         flyToMeeting(defaultCooridinates, defaultZoom);
-        showMeetingsByCounties(meetingsData);
+        showCounties(meetingsData);
     };
+
+    const coordinates = [];
 
     for (let meeting of meetings) {
         const meetingButton = document.createElement('button');
@@ -89,16 +97,30 @@ const showMeetings = (meetings) => {
             flyToMeeting(meeting.geometry.coordinates, 10);
             showMeetingInfo(meeting);
         };
+        // Add the markers to map.
         meetingList.appendChild(meetingButton);
         addMeetingMarker(meeting.geometry.coordinates, meeting);
+        coordinates.push(meeting.geometry.coordinates);
     }
+        const bounds = new mapboxgl.LngLatBounds(
+            coordinates[0],
+            coordinates[0]
+        );
+
+        // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
+        for (const coord of coordinates) {
+            bounds.extend(coord);
+        }
+
+        map.fitBounds(bounds, {
+            padding: 20
+        });
 };
 
 // Adds a list of meetings to the DOM.
-const showMeetingsByCounties = (meetingList) => {
+const showCounties = (meetingList) => {
     // console.log('meetings by county', meetingList)
     map.fire('closeAllPopups');
-    flyToMeeting(stateCooridinates, 7);
     clearDiv(document.querySelector('#listings'));
     const countiesDiv = document.querySelector('#listings');
 
@@ -114,8 +136,7 @@ const showMeetingsByCounties = (meetingList) => {
         const countyButton = document.createElement('button');
         countyButton.className = 'meeting-btn';
         countyButton.id = `${countyName}`;
-        countyButton.textContent = `${countyName}`
-
+        countyButton.textContent = `${countyName}`;
         // add event to button to show meeting when clicked,
         countyButton.onclick = (event) => {
             event.preventDefault();
@@ -253,11 +274,9 @@ map.on('load', () => {
                     'features': meetings,
                 }
             });
-            // const meetingsByCountyList = groupMeetingsByCounty(meetings);
-            // console.log(meetingsByCountyList);
-            showMeetingsByCounties(meetings);
-
-            showMeetingInfo(meetings[0]);
+            showCounties(meetings);
+            flyToMeeting(defaultCooridinates, defaultZoom);
+            // showMeetingInfo(meetings[0]);
         })
         .catch((error) => (console.log('map load error', error)));
 
