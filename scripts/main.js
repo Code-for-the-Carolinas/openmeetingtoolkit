@@ -26,7 +26,6 @@ const handleFetchErrors = (response) => {
 const getMeetingGoogleSheetData = () => {
     return fetch(sheetURI)
     // return fetch('assets/meetings.csv')
-
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
@@ -41,6 +40,23 @@ const clearDiv = (parent) => {
         parent.removeChild(parent.firstChild);
     }
 };
+
+const createBackButton = (pageNumber) => {
+    let backButton = document.createElement('button');
+    backButton.innerHTML = 'BACK';
+    backButton.className = 'back-button';
+    backButton.onclick = (event) => {
+        event.preventDefault();
+        console.log(pageNumber)
+        removeMarkers();
+        flyToMeeting(defaultCooridinates, defaultZoom);
+        showCounties(meetingsData);
+    };
+    return backButton;
+};
+
+
+
 
 // __Map Listing Functions__
 // Groups meetings by county then sorts A-Z
@@ -65,67 +81,14 @@ const groupMeetingsByCounty = (meetings) => {
     }, []);
 };
 
-// TODO: Implement function to show meeting when clicked
-const showMeetings = (meetings) => {
-    // const {id} = event.target;
-    // console.log(meetings);
-    // list meetings
-
-    clearDiv(document.querySelector('#listings'));
-    let meetingList = document.getElementById('listings');
-
-    let backButton = document.createElement('button');
-    backButton.innerHTML = 'BACK';
-    meetingList.appendChild(backButton);
-
-    backButton.onclick = (event) => {
-        event.preventDefault();
-        removeMarkers();
-        flyToMeeting(defaultCooridinates, defaultZoom);
-        showCounties(meetingsData);
-    };
-
-    const coordinates = [];
-
-    for (let meeting of meetings) {
-        const meetingButton = document.createElement('button');
-        meetingButton.className = 'meeting-btn';
-        meetingButton.id = `${meeting.properties.id}`;
-        meetingButton.innerHTML = `${meeting.properties.publicbody}`;
-        meetingButton.onclick = (event) => {
-            event.preventDefault();
-            flyToMeeting(meeting.geometry.coordinates, 10);
-            showMeetingInfo(meeting);
-        };
-        // Add the markers to map.
-        meetingList.appendChild(meetingButton);
-        addMeetingMarker(meeting.geometry.coordinates, meeting);
-        coordinates.push(meeting.geometry.coordinates);
-    }
-        const bounds = new mapboxgl.LngLatBounds(
-            coordinates[0],
-            coordinates[0]
-        );
-
-        // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
-        for (const coord of coordinates) {
-            bounds.extend(coord);
-        }
-
-        map.fitBounds(bounds, {
-            padding: 20
-        });
-};
-
 // Adds a list of meetings to the DOM.
 const showCounties = (meetingList) => {
-    // console.log('meetings by county', meetingList)
-    map.fire('closeAllPopups');
+    // map.fire('closeAllPopups');
+
     clearDiv(document.querySelector('#listings'));
     const countiesDiv = document.querySelector('#listings');
 
     const meetingsByCountyList = groupMeetingsByCounty(meetingList);
-    // console.log('meetings by county', meetingsByCountyList)
 
     // Create a list of county names sorted alphabetically.
     const countyNamesSorted = Object.keys(meetingsByCountyList).sort((c1, c2) => c1.localeCompare(c2));
@@ -146,6 +109,122 @@ const showCounties = (meetingList) => {
     }
 };
 
+// TODO: Implement function to show meeting when clicked
+const showMeetings = (meetings) => {
+
+    clearDiv(document.querySelector('#listings'));
+    let meetingList = document.getElementById('listings');
+
+    // backButton.className = 'back-button';
+
+    let backButton = document.createElement('button');
+    backButton.innerHTML = 'BACK';
+    backButton.id = 'back-button';
+    backButton.onclick = (event) => {
+        event.preventDefault();
+        removeMarkers();
+        flyToMeeting(defaultCooridinates, defaultZoom);
+        showCounties(meetingsData);
+    };
+
+    meetingList.appendChild(backButton);
+
+
+    const coordinates = [];
+    for (let meeting of meetings) {
+        const meetingButton = document.createElement('button');
+        meetingButton.className = 'meeting-btn';
+        meetingButton.id = `${meeting.properties.id}`;
+        meetingButton.innerHTML = `${meeting.properties.publicbody}`;
+        meetingButton.onclick = (event) => {
+            event.preventDefault();
+            flyToMeeting(meeting.geometry.coordinates, 10);
+            showMeetingInfo(meeting, meetings);
+        };
+        // Add the markers to map.
+        meetingList.appendChild(meetingButton);
+        addMeetingMarker(meeting.geometry.coordinates, meeting);
+        coordinates.push(meeting.geometry.coordinates);
+    }
+    const bounds = new mapboxgl.LngLatBounds(
+        coordinates[0],
+        coordinates[0]
+    );
+
+    // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
+    for (const coord of coordinates) {
+        bounds.extend(coord);
+    }
+
+    map.fitBounds(bounds, {
+        padding: 40
+    });
+};
+
+
+
+// Shows the meeting info as a popup in the map.
+const showMeetingInfo = (meeting, meetings) => {
+    // Check if there is a popup and remove it if so.
+    removePopup();
+    clearDiv(document.querySelector('#listings'));
+
+    let listingsDiv = document.getElementById('listings');
+
+    const {publicbody, government, location, address, schedule, start, end, remote} = meeting.properties;
+    flyToMeeting(meeting.geometry.coordinates, 7);
+
+    // document.getElementById('back-button').remove();
+
+    // let backButton = document.createElement('button');
+    // backButton.innerHTML = 'BACK';
+    // backButton.id = 'back-button';
+
+    backButton = document.getElementById('back-button');
+    backButton.onclick = (event) => {
+        event.preventDefault();
+        removeMarkers();
+        console.log('test')
+        // flyToMeeting(defaultCooridinates, defaultZoom);
+        // showMeetings(meetings);
+    };
+
+    // listingsDiv.appendChild(backButton);
+
+
+
+    let meetingInfoDiv = document.createElement('div');
+    meetingInfoDiv.className = 'meeting-info';
+    meetingInfoDiv.innerHTML =
+        `<p><b>Public Body:</b> ${publicbody}</p>
+        <p><b>Government:</b> ${government}</p>
+        <p><b>Address:</b> ${location} <br> ${address}</p>
+        <p><b>Schedule:</b> ${schedule}</p>
+        <p><b>Start:</b> ${start} <b>End: </b>${end}</p>
+        <p><b>Remote:</b> ${remote}</p>`;
+
+    listingsDiv.appendChild(meetingInfoDiv);
+
+    // const popup = new mapboxgl.Popup({
+    //         closeOnClick: false,
+    //         anchor: 'center',
+    //         maxWidth: '80%',
+    //         focusAfterOpen: false
+    //     })
+    //     .setHTML(
+    //         `<div class="meeting-info">
+    //             <p><b>Public Body:</b> ${publicbody}</p>
+    //             <p><b>Government:</b> ${government}</p>
+    //             <p><b>Address:</b> ${location} <br> ${address}</p>
+    //             <p><b>Schedule:</b> ${schedule}</p>
+    //             <p><b>Start:</b> ${start} <b>End: </b>${end}</p>
+    //             <p><b>Remote:</b> ${remote}</p>
+    //         </div>`
+    //     )
+    //     .setLngLat(meeting.geometry.coordinates)
+    //     .addTo(map);
+};
+
 
 // __MapBox Functions__
 // Goes to meeting location on map.
@@ -154,33 +233,6 @@ const flyToMeeting = (meetingLocation, zoom) => {
         center: meetingLocation,
         zoom: zoom,
     });
-};
-
-// Shows the meeting info as a popup in the map.
-const showMeetingInfo = (meeting) => {
-    const {publicbody, government, location, address, schedule, start, end, remote} = meeting.properties;
-    // Check if there is a popup and remove it if so.
-    removePopup();
-    flyToMeeting(meeting.geometry.coordinates, 7);
-
-    const popup = new mapboxgl.Popup({
-            closeOnClick: false,
-            anchor: 'center',
-            maxWidth: '80%',
-            focusAfterOpen: false
-        })
-        .setHTML(
-            `<div class="meeting-info">
-                <p><b>Public Body:</b> ${publicbody}</p>
-                <p><b>Government:</b> ${government}</p>
-                <p><b>Address:</b> ${location} <br> ${address}</p>
-                <p><b>Schedule:</b> ${schedule}</p>
-                <p><b>Start:</b> ${start} <b>End: </b>${end}</p>
-                <p><b>Remote:</b> ${remote}</p>
-            </div>`
-        )
-        .setLngLat(meeting.geometry.coordinates)
-        .addTo(map);
 };
 
 // Removes all popups from map.

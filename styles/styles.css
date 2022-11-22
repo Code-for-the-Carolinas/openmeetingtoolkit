@@ -114,6 +114,7 @@ button:hover {
 }
 
 .meeting-info {
+  border: 4px solid red;
   margin: 1em;
   display: flex;
   flex-direction: column;
