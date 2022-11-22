@@ -41,22 +41,11 @@ const clearDiv = (parent) => {
     }
 };
 
-const createBackButton = (pageNumber) => {
-    let backButton = document.createElement('button');
-    backButton.innerHTML = 'BACK';
-    backButton.className = 'back-button';
-    backButton.onclick = (event) => {
-        event.preventDefault();
-        console.log(pageNumber)
-        removeMarkers();
-        flyToMeeting(defaultCooridinates, defaultZoom);
-        showCounties(meetingsData);
-    };
-    return backButton;
+const removeBackButton = () => {
+    if (document.getElementById('back-button')) {
+        document.getElementById('back-button').remove();
+    }
 };
-
-
-
 
 // __Map Listing Functions__
 // Groups meetings by county then sorts A-Z
@@ -83,53 +72,57 @@ const groupMeetingsByCounty = (meetings) => {
 
 // Adds a list of meetings to the DOM.
 const showCounties = (meetingList) => {
-    // map.fire('closeAllPopups');
 
+    // Remove the back button if it's there.
+    removeBackButton();
+
+    // Clear out #listings div.
     clearDiv(document.querySelector('#listings'));
-    const countiesDiv = document.querySelector('#listings');
 
+    // Sort the meetings by county.
     const meetingsByCountyList = groupMeetingsByCounty(meetingList);
 
     // Create a list of county names sorted alphabetically.
     const countyNamesSorted = Object.keys(meetingsByCountyList).sort((c1, c2) => c1.localeCompare(c2));
-    // For each county in list,
-    for (const countyName of countyNamesSorted) {
 
-        // render each county as a button for better accessablitiy(sp),
+    // For each county in list,
+    // create and add a button for each county.
+    for (const countyName of countyNamesSorted) {
         const countyButton = document.createElement('button');
         countyButton.className = 'meeting-btn';
         countyButton.id = `${countyName}`;
         countyButton.textContent = `${countyName}`;
-        // add event to button to show meeting when clicked,
         countyButton.onclick = (event) => {
             event.preventDefault();
             showMeetings(meetingsByCountyList[countyName]);
         };
-        countiesDiv.appendChild(countyButton);
+        document.querySelector('#listings').appendChild(countyButton);
     }
 };
 
-// TODO: Implement function to show meeting when clicked
+// Shows the selected county's meetings in #listings div.
 const showMeetings = (meetings) => {
 
+    // Clear out the listings div.
     clearDiv(document.querySelector('#listings'));
-    let meetingList = document.getElementById('listings');
 
-    // backButton.className = 'back-button';
+    // Remove the back button if it's there.
+    removeBackButton();
 
+    // Create a back button to show counties when clicked.
     let backButton = document.createElement('button');
     backButton.innerHTML = 'BACK';
-    backButton.id = 'back-button';
+    backButton.setAttribute('id', 'back-button');
     backButton.onclick = (event) => {
         event.preventDefault();
         removeMarkers();
         flyToMeeting(defaultCooridinates, defaultZoom);
         showCounties(meetingsData);
     };
+    document.getElementById('listings-control').appendChild(backButton);
 
-    meetingList.appendChild(backButton);
-
-
+    // Add all the meetings and keep track of the coordinates
+    // to resize the map based on the number of markers created.
     const coordinates = [];
     for (let meeting of meetings) {
         const meetingButton = document.createElement('button');
@@ -142,16 +135,16 @@ const showMeetings = (meetings) => {
             showMeetingInfo(meeting, meetings);
         };
         // Add the markers to map.
-        meetingList.appendChild(meetingButton);
+        document.getElementById('listings').appendChild(meetingButton);
         addMeetingMarker(meeting.geometry.coordinates, meeting);
         coordinates.push(meeting.geometry.coordinates);
     }
+
     const bounds = new mapboxgl.LngLatBounds(
         coordinates[0],
         coordinates[0]
     );
 
-    // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
     for (const coord of coordinates) {
         bounds.extend(coord);
     }
@@ -163,36 +156,32 @@ const showMeetings = (meetings) => {
 
 
 
-// Shows the meeting info as a popup in the map.
-const showMeetingInfo = (meeting, meetings) => {
-    // Check if there is a popup and remove it if so.
-    removePopup();
-    clearDiv(document.querySelector('#listings'));
 
+
+
+
+// __________
+
+// Shows the meeting info in the #listings div.
+const showMeetingInfo = (meeting, meetings) => {
+
+    clearDiv(document.querySelector('#listings'));
     let listingsDiv = document.getElementById('listings');
 
     const {publicbody, government, location, address, schedule, start, end, remote} = meeting.properties;
     flyToMeeting(meeting.geometry.coordinates, 7);
 
-    // document.getElementById('back-button').remove();
-
-    // let backButton = document.createElement('button');
-    // backButton.innerHTML = 'BACK';
-    // backButton.id = 'back-button';
-
+    // Get the back button and change the click handler
+    // to show the county's meetings.
     backButton = document.getElementById('back-button');
     backButton.onclick = (event) => {
         event.preventDefault();
         removeMarkers();
-        console.log('test')
-        // flyToMeeting(defaultCooridinates, defaultZoom);
-        // showMeetings(meetings);
+        flyToMeeting(defaultCooridinates, defaultZoom);
+        showMeetings(meetings);
     };
 
-    // listingsDiv.appendChild(backButton);
-
-
-
+    // Create the info and add to the DOM.
     let meetingInfoDiv = document.createElement('div');
     meetingInfoDiv.className = 'meeting-info';
     meetingInfoDiv.innerHTML =
@@ -202,31 +191,12 @@ const showMeetingInfo = (meeting, meetings) => {
         <p><b>Schedule:</b> ${schedule}</p>
         <p><b>Start:</b> ${start} <b>End: </b>${end}</p>
         <p><b>Remote:</b> ${remote}</p>`;
-
     listingsDiv.appendChild(meetingInfoDiv);
-
-    // const popup = new mapboxgl.Popup({
-    //         closeOnClick: false,
-    //         anchor: 'center',
-    //         maxWidth: '80%',
-    //         focusAfterOpen: false
-    //     })
-    //     .setHTML(
-    //         `<div class="meeting-info">
-    //             <p><b>Public Body:</b> ${publicbody}</p>
-    //             <p><b>Government:</b> ${government}</p>
-    //             <p><b>Address:</b> ${location} <br> ${address}</p>
-    //             <p><b>Schedule:</b> ${schedule}</p>
-    //             <p><b>Start:</b> ${start} <b>End: </b>${end}</p>
-    //             <p><b>Remote:</b> ${remote}</p>
-    //         </div>`
-    //     )
-    //     .setLngLat(meeting.geometry.coordinates)
-    //     .addTo(map);
 };
 
 
 // __MapBox Functions__
+
 // Goes to meeting location on map.
 const flyToMeeting = (meetingLocation, zoom) => {
     map.flyTo({
@@ -234,14 +204,6 @@ const flyToMeeting = (meetingLocation, zoom) => {
         zoom: zoom,
     });
 };
-
-// Removes all popups from map.
-const removePopup = () => {
-    const popUps = document.getElementsByClassName('mapboxgl-popup');
-    if (popUps[0]) {
-        popUps[0].remove();
-    }
-}
 
 // Adds map marker for a given set of coordinates
 const addMeetingMarker = (coordinates, meeting) => {
@@ -318,7 +280,6 @@ map.on('load', () => {
             return meetingsData;
         })
         .then((meetings) => {
-            // console.log('load', meetings)
             map.addSource('meetingPlaces', {
                 'type': 'geojson',
                 'data': {
@@ -328,18 +289,10 @@ map.on('load', () => {
             });
             showCounties(meetings);
             flyToMeeting(defaultCooridinates, defaultZoom);
-            // showMeetingInfo(meetings[0]);
         })
         .catch((error) => (console.log('map load error', error)));
 
 });
-
-// Add event listener to the map to close all popups.
-// You can trigger this by using map.fire('closeAllPopups);
-map.on('closeAllPopups', () => {
-    removePopup();
-});
-
 
 // Add zoom and navigation controls to map interface.
 map.addControl(new mapboxgl.NavigationControl());
