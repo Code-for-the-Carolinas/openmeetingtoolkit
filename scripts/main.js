@@ -137,9 +137,11 @@ const flyToMeeting = (meetingLocation, zoom) => {
 
 // Shows the meeting info as a popup in the map.
 const showMeetingInfo = (meeting) => {
-    const {address, county, location, publicbody, start, end, remote, schedule} = meeting.properties;
+    const {publicbody, government, location, address, schedule, start, end, remote} = meeting.properties;
     // Check if there is a popup and remove it if so.
     removePopup();
+    flyToMeeting(meeting.geometry.coordinates, 7);
+
     const popup = new mapboxgl.Popup({
             closeOnClick: false,
             anchor: 'center',
@@ -147,37 +149,15 @@ const showMeetingInfo = (meeting) => {
             focusAfterOpen: false
         })
         .setHTML(
-            `<table class="meeting-info-table">
-                <caption>${publicbody}</caption>
-                <tr>
-                <th>Government</th>
-                <th>Public Body</th>
-                <th>Location</th>
-                </tr>
-                <tr>
-                <td>${county}</td>
-                <td>${publicbody}</td>
-                <td>${location}</td>
-                </tr>
-                <tr>
-                <th>Address</th>
-                <th>Schedule</th>
-                <th>Start Time</th>
-                </tr>
-                <tr>
-                <td>${address}</td>
-                <td>${schedule}</td>
-                <td>${start}</td>
-                </tr>
-                <tr>
-                <th>End Time</th>
-                <th>Remote Options</th>
-                </tr>
-                <tr>
-                <td>${end}</td>
-                <td>${remote}</td>
-                </table>
-            </div>`)
+            `<div class="meeting-info">
+                <p><b>Public Body:</b> ${publicbody}</p>
+                <p><b>Government:</b> ${government}</p>
+                <p><b>Address:</b> ${location} <br> ${address}</p>
+                <p><b>Schedule:</b> ${schedule}</p>
+                <p><b>Start:</b> ${start} <b>End: </b>${end}</p>
+                <p><b>Remote:</b> ${remote}</p>
+            </div>`
+        )
         .setLngLat(meeting.geometry.coordinates)
         .addTo(map);
 };
@@ -276,6 +256,8 @@ map.on('load', () => {
             // const meetingsByCountyList = groupMeetingsByCounty(meetings);
             // console.log(meetingsByCountyList);
             showMeetingsByCounties(meetings);
+
+            showMeetingInfo(meetings[0]);
         })
         .catch((error) => (console.log('map load error', error)));
 

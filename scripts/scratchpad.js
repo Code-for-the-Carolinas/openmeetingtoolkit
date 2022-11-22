@@ -405,3 +405,9 @@ function groupMeetingsByLocation(meetings) {
     return meetingList
 }
 
+
+let noWhiteSpaceString = location.replaceAll(' ', '+');
+let noApostrophesString = noWhiteSpaceString.replaceAll("'", '%27')
+console.log(noApostrophesString)
+const query=`Harrah%27s+Cherokee+Center`;
+const locationURL = `https://www.google.com/maps/search/?api=1&${query}`;
