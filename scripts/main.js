@@ -2,17 +2,15 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2Zvd
 
 // Nort Carolina
 const defaultCooridinates = [-79.8, 35.3];
-const defaultZoom = 7;
+const defaultZoom = 5;
+const countyZoom = 7;
+const meetingInfoZoom = 14;
 
 // Change this to the id of your Google Sheet!
-// const spreadSheetID = '12GiMtxkEZA-TzAB0iBf3S_euXBId7HaPlWUvpOf9p-Q';
 const spreadSheetID = '1mUvNFfMyX3yrgo-b9fTsHk3rHPWLKJyzbwuRbSV2dDQ';
-
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 
-const meetingsSheetData = [];
-const meetingsJsonData = {};
 const meetingsData = [];
 
 // __Data Fetching Functions__
@@ -25,7 +23,6 @@ const handleFetchErrors = (response) => {
 
 const getMeetingGoogleSheetData = () => {
     return fetch(sheetURI)
-    // return fetch('assets/meetings.csv')
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
@@ -48,21 +45,22 @@ const removeBackButton = () => {
 };
 
 // __Map Listing Functions__
+
 // Groups meetings by county then sorts A-Z
 const groupMeetingsByCounty = (meetings) => {
     // For each meeting in the meeting list,
     return meetings.reduce((meetingsByCounty, item) => {
         // get the county the meeting is in,
-        const county = item.properties.government;
+        const government = item.properties.government;
         // if county is not blank,
-        if (county) {
+        if (government) {
             // check if it's in our new list,
-            if (meetingsByCounty[county]) {
+            if (meetingsByCounty[government]) {
                 // add the meeting to the county,
-                meetingsByCounty[county].push({properties: {...item.properties}, geometry: {...item.geometry}});
+                meetingsByCounty[government].push({properties: {...item.properties}, geometry: {...item.geometry}});
             } else {
                 // otherwise add a new entry for the county.
-                meetingsByCounty[county] = [{properties: {...item.properties}, geometry: {...item.geometry}}];
+                meetingsByCounty[government] = [{properties: {...item.properties}, geometry: {...item.geometry}}];
             }
         }
         // Return a nice sorted object!
@@ -116,7 +114,7 @@ const showMeetings = (meetings) => {
     backButton.onclick = (event) => {
         event.preventDefault();
         removeMarkers();
-        flyToMeeting(defaultCooridinates, defaultZoom);
+        flyToMeeting(defaultCooridinates, countyZoom);
         showCounties(meetingsData);
     };
     document.getElementById('listings-control').appendChild(backButton);
@@ -131,7 +129,7 @@ const showMeetings = (meetings) => {
         meetingButton.innerHTML = `${meeting.properties.publicbody}`;
         meetingButton.onclick = (event) => {
             event.preventDefault();
-            flyToMeeting(meeting.geometry.coordinates, 10);
+            flyToMeeting(meeting.geometry.coordinates);
             showMeetingInfo(meeting, meetings);
         };
         // Add the markers to map.
@@ -155,13 +153,6 @@ const showMeetings = (meetings) => {
 };
 
 
-
-
-
-
-
-// __________
-
 // Shows the meeting info in the #listings div.
 const showMeetingInfo = (meeting, meetings) => {
 
@@ -169,7 +160,7 @@ const showMeetingInfo = (meeting, meetings) => {
     let listingsDiv = document.getElementById('listings');
 
     const {publicbody, government, location, address, schedule, start, end, remote} = meeting.properties;
-    flyToMeeting(meeting.geometry.coordinates, 7);
+    flyToMeeting(meeting.geometry.coordinates, meetingInfoZoom);
 
     // Get the back button and change the click handler
     // to show the county's meetings.
@@ -207,18 +198,24 @@ const flyToMeeting = (meetingLocation, zoom) => {
 
 // Adds map marker for a given set of coordinates
 const addMeetingMarker = (coordinates, meeting) => {
-    const markerElement = document.createElement('div');
-    markerElement.className = 'meeting-marker';
-    markerElement.onclick = () => {
-        flyToMeeting(coordinates, 7);
-        showMeetingInfo(meeting);
-    }
+    // const markerElement = document.createElement('div');
+    // markerElement.className = 'meeting-marker';
+    // markerElement.onclick = () => {
+    //     flyToMeeting(coordinates, 7);
+    //     showMeetingInfo(meeting);
+    // }
     const marker = new mapboxgl.Marker({
         'anchor': 'center',
-        'element': markerElement,
+        'color': '#ffb446'
     })
     .setLngLat(coordinates)
     .addTo(map);
+
+    marker.getElement()
+        .addEventListener('click', () => {
+            flyToMeeting(coordinates, meetingInfoZoom);
+            showMeetingInfo(meeting);
+        });
 }
 
 const removeMarkers = () => {
