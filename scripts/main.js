@@ -13,6 +13,7 @@ const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/t
 
 const meetingsData = [];
 
+
 // __Data Fetching Functions__
 const handleFetchErrors = (response) => {
     if (!response.ok) {
@@ -26,6 +27,8 @@ const getMeetingGoogleSheetData = () => {
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
+
+
             return data;
         })
         .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
@@ -134,7 +137,7 @@ const showMeetings = (meetings) => {
         };
         // Add the markers to map.
         document.getElementById('listings').appendChild(meetingButton);
-        addMeetingMarker(meeting.geometry.coordinates, meeting);
+        addMeetingMarker(meeting.geometry.coordinates, meeting, meetings);
         coordinates.push(meeting.geometry.coordinates);
     }
 
@@ -197,7 +200,7 @@ const flyToMeeting = (meetingLocation, zoom) => {
 };
 
 // Adds map marker for a given set of coordinates
-const addMeetingMarker = (coordinates, meeting) => {
+const addMeetingMarker = (coordinates, meeting, meetings) => {
     // const markerElement = document.createElement('div');
     // markerElement.className = 'meeting-marker';
     // markerElement.onclick = () => {
@@ -211,10 +214,24 @@ const addMeetingMarker = (coordinates, meeting) => {
     .setLngLat(coordinates)
     .addTo(map);
 
+    // Simple popup to show publicbody when hovering over marker
+    const popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+        });
+
     marker.getElement()
         .addEventListener('click', () => {
             flyToMeeting(coordinates, meetingInfoZoom);
-            showMeetingInfo(meeting);
+            showMeetingInfo(meeting, meetings);
+        });
+
+    marker.getElement()
+        .addEventListener('mouseenter', () => {
+        });
+
+    marker.getElement()
+        .addEventListener('mouseleave', () => {
         });
 }
 
