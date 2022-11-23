@@ -7,12 +7,12 @@ const countyZoom = 7;
 const meetingInfoZoom = 14;
 
 // Change this to the id of your Google Sheet!
-const spreadSheetID = '1mUvNFfMyX3yrgo-b9fTsHk3rHPWLKJyzbwuRbSV2dDQ';
+const spreadSheetID = '1sUZeDFnevGbdjIOE8S1ddlLhDCizKf1XolTIM1JtROo';
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 
+// Stores the meeting data as geojson objects.
 const meetingsData = [];
-
 
 // __Data Fetching Functions__
 const handleFetchErrors = (response) => {
@@ -27,8 +27,6 @@ const getMeetingGoogleSheetData = () => {
         .then(handleFetchErrors) // This will handle network status errors.
         .then((response) => (response.text())) // Return response as text string.
         .then((data) => {
-
-
             return data;
         })
         .catch((error) => (console.log('fetching gsheet error', error))); // This will handle any other errors.
@@ -201,12 +199,6 @@ const flyToMeeting = (meetingLocation, zoom) => {
 
 // Adds map marker for a given set of coordinates
 const addMeetingMarker = (coordinates, meeting, meetings) => {
-    // const markerElement = document.createElement('div');
-    // markerElement.className = 'meeting-marker';
-    // markerElement.onclick = () => {
-    //     flyToMeeting(coordinates, 7);
-    //     showMeetingInfo(meeting);
-    // }
     const marker = new mapboxgl.Marker({
         'anchor': 'center',
         'color': '#ffb446'
