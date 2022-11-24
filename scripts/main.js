@@ -2,11 +2,16 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2N0aGVncmVhdCIsImEiOiJjbDI2a2lodnYwMnRnM2Zvd
 
 // Nort Carolina
 const defaultCooridinates = [-79.8, 35.3];
-const defaultZoom = 5;
-const countyZoom = 7;
+// Zoom level for state.
+const defaultZoom = 7;
+// Zoom level for all meetings in a county is set dynamically in showMeetingInfo()
+// Zoom level for individual meetings.
 const meetingInfoZoom = 14;
 
 // Change this to the id of your Google Sheet!
+// Your Google Sheet id can be taken from the url of the sheet.
+// EX: https://docs.google.com/spreadsheets/d/[GOOGLE_SHEET_ID]/
+
 const spreadSheetID = '1sUZeDFnevGbdjIOE8S1ddlLhDCizKf1XolTIM1JtROo';
 const sheetName = 'all';
 const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
@@ -115,7 +120,7 @@ const showMeetings = (meetings) => {
     backButton.onclick = (event) => {
         event.preventDefault();
         removeMarkers();
-        flyToMeeting(defaultCooridinates, countyZoom);
+        flyToMeeting(defaultCooridinates, defaultZoom);
         showCounties(meetingsData);
     };
     document.getElementById('listings-control').appendChild(backButton);
