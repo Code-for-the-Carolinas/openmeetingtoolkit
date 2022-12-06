@@ -18,6 +18,8 @@ const sheetURI = `https://docs.google.com/spreadsheets/d/${spreadSheetID}/gviz/t
 
 // Stores the meeting data as geojson objects.
 const meetingsData = [];
+let currentMeetings = [];
+
 
 // __Data Fetching Functions__
 const handleFetchErrors = (response) => {
@@ -43,6 +45,27 @@ const clearDiv = (parent) => {
         parent.removeChild(parent.firstChild);
     }
 };
+
+const addBackButton = (backToView) => {
+    // Remove it if it's there.
+    removeBackButton();
+    let backButton = document.createElement('button');
+    backButton.innerHTML = 'BACK';
+    backButton.setAttribute('id', 'back-button');
+
+    backButton.onclick = (event) => {
+        event.preventDefault();
+        removeMarkers();
+        flyToMeeting(defaultCooridinates, defaultZoom);
+        if (backToView === 'counties') {
+            showCounties(meetingsData);
+        } else if (backToView === 'meetings') {
+            showMeetings(currentMeetings);
+        }
+    };
+
+    document.getElementById('listings-control').appendChild(backButton);
+}
 
 const removeBackButton = () => {
     if (document.getElementById('back-button')) {
@@ -111,20 +134,20 @@ const showMeetings = (meetings) => {
     clearDiv(document.querySelector('#listings'));
 
     // Remove the back button if it's there.
-    removeBackButton();
 
-    // Create a back button to show counties when clicked.
-    let backButton = document.createElement('button');
-    backButton.innerHTML = 'BACK';
-    backButton.setAttribute('id', 'back-button');
-    backButton.onclick = (event) => {
-        event.preventDefault();
-        removeMarkers();
-        flyToMeeting(defaultCooridinates, defaultZoom);
-        showCounties(meetingsData);
-    };
-    document.getElementById('listings-control').appendChild(backButton);
-
+    // // Create a back button to show counties when clicked.
+    // let backButton = document.createElement('button');
+    // backButton.innerHTML = 'BACK';
+    // backButton.setAttribute('id', 'back-button');
+    // backButton.onclick = (event) => {
+    //     event.preventDefault();
+    //     removeMarkers();
+    //     flyToMeeting(defaultCooridinates, defaultZoom);
+    //     showCounties(meetingsData);
+    // };
+    // document.getElementById('listings-control').appendChild(backButton);
+    addBackButton('counties');
+    currentMeetings = meetings;
     // Add all the meetings and keep track of the coordinates
     // to resize the map based on the number of markers created.
     const coordinates = [];
@@ -136,6 +159,7 @@ const showMeetings = (meetings) => {
         meetingButton.onclick = (event) => {
             event.preventDefault();
             flyToMeeting(meeting.geometry.coordinates);
+            clearDiv(document.querySelector('#listings'));
             showMeetingInfo(meeting, meetings);
         };
         // Add the markers to map.
@@ -158,11 +182,9 @@ const showMeetings = (meetings) => {
     });
 };
 
-
 // Shows the meeting info in the #listings div.
 const showMeetingInfo = (meeting, meetings) => {
 
-    clearDiv(document.querySelector('#listings'));
     let listingsDiv = document.getElementById('listings');
 
     const {publicbody, government, location, address, schedule, start, end, remote} = meeting.properties;
@@ -170,13 +192,16 @@ const showMeetingInfo = (meeting, meetings) => {
 
     // Get the back button and change the click handler
     // to show the county's meetings.
-    backButton = document.getElementById('back-button');
-    backButton.onclick = (event) => {
-        event.preventDefault();
-        removeMarkers();
-        flyToMeeting(defaultCooridinates, defaultZoom);
-        showMeetings(meetings);
-    };
+    // backButton = document.getElementById('back-button');
+    // backButton.onclick = (event) => {
+    //     event.preventDefault();
+    //     removeMarkers();
+    //     flyToMeeting(defaultCooridinates, defaultZoom);
+    //     showMeetings(meetings);
+    // };
+
+    addBackButton('meetings');
+
 
     // Create the info and add to the DOM.
     let meetingInfoDiv = document.createElement('div');
@@ -191,11 +216,11 @@ const showMeetingInfo = (meeting, meetings) => {
     listingsDiv.appendChild(meetingInfoDiv);
 };
 
-
 // __MapBox Functions__
 
 // Goes to meeting location on map.
 const flyToMeeting = (meetingLocation, zoom) => {
+    console.log('flying to:', meetingLocation)
     map.flyTo({
         center: meetingLocation,
         zoom: zoom,
@@ -220,6 +245,7 @@ const addMeetingMarker = (coordinates, meeting, meetings) => {
     marker.getElement()
         .addEventListener('click', () => {
             flyToMeeting(coordinates, meetingInfoZoom);
+            clearDiv(document.querySelector('#listings'));
             showMeetingInfo(meeting, meetings);
         });
 
