@@ -131,8 +131,6 @@ const showCounties = (meetingList) => {
 // Shows the selected county's meetings in #listings div.
 const showMeetings = (meetings) => {
 
-    console.log('showing', meetings)
-
     // Clear out the listings div.
     clearDiv(document.querySelector('#listings'));
 
@@ -140,8 +138,7 @@ const showMeetings = (meetings) => {
     currentMeetings = meetings;
 
     const meetingsByLocation = {};
-
-
+    let hasRemoteMeeting = 0;
 
     for (let i in meetings) {
         const meetingCoordinates = meetings[i].geometry.coordinates.toString();
@@ -152,6 +149,12 @@ const showMeetings = (meetings) => {
             } else {
                 meetingsByLocation[meetingCoordinates] = {
                     meetings: [meetings[i]],
+                }
+                if (meetings[i].properties.placeholder === '1') {
+                    console.log('found remote meeting!', meetings[i].properties.publicbody)
+                    meetingsByLocation[meetingCoordinates].hasRemoteMeeting = 1;
+                } else {
+                    meetingsByLocation[meetingCoordinates].hasRemoteMeeting = 0;
                 }
             }
         }
@@ -167,33 +170,37 @@ const showMeetings = (meetings) => {
         meetingButton.innerHTML = `${meeting.properties.publicbody}`;
         meetingButton.onclick = (event) => {
             event.preventDefault();
-            // flyToMeeting(meeting.geometry.coordinates);
-            // clearDiv(document.querySelector('#listings'));
-            // showMeetingInfo([meeting], meeting.geometry.coordinates);
+            flyToMeeting(meeting.geometry.coordinates);
+            clearDiv(document.querySelector('#listings'));
+            showMeetingInfo([meeting], meeting.geometry.coordinates);
         };
         // Add the markers to map.
         document.getElementById('listings').appendChild(meetingButton);
 
         // addMeetingMarker(meeting.geometry.coordinates, meeting, meetings);
     }
-    addMeetingMarker(meetingsByLocation);
+    addMeetingMarkers(meetingsByLocation, hasRemoteMeeting);
 
     const coordinates = [];
     for (let location in meetingsByLocation) {
-        coordinates.push(location.split(','))
+        if (location !== ',') {
+            coordinates.push(location.split(','))
+        }
     }
-    const bounds = new mapboxgl.LngLatBounds(
-        coordinates[0],
-        coordinates[0]
-    );
+    if (coordinates.length > 0) {
+        const bounds = new mapboxgl.LngLatBounds(
+            coordinates[0],
+            coordinates[0]
+        );
 
-    for (const coord of coordinates) {
-        bounds.extend(coord);
+        for (const coord of coordinates) {
+            bounds.extend(coord);
+        }
+
+        map.fitBounds(bounds, {
+            padding: 40
+        });
     }
-
-    map.fitBounds(bounds, {
-        padding: 40
-    });
 };
 
 // Shows the meeting info in the #listings div.
@@ -226,20 +233,21 @@ const showMeetingInfo = (meeting, meetingCoordinates) => {
 // Goes to meeting location on map.
 const flyToMeeting = (meetingLocation, zoom) => {
     console.log('flying to:', meetingLocation)
-    map.flyTo({
-        center: meetingLocation,
-        zoom: zoom,
-    });
+    if (meetingLocation) {
+        map.flyTo({
+            center: meetingLocation,
+            zoom: zoom,
+        });
+    }
 };
 
 // Adds map marker for a given set of coordinates
 // const addMeetingMarker = (coordinates, meeting, meetings) => {
-const addMeetingMarker = (meetings) => {
-    console.log(meetings)
+const addMeetingMarkers = (meetings) => {
+    // console.log(meetings)
     for (let meeting in meetings) {
-
+        console.log(meetings[meeting].meetings)
         const markerCoordinates = meeting.split(',')
-        console.log('marker', markerCoordinates, meeting)
         const marker = new mapboxgl.Marker({
             'anchor': 'center',
             'color': '#ffb446'
@@ -247,15 +255,13 @@ const addMeetingMarker = (meetings) => {
         .setLngLat(markerCoordinates)
         .addTo(map);
 
-        // marker.getElement()
-        // .addEventListener('click', () => {
-        //     // flyToMeeting(coordinates, meetingInfoZoom);
-        //     // clearDiv(document.querySelector('#listings'));
-        //     // showMeetingInfo(meeting, meetings);
-        // });
+        marker.getElement()
+        .addEventListener('click', () => {
+            flyToMeeting(markerCoordinates, meetingInfoZoom);
+            clearDiv(document.querySelector('#listings'));
+            showMeetingInfo(meetings[meeting].meetings);
+        });
     }
-
-
 }
 
 const removeMarkers = () => {
@@ -293,6 +299,7 @@ map.on('load', () => {
             for (let meeting of data) {
                 let meetingGeoJson = {
                     "properties": {
+                        "id": meeting.Id,
                         "government": meeting.Government,
                         "publicbody": meeting.Public_body,
                         "location": meeting.Location,
@@ -302,7 +309,7 @@ map.on('load', () => {
                         "end": meeting.End_time,
                         "remote": meeting.Remote_options,
                         "moreInfo": meeting.source,
-                        "id": meeting.Id,
+                        'placeholder': meeting.Placeholder
                       },
                       "geometry": {
                         "longitude": meeting.Longitude,
