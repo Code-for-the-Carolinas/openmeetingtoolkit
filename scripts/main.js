@@ -6,7 +6,8 @@ const defaultCooridinates = [-79.8, 35.3];
 const defaultZoom = 7;
 // Zoom level for all meetings in a county is set dynamically in showMeetingInfo()
 // Zoom level for individual meetings.
-const meetingInfoZoom = 18;
+const meetingInfoZoom = 19;
+
 
 // Change this to the id of your Google Sheet!
 // Your Google Sheet id can be taken from the url of the sheet.
