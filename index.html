@@ -97,7 +97,10 @@
 
         <div id="map" class="col-8"></div>
       </div>
-
+<p>
+  Map of Public Meetings in the Carolinas. Yellow markers show fixed meeting locations. Pink markers are placeholders for meetings with no fixed locations. The 
+  map in not maintained regularly. Confirm meeting details before attending.
+  </p>
 <div class="row">
   <h2>Introduction</h2>
   <p>
@@ -138,8 +141,7 @@
           <h3>Add Meetings to the Map</h3>
         </summary>
         <p>
-          The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North
-          Carolina.
+          The Public Meetings in North Carolina map is a tool to visualize and learn about public meetings in North Carolina.
         </p>
         <ul>
           <li>Adding meetings to the map is a jump-right-in activity that lets any new volunteer contribute to the project.</li>
@@ -193,19 +195,19 @@
         There are two ways to collect the data: manual and web scraping.
         </p>
         <p>
-        Manual data collection means examining the individual meetings and completing the relevant fields in a spreadsheet.  If you are doing it this way, open a workbook in any spreadsheet program that can export a CSV file.  Make sure that the columns in the workbook correspond to the fields listed below in the data dictionary.
+        Manual data collection means examining the information listed on local government websites for and completing the relevant fields for individual meetings in a spreadsheet.  If you are doing it this way, open a workbook in any spreadsheet program that can export a CSV file.  Make sure that the columns in the workbook correspond to the fields listed below in the Data Dictionary.
         </p>
         <p>
-        Web scraping can save you time if the pages are sufficiently well-structured. Web scraping involves writing or modifying a script to automate the data collection and to produce a CSV file. The fields in the CSV file you output should match those listed in the Data Dictionary.
+        Web scraping can save you time if the pages that list public meetings on local government websites are sufficiently well-structured. Web scraping involves writing or modifying a script to automate the data collection and to produce a CSV file. The fields in the CSV file you output should match those listed in the Data Dictionary.
         </p>
         <p>
-        We provide some sample web scraping scripts in C# and Python. These can be used for reference on future web scrapers. Within the GitHub repository for the project is the “publicmeetings/Scrapers” directory.  The readme file in that directory contains more information on the scrapers themselves. The directory contains two groups of files: some county-specific scrapers using Python’s BeautifulSoup library, and a C# scraper designed to handle multiple counties, as well as automating some other parts of the process (particularly getting the latitudes and longitudes of the meetings).
+        We provide some sample web scraping scripts in C# and Python. These can be used for reference on future web scrapers. Within the GitHub repository openmeetingtoolkitdata is the “publicmeetings/Scrapers” directory.  The README file in that directory contains more information on the scrapers themselves. The directory contains two groups of files: some county-specific scrapers using Python’s BeautifulSoup library, and a C# scraper designed to handle multiple counties, as well as automating some other parts of the process (particularly getting the latitudes and longitudes of the meetings).
         </p>
         <p>
          If you prefer a different programming language for web scraping, you can use your preferred language to write a script that provides output as a CSV file with the fields from the Data Dictionary.
         </p>
         <p>
-        Meetings pages are often somewhat incomplete or irregularly structured. Some amount of manual data collection and data cleaning will probably still be necessary. All of the webs scraping operations using the code mentioned above did require additional manual work.
+        Meetings pages are often somewhat incomplete or irregularly structured. Some amount of manual data collection and data cleaning will probably still be necessary. All of the web scraping operations using the code mentioned above did require additional manual work.
         </p>
         <h4>Data Dictionary</h4>
       <style> table, th, td {
@@ -296,6 +298,12 @@
             <td> text </td>
             <td> 100, chatham100</td>
           </tr>
+             <tr>
+            <td> Placeholder </td>
+            <td> Indicator for a meeting with no fixed location.</td>
+            <td> binary </td>
+            <td> 1</td>
+          </tr>
         </table>
 
         <h5>ID Field</h5>
@@ -306,25 +314,25 @@
         Latitude and Longitude
       </p>
       <p>
-        Latitude and longitude will almost certainly not be included in the data. The script Sunshine Request will use to add your CSV file of meetings to the map will use the address to guess the latitude and longitude. These guesses are not always correct, especially if the address is incomplete. If you have the address, you can search using Google Maps or the US Census Bureau geocoder.  Both services can return latitude and longitude information about the location.  Please check the results that you get from these services, as there have been some instances where the returned coordinates were in another county or were otherwise incorrect.
+        Latitude and longitude will almost certainly not be included in the data. There are many tools that will provide latitude and longitude based on a street address. A complete address including zip code is extremely important for these tools to return the correct latitude and longitude. Google Maps works well to confirm the location of individual meetings. The <a href="https://geocoding.geo.census.gov/geocoder/" target="_blank">US Census Bureau geocoder</a> offers an API for batch geocoding.  Both services can return latitude and longitude information about the location.  Please check the results that you get from these services, as there have been some instances where the returned coordinates were in another county or were otherwise incorrect.
       </p>
       <p>
         Some common issues that have been seen in the data:
       </p>
       <ul>
         <li>The meeting location or time is given as “varies” or something similar.</li>
-        <li>Sometimes only a location is given, without an address.</li>
+        <li>Sometimes only a location is given, without an address. If you want to include the meeting, you may need to do further research to find the address.</li>
         <li>End times may not be listed.  Sometimes this is replaced with an estimate of the meeting length.</li>
       </ul>
       <p>
-        Use your judgment in resolving these data issues, keeping in mind the map’s role as an activity for learning and exploring.
+        Use your judgment in resolving these data issues, keeping in mind the map’s role as an activity for learning and exploring. However, please only provide verified locations to Sunshine Request. If a meeting has no fixed location, put a 1 in the Placeholder column.
       </p>
       <p>
-        Once the information has been fully collected, save or export the spreadsheet as a CSV file.
+        Once the information has been fully collected, save or export the spreadsheet as a CSV file. 
       </p>
       <h4>Step 4: Add Information to the Map</h4>
       <p>
-        Provide your CSV file to Sunshine Request and their team will add it to the map. If you are comfortable working in GitHub, you can use a pull request to submit your file. Another option would be to email the file to records@sunshinerequest.com . Allow about a week for the Sunshine Request team to update the map with your meetings.
+        Provide your CSV file to Sunshine Request and their team will add it to the map. Email the file to records@sunshinerequest.com . Allow about a week for the Sunshine Request team to update the map with your meetings.
       </p>
       </details>
 
@@ -943,7 +951,6 @@
           standard format, ICS (Internet Calendar Scheduling).</li>
       </ul>
     </section>
-
     <section id="faq-section">
       <h2>Frequently Asked Questions</h2>
       <h3>What is a public meeting?</h3>
@@ -958,11 +965,12 @@
         or is authorized to exercise a legislative, policy-making,
         quasi-judicial, administrative, or advisory function." There are a few additional considerations, so if you are
         in doubt, please consult the statute.</p>
-      <br>
       <h3>Can I use the Open Meeting Toolkit for the Carolinas in other places besides North Carolina?</h3>
       <p>There is some interest in adapting the Toolkit for use in other places. Right now, it provides resources for
         North Carolina.</p>
-      <br>
+      <h3>Why is a meeting showing up in the wrong place, such as the wrong county or in the ocean?</h3>
+      <p>The tools that estimate latitude and longitude depend on a complete, correct address. Some solutions might be to check the address and try again or to look up the location on Google Maps.</p>
+      </p>
       <h3>Can a team use the Open Meeting Toolkit without a team leader?</h3>
       <p>Yes, the Toolkit can be used by self-directed teams who share responsibility for leadership.</p>
       </p>
@@ -989,7 +997,6 @@
         </p>
       </div>
     </footer>
-
   </main>
 </body>
 </html>
