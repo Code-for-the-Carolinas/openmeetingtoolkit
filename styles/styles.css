@@ -132,8 +132,8 @@ button:hover {
 
 .meeting-marker {
   cursor: pointer;
-  height: 45px;
-  width: 45px;
+  height: 30px;
+  width: 30px;
   background-image: url('../assets/yellow-marker-icon.svg');
   background-repeat: no-repeat;
   background-size: cover;
